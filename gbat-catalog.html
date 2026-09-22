@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Beam Attachment U-Shaped Holder (GBUHxxxx) – PDF-like Template</title>
+  <link rel="stylesheet" href="catalog-common.css">
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<main class="canvas">
+    <div class="title-row">
+      <div class="title">Beam Attachment U-Shaped Holder (GBUHxxxx)</div>
+    </div>
+
+    <section class="meta-2">
+      <div class="card">
+        <h3>Specification</h3>
+        <ul id="spec-list">
+          <li>➤Material: S250GD/S235JR</li>
+          <li>Surface: ➤Electro-galvanized (Z-275)</li>
+          <li>➤Hot-dip galvanized</li>
+          <li>➤Epoxy coated</li>
+          <li>➤Stainless Steel A2/A4</li>
+        </ul>
+      </div>
+      <div class="def-box">
+        <h3 style="margin:0 0 6px;color:var(--green-dark)">Product Definition</h3>
+        <p id="definition">GBUH is used in framing, and support systems to ensure strut channels are firmly anchored to structural members. It secures the strut channel, distributing load evenly and ensuring a stable connection.<br><br>• per anchorage point two holders should be installed<br>• application loads refer to one single GBUHxxxx holder<br>• application loads of GM-profile should be considered</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="grid" class="grid" aria-label="Angle connector variants grid">
+        <!-- items injected here -->
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <table class="props" id="gaco-table">
+        <thead>
+          <tr>
+            <th>Product Code</th>
+            <th>Detail</th>
+            <th>Flange Thickness</th>
+            <th>Flange Width</th>
+            <th>Dimensions</th>
+            <th>Rod</th>
+            <th>Load</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    const fallbackData = {
+      title: "Beam Attachment U-Shaped Holder (GBUHxxxx)",
+      specification:[
+        "➤Material: S250GD/S235JR",
+        "Surface: ➤Electro-galvanized (Z-275)",
+        "➤Hot-dip galvanized",
+        "➤Epoxy coated",
+        "➤Stainless Steel A2/A4"
+      ],
+      definition: "GBUH is used in framing, and support systems to ensure strut channels are firmly anchored to structural members. It secures the strut channel, distributing load evenly and ensuring a stable connection.\n\n• per anchorage point two holders should be installed\n• application loads refer to one single GBUHxxxx holder\n• application loads of GM-profile should be considered",
+      page: 30,
+      items:[
+        { code:'GCCLL004', image:'assets/img/gccll004.png' }
+      ],
+      table:[
+        {"Product Code":"GBAT0300","Detail":"Vertical Attachment 300","Flange Thickness":"8 - 15\"","Flange Width":"100-220","Dimensions":"-","Rod":"M12","Load":"4kN","Weight":"xx"},
+        {"Product Code":"GBAT0500","Detail":"Vertical Attachment 500","Flange Thickness":"13 - 20\"","Flange Width":"110-360","Dimensions":"-","Rod":"M16","Load":"4kN","Weight":"xx"},
+        {"Product Code":"GBAT1218","Detail":"Horizontal Attachment Cleat 12","Flange Thickness":"","Flange Width":"","Dimensions":"12x18","Rod":"","Load":"6kN","Weight":"xx"},
+        {"Product Code":"GBAT1418","Detail":"Horizontal Attachment Cleat 12","Flange Thickness":"","Flange Width":"","Dimensions":"14x18","Rod":"","Load":"8kN","Weight":"xx"},
+        {"Product Code":"GBATU100","Detail":"Horizontal Attachment U-bolt","Flange Thickness":"","Flange Width":"","Dimensions":"100","Rod":"","Load":"3.5kN","Weight":"xx"},
+        {"Product Code":"GBATU125","Detail":"Horizontal Attachment U-bolt","Flange Thickness":"","Flange Width":"","Dimensions":"125","Rod":"","Load":"4kN","Weight":"xx"},
+        {"Product Code":"GBATU150","Detail":"Horizontal Attachment U-bolt","Flange Thickness":"","Flange Width":"","Dimensions":"150","Rod":"","Load":"7kN","Weight":"xx"},
+        {"Product Code":"GBATU200","Detail":"Horizontal Attachment U-bolt","Flange Thickness":"","Flange Width":"","Dimensions":"200","Rod":"","Load":"7kN","Weight":"xx"}
+      ]
+    };
+
+    async function loadData(){
+      try{
+        const res = await fetch('data/gbat-catalog.json');
+        if(!res.ok) throw new Error('No JSON found');
+        const data = await res.json();
+        return data;
+      }catch(err){
+        console.warn('Falling back to inline sample data for GACO:', err.message);
+        return fallbackData;
+      }
+    }
+
+    function renderGrid(items){
+      const grid = document.getElementById('grid');
+      grid.innerHTML = items.map(it=>`
+        <div class="item">
+          <span class="tick">✓</span>
+          <img src="${it.image || 'assets/img/placeholder.png'}" alt="${it.code}">
+          <div class="code">${it.code}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderTable(rows){
+      const tbody = document.querySelector('#gaco-table tbody');
+      tbody.innerHTML = rows.map(r=>`
+        <tr>
+          <td>${r['Product Code']||'-'}</td>
+          <td>${r['Detail']||'-'}</td>
+          <td>${r['Flange Thickness']||'-'}</td>
+          <td>${r['Flange Width']||'-'}</td>
+          <td>${r['Dimensions']||'-'}</td>
+          <td>${r['Rod']||'-'}</td>
+          <td>${r['Load']||'-'}</td>
+          <td>${r['Weight']||'-'}</td>
+        </tr>
+      `).join('');
+    }
+
+    (async function init(){
+      const data = await loadData();
+      document.querySelector('.title').textContent = data.title || "Beam Attachment U-Shaped Holder (GBUHxxxx)";
+      document.title = (data.title || 'Beam Attachment U-Shaped Holder (GBUHxxxx)') + ' – GREEN MAN';
+
+      // spec
+      if(Array.isArray(data.specification)){
+        const ul = document.getElementById('spec-list'); ul.innerHTML = data.specification.map(s=>`<li>${s}</li>`).join('');
+      }
+      if(data.definition){ 
+        document.getElementById('definition').innerHTML = data.definition.replace(/\n/g, '<br>');
+      }
+      if(data.page){ document.getElementById('page-no').textContent = 'PAGE '+data.page; }
+
+      renderGrid(data.items || []);
+      renderTable(data.table || []);
+    })();
+  </script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

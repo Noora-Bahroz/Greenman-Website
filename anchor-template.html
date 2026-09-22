@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="navbar.css">
+  <title>Anchor Product – Details</title>
+  <link rel="stylesheet" href="catalog-common.css">
+</head>
+<body>
+  
+  <!-- Navigation Bar (Loaded from navbar.html) -->
+  <div id="navbar-placeholder"></div>
+
+  <main>
+    <div class="canvas">
+      <a href="anchor-list.html" class="back-button">← Back to Anchors List</a>
+      
+      <div class="title-row">
+        <div class="bullet"></div>
+        <h1 class="title" id="productTitle">Loading...</h1>
+      </div>
+
+      <div class="content-row">
+        <div class="ph" id="image3d">
+          <!-- 3D Image will be loaded dynamically -->
+        </div>
+        
+        <div class="ph" id="imageDrawing">
+          <!-- Drawing Image will be loaded dynamically -->
+        </div>
+        
+        <div class="card">
+          <h3>Specification</h3>
+          <div class="list" id="specifications">
+            <!-- Specifications will be loaded dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Product Definition</h2>
+      <div style="background:rgba(204,232,201,0.15);padding:20px;border-radius:8px;margin-bottom:24px;border-left:4px solid var(--dark-teal)">
+        <p id="productDefinition" style="line-height:1.6;color:var(--ink);margin:0;text-align:left">Loading...</p>
+      </div>
+
+      <h2 class="section-title">Installation Parameters</h2>
+      <div style="overflow-x:auto">
+        <table class="params-table">
+          <thead>
+            <tr>
+              <th>Product Code</th>
+              <th>Size</th>
+              <th>Pack Size<br/>(pcs)</th>
+              <th>Drill Ø<br/>(mm)</th>
+              <th>Drill Hole<br/>Depth (mm)</th>
+              <th>Max. Fixture<br/>Thickness (mm)</th>
+              <th>eff. Anchorage<br/>depth (mm)</th>
+              <th>Installation<br/>Torque (Nm)</th>
+              <th>Tensile<br/>Load (kN)</th>
+              <th>Shear<br/>Load (kN)</th>
+            </tr>
+          </thead>
+          <tbody id="installationParams">
+            <!-- Installation parameters will be loaded dynamically -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer (Loaded from footer.html) -->
+  <div id="footer-placeholder"></div>
+
+  <script>
+    // Get product code from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const productCode = urlParams.get('code');
+
+    async function loadProduct() {
+      try {
+        // Load anchor catalog with cache busting
+        const response = await fetch('data/anchor-catalog.json?v=' + Date.now());
+        const data = await response.json();
+        
+        // Find the product by product code
+        const product = data.products.find(p => p.productCode === productCode);
+        
+        if (!product) {
+          document.querySelector('.canvas').innerHTML = '<p style="text-align:center;padding:40px;color:#d32f2f">Product not found</p>';
+          return;
+        }
+
+        // Update title
+        document.getElementById('productTitle').textContent = `${product.name} - ${product.productCode}`;
+
+        // Load images
+        const image3dContainer = document.getElementById('image3d');
+        const imageDrawingContainer = document.getElementById('imageDrawing');
+        
+        image3dContainer.innerHTML = `<img src="${product.images?.['3d'] || 'assets/Anchors/3d/' + product.productCode + '.png'}" alt="${product.name}">`;
+        imageDrawingContainer.innerHTML = `<img src="${product.images?.drawing || 'assets/Anchors/Drawing/' + product.productCode + '.png'}" alt="${product.name}">`;
+
+        // Load specifications
+        const specsContainer = document.getElementById('specifications');
+        specsContainer.innerHTML = Object.entries(product.specifications || {}).map(([key, value]) => 
+          `<div class="kv"><span class="k">${formatKey(key)}:</span><span class="v">${value}</span></div>`
+        ).join('');
+
+        // Load product definition
+        const definitionContainer = document.getElementById('productDefinition');
+        definitionContainer.textContent = product.description || 'Product definition not available.';
+
+        // Sort variants by productCode naturally (M6x60, M6x70, M6x80, M8x60, etc.)
+        const sortedVariants = [...product.variants].sort((a, b) => {
+          const codeA = a.productCode || '';
+          const codeB = b.productCode || '';
+          
+          // Extract size part (e.g., "06060" from "GBGTA06060")
+          const sizeA = codeA.replace(/^[A-Z]+/, '');
+          const sizeB = codeB.replace(/^[A-Z]+/, '');
+          
+          // Compare as numbers for natural sorting
+          return parseInt(sizeA) - parseInt(sizeB);
+        });
+
+        // Load ALL installation parameters for all variants
+        const paramsTable = document.getElementById('installationParams');
+        paramsTable.innerHTML = sortedVariants.map(variant => {
+          return `
+            <tr>
+              <td>${variant.productCode || '—'}</td>
+              <td>${variant.size || '—'}</td>
+              <td>${variant.packSize || '—'}</td>
+              <td>${variant.drillDiameter || '—'}</td>
+              <td>${variant.drillHoleDepth || '—'}</td>
+              <td>${variant.maxFixtureThickness || '—'}</td>
+              <td>${variant.effAnchorageDepth || '—'}</td>
+              <td>${variant.installationTorque || '—'}</td>
+              <td>${variant.tensileLoadKN || '—'}</td>
+              <td>${variant.shearLoadKN || '—'}</td>
+            </tr>
+          `;
+        }).join('');
+
+        // Mark as loaded
+        document.body.classList.add('loaded');
+      } catch (error) {
+        console.error('Error loading product:', error);
+        document.querySelector('.canvas').innerHTML = '<p style="text-align:center;padding:40px;color:#d32f2f">Error loading product</p>';
+      }
+    }
+
+    function formatKey(key) {
+      return key
+        .replace(/([A-Z])/g, ' $1')
+        .replace(/^./, str => str.toUpperCase())
+        .trim();
+    }
+
+    loadProduct();
+  </script>
+
+  <script>
+    // Load navbar
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+        const script = document.createElement('script');
+        script.src = 'navbar.js';
+        document.body.appendChild(script);
+      });
+    
+    // Load footer
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+  </script>
+</body>
+</html>

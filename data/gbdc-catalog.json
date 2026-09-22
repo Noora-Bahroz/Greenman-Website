@@ -1,0 +1,49 @@
+{
+  "title": "Bi-Directional Connector (GBDC)",
+  "code_prefix": "GBDC",
+  "specification": [
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4",
+    "➤Material: S250GD/S235JR"
+  ],
+  "definition": "Bi-directional connectors are specialized components designed to connect strut channels with different orientations, enabling versatile and robust configurations in structural systems.",
+  "items": [
+    {
+      "code": "GCCLL004",
+      "image": "assets/img/gccll004.png"
+    },
+    {
+      "code": "GCCLR004",
+      "image": "assets/img/gcclr004.png"
+    },
+    {
+      "code": "GCCLS9004",
+      "image": "assets/img/gccls9004.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GCCLL004",
+      "Detail": "4-hole left corner",
+      "Dimensions": "90x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GCCLR004",
+      "Detail": "4-hole right corner",
+      "Dimensions": "90x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GCCLS9004",
+      "Detail": "5-hole 90° corner",
+      "Dimensions": "140x90x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <title>Blog - Green Man Industrial Solutions</title>
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Blog Page Styles */
+        :root {
+            --primary-green: #1B5E20;
+            --secondary-green: #2D9F3C;
+            --dark-green: #0d3518;
+            --light-green: #4CAF50;
+            --accent-orange: #FF9800;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        /* Hide content until fully loaded */
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+        body:not(.loaded) > *:not(.page-loader) {
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Page Loader */
+        .page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        body.loaded .page-loader {
+            opacity: 0;
+            visibility: hidden;
+        }
+        body.loaded > *:not(.page-loader){visibility:visible;opacity:1;transition:opacity .3s ease-in}
+
+        .loader-content {
+            text-align: center;
+        }
+
+        .loader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid var(--primary-green);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loader-text {
+            color: var(--primary-green);
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .loader-subtext {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        /* Blog Hero Section */
+        .blog-hero {
+            background: var(--primary-green);
+            color: white;
+            padding: 80px 30px 0;
+            position: relative;
+            overflow: visible;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        .blog-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.08) 0%, transparent 50%),
+                url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="1" fill="rgba(255,255,255,0.05)"/></svg>');
+            opacity: 0.6;
+        }
+
+        .blog-hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .blog-hero h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+            letter-spacing: -1px;
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        .blog-hero p {
+            display: none;
+        }
+
+        /* Filter Section - Inside Hero */
+        .blog-filters {
+            display: flex;
+            gap: 15px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+            transform: translateY(50%);
+            padding-bottom: 0;
+        }
+
+        .filter-btn {
+            padding: 12px 30px;
+            background: white;
+            border: 2px solid white;
+            color: var(--primary-green);
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--primary-green);
+            color: white;
+            border-color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Blog Container */
+        .blog-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 60px 30px;
+            padding-top: 60px;
+        }
+
+        /* Blog Grid */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        /* Blog Card */
+        .blog-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(27, 94, 32, 0.15);
+        }
+
+        .blog-card-image {
+            width: 100%;
+            height: 240px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .blog-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .blog-card:hover .blog-card-image img {
+            transform: scale(1.08);
+        }
+
+        .blog-card-category {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--primary-green);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .blog-card-content {
+            padding: 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .blog-card-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .blog-card h3 {
+            font-size: 1.5rem;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            line-height: 1.4;
+            font-weight: 700;
+        }
+
+        .blog-card p {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            flex: 1;
+        }
+
+        .blog-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .read-more {
+            color: var(--primary-green);
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: gap 0.3s ease;
+        }
+
+        .blog-card:hover .read-more {
+            gap: 12px;
+        }
+
+        .read-time {
+            color: #999;
+            font-size: 0.85rem;
+        }
+
+        /* Featured Post */
+        .featured-post {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 0;
+            max-height: 500px;
+        }
+
+        .featured-post .blog-card-image {
+            height: 100%;
+        }
+
+        .featured-post .blog-card-content {
+            padding: 50px;
+        }
+
+        .featured-badge {
+            display: inline-block;
+            background: var(--primary-green);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .featured-post h3 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        .featured-post p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .blog-grid {
+                grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+                gap: 30px;
+            }
+
+            .featured-post {
+                grid-template-columns: 1fr;
+                max-height: none;
+            }
+
+            .featured-post .blog-card-image {
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 968px) {
+            .blog-hero h1 {
+                font-size: 3rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .blog-hero {
+                padding: 60px 20px 0;
+                margin-bottom: 0;
+            }
+
+            .blog-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .blog-filters {
+                gap: 10px;
+                margin-top: 30px;
+            }
+
+            .filter-btn {
+                padding: 10px 20px;
+                font-size: 0.85rem;
+            }
+
+            .blog-container {
+                padding-top: 60px;
+            }
+
+            .blog-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .blog-container {
+                padding: 60px 20px 40px;
+            }
+
+            .featured-post .blog-card-content {
+                padding: 30px;
+            }
+
+            .featured-post h3 {
+                font-size: 1.6rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .blog-hero {
+                padding: 50px 15px 0;
+            }
+
+            .blog-hero h1 {
+                font-size: 2rem;
+                line-height: 1.2;
+            }
+
+            .blog-filters {
+                gap: 8px;
+                margin-top: 25px;
+            }
+
+            .filter-btn {
+                padding: 8px 16px;
+                font-size: 0.8rem;
+            }
+
+            .blog-container {
+                padding: 50px 15px 30px;
+            }
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 80px 20px;
+            color: #666;
+        }
+
+        .no-results h3 {
+            font-size: 1.8rem;
+            color: #999;
+            margin-bottom: 15px;
+        }
+
+        /* Article Detail Modal (Optional Enhancement) */
+        .article-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 10000;
+            overflow-y: auto;
+        }
+
+        .article-modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .article-content {
+            background: white;
+            max-width: 900px;
+            width: 90%;
+            margin: 40px auto;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .article-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            z-index: 10;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <h2 class="loader-text">Loading...</h2>
+            <p class="loader-subtext">GREEN MAN</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="blog-hero-content">
+            <h1>Industry Insights & Technical Guides</h1>
+            <p>Expert knowledge on steel mounting solutions, installation techniques, and engineering best practices</p>
+            
+            <!-- Filter Buttons -->
+            <div class="blog-filters">
+                <button class="filter-btn active" data-category="all">All Articles</button>
+                <button class="filter-btn" data-category="c-channel">C Channels</button>
+                <button class="filter-btn" data-category="strut">Strut Channels</button>
+                <button class="filter-btn" data-category="accessories">Accessories</button>
+                <button class="filter-btn" data-category="installation">Installation</button>
+                <button class="filter-btn" data-category="technical">Technical</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Container -->
+    <div class="blog-container">
+        <!-- Blog Grid -->
+        <div class="blog-grid" id="blogGrid">
+            <!-- Blog posts will be dynamically loaded here -->
+        </div>
+
+        <!-- No Results Message -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <h3>No articles found</h3>
+            <p>Try selecting a different category</p>
+        </div>
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Navbar -->
+    <script>
+        // Load navbar and footer
+        Promise.all([
+            fetch('navbar.html').then(response => response.text()),
+            fetch('footer.html').then(response => response.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar.js after HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            document.body.appendChild(navScript);
+        }).catch(error => console.error('Error loading navbar/footer:', error));
+    </script>
+
+    <!-- Blog Data and Functionality -->
+    <script>
+        // Blog Articles Data
+        let blogArticles = [
+            {
+                id: 1,
+                title: "Complete Guide to C Profile Channels: Engineering Excellence in Structural Steel",
+                excerpt: "Discover how C-Channels deliver unmatched strength and versatility in industrial applications. Learn about specifications, load capacities, and optimal installation methods.",
+                category: "c-channel",
+                image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800",
+                date: "November 10, 2025",
+                readTime: "8 min read",
+                featured: true,
+                content: `
+                    <h2>Understanding C Profile Channels</h2>
+                    <p>C-Channels are structural steel profiles characterized by their C-shaped cross-section, engineered to deliver strength, rigidity, and stability in a variety of load-bearing applications.</p>
+                    
+                    <h3>Key Specifications</h3>
+                    <ul>
+                        <li><strong>Material:</strong> S250GD / S235 JR high-quality steel</li>
+                        <li><strong>Coating Options:</strong> Pre-galvanized (Z-275), ➤Hot-dip galvanized (HDG), ➤Epoxy coated</li>
+                        <li><strong>Standard Length:</strong> 3.6 meters</li>
+                        <li><strong>Size Range:</strong> From 27x18x1.2mm to 41x62x2.5mm</li>
+                    </ul>
+
+                    <h3>Applications</h3>
+                    <p>C-Channels are widely used as framing members, support beams, mounting rails, and reinforcements in both industrial and commercial construction. They are ideal for:</p>
+                    <ul>
+                        <li>Supporting roofing systems</li>
+                        <li>Machinery frameworks</li>
+                        <li>Conveyor structures</li>
+                        <li>Secondary supports in bridges and heavy equipment</li>
+                    </ul>
+
+                    <h3>Why Choose GMC C Profile Channels?</h3>
+                    <p>Our C-Channels offer excellent resistance against bending and twisting under load while maintaining a lightweight profile. The open profile design makes them robust yet easy to handle and install.</p>
+                `
+            },
+            {
+                id: 2,
+                title: "GM41 Strut Channel Systems: Heavy-Duty Mounting Solutions",
+                excerpt: "Explore the engineering behind GM41 Strut Channels and their superior load-bearing capabilities for demanding industrial applications.",
+                category: "strut",
+                image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800",
+                date: "November 8, 2025",
+                readTime: "10 min read",
+                featured: false,
+                content: `
+                    <h2>GM41 Strut Channel Engineering</h2>
+                    <p>GM41 Strut Channels are engineered steel structural profiles designed for heavy-duty mounting and support applications in industrial, commercial, and infrastructure projects.</p>
+
+                    <h3>Technical Specifications</h3>
+                    <ul>
+                        <li><strong>Materials:</strong> S250GD (pre-galvanized Z-275) and S235 JR (HDG or ➤Epoxy coated)</li>
+                        <li><strong>Standard Length:</strong> 3.6 meters</li>
+                        <li><strong>Profile Size:</strong> 41x21mm to 41x62mm thickness range</li>
+                        <li><strong>Mounting Method:</strong> Form-locking connections and shear hole haunch connections</li>
+                    </ul>
+
+                    <h3>Load Case Analysis</h3>
+                    <p>GM41 strut channels are tested under multiple load conditions including:</p>
+                    <ul>
+                        <li>Axial compression and tension</li>
+                        <li>Bending moments in major and minor axes</li>
+                        <li>Combined loading scenarios</li>
+                        <li>Torsional stress resistance</li>
+                    </ul>
+                `
+            },
+            {
+                id: 3,
+                title: "Channel Accessories: Complete Connection Solutions",
+                excerpt: "A comprehensive overview of specialized accessories designed for professional-grade channel installations and structural integrity.",
+                category: "accessories",
+                image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800",
+                date: "November 5, 2025",
+                readTime: "6 min read",
+                featured: false,
+                content: `
+                    <h2>Essential Channel Accessories</h2>
+                    <p>Professional channel installations require precision-engineered accessories that ensure structural integrity and long-term reliability.</p>
+
+                    <h3>Angle Connectors (GACO)</h3>
+                    <p>Specialized components for connecting strut channels at 90°, 45°, and 135° angles, ensuring structural stability in modular support systems.</p>
+
+                    <h3>Flat Connectors (GFCO)</h3>
+                    <p>Designed for inline channel connections and load distribution across multiple support points.</p>
+
+                    <h3>Beam Clamps & Mounting Hardware</h3>
+                    <ul>
+                        <li><strong>GBHO:</strong> Hole Attachment Beam Clamps</li>
+                        <li><strong>GBAT:</strong> Adjustable Tilt Beam Clamps</li>
+                        <li><strong>GBCC:</strong> C Clamp for Channel Beam</li>
+                    </ul>
+
+                    <h3>Material Options</h3>
+                    <p>All accessories available in multiple finishes:</p>
+                    <ul>
+                        <li>➤Electro-galvanized (Z-275)</li>
+                        <li>➤Hot-dip galvanized</li>
+                        <li>➤Epoxy coated</li>
+                        <li>➤Stainless Steel A2/A4</li>
+                    </ul>
+                `
+            },
+            {
+                id: 4,
+                title: "Corrosion Protection: Galvanized vs. Epoxy Coatings",
+                excerpt: "Understanding coating options to maximize the service life of steel mounting systems in various environmental conditions.",
+                category: "technical",
+                image: "https://images.unsplash.com/photo-1567789884554-0b844b597180?w=800",
+                date: "November 2, 2025",
+                readTime: "7 min read",
+                featured: false,
+                content: `
+                    <h2>Coating Technologies for Steel Protection</h2>
+                    <p>Selecting the right coating is crucial for ensuring long-term durability in different environments.</p>
+
+                    <h3>Pre-Galvanized (Z-275)</h3>
+                    <p>Zinc coating applied before fabrication provides uniform protection and excellent resistance to atmospheric corrosion.</p>
+
+                    <h3>➤Hot-dip galvanized (HDG)</h3>
+                    <p>Post-fabrication zinc immersion creates a thick, robust coating ideal for outdoor and marine environments.</p>
+
+                    <h3>Epoxy Coating</h3>
+                    <p>Advanced polymer coating offering superior chemical resistance and aesthetic finish options.</p>
+
+                    <h3>Coating Selection Guide</h3>
+                    <ul>
+                        <li><strong>Indoor Dry:</strong> Pre-galvanized sufficient</li>
+                        <li><strong>Outdoor/Marine:</strong> HDG recommended</li>
+                        <li><strong>Chemical Exposure:</strong> Epoxy coating required</li>
+                        <li><strong>High Humidity:</strong> HDG or epoxy coating</li>
+                    </ul>
+                `
+            },
+            {
+                id: 5,
+                title: "Installation Best Practices: C Channel & Strut Systems",
+                excerpt: "Step-by-step guidance for professional installation of channel systems, ensuring safety and optimal load distribution.",
+                category: "installation",
+                image: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800",
+                date: "October 28, 2025",
+                readTime: "12 min read",
+                featured: false,
+                content: `
+                    <h2>Professional Installation Guidelines</h2>
+                    <p>Proper installation is critical for achieving design load capacities and ensuring long-term structural integrity.</p>
+
+                    <h3>Pre-Installation Planning</h3>
+                    <ul>
+                        <li>Verify structural capacity of mounting surfaces</li>
+                        <li>Calculate total system loads including safety factors</li>
+                        <li>Select appropriate anchor types and spacing</li>
+                        <li>Review electrical and plumbing clearances</li>
+                    </ul>
+
+                    <h3>C Channel Installation</h3>
+                    <ol>
+                        <li>Mark mounting locations using laser level</li>
+                        <li>Pre-drill anchor holes at specified centers</li>
+                        <li>Install anchors per manufacturer specifications</li>
+                        <li>Mount channels with appropriate fasteners</li>
+                        <li>Verify alignment before final tightening</li>
+                    </ol>
+
+                    <h3>Strut Channel Installation</h3>
+                    <ol>
+                        <li>Determine load direction and support spacing</li>
+                        <li>Install primary support channels</li>
+                        <li>Add cross-bracing for lateral stability</li>
+                        <li>Connect using approved fittings only</li>
+                        <li>Torque all connections to specification</li>
+                    </ol>
+
+                    <h3>Safety Considerations</h3>
+                    <ul>
+                        <li>Use appropriate PPE at all times</li>
+                        <li>Verify fall protection systems</li>
+                        <li>Never exceed rated load capacities</li>
+                        <li>Conduct post-installation inspection</li>
+                    </ul>
+                `
+            },
+            {
+                id: 6,
+                title: "Load Calculation Methods for Channel Support Systems",
+                excerpt: "Engineering fundamentals for calculating safe working loads and understanding load case scenarios in structural applications.",
+                category: "technical",
+                image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800",
+                date: "October 25, 2025",
+                readTime: "9 min read",
+                featured: false,
+                content: `
+                    <h2>Understanding Load Calculations</h2>
+                    <p>Proper load analysis ensures safe and efficient design of channel support systems.</p>
+
+                    <h3>Types of Loads</h3>
+                    <ul>
+                        <li><strong>Dead Load:</strong> Permanent static weight of structure and fixed equipment</li>
+                        <li><strong>Live Load:</strong> Variable loads from operations, maintenance access</li>
+                        <li><strong>Wind Load:</strong> Lateral forces in outdoor installations</li>
+                        <li><strong>Seismic Load:</strong> Dynamic forces in earthquake-prone regions</li>
+                    </ul>
+
+                    <h3>Load Case Scenarios</h3>
+                    <p>GM41 channels are tested under multiple conditions:</p>
+                    <ul>
+                        <li>Single span beam loading</li>
+                        <li>Continuous beam over multiple supports</li>
+                        <li>Cantilever loading</li>
+                        <li>Combined bending and axial loads</li>
+                    </ul>
+
+                    <h3>Safety Factors</h3>
+                    <p>Industry standard safety factors must be applied:</p>
+                    <ul>
+                        <li>Static loads: 2.0 - 2.5</li>
+                        <li>Dynamic loads: 3.0 - 4.0</li>
+                        <li>Fatigue-critical: 4.0 - 6.0</li>
+                    </ul>
+                `
+            },
+            {
+                id: 7,
+                title: "GGIP Products: Innovative Pipe Support Solutions",
+                excerpt: "Exploring specialized pipe clamps and support systems engineered for industrial piping installations.",
+                category: "accessories",
+                image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800",
+                date: "October 20, 2025",
+                readTime: "5 min read",
+                featured: false,
+                content: `
+                    <h2>GGIP Pipe Support Systems</h2>
+                    <p>Specialized mounting solutions designed for secure and vibration-resistant pipe installations.</p>
+
+                    <h3>Product Range</h3>
+                    <ul>
+                        <li>Adjustable pipe clamps for various diameters</li>
+                        <li>Vibration-dampening inserts</li>
+                        <li>Quick-release mounting systems</li>
+                        <li>Multi-pipe support brackets</li>
+                    </ul>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Corrosion-resistant materials</li>
+                        <li>Tool-free adjustment mechanisms</li>
+                        <li>Thermal expansion compatibility</li>
+                        <li>Acoustic isolation properties</li>
+                    </ul>
+
+                    <h3>Applications</h3>
+                    <p>Ideal for:</p>
+                    <ul>
+                        <li>HVAC systems</li>
+                        <li>Industrial process piping</li>
+                        <li>Fire suppression systems</li>
+                        <li>Plumbing installations</li>
+                    </ul>
+                `
+            },
+            {
+                id: 8,
+                title: "Sustainable Steel: Environmental Benefits of Galvanized Products",
+                excerpt: "How modern steel coating technologies contribute to sustainable construction and reduced environmental impact.",
+                category: "technical",
+                image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=800",
+                date: "October 15, 2025",
+                readTime: "6 min read",
+                featured: false,
+                content: `
+                    <h2>Sustainability in Steel Manufacturing</h2>
+                    <p>Modern galvanized steel products contribute significantly to green building initiatives.</p>
+
+                    <h3>Lifecycle Benefits</h3>
+                    <ul>
+                        <li><strong>Longevity:</strong> 50+ year service life reduces replacement frequency</li>
+                        <li><strong>Recyclability:</strong> 100% recyclable without quality degradation</li>
+                        <li><strong>Low Maintenance:</strong> Minimal ongoing resource consumption</li>
+                        <li><strong>Energy Efficiency:</strong> Reduced cooling/heating loads in building systems</li>
+                    </ul>
+
+                    <h3>Environmental Certifications</h3>
+                    <p>Our products support:</p>
+                    <ul>
+                        <li>LEED certification credits</li>
+                        <li>ISO 14001 environmental management</li>
+                        <li>Cradle-to-cradle design principles</li>
+                        <li>Carbon footprint reduction programs</li>
+                    </ul>
+                `
+            },
+            {
+                id: 9,
+                title: "Troubleshooting Common Installation Challenges",
+                excerpt: "Expert solutions to frequent installation issues and how to prevent them during channel system projects.",
+                category: "installation",
+                image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800",
+                date: "October 10, 2025",
+                readTime: "8 min read",
+                featured: false,
+                content: `
+                    <h2>Common Installation Issues & Solutions</h2>
+                    
+                    <h3>Alignment Problems</h3>
+                    <p><strong>Issue:</strong> Channels not aligning properly during installation</p>
+                    <p><strong>Solution:</strong> Use laser alignment tools and install temporary bracing before final fastening</p>
+
+                    <h3>Anchor Failure</h3>
+                    <p><strong>Issue:</strong> Anchors pulling out under load</p>
+                    <p><strong>Solution:</strong> Verify substrate strength, use appropriate anchor type and size, ensure proper embedment depth</p>
+
+                    <h3>Connection Loosening</h3>
+                    <p><strong>Issue:</strong> Bolted connections becoming loose over time</p>
+                    <p><strong>Solution:</strong> Use locking hardware, apply proper torque, schedule regular inspections</p>
+
+                    <h3>Corrosion at Connections</h3>
+                    <p><strong>Issue:</strong> Galvanic corrosion at dissimilar metal interfaces</p>
+                    <p><strong>Solution:</strong> Use isolation washers, compatible fasteners, and appropriate sealants</p>
+                `
+            }
+        ];
+
+        // Blog Functionality
+        class BlogManager {
+            constructor() {
+                this.articles = blogArticles;
+                this.currentFilter = 'all';
+                this.init();
+            }
+
+            init() {
+                this.renderArticles();
+                this.setupFilters();
+                this.setupPageLoader();
+            }
+
+            renderArticles(filter = 'all') {
+                const blogGrid = document.getElementById('blogGrid');
+                const noResults = document.getElementById('noResults');
+                
+                let filteredArticles = filter === 'all' 
+                    ? this.articles 
+                    : this.articles.filter(article => article.category === filter);
+
+                if (filteredArticles.length === 0) {
+                    blogGrid.innerHTML = '';
+                    noResults.style.display = 'block';
+                    return;
+                }
+
+                noResults.style.display = 'none';
+                
+                blogGrid.innerHTML = filteredArticles.map((article, index) => {
+                    const isFeatured = article.featured && filter === 'all' && index === 0;
+                    
+                    if (isFeatured) {
+                        return `
+                            <article class="blog-card featured-post" data-id="${article.id}">
+                                <div class="blog-card-image">
+                                    <img src="${article.image}" alt="${article.title}">
+                                    <span class="blog-card-category">${this.formatCategory(article.category)}</span>
+                                </div>
+                                <div class="blog-card-content">
+                                    <span class="featured-badge">★ Featured Article</span>
+                                    <div class="blog-card-meta">
+                                        <span><img src="https://cdn-icons-png.flaticon.com/512/2838/2838779.png" alt="calendar" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> ${article.date}</span>
+                                        <span><img src="assets/reading-book.png" alt="read time" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> ${article.readTime}</span>
+                                    </div>
+                                    <h3>${article.title}</h3>
+                                    <p>${article.excerpt}</p>
+                                    <div class="blog-card-footer">
+                                        <span class="read-more">Read Full Article →</span>
+                                    </div>
+                                </div>
+                            </article>
+                        `;
+                    }
+                    
+                    return `
+                        <article class="blog-card" data-id="${article.id}">
+                            <div class="blog-card-image">
+                                <img src="${article.image}" alt="${article.title}">
+                                <span class="blog-card-category">${this.formatCategory(article.category)}</span>
+                            </div>
+                            <div class="blog-card-content">
+                                <div class="blog-card-meta">
+                                    <span><img src="https://cdn-icons-png.flaticon.com/512/2838/2838779.png" alt="calendar" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> ${article.date}</span>
+                                    <span><img src="assets/reading-book.png" alt="read time" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> ${article.readTime}</span>
+                                </div>
+                                <h3>${article.title}</h3>
+                                <p>${article.excerpt}</p>
+                                <div class="blog-card-footer">
+                                    <span class="read-more">Read More →</span>
+                                </div>
+                            </div>
+                        </article>
+                    `;
+                }).join('');
+
+                // Add click handlers
+                document.querySelectorAll('.blog-card').forEach(card => {
+                    card.addEventListener('click', () => {
+                        const articleId = card.dataset.id;
+                        this.openArticle(articleId);
+                    });
+                });
+
+                // Animate cards
+                this.animateCards();
+            }
+
+            formatCategory(category) {
+                const categoryMap = {
+                    'c-channel': 'C Channels',
+                    'strut': 'Strut Channels',
+                    'accessories': 'Accessories',
+                    'installation': 'Installation',
+                    'technical': 'Technical'
+                };
+                return categoryMap[category] || category;
+            }
+
+            setupFilters() {
+                const filterBtns = document.querySelectorAll('.filter-btn');
+                
+                filterBtns.forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        // Update active state
+                        filterBtns.forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        
+                        // Filter articles
+                        const category = btn.dataset.category;
+                        this.currentFilter = category;
+                        this.renderArticles(category);
+                    });
+                });
+            }
+
+            animateCards() {
+                const cards = document.querySelectorAll('.blog-card');
+                cards.forEach((card, index) => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(30px)';
+                    
+                    setTimeout(() => {
+                        card.style.transition = 'all 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, index * 100);
+                });
+            }
+
+            openArticle(articleId) {
+                const article = this.articles.find(a => a.id == articleId);
+                if (!article) return;
+
+                // For now, just scroll to top and show alert
+                // In future, could open a modal or navigate to detail page
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                
+                // You can implement a modal or separate page here
+                console.log('Opening article:', article.title);
+                
+                // Example: Create a simple detail page redirect
+                // window.location.href = `blog-article.html?id=${articleId}`;
+            }
+
+            setupPageLoader() {
+                window.addEventListener('load', () => {
+                    setTimeout(() => {
+                        document.body.classList.add('loaded');
+                    }, 500);
+                });
+            }
+        }
+
+        // Initialize blog when DOM is ready.
+        // Prefer CMS-generated data/blog.json (Phase 6); fall back to the
+        // inline articles below if the file is unavailable (e.g. file:// usage).
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('data/blog.json?v=' + Date.now())
+                .then(response => response.ok ? response.json() : null)
+                .then(data => {
+                    if (data && Array.isArray(data.articles) && data.articles.length > 0) {
+                        blogArticles = data.articles;
+                    }
+                })
+                .catch(() => { /* keep inline fallback */ })
+                .finally(() => {
+                    new BlogManager();
+                    console.log('%c🌿 GREEN MAN BLOG - Loaded Successfully! ', 'background: #1B5E20; color: #fff; padding: 10px; font-size: 14px; font-weight: bold; border-radius: 5px;');
+                });
+        });
+    </script>
+</body>
+</html>

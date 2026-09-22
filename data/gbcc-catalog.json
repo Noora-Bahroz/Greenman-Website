@@ -1,0 +1,30 @@
+{
+  "title": "Back-to-Back Channel Connector (GBCC)",
+  "code_prefix": "GBCC",
+  "specification": {
+    "Material": "S250GD/S235JR",
+    "Surface": [
+      "➤Electro-galvanized (Z-275)",
+      "➤Hot-dip galvanized",
+      "➤Epoxy coated",
+      "➤Stainless Steel A2/A4"
+    ]
+  },
+  "definition": "GBCC is a double channel connector designed to join two strut channels in a back-to-back configuration, effectively converting a single strut channel into a double strut channel.",
+  "items": [
+    {
+      "code": "GBCC0001",
+      "image": "assets/img/gbcc0001.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GBCC0001",
+      "Detail": "Steel Plate, Flat head screw",
+      "Dimensions": "60x20",
+      "Tightening Torque": "25Nm",
+      "For Profile": "GM-Profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

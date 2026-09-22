@@ -1,0 +1,100 @@
+{
+  "title": "Beam Attachment U-Shaped Holder (GBUHxxxx)",
+  "code_prefix": "GBUH",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "GBUH is used in framing, and support systems to ensure strut channels are firmly anchored to structural members. It secures the strut channel, distributing load evenly and ensuring a stable connection. • per anchorage point two holders should be installed • application loads refer to one single GBUHxxxx holder • application loads of GM-profile should be considered",
+  "items": [
+    {
+      "code": "GCCLL004",
+      "image": "assets/img/gccll004.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GBAT0300",
+      "Detail": "Vertical Attachment 300",
+      "Flange Thickness": "8 - 15\"",
+      "Flange Width": "100-220",
+      "Dimensions": "-",
+      "Rod": "M12",
+      "Load": "4kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBAT0500",
+      "Detail": "Vertical Attachment 500",
+      "Flange Thickness": "13 - 20\"",
+      "Flange Width": "110-360",
+      "Dimensions": "-",
+      "Rod": "M16",
+      "Load": "4kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBAT1218",
+      "Detail": "Horizontal Attachment Cleat 12",
+      "Flange Thickness": "",
+      "Flange Width": "",
+      "Dimensions": "12x18",
+      "Rod": "",
+      "Load": "6kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBAT1418",
+      "Detail": "Horizontal Attachment Cleat 12",
+      "Flange Thickness": "",
+      "Flange Width": "",
+      "Dimensions": "14x18",
+      "Rod": "",
+      "Load": "8kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBATU100",
+      "Detail": "Horizontal Attachment U-bolt",
+      "Flange Thickness": "",
+      "Flange Width": "",
+      "Dimensions": "100",
+      "Rod": "",
+      "Load": "3.5kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBATU125",
+      "Detail": "Horizontal Attachment U-bolt",
+      "Flange Thickness": "",
+      "Flange Width": "",
+      "Dimensions": "125",
+      "Rod": "",
+      "Load": "4kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBATU150",
+      "Detail": "Horizontal Attachment U-bolt",
+      "Flange Thickness": "",
+      "Flange Width": "",
+      "Dimensions": "150",
+      "Rod": "",
+      "Load": "7kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBATU200",
+      "Detail": "Horizontal Attachment U-bolt",
+      "Flange Thickness": "",
+      "Flange Width": "",
+      "Dimensions": "200",
+      "Rod": "",
+      "Load": "7kN",
+      "Weight": "xx"
+    }
+  ]
+}

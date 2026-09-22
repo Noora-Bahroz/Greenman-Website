@@ -1,0 +1,60 @@
+{
+  "title": "Double-Sided Connector Bracket (DSCB)",
+  "code_prefix": "DSCB",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Double-sided connector bracket DSCB is commonly used to connect strut channels, making it an essential component in structural and support systems. Its double-sided feature offers enhanced strength and greater connection flexibility, making it suitable for a wide range of applications.",
+  "items": [
+    {
+      "code": "DSCB4090",
+      "image": "assets/img/dscb4090.png"
+    },
+    {
+      "code": "DSCB4135",
+      "image": "assets/img/dscb4135.png"
+    },
+    {
+      "code": "DSCB8090",
+      "image": "assets/img/dscb8090.png"
+    },
+    {
+      "code": "DSCB8135",
+      "image": "assets/img/dscb8135.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "DSCB8090",
+      "Detail": "8-hole 90° Double-Sided",
+      "Dimensions": "135x135x40x4",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "DSCB4090",
+      "Detail": "4-hole 90° Double-Sided",
+      "Dimensions": "65x65x40x4",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "DSCB8135",
+      "Detail": "8-hole 135° Double-Sided",
+      "Dimensions": "135x135x40x4",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "DSCB4135",
+      "Detail": "4-hole 135° Double-Sided",
+      "Dimensions": "65x65x40x4",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

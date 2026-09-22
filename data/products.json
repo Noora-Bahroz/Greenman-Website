@@ -1,0 +1,3652 @@
+{
+  "categories": [
+    {
+      "id": "c-channels",
+      "name": "C Profile Channels",
+      "badge": "C Channels",
+      "catalogPdf": "Product-Catalogues-PDF/C CHANNEL CATALOUGE.pdf",
+      "products": [
+        {
+          "id": "gmc-c-profile",
+          "title": "C Profile",
+          "subtitle": "GMC",
+          "description": "C-Channels are structural steel profiles characterized by their C-shaped cross-section, engineered to deliver strength, rigidity, and stability in a variety of load-bearing applications. Manufactured from high-quality steel and available in different sizes, thicknesses, and surface finishes (galvanized, hot-rolled, or coated), C-Channels are designed to withstand demanding environments while ensuring long service life. Their open profile makes them lightweight yet robust, offering excellent resistance against bending and twisting under load. C-Channels are widely used as framing members, support beams, mounting rails, and reinforcements in both industrial and commercial construction. They are ideal for supporting roofing systems, machinery frameworks, conveyor structures, and as secondary supports in bridges and heavy equipment.",
+          "images": [
+            "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800",
+            "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800"
+          ],
+          "specifications": {
+            "Material": "S250GD / S235 JR",
+            "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated",
+            "Length (mtr)": "3.6"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Item Code": "GMC271812",
+              "Size": "27x18x1.2",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "2",
+              "Item Code": "GMC283015",
+              "Size": "28x30x1.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "3",
+              "Item Code": "GMC283020",
+              "Size": "28x30x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "4",
+              "Item Code": "GMC384015",
+              "Size": "38x40x1.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "5",
+              "Item Code": "GMC384020",
+              "Size": "38x40x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "6",
+              "Item Code": "GMC402015",
+              "Size": "40x20x1.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "7",
+              "Item Code": "GMC402020",
+              "Size": "40x20x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "8",
+              "Item Code": "GMC753820",
+              "Size": "75x38x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "9",
+              "Item Code": "GMC753825",
+              "Size": "75x38x2.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "10",
+              "Item Code": "GMC1005020",
+              "Size": "100x50x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "11",
+              "Item Code": "GMC1005025",
+              "Size": "100x50x2.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strut-channels",
+      "name": "Strut Channel Profiles",
+      "badge": "Strut Channels - GM41",
+      "catalogPdf": "Product-Catalogues-PDF/Greenman Strut Channel GM41 Series.pdf",
+      "products": [
+        {
+          "id": "gm41-strut-profile",
+          "title": "Strut Profile",
+          "subtitle": "GM41",
+          "description": "Strut channels are structural components made from sheet steel, usually galvanized or coated to resist corrosion. Their modular design allows them to be easily connected using bolts, nuts, and fittings, forming robust support structures. They can also support heavy loads depending on their configuration and installation. They provide organized system to support electrical conduits, cable trays, wiring, plumbing and piping, HVAC ductwork, MS piping and other components, particularly in commercial and industrial buildings. They act as reliable mounting systems for solar panels, providing flexibility and durability for positioning panels on rooftops or ground based installations. The combination of strength, versatility, and ease of use makes strut channels an indispensable component in a wide range of construction, industrial, and utility applications.",
+          "images": [
+            "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800",
+            "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800"
+          ],
+          "specifications": {
+            "Material": "S250GD / S235 JR",
+            "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated",
+            "Length (mtr)": "3.6"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Item Code": "GM412115",
+              "Size": "41x21x1.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "2",
+              "Item Code": "GM412120",
+              "Size": "41x21x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "3",
+              "Item Code": "GM416225",
+              "Size": "41x62x2.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "4",
+              "Item Code": "GM416220",
+              "Size": "41x62x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "5",
+              "Item Code": "GM414120",
+              "Size": "41x41x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "6",
+              "Item Code": "GM414125",
+              "Size": "41x41x2.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "7",
+              "Item Code": "GM416220",
+              "Size": "41x62x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "8",
+              "Item Code": "GM416225",
+              "Size": "41x62x2.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "9",
+              "Item Code": "GM417220",
+              "Size": "41x72x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "10",
+              "Item Code": "GM417225",
+              "Size": "41x72x2.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "11",
+              "Item Code": "GM418220",
+              "Size": "41x82x2.0",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "12",
+              "Item Code": "GM418225",
+              "Size": "41x82x2.5",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "13",
+              "Item Code": "GMD414125",
+              "Size": "41x41x2.5 ||",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            },
+            {
+              "Sr#": "14",
+              "Item Code": "GMD418225",
+              "Size": "41x62x2.5 ||",
+              "Length (mtr)": "3.6",
+              "Material": "S250GD",
+              "Material type": "S235 JR",
+              "Coating": "pre-galvanized (Z-275) | HDG | ➤Epoxy coated"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metal-anchors",
+      "name": "Metal Anchors",
+      "badge": "Anchors Collection",
+      "catalogPdf": "Product-Catalogues-PDF/Anchors rev1.pdf",
+      "products": [
+        {
+          "id": "anchor-gbgta",
+          "title": "GreenBolt G2 Through Anchor",
+          "subtitle": "GBGTA",
+          "description": "GreenBolt G2 Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBGTA.png",
+            "assets/Anchors/Drawing/GBGTA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling, Diamond Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Pre-Fastening, Through-Fastening",
+            "reusability": "No"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBGTA06070",
+              "Size": "M6 x 70",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 12,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBGTA06090",
+              "Size": "M6 x 90",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 32,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBGTA06110",
+              "Size": "M6 x 110",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 52,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBGTA06130",
+              "Size": "M6 x 130",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 72,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBGTA06150",
+              "Size": "M6 x 150",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 92,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBGTA06170",
+              "Size": "M6 x 170",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 112,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBGTA08060",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 50,
+              "Max. Fixture Thickness (mm)": 3,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 80,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBGTA08090",
+              "Size": "M8 x 90",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 80,
+              "Tensile Load (kN)": 9.29,
+              "Shear Load (kN)": 7.44
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBGTA08115",
+              "Size": "M8 x 115",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 45,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 80,
+              "Tensile Load (kN)": 9.29,
+              "Shear Load (kN)": 7.44
+            },
+            {
+              "Sr#": "10",
+              "Product Code": "GBGTA08130",
+              "Size": "M8 x 130",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 60,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 9.29,
+              "Shear Load (kN)": 7.44
+            },
+            {
+              "Sr#": "11",
+              "Product Code": "GBGTA10070",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 3,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 9.29,
+              "Shear Load (kN)": 7.44
+            },
+            {
+              "Sr#": "12",
+              "Product Code": "GBGTA10090",
+              "Size": "M10 x 90",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 12.67,
+              "Shear Load (kN)": 11.76
+            },
+            {
+              "Sr#": "13",
+              "Product Code": "GBGTA10120",
+              "Size": "M10 x 120",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 40,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 120,
+              "Tensile Load (kN)": 12.67,
+              "Shear Load (kN)": 11.76
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhta",
+          "title": "GreenBolt H2 Through Anchor",
+          "subtitle": "GBHTA",
+          "description": "GreenBolt H2 Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBHTA.png",
+            "assets/Anchors/Drawing/GBHTA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "HDG",
+            "drilling_method": "Hammer Drilling, Diamond Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Pre-Fastening, Through-Fastening",
+            "reusability": "No"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHTA06070",
+              "Size": "M6 x 70",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 12,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBHTA06090",
+              "Size": "M6 x 90",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 32,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBHTA06110",
+              "Size": "M6 x 110",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 105,
+              "Max. Fixture Thickness (mm)": 52,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBHTA06130",
+              "Size": "M6 x 130",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 125,
+              "Max. Fixture Thickness (mm)": 72,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 5.29,
+              "Shear Load (kN)": 4.08
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBHTA08075",
+              "Size": "M8 x 75",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 9.29,
+              "Shear Load (kN)": 7.44
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBHTA08130",
+              "Size": "M8 x 130",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 120,
+              "Max. Fixture Thickness (mm)": 60,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 9.29,
+              "Shear Load (kN)": 7.44
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBHTA10090",
+              "Size": "M10 x 90",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 80,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 9.29,
+              "Shear Load (kN)": 7.44
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBHTA12090",
+              "Size": "M12 x 90",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 70,
+              "Max. Fixture Thickness (mm)": 13,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 12.67,
+              "Shear Load (kN)": 11.76
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBHTA12160",
+              "Size": "M12 x 160",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 145,
+              "Max. Fixture Thickness (mm)": 68,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 12.67,
+              "Shear Load (kN)": 11.76
+            },
+            {
+              "Sr#": "10",
+              "Product Code": "GBHTA14220",
+              "Size": "M14 x 220",
+              "Pack Size (pcs)": 20,
+              "Drill Ø (mm)": 14,
+              "Drill Hole Depth (mm)": 200,
+              "Max. Fixture Thickness (mm)": 112,
+              "eff. Anchorage depth (mm)": 75,
+              "Installation Torque (Nm)": 90,
+              "Tensile Load (kN)": 25.25,
+              "Shear Load (kN)": 30.72
+            },
+            {
+              "Sr#": "11",
+              "Product Code": "GBHTA16280",
+              "Size": "M16 x 280",
+              "Pack Size (pcs)": 10,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 260,
+              "Max. Fixture Thickness (mm)": 155,
+              "eff. Anchorage depth (mm)": 95,
+              "Installation Torque (Nm)": 110,
+              "Tensile Load (kN)": 34.78,
+              "Shear Load (kN)": 45.02
+            }
+          ]
+        },
+        {
+          "id": "anchor-gb hta",
+          "title": "GreenBolt H2 Through Anchor",
+          "subtitle": "GB HTA",
+          "description": "GreenBolt H2 Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "HDG",
+            "drilling_method": "Hammer Drilling, Diamond Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Pre-Fastening, Through-Fastening",
+            "reusability": "No"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GB HTA20270",
+              "Size": "M20 x 270",
+              "Pack Size (pcs)": 5,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 250,
+              "Max. Fixture Thickness (mm)": 140,
+              "eff. Anchorage depth (mm)": 125,
+              "Installation Torque (Nm)": 200,
+              "Tensile Load (kN)": 34.78,
+              "Shear Load (kN)": 45.02
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbgsta",
+          "title": "GreenBolt GS Through Anchor",
+          "subtitle": "GBGSTA",
+          "description": "GreenBolt GS Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBGSTA.png",
+            "assets/Anchors/Drawing/GBGSTA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc-Plated",
+            "drilling_method": "Hammer Drilling, Diamond Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Through-Fastening",
+            "reusability": "Not Reusable (intended for"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBGSTA08075",
+              "Size": "M8 x 75",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 9,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 5,
+              "Shear Load (kN)": 9.52
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBGSTA08115",
+              "Size": "M8 x 115",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 49,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 5.79,
+              "Shear Load (kN)": 9.52
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBGSTA10105",
+              "Size": "M10 x 105",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 16.24
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBGSTA10135",
+              "Size": "M10 x 135",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 55,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 16.24
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBGSTA10185",
+              "Size": "M10 x 185",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 105,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 16.24
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBGSTA12100",
+              "Size": "M12 x 100",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 4,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 13.33,
+              "Shear Load (kN)": 23.6
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBGSTA12120",
+              "Size": "M12 x 120",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 24,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 13.33,
+              "Shear Load (kN)": 23.6
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBGSTA12150",
+              "Size": "M12 x 150",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 54,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 13.33,
+              "Shear Load (kN)": 23.6
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBGSTA12200",
+              "Size": "M12 x 200",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 104,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 24,
+              "Shear Load (kN)": 43.65
+            },
+            {
+              "Sr#": "10",
+              "Product Code": "GBGSTA16175",
+              "Size": "M16 x 175",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 105,
+              "Max. Fixture Thickness (mm)": 58,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 100,
+              "Tensile Load (kN)": 24,
+              "Shear Load (kN)": 43.65
+            },
+            {
+              "Sr#": "11",
+              "Product Code": "GBGSTA16250",
+              "Size": "M16 x 250",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 105,
+              "Max. Fixture Thickness (mm)": 133,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 100,
+              "Tensile Load (kN)": 32,
+              "Shear Load (kN)": 65.5
+            },
+            {
+              "Sr#": "12",
+              "Product Code": "GBGSTA20200",
+              "Size": "M20 x 200",
+              "Pack Size (pcs)": 20,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 125,
+              "Max. Fixture Thickness (mm)": 62,
+              "eff. Anchorage depth (mm)": 100,
+              "Installation Torque (Nm)": 200,
+              "Tensile Load (kN)": 32,
+              "Shear Load (kN)": 65.5
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbsta",
+          "title": "GreenBolt S2 Through Anchor",
+          "subtitle": "GBSTA",
+          "description": "GreenBolt S2 Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBSTA.png",
+            "assets/Anchors/Drawing/GBSTA.png"
+          ],
+          "specifications": {
+            "material": "Stainless Steel A2 (AISI 304)",
+            "surface": "Natural / Passivated Finish",
+            "corrosion_resistant": "(ideal for damp or mildly aggressive",
+            "drilling_method": "Hammer Drilling, Diamond Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Through-Fastening",
+            "reusability": "Not Reusable (designed for"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBSTA06060",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 2,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 6.01,
+              "Shear Load (kN)": 3.95
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBSTA06120",
+              "Size": "M6 x 120",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 62,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 6.01,
+              "Shear Load (kN)": 3.95
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBSTA06160",
+              "Size": "M6 x 160",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 102,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 6.01,
+              "Shear Load (kN)": 3.95
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBSTA06180",
+              "Size": "M6 x 180",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 122,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": 6.01,
+              "Shear Load (kN)": 3.95
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBSTA08075",
+              "Size": "M8 x 75",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 8,
+              "Shear Load (kN)": 7.15
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBSTA08115",
+              "Size": "M8 x 115",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 45,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 8,
+              "Shear Load (kN)": 7.15
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBSTA10090",
+              "Size": "M10 x 90",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 8.89,
+              "Shear Load (kN)": 11.45
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBSTA10150",
+              "Size": "M10 x 150",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 70,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 8.89,
+              "Shear Load (kN)": 11.45
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBSTA12090",
+              "Size": "M12 x 90",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 70,
+              "Max. Fixture Thickness (mm)": 13,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 13.89,
+              "Shear Load (kN)": 16.58
+            },
+            {
+              "Sr#": "10",
+              "Product Code": "GBSTA12140",
+              "Size": "M12 x 140",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 48,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 13.89,
+              "Shear Load (kN)": 16.58
+            },
+            {
+              "Sr#": "11",
+              "Product Code": "GBSTA16145",
+              "Size": "M16 x 145",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 23,
+              "eff. Anchorage depth (mm)": 84,
+              "Installation Torque (Nm)": 120,
+              "Tensile Load (kN)": 19.44,
+              "Shear Load (kN)": 30.99
+            },
+            {
+              "Sr#": "12",
+              "Product Code": "GBSTA20120",
+              "Size": "M20 x 120",
+              "Pack Size (pcs)": 20,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 71,
+              "Installation Torque (Nm)": 240,
+              "Tensile Load (kN)": 27.17,
+              "Shear Load (kN)": 48.36
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbmta",
+          "title": "GreenBolt M2 Through Anchor",
+          "subtitle": "GBMTA",
+          "description": "GreenBolt M2 Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBMTA.png",
+            "assets/Anchors/Drawing/GBMTA.png"
+          ],
+          "specifications": {
+            "material": "Stainless Steel A4 (AISI 316)",
+            "surface": "Natural / Passivated Finish",
+            "drilling_method": "Hammer Drilling, Diamond Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Through-Fastening",
+            "reusability": "Not Reusable (permanent fixing"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBMTA06060",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 2,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 7,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBMTA08050",
+              "Size": "M8 x 50",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 40,
+              "Max. Fixture Thickness (mm)": 4,
+              "eff. Anchorage depth (mm)": 23,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBMTA10070",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 3,
+              "eff. Anchorage depth (mm)": 42,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 8.89,
+              "Shear Load (kN)": 11.45
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBMTA10120",
+              "Size": "M10 x 120",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 40,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 8.89,
+              "Shear Load (kN)": 11.45
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBMTA12075",
+              "Size": "M12 x 75",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 43,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 8.89,
+              "Shear Load (kN)": 11.45
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBMTA12110",
+              "Size": "M12 x 110",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 18,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 13.89,
+              "Shear Load (kN)": 16.87
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBMTA16090",
+              "Size": "M16 x 90",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 4,
+              "eff. Anchorage depth (mm)": 49,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 13.89,
+              "Shear Load (kN)": 16.87
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBMTA16170",
+              "Size": "M16 x 170",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 110,
+              "Max. Fixture Thickness (mm)": 48,
+              "eff. Anchorage depth (mm)": 84,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 19.44,
+              "Shear Load (kN)": 30.9
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBMTA20220",
+              "Size": "M20 x 220",
+              "Pack Size (pcs)": 20,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 135,
+              "Max. Fixture Thickness (mm)": 73,
+              "eff. Anchorage depth (mm)": 103,
+              "Installation Torque (Nm)": 240,
+              "Tensile Load (kN)": 19.44,
+              "Shear Load (kN)": 30.9
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbghta",
+          "title": "GreenBolt GH Through Anchor",
+          "subtitle": "GBGHTA",
+          "description": "GreenBolt GH Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBGHTA.png",
+            "assets/Anchors/Drawing/GBGHTA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel (High-grade steel)",
+            "surface": "Zinc-Plated (Min. 5 µm)",
+            "drilling_method": "Hammer Drilling, Diamond Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Through-Fastening",
+            "reusability": "Not Reusable (designed for"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBGHTA08075",
+              "Size": "M8 x 75",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 9,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 15,
+              "Tensile Load (kN)": 5.56,
+              "Shear Load (kN)": 9.52
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBGHTA08095",
+              "Size": "M8 x 95",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 29,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 15,
+              "Tensile Load (kN)": 5.56,
+              "Shear Load (kN)": 9.52
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBGHTA10090",
+              "Size": "M10 x 90",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 16.24
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBGHTA10115",
+              "Size": "M10 x 115",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 16.24
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBGHTA10165",
+              "Size": "M10 x 165",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 85,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 40,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 16.24
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBGHTA12080",
+              "Size": "M12 x 80",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 4,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 18.67,
+              "Shear Load (kN)": 23.6
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBGHTA12110",
+              "Size": "M12 x 110",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 14,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 18.67,
+              "Shear Load (kN)": 23.6
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBGHTA12130",
+              "Size": "M12 x 130",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 34,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 18.67,
+              "Shear Load (kN)": 23.6
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBGHTA12180",
+              "Size": "M12 x 180",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 84,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 18.67,
+              "Shear Load (kN)": 23.6
+            },
+            {
+              "Sr#": "10",
+              "Product Code": "GBGHTA12220",
+              "Size": "M12 x 220",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 124,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 18.67,
+              "Shear Load (kN)": 23.6
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbepsa m x",
+          "title": "GreenBolt EnduraPrime Sleeve Anchor",
+          "subtitle": "GBEPSA M x",
+          "description": "GreenBolt EnduraPrime Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel (Heat-treated)",
+            "surface": "Zinc Plated or Hot-Dip Galvanized",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Through-Fastening",
+            "reusability": "Not Reusable (single-use mechanical"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBEPSA16120 M10 x 120 25",
+              "Size": "95 35 70 50 19 51",
+              "Pack Size (pcs)": null,
+              "Drill Ø (mm)": null,
+              "Drill Hole Depth (mm)": null,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": null,
+              "Installation Torque (Nm)": null,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbepsa",
+          "title": "GreenBolt EnduraPrime Sleeve Anchor",
+          "subtitle": "GBEPSA",
+          "description": "GreenBolt EnduraPrime Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBEPSA.png",
+            "assets/Anchors/Drawing/GBEPSA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel (Heat-treated)",
+            "surface": "Zinc Plated or Hot-Dip Galvanized",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Concrete (Uncracked),",
+            "type_of_fastening": "Through-Fastening",
+            "reusability": "Not Reusable (single-use mechanical"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBEPSA18120",
+              "Size": "",
+              "Pack Size (pcs)": 20,
+              "Drill Ø (mm)": null,
+              "Drill Hole Depth (mm)": 208525.751,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": null,
+              "Installation Torque (Nm)": null,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbexsa",
+          "title": "GreenBolt EnduraApex Sleeve Anchor",
+          "subtitle": "GBEXSA",
+          "description": "GreenBolt EnduraApex Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBEXSA.png",
+            "assets/Anchors/Drawing/GBEXSA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel (high-strength grade)",
+            "surface": "Zinc Plated or Hot-Dip Galvanized",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Non-cracked Concrete, Solid Brick,",
+            "type_of_fastening": "Pre-Fastening and Through-Fastening",
+            "reusability": "Not Reusable (expansion-based"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBEXSA12155",
+              "Size": "M8 x 155",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 80,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 14,
+              "Shear Load (kN)": 29
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBEXSA16160",
+              "Size": "M10 x 160",
+              "Pack Size (pcs)": 20,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 95,
+              "Max. Fixture Thickness (mm)": 75,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 50,
+              "Tensile Load (kN)": 20,
+              "Shear Load (kN)": 40
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBEXSA18150",
+              "Size": "M12 x 150",
+              "Pack Size (pcs)": 20,
+              "Drill Ø (mm)": 18,
+              "Drill Hole Depth (mm)": 110,
+              "Max. Fixture Thickness (mm)": 50,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 80,
+              "Tensile Load (kN)": 26,
+              "Shear Load (kN)": 52
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBEXSA18260",
+              "Size": "M12 x 260",
+              "Pack Size (pcs)": 5,
+              "Drill Ø (mm)": 24,
+              "Drill Hole Depth (mm)": 110,
+              "Max. Fixture Thickness (mm)": 160,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 80,
+              "Tensile Load (kN)": 28,
+              "Shear Load (kN)": 56
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBEXSA24170",
+              "Size": "M16 x 170",
+              "Pack Size (pcs)": 10,
+              "Drill Ø (mm)": 24,
+              "Drill Hole Depth (mm)": 130,
+              "Max. Fixture Thickness (mm)": 50,
+              "eff. Anchorage depth (mm)": 100,
+              "Installation Torque (Nm)": 160,
+              "Tensile Load (kN)": 28,
+              "Shear Load (kN)": 69
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBEXSA24280",
+              "Size": "M16 x 280",
+              "Pack Size (pcs)": 5,
+              "Drill Ø (mm)": 28,
+              "Drill Hole Depth (mm)": 130,
+              "Max. Fixture Thickness (mm)": 160,
+              "eff. Anchorage depth (mm)": 100,
+              "Installation Torque (Nm)": 160,
+              "Tensile Load (kN)": 32,
+              "Shear Load (kN)": 75
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBEXSA28230",
+              "Size": "M20 x 230",
+              "Pack Size (pcs)": 5,
+              "Drill Ø (mm)": 28,
+              "Drill Hole Depth (mm)": 160,
+              "Max. Fixture Thickness (mm)": 80,
+              "eff. Anchorage depth (mm)": 125,
+              "Installation Torque (Nm)": 240,
+              "Tensile Load (kN)": 40,
+              "Shear Load (kN)": 95
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbefsa",
+          "title": "GreenBolt EnduraFlush Sleeve Anchor",
+          "subtitle": "GBEFSA",
+          "description": "GreenBolt EnduraFlush Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBEFSA.png",
+            "assets/Anchors/Drawing/GBEFSA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel (high-strength grade)",
+            "surface": "Zinc Plated or Hot-Dip Galvanized",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Non-cracked Concrete, Solid",
+            "type_of_fastening": "Pre-Fastening and Through-Fastening",
+            "reusability": "Not Reusable (mechanical expansion"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBEFSA10080",
+              "Size": "M6 x 80",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 70,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 15,
+              "Tensile Load (kN)": 13.3,
+              "Shear Load (kN)": 26
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBEFSA12100",
+              "Size": "M8 x 100",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 19.21,
+              "Shear Load (kN)": 38
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBEFSA16120",
+              "Size": "M10 x 120",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 95,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 70,
+              "Installation Torque (Nm)": 50,
+              "Tensile Load (kN)": 25,
+              "Shear Load (kN)": 51
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhsal m x",
+          "title": "Greenbolt HexLock Sleeve Anchor",
+          "subtitle": "GBHSAL M x",
+          "description": "Greenbolt HexLock Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc Plated (minimum 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Solid Concrete, Solid Brick,",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (deforms upon"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHSA08L M6 x 60 200",
+              "Size": "8",
+              "Pack Size (pcs)": 45,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 30,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 3.67,
+              "Installation Torque (Nm)": 4.82,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBHSA09L M6 x 60 200",
+              "Size": "9",
+              "Pack Size (pcs)": 45,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 30,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 3.67,
+              "Installation Torque (Nm)": 8.3,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBHSA10L M8 x 80 100",
+              "Size": "10",
+              "Pack Size (pcs)": 60,
+              "Drill Ø (mm)": 27,
+              "Drill Hole Depth (mm)": 40,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 6.67,
+              "Installation Torque (Nm)": 8.3,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBHSA11L M8 x 80 100",
+              "Size": "11",
+              "Pack Size (pcs)": 60,
+              "Drill Ø (mm)": 27,
+              "Drill Hole Depth (mm)": 40,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 6.67,
+              "Installation Torque (Nm)": 10.91,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBHSA12L M10 x 100 50",
+              "Size": "12",
+              "Pack Size (pcs)": 75,
+              "Drill Ø (mm)": 38,
+              "Drill Hole Depth (mm)": 48,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 9.09,
+              "Installation Torque (Nm)": 10.91,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBHSA14L M10 x 100 50",
+              "Size": "14",
+              "Pack Size (pcs)": 75,
+              "Drill Ø (mm)": 32,
+              "Drill Hole Depth (mm)": 48,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 9.09,
+              "Installation Torque (Nm)": 13.38,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBHSA16L M12 x 110 50",
+              "Size": "16",
+              "Pack Size (pcs)": 80,
+              "Drill Ø (mm)": 37,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 50,
+              "eff. Anchorage depth (mm)": 11.15,
+              "Installation Torque (Nm)": 37.68,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhsac m x",
+          "title": "Greenbolt HexLock Sleeve Anchor",
+          "subtitle": "GBHSAC M x",
+          "description": "Greenbolt HexLock Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc Plated (minimum 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Solid Concrete, Solid Brick,",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (deforms upon"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHSA25C M20 x 130 15",
+              "Size": "25",
+              "Pack Size (pcs)": 130,
+              "Drill Ø (mm)": 25,
+              "Drill Hole Depth (mm)": 80,
+              "Max. Fixture Thickness (mm)": 240,
+              "eff. Anchorage depth (mm)": 20.06,
+              "Installation Torque (Nm)": 46,
+              "Tensile Load (kN)": null,
+              "Shear Load (kN)": null
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbfsal",
+          "title": "Greenbolt Flush Sleeve Anchor",
+          "subtitle": "GBFSAL",
+          "description": "Greenbolt Flush Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Stainless Steel A2 (AISI 304)",
+            "surface": "Natural stainless finish",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Concrete, Solid Brick, Natural Stone",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (expansion causes"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBFSA08L",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 3.67,
+              "Shear Load (kN)": 5.3
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBFSA10L",
+              "Size": "M8 x 80",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 27,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": 8.3
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBFSA12L",
+              "Size": "M10 x 100",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 32,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 9,
+              "Shear Load (kN)": 10.9
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbnsa",
+          "title": "Greenbolt FlangeNut Sleeve Anchor",
+          "subtitle": "GBNSA",
+          "description": "Greenbolt FlangeNut Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBNSA.png",
+            "assets/Anchors/Drawing/GBNSA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Solid Concrete, Solid Brick,",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (deforms upon"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBNSA06070",
+              "Size": "M6 x 70",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 9,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 3.67,
+              "Shear Load (kN)": 2.98
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBNSA06090",
+              "Size": "M6 x 90",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 27,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": 5.27
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBNSA06110",
+              "Size": "M6 x 110",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 11,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 27,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": 5.27
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBNSA06130",
+              "Size": "M6 x 130",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 32,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 9.09,
+              "Shear Load (kN)": 8.35
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBNSA06150",
+              "Size": "M6 x 150",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 32,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 9.09,
+              "Shear Load (kN)": 8.35
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbdsal",
+          "title": "Greenbolt Dome Sleeve Anchor",
+          "subtitle": "GBDSAL",
+          "description": "Greenbolt Dome Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Concrete, Solid Brick, Natural Stone",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (expansion causes"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBDSA08L",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 3.67,
+              "Shear Load (kN)": 3.01
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBDSA10L",
+              "Size": "M8 x 80",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 27,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": 5.48
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbtsac",
+          "title": "Greenbolt Talon Sleeve Anchor",
+          "subtitle": "GBTSAC",
+          "description": "Greenbolt Talon Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Uncracked Concrete, Solid Brick,",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (due to sleeve"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBTSA09C",
+              "Size": "M6 x 45",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 9,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 1.5,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBTSA11C",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 11,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBTSA14C",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 14,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 53,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 3,
+              "Shear Load (kN)": null
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbosac",
+          "title": "Greenbolt OpenEye Sleeve Anchor",
+          "subtitle": "GBOSAC",
+          "description": "Greenbolt OpenEye Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Uncracked Concrete, Solid Masonry,",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (sleeve deforms"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBOSA09C",
+              "Size": "M6 x 45",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 9,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 1,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBOSA11C",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 11,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2,
+              "Shear Load (kN)": null
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBOSA14C",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 14,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 53,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 3,
+              "Shear Load (kN)": null
+            }
+          ]
+        },
+        {
+          "id": "anchor-gblsac",
+          "title": "Greenbolt LockEye Sleeve Anchor",
+          "subtitle": "GBLSAC",
+          "description": "Greenbolt LockEye Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel (High Tensile Grade)",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Uncracked Concrete, Dense Natural",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable (deformation occurs"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBLSA10C",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": null
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbsf",
+          "title": "GreenBolt ShieldFix",
+          "subtitle": "GBSF",
+          "description": "GreenBolt ShieldFix provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBSF.png",
+            "assets/Anchors/Drawing/GBSF.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel(Body & Expansion Shield)",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Solid Concrete, Dense Natural Stone,",
+            "type_of_fastening": "Pre-Fastening or Through-Fastening",
+            "reusability": "Not Reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBSF08",
+              "Size": "M8 x 50",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 14,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": null,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 1.34,
+              "Shear Load (kN)": 8.78
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBSF12",
+              "Size": "M12 x 80",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 90,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": null,
+              "Installation Torque (Nm)": 100,
+              "Tensile Load (kN)": 7.85,
+              "Shear Load (kN)": 20.23
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbsfpb",
+          "title": "GreenBolt ShieldFix with Projecting Bolt",
+          "subtitle": "GBSFPB",
+          "description": "GreenBolt ShieldFix with Projecting Bolt provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBSFPB.png",
+            "assets/Anchors/Drawing/GBSFPB.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel(Body & Expansion Shield)",
+            "surface": "Zinc-Plated (min. 5 µm)",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Solid Brick, Concrete, Natural Stone",
+            "type_of_fastening": "Pre-Fastening",
+            "reusability": "Not Reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBSFPB08",
+              "Size": "M8 x 50",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 14,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 8,
+              "eff. Anchorage depth (mm)": null,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 1.35,
+              "Shear Load (kN)": 6.16
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBSFPB12",
+              "Size": "M12 x 80",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 90,
+              "Max. Fixture Thickness (mm)": 18,
+              "eff. Anchorage depth (mm)": null,
+              "Installation Torque (Nm)": 100,
+              "Tensile Load (kN)": 7.85,
+              "Shear Load (kN)": 14.76
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhfga",
+          "title": "Greenbolt HitFix Drop-In Anchor",
+          "subtitle": "GBHFGA",
+          "description": "Greenbolt HitFix Drop-In Anchor provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBHFGA.png",
+            "assets/Anchors/Drawing/GBHFGA.png"
+          ],
+          "specifications": {
+            "material": "Carbon Steel",
+            "surface": "Galvanized finish",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Solid Concrete",
+            "type_of_fastening": "Mechanical expansion anchor",
+            "reusability": "Permanent; not reusable once set"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHFGA08",
+              "Size": "M8 x 30",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 33,
+              "Max. Fixture Thickness (mm)": 30,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 11,
+              "Tensile Load (kN)": 4.49,
+              "Shear Load (kN)": 5.39
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBHFGA12",
+              "Size": "M12 x 50",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 15,
+              "Drill Hole Depth (mm)": 54,
+              "Max. Fixture Thickness (mm)": 50,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 38,
+              "Tensile Load (kN)": 8.28,
+              "Shear Load (kN)": 11.6
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBHFGA16",
+              "Size": "M16 x 65",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 70,
+              "Max. Fixture Thickness (mm)": 65,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 16.76,
+              "Shear Load (kN)": 38
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhfma",
+          "title": "Greenbolt HitFix Drop-In Anchor - A4",
+          "subtitle": "GBHFMA",
+          "description": "Greenbolt HitFix Drop-In Anchor - A4 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBHFMA.png",
+            "assets/Anchors/Drawing/GBHFMA.png"
+          ],
+          "specifications": {
+            "material": "Stainless Steel A4 (AISI 316)",
+            "surface": "Natural – Stainless",
+            "drilling_method": "Hammer Drilling",
+            "base_material": "Non-Cracked Concrete",
+            "type_of_fastening": "Pre-Fastening (expansion via setting)",
+            "reusability": "Reusable (in some applications, based"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHFMA08",
+              "Size": "M8 x 30",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 33,
+              "Max. Fixture Thickness (mm)": 30,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 11,
+              "Tensile Load (kN)": 1.67,
+              "Shear Load (kN)": 5.39
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBHFMA12",
+              "Size": "M12 x 50",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 15,
+              "Drill Hole Depth (mm)": 54,
+              "Max. Fixture Thickness (mm)": 50,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 38,
+              "Tensile Load (kN)": 3.1,
+              "Shear Load (kN)": 11.6
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBHFMA20",
+              "Size": "M20 x 80",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 25,
+              "Drill Hole Depth (mm)": 86,
+              "Max. Fixture Thickness (mm)": 80,
+              "eff. Anchorage depth (mm)": 80,
+              "Installation Torque (Nm)": 100,
+              "Tensile Load (kN)": 7.84,
+              "Shear Load (kN)": 38
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhfha",
+          "title": "Greenbolt HitFix Drop-In Anchor - HDG",
+          "subtitle": "GBHFHA",
+          "description": "Greenbolt HitFix Drop-In Anchor - HDG provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBHFHA.png",
+            "assets/Anchors/Drawing/GBHFHA.png"
+          ],
+          "specifications": {
+            "material": "Carbon steel",
+            "surface": "Hot-dip galvanized (HDG) finish",
+            "drilling_method": "Pre-drilled hole in concrete",
+            "base_material": "Solid concrete",
+            "type_of_fastening": "Mechanical expansion anchor",
+            "reusability": "Permanent; not reusable once set"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHFHA10",
+              "Size": "M10 x 40",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 43,
+              "Max. Fixture Thickness (mm)": 40,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 17,
+              "Tensile Load (kN)": 5.93,
+              "Shear Load (kN)": 7.28
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBHFHA16",
+              "Size": "M16 x 65",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 70,
+              "Max. Fixture Thickness (mm)": 65,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 60,
+              "Tensile Load (kN)": 12.23,
+              "Shear Load (kN)": 26
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcfms",
+          "title": "GreenBolt CutFix Flange Concrete Screw - A4",
+          "subtitle": "GBCFMS",
+          "description": "GreenBolt CutFix Flange Concrete Screw - A4 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCFMS.png",
+            "assets/Anchors/Drawing/GBCFMS.png"
+          ],
+          "specifications": {
+            "material": "A4 Stainless Steel",
+            "surface": "Natural stainless steel finish",
+            "drilling_method": "Direct fixing into pre-drilled",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCFMS06060",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": 11.72
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCFMS08080",
+              "Size": "M8 x 80",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 9.81,
+              "Shear Load (kN)": 11.72
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCFMS08105",
+              "Size": "M8 x 105",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 40,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 9.81,
+              "Shear Load (kN)": 11.72
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBCFMS10090",
+              "Size": "M10 x 90",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 95,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 14.99,
+              "Shear Load (kN)": 27.87
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBCFMS10120",
+              "Size": "M10 x 120",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 95,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 14.99,
+              "Shear Load (kN)": 27.87
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBCFMS12110",
+              "Size": "M12 x 110",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 120,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 105,
+              "Installation Torque (Nm)": 50,
+              "Tensile Load (kN)": 25,
+              "Shear Load (kN)": 27.87
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbckms",
+          "title": "GreenBolt CutFix CSK Concrete Screw - A4",
+          "subtitle": "GBCKMS",
+          "description": "GreenBolt CutFix CSK Concrete Screw - A4 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCKMS.png",
+            "assets/Anchors/Drawing/GBCKMS.png"
+          ],
+          "specifications": {
+            "material": "A4 Stainless Steel",
+            "surface": "Natural stainless steel finish",
+            "drilling_method": "Direct fixing into pre-drilled",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCKMS08080",
+              "Size": "M8 x 80",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 9.81,
+              "Shear Load (kN)": 11.72
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCKMS10070",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 9.81,
+              "Shear Load (kN)": 16.04
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCKMS10120",
+              "Size": "M10 x 120",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 95,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 14.99,
+              "Shear Load (kN)": 19.25
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbctms",
+          "title": "GreenBolt CutFix Truss Concrete Screw - A4",
+          "subtitle": "GBCTMS",
+          "description": "GreenBolt CutFix Truss Concrete Screw - A4 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCTMS.png",
+            "assets/Anchors/Drawing/GBCTMS.png"
+          ],
+          "specifications": {
+            "material": "A4 Stainless Steel",
+            "surface": "Natural stainless steel finish",
+            "drilling_method": "Direct fixing into pre-drilled",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCTMS06050",
+              "Size": "M6 x 50",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 5.5
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcpms",
+          "title": "GreenBolt CutFix Pan Concrete Screw - A4",
+          "subtitle": "GBCPMS",
+          "description": "GreenBolt CutFix Pan Concrete Screw - A4 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCPMS.png",
+            "assets/Anchors/Drawing/GBCPMS.png"
+          ],
+          "specifications": {
+            "material": "A4 Stainless Steel",
+            "surface": "Natural stainless steel finish",
+            "drilling_method": "Direct fixing into pre-drilled",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCPMS06060",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 5.5
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCPMS06100",
+              "Size": "M6 x 100",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 45,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 12,
+              "Shear Load (kN)": 5.5
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCPMS08080",
+              "Size": "M8 x 80",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 17.67,
+              "Shear Load (kN)": 10
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcfs",
+          "title": "GreenBolt CutFix Flange Concrete Screw",
+          "subtitle": "GBCFS",
+          "description": "GreenBolt CutFix Flange Concrete Screw provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCFS.png",
+            "assets/Anchors/Drawing/GBCFS.png"
+          ],
+          "specifications": {
+            "material": "Zinc-plated steel",
+            "surface": "Zinc-plated finish",
+            "drilling_method": "Direct fixing into pre-drilled hole",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCFS05050",
+              "Size": "M6 x 70",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 5,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 8,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCFS05080",
+              "Size": "M6 x 90",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 5,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 8,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCFS06035",
+              "Size": "M6 x 110",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBCFS06045",
+              "Size": "M6 x 130",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBCFS06060",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBCFS06080",
+              "Size": "M6 x 80",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBCFS06120",
+              "Size": "M6 x 120",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 65,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBCFS08060",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBCFS08075",
+              "Size": "M8 x 75",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "10",
+              "Product Code": "GBCFS08090",
+              "Size": "M8 x 90",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 60,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "11",
+              "Product Code": "GBCFS08110",
+              "Size": "M8 x 110",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 45,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "12",
+              "Product Code": "GBCFS08140",
+              "Size": "M8 x 140",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 75,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "13",
+              "Product Code": "GBCFS10070",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcks",
+          "title": "GreenBolt CutFix CSK Concrete Screw",
+          "subtitle": "GBCKS",
+          "description": "GreenBolt CutFix CSK Concrete Screw provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCKS.png",
+            "assets/Anchors/Drawing/GBCKS.png"
+          ],
+          "specifications": {
+            "material": "Zinc-plated steel",
+            "surface": "Zinc-plated finish",
+            "drilling_method": "Direct fixing into pre-drilled hole",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCKS05060",
+              "Size": "M5 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 5,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 8,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCKS05100",
+              "Size": "M5 x 100",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 5,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 55,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 8,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCKS06050",
+              "Size": "M6 x 50",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBCKS06080",
+              "Size": "M6 x 80",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBCKS06120",
+              "Size": "M6 x 120",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 65,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBCKS08060",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBCKS08100",
+              "Size": "M8 x 100",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBCKS10100",
+              "Size": "M10 x 100",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 95,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 85,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcps",
+          "title": "GreenBolt CutFix Pan Concrete Screw",
+          "subtitle": "GBCPS",
+          "description": "GreenBolt CutFix Pan Concrete Screw provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCPS.png",
+            "assets/Anchors/Drawing/GBCPS.png"
+          ],
+          "specifications": {
+            "material": "Zinc-plated steel",
+            "surface": "Zinc-plated finish",
+            "drilling_method": "Direct fixing into pre-drilled hole",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCPS05060",
+              "Size": "M5 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 5,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 8,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCPS06050",
+              "Size": "M6 x 50",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCPS06080",
+              "Size": "M6 x 80",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBCPS08060",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbchs",
+          "title": "GreenBolt CutFix Hex Concrete Srew",
+          "subtitle": "GBCHS",
+          "description": "GreenBolt CutFix Hex Concrete Srew provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCHS.png",
+            "assets/Anchors/Drawing/GBCHS.png"
+          ],
+          "specifications": {
+            "material": "Zinc-plated steel",
+            "surface": "Zinc-plated finish",
+            "drilling_method": "Direct fixing into pre-drilled hole",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCHS05050",
+              "Size": "M5 x 50",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 5,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 8,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCHS05080",
+              "Size": "M5 x 80",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 5,
+              "Drill Hole Depth (mm)": 55,
+              "Max. Fixture Thickness (mm)": 35,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 8,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCHS06035",
+              "Size": "M6 x 35",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBCHS06045",
+              "Size": "M6 x 45",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "5",
+              "Product Code": "GBCHS06060",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "6",
+              "Product Code": "GBCHS06080",
+              "Size": "M6 x 80",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "7",
+              "Product Code": "GBCHS06120",
+              "Size": "M6 x 120",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 65,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "8",
+              "Product Code": "GBCHS08060",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "9",
+              "Product Code": "GBCHS08075",
+              "Size": "M8 x 75",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 10,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "10",
+              "Product Code": "GBCHS08090",
+              "Size": "M8 x 90",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 25,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "11",
+              "Product Code": "GBCHS08110",
+              "Size": "M8 x 110",
+              "Pack Size (pcs)": 400,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 45,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "12",
+              "Product Code": "GBCHS08140",
+              "Size": "M8 x 140",
+              "Pack Size (pcs)": 300,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 75,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "13",
+              "Product Code": "GBCHS10070",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 30,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcss",
+          "title": "GreenBolt CutFix Socket Concrete Screw",
+          "subtitle": "GBCSS",
+          "description": "GreenBolt CutFix Socket Concrete Screw provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCSS.png",
+            "assets/Anchors/Drawing/GBCSS.png"
+          ],
+          "specifications": {
+            "material": "Zinc-plated steel",
+            "surface": "Zinc-plated finish",
+            "drilling_method": "Direct fixing into pre-drilled hole",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCSS06035",
+              "Size": "M6 x 35",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCSS06055",
+              "Size": "M6 x 55",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcssw",
+          "title": "GreenBolt CutFix Socket Concrete Screw",
+          "subtitle": "GBCSSW",
+          "description": "GreenBolt CutFix Socket Concrete Screw provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Zinc-plated steel",
+            "surface": "Zinc-plated finish",
+            "drilling_method": "Direct fixing into pre-drilled hole",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCSS08050W",
+              "Size": "M8 x 50",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 50,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbcus",
+          "title": "GreenBolt CutFix Stud Concrete Screw",
+          "subtitle": "GBCUS",
+          "description": "GreenBolt CutFix Stud Concrete Screw provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBCUS.png",
+            "assets/Anchors/Drawing/GBCUS.png"
+          ],
+          "specifications": {
+            "material": "Zinc-coated steel",
+            "surface": "Zinc-plated finish",
+            "drilling_method": "Direct fixing into pre-drilled hole",
+            "base_material": "Cracked and non-cracked concrete",
+            "type_of_fastening": "Direct mechanical fixing",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBCUS06120",
+              "Size": "M6 x 120",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 6,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 51,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBCUS08130",
+              "Size": "M8 x 130",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 49,
+              "eff. Anchorage depth (mm)": 65,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBCUS10140",
+              "Size": "M10 x 140",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 85,
+              "Max. Fixture Thickness (mm)": 46,
+              "eff. Anchorage depth (mm)": 75,
+              "Installation Torque (Nm)": 3,
+              "Tensile Load (kN)": 2.99,
+              "Shear Load (kN)": 3.59
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhesal",
+          "title": "Greenbolt HexLock Sleeve Anchor (8.8)",
+          "subtitle": "GBHESAL",
+          "description": "Greenbolt HexLock Sleeve Anchor (8.8) provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Steel grade 8.8",
+            "surface": "Zinc-plated / corrosion-protected",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHESA8808L",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 200,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 3.67,
+              "Shear Load (kN)": 5.39
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBHESA8808L",
+              "Size": "M6 x 100",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 60,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 3.67,
+              "Shear Load (kN)": 5.39
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBHESA8810L",
+              "Size": "M8 x 80",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 27,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": 8.3
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhesam",
+          "title": "Greenbolt HexLock Sleeve Anchor (8.8)",
+          "subtitle": "GBHESAM",
+          "description": "Greenbolt HexLock Sleeve Anchor (8.8) provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Steel grade 8.8",
+            "surface": "Zinc-plated / corrosion-protected",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHESA8810M",
+              "Size": "M8 x 120",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 67,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 6.67,
+              "Shear Load (kN)": 8.3
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbhesac",
+          "title": "Greenbolt HexLock Sleeve Anchor (8.8)",
+          "subtitle": "GBHESAC",
+          "description": "Greenbolt HexLock Sleeve Anchor (8.8) provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Steel grade 8.8",
+            "surface": "Zinc-plated / corrosion-protected",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBHESA8812C",
+              "Size": "M10 x 70",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 9.09,
+              "Shear Load (kN)": 10.91
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBHESA8812C",
+              "Size": "M10 x 120",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 52,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 9.09,
+              "Shear Load (kN)": 10.91
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBHESA8816C",
+              "Size": "M12 x 80",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 16,
+              "Drill Hole Depth (mm)": 80,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 55,
+              "Installation Torque (Nm)": 50,
+              "Tensile Load (kN)": 11.15,
+              "Shear Load (kN)": 13.38
+            },
+            {
+              "Sr#": "4",
+              "Product Code": "GBHESA8820C",
+              "Size": "M16 x 110",
+              "Pack Size (pcs)": 25,
+              "Drill Ø (mm)": 20,
+              "Drill Hole Depth (mm)": 105,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 72,
+              "Installation Torque (Nm)": 140,
+              "Tensile Load (kN)": 20.04,
+              "Shear Load (kN)": 40.07
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbnesal",
+          "title": "Greenbolt FlangeNut Sleeve Anchor - 8.8",
+          "subtitle": "GBNESAL",
+          "description": "Greenbolt FlangeNut Sleeve Anchor - 8.8 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Steel grade 8.8",
+            "surface": "Zinc-plated / corrosion-protected",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBNESA8808L",
+              "Size": "M8 x 55",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 14,
+              "Drill Hole Depth (mm)": 65,
+              "Max. Fixture Thickness (mm)": 15,
+              "eff. Anchorage depth (mm)": 35,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 2.24,
+              "Shear Load (kN)": 6.79
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbfesa",
+          "title": "Greenbolt Flush Sleeve Anchor - 8.8",
+          "subtitle": "GBFESA",
+          "description": "Greenbolt Flush Sleeve Anchor - 8.8 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/Anchors/3d/GBFESA.png",
+            "assets/Anchors/Drawing/GBFESA.png"
+          ],
+          "specifications": {
+            "material": "Steel grade 8.8",
+            "surface": "Zinc-plated / corrosion-protected",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBFESA8810",
+              "Size": "M8 x 40",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 5,
+              "eff. Anchorage depth (mm)": 25,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 3.42,
+              "Shear Load (kN)": 4.1
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbpssal",
+          "title": "Greenbolt Prime Sleeve Anchor - A2",
+          "subtitle": "GBPSSAL",
+          "description": "Greenbolt Prime Sleeve Anchor - A2 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "Galvanized Steel",
+            "surface": "Zinc-coated / Galvanized finish",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBPSSA208L",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 5.39,
+              "Shear Load (kN)": 4.52
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBPSSA209L",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 9,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 5.39,
+              "Shear Load (kN)": 4.52
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbxssal",
+          "title": "Greenbolt Apex Sleeve Anchor - A2",
+          "subtitle": "GBXSSAL",
+          "description": "Greenbolt Apex Sleeve Anchor - A2 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "A2 Stainless Steel",
+            "surface": "Natural finish",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBXSSA08L",
+              "Size": "M6 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 8,
+              "Drill Hole Depth (mm)": 45,
+              "Max. Fixture Thickness (mm)": 20,
+              "eff. Anchorage depth (mm)": 30,
+              "Installation Torque (Nm)": 10,
+              "Tensile Load (kN)": 3.85,
+              "Shear Load (kN)": 3.23
+            },
+            {
+              "Sr#": "2",
+              "Product Code": "GBXSSA10L",
+              "Size": "M6 x 80",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": 27,
+              "eff. Anchorage depth (mm)": 40,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 3.77,
+              "Shear Load (kN)": 5.88
+            },
+            {
+              "Sr#": "3",
+              "Product Code": "GBXSSA12L",
+              "Size": "M10 x 100",
+              "Pack Size (pcs)": 50,
+              "Drill Ø (mm)": 12,
+              "Drill Hole Depth (mm)": 75,
+              "Max. Fixture Thickness (mm)": 32,
+              "eff. Anchorage depth (mm)": 48,
+              "Installation Torque (Nm)": 35,
+              "Tensile Load (kN)": 2.62,
+              "Shear Load (kN)": 7.79
+            }
+          ]
+        },
+        {
+          "id": "anchor-gbtssac",
+          "title": "Greenbolt Talon Sleeve Anchor - A2",
+          "subtitle": "GBTSSAC",
+          "description": "Greenbolt Talon Sleeve Anchor - A2 provides reliable anchoring solutions for concrete and masonry applications.",
+          "images": [
+            "assets/anchors/placeholder-technical.png",
+            "assets/anchors/placeholder-diagram.png"
+          ],
+          "specifications": {
+            "material": "A2 Stainless Steel",
+            "surface": "Natural finish",
+            "drilling_method": "Pre-drilled hole (torque-controlled)",
+            "base_material": "Solid materials(concrete, stone, brick)",
+            "type_of_fastening": "Mechanical expansion",
+            "reusability": "Removable and reusable"
+          },
+          "technicalData": {},
+          "technicalTable": [
+            {
+              "Sr#": "1",
+              "Product Code": "GBTSSA210C",
+              "Size": "M8 x 60",
+              "Pack Size (pcs)": 100,
+              "Drill Ø (mm)": 10,
+              "Drill Hole Depth (mm)": 60,
+              "Max. Fixture Thickness (mm)": null,
+              "eff. Anchorage depth (mm)": 45,
+              "Installation Torque (Nm)": 20,
+              "Tensile Load (kN)": 1.16,
+              "Shear Load (kN)": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

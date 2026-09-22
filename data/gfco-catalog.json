@@ -1,0 +1,115 @@
+{
+  "title": "Flat Connector (GFCO)",
+  "code_prefix": "GFCO",
+  "specification": [
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4",
+    "➤Material: S250GD/S235JR"
+  ],
+  "definition": "Flat cleats are versatile components used in strut channel systems to join or reinforce strut channels in flat, parallel, or flush configurations. They provide stability and support while maintaining a clean, low-profile design.",
+  "items": [
+    {
+      "code": "GFCOS001",
+      "image": "assets/img/gfcos001.png"
+    },
+    {
+      "code": "GFCOS002",
+      "image": "assets/img/gfcos002.png"
+    },
+    {
+      "code": "GFCOS003",
+      "image": "assets/img/gfcos003.png"
+    },
+    {
+      "code": "GFCOS004",
+      "image": "assets/img/gfcos004.png"
+    },
+    {
+      "code": "GFCOLO03",
+      "image": "assets/img/gfcolo03.png"
+    },
+    {
+      "code": "GFCOT004",
+      "image": "assets/img/gfcot004.png"
+    },
+    {
+      "code": "GFCOD004",
+      "image": "assets/img/gfcod004.png"
+    },
+    {
+      "code": "GFCOCr05",
+      "image": "assets/img/gfcocr05.png"
+    },
+    {
+      "code": "GFCOCo04",
+      "image": "assets/img/gfcoco04.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GFCOS001",
+      "Detail": "1-hole flat",
+      "Dimensions": "40x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOS002",
+      "Detail": "2-hole flat",
+      "Dimensions": "90x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOS003",
+      "Detail": "3-hole flat",
+      "Dimensions": "140x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOS004",
+      "Detail": "4-hole flat",
+      "Dimensions": "190x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOLO03",
+      "Detail": "3-hole L-shape",
+      "Dimensions": "90x90x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOT004",
+      "Detail": "4-hole T-shape",
+      "Dimensions": "140x90x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOD004",
+      "Detail": "4-hole D-shape",
+      "Dimensions": "140x90x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOCr05",
+      "Detail": "5-hole Cross",
+      "Dimensions": "140x140x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GFCOCo04",
+      "Detail": "4-hole Corner",
+      "Dimensions": "130x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

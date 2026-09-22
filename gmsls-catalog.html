@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Greenman Slot-Lok Screw GMSLS - Product Catalog</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        /* Hide content until fully loaded */
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+        body:not(.loaded) > *:not(.page-loader) {
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #fff;
+            color: #333;
+        }
+
+        .content {
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .product-header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            gap: 20px;
+        }
+
+        .product-header h2 {
+            color: #4CAF50;
+            font-size: 28px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-header h2::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .product-images {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .product-image {
+            flex: 1;
+            border: 2px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            background: #fafafa;
+            min-height: 210px;
+            height: 210px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .specification {
+            flex: 0 0 350px;
+            border-left: 4px solid #4CAF50;
+            padding-left: 20px;
+        }
+
+        .specification h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .specification h3::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .spec-item {
+            margin-bottom: 12px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .spec-item strong {
+            display: block;
+            color: #555;
+            margin-bottom: 3px;
+        }
+
+        .spec-list {
+            list-style: none;
+            padding-left: 15px;
+        }
+
+        .spec-list li::before {
+            content: '•';
+            color: #4CAF50;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+
+        .product-definition {
+            margin: 40px 0;
+        }
+
+        .product-definition h2 {
+            color: #4CAF50;
+            font-size: 24px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-definition h2::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .product-definition p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        .product-table {
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            background: white;
+        }
+
+        thead {
+            background: #2c2c2c;
+            color: white;
+        }
+
+        thead th {
+            padding: 12px 8px;
+            text-align: center;
+            font-weight: 600;
+            border-right: 1px solid #444;
+        }
+
+        thead th:last-child {
+            border-right: none;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background: #f0f7f4;
+        }
+
+        tbody td {
+            padding: 10px 8px;
+            text-align: center;
+            border-right: 1px solid #e0e0e0;
+        }
+
+        tbody td:first-child {
+            font-weight: 600;
+            color: #004d40;
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        tbody td:last-child {
+            border-right: none;
+        }
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            .content {
+                padding: 15px;
+            }
+
+            .product-header {
+                flex-direction: column;
+            }
+
+            .product-images {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .specification {
+                border-left: none;
+                border-top: 4px solid #4CAF50;
+                padding-left: 0;
+                padding-top: 20px;
+            }
+
+            .product-table {
+                overflow-x: auto;
+            }
+
+            table {
+                min-width: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <h2 class="loader-text">Loading...</h2>
+            <p class="loader-subtext">GREEN MAN</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div id="navbar-placeholder"></div>
+
+    <div class="content">
+        <div class="product-header">
+            <div style="flex: 1;">
+                <h2 id="productName">Greenman Slot-Lok Screw - GMSLS</h2>
+                
+                <div class="product-images">
+                    <div class="product-image">
+                        <img id="productImage1" src="assets/Fasteners and screws/3d models/GMSLS.png" alt="3D Model">
+                    </div>
+                    <div class="product-image">
+                        <img id="productImage2" src="assets/Fasteners and screws/dwg/GMSLS.png" alt="Technical Drawing">
+                    </div>
+                </div>
+            </div>
+
+            <div class="specification">
+                <h3>Specification</h3>
+                <div class="spec-item">
+                    <strong>Material</strong>
+                    <ul class="spec-list">
+                        <li>Steel</li>
+                    </ul>
+                </div>
+                <div class="spec-item">
+                    <strong>Finish</strong>
+                    <ul class="spec-list" id="finishList">
+                        <!-- Finish options will be loaded here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-definition">
+            <h2>Product Definition</h2>
+            <p id="productDefinition">
+                <!-- Product definition will be loaded here -->
+            </p>
+        </div>
+
+        <div class="product-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product Code</th>
+                        <th>Size</th>
+                        <th>Max. Rec. Loads (kN)</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                    <!-- Products will be loaded here via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // Load product data from JSON
+        fetch('data/fasteners-catalog.json')
+            .then(response => response.json())
+            .then(data => {
+                const productData = data.gmsls;
+                
+                // Set product definition
+                document.getElementById('productDefinition').textContent = productData.description;
+                
+                // Set finish options
+                const finishList = document.getElementById('finishList');
+                productData.specifications.finish.forEach(finish => {
+                    const li = document.createElement('li');
+                    li.textContent = finish;
+                    finishList.appendChild(li);
+                });
+                
+                // Populate product table
+                const tableBody = document.getElementById('productTableBody');
+                productData.products.forEach(product => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${product.productCode}</td>
+                        <td>${product.size}</td>
+                        <td>${product.maxRecLoads}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error loading product data:', error));
+
+        // Load navbar
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading navbar:', error));
+
+        // Load footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+
+        // Hide page loader
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.body.classList.add('loaded');
+            }, 100);
+        });
+    </script>
+</body>
+</html>

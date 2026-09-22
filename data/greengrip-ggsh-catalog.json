@@ -1,0 +1,1833 @@
+{
+  "GGSH": {
+    "productName": "GreenGrip Sprinkler Pipe Hanger GGSH",
+    "productRange": "PRODUCT RANGE",
+    "brand": "GREEN MAN",
+    "pageNumber": "PAGE 55",
+    "specification": {
+      "material": "S250GD/S235JR",
+      "surface": [
+        "electro-galvanized (8-12 microns)",
+        "➤Hot-dip galvanized (50-80 microns)",
+        "➤Epoxy coated"
+      ],
+      "materialConnection": "➤Stainless Steel A2/A4, Knurled nut"
+    },
+    "productDefinition": "The GreenGrip Sprinkler Pipe Hanger is a UL & FM-approved pipe support solution designed for fire protection piping systems. Made from high-strength galvanized steel, it provides secure suspension and load distribution for pipes in ceiling. Equipped with a top nut connection, the hanger allows for easy attachment to threaded rods, ensuring a stable and adjustable mounting solution.",
+    "products": [
+      {
+        "productCode": "GGSH0022",
+        "clampingRange": {
+          "DN": "15",
+          "mm": "21.3",
+          "inch": "1/2"
+        },
+        "dimensions": {
+          "WxT": "16x1.2",
+          "G": "M10",
+          "H1": "62",
+          "H2": "29",
+          "M": "100"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGSH0028",
+        "clampingRange": {
+          "DN": "20",
+          "mm": "26.9",
+          "inch": "3/4"
+        },
+        "dimensions": {
+          "WxT": "16x1.2",
+          "G": "M10",
+          "H1": "63",
+          "H2": "27",
+          "M": "100"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGSH0035",
+        "clampingRange": {
+          "DN": "25",
+          "mm": "33.7",
+          "inch": "1"
+        },
+        "dimensions": {
+          "WxT": "16x1.2",
+          "G": "M10",
+          "H1": "67",
+          "H2": "28",
+          "M": "100"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGSH0048",
+        "clampingRange": {
+          "DN": "40",
+          "mm": "48.3",
+          "inch": "1-1/2"
+        },
+        "dimensions": {
+          "WxT": "16x1.2",
+          "G": "M10",
+          "H1": "76",
+          "H2": "30",
+          "M": "100"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGSH0060",
+        "clampingRange": {
+          "DN": "50",
+          "mm": "60.3",
+          "inch": "2"
+        },
+        "dimensions": {
+          "WxT": "16x1.2",
+          "G": "M10",
+          "H1": "78",
+          "H2": "26",
+          "M": "100"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGSH0075",
+        "clampingRange": {
+          "DN": "65",
+          "mm": "76.1",
+          "inch": "2-1/2"
+        },
+        "dimensions": {
+          "WxT": "19x2.0",
+          "G": "M10",
+          "H1": "99",
+          "H2": "38",
+          "M": "50"
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSH0090",
+        "clampingRange": {
+          "DN": "80",
+          "mm": "88.9",
+          "inch": "3"
+        },
+        "dimensions": {
+          "WxT": "19x2.0",
+          "G": "M10",
+          "H1": "117",
+          "H2": "50",
+          "M": "50"
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSH0115",
+        "clampingRange": {
+          "DN": "100",
+          "mm": "114.3",
+          "inch": "4"
+        },
+        "dimensions": {
+          "WxT": "19x2.0",
+          "G": "M10",
+          "H1": "131",
+          "H2": "51",
+          "M": "25"
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSH0140",
+        "clampingRange": {
+          "DN": "125",
+          "mm": "139.7",
+          "inch": "5"
+        },
+        "dimensions": {
+          "WxT": "19x2.5",
+          "G": "M12",
+          "H1": "156",
+          "H2": "55",
+          "M": "25"
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGSH0160",
+        "clampingRange": {
+          "DN": "150",
+          "mm": "168.3",
+          "inch": "6"
+        },
+        "dimensions": {
+          "WxT": "19x2.5",
+          "G": "M12",
+          "H1": "196",
+          "H2": "84",
+          "M": "25"
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGSH0220",
+        "clampingRange": {
+          "DN": "200",
+          "mm": "219.1",
+          "inch": "8"
+        },
+        "dimensions": {
+          "WxT": "23x3.0",
+          "G": "M12",
+          "H1": "203",
+          "H2": "66",
+          "M": "25"
+        },
+        "packSize": "25"
+      }
+    ],
+    "website": "www.greenman-gbp.co.uk",
+    "images": {
+      "image1": "assets/img/ggsh-hanger.png",
+      "image2": "assets/clamp/DWG/GGSH.PNG",
+      "image3": "assets/clamp/clamps 3d models/GGSH.png",
+      "mainImage": "assets/CLAMPS/GGSH.png"
+    },
+    "loadingData": [
+      {
+        "size": "1/2\"-2\"",
+        "maxRecommendedLoad": "1800"
+      },
+      {
+        "size": "2-1/2\"-4\"",
+        "maxRecommendedLoad": "2700"
+      },
+      {
+        "size": "6\"",
+        "maxRecommendedLoad": "4500"
+      },
+      {
+        "size": "8\"",
+        "maxRecommendedLoad": "5600"
+      }
+    ]
+  },
+  "GGSN": {
+    "productName": "GreenGrip Sprinkler Hanger (Nut-Free)",
+    "productRange": "PRODUCT RANGE",
+    "brand": "GREEN MAN",
+    "pageNumber": "PAGE 56",
+    "specification": {
+      "material": "S250GD/S235JR",
+      "surface": [
+        "electro-galvanized (8-12 microns)",
+        "➤Hot-dip galvanized (50-80 microns)",
+        "➤Epoxy coated"
+      ],
+      "materialConnection": "➤Stainless Steel A2/A4"
+    },
+    "productDefinition": "The GreenGrip Sprinkler Hanger is a nut-free pipe support designed for fire piping systems. The pre-drilled holes enable easy attachment to ceiling structures or brackets. Made from corrosion-resistant galvanized steel, this hanger is ideal for cost-effective, efficient installations where a nut-free mounting system is preferred.",
+    "products": [
+      {
+        "productCode": "GGSN0022",
+        "clampingRange": {
+          "DN": "15",
+          "mm": "21.3",
+          "inch": "1/2"
+        },
+        "dimensions": {
+          "WxT": "22x1.2",
+          "ØL": "8.5",
+          "H1": "35",
+          "H2": "20",
+          "M": ""
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSN0028",
+        "clampingRange": {
+          "DN": "20",
+          "mm": "26.9",
+          "inch": "3/4"
+        },
+        "dimensions": {
+          "WxT": "22x1.2",
+          "ØL": "8.5",
+          "H1": "35",
+          "H2": "20",
+          "M": ""
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSN0035",
+        "clampingRange": {
+          "DN": "25",
+          "mm": "33.7",
+          "inch": "1"
+        },
+        "dimensions": {
+          "WxT": "22x1.2",
+          "ØL": "8.5",
+          "H1": "43",
+          "H2": "26",
+          "M": ""
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSN0040",
+        "clampingRange": {
+          "DN": "32",
+          "mm": "42.4",
+          "inch": "1-1/4"
+        },
+        "dimensions": {
+          "WxT": "22x1.2",
+          "ØL": "8.5",
+          "H1": "50",
+          "H2": "30",
+          "M": ""
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSN0048",
+        "clampingRange": {
+          "DN": "40",
+          "mm": "48.3",
+          "inch": "1-1/2"
+        },
+        "dimensions": {
+          "WxT": "22x1.2",
+          "ØL": "8.5",
+          "H1": "60",
+          "H2": "35",
+          "M": ""
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSN0060",
+        "clampingRange": {
+          "DN": "50",
+          "mm": "60.3",
+          "inch": "2"
+        },
+        "dimensions": {
+          "WxT": "22x1.2",
+          "ØL": "8.5",
+          "H1": "60",
+          "H2": "30",
+          "M": ""
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGSN0075",
+        "clampingRange": {
+          "DN": "65",
+          "mm": "76.1",
+          "inch": "2-1/2"
+        },
+        "dimensions": {
+          "WxT": "25x1.5",
+          "ØL": "10.5",
+          "H1": "60",
+          "H2": "33",
+          "M": ""
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGSN0090",
+        "clampingRange": {
+          "DN": "80",
+          "mm": "88.9",
+          "inch": "3"
+        },
+        "dimensions": {
+          "WxT": "25x1.5",
+          "ØL": "10.5",
+          "H1": "80",
+          "H2": "40",
+          "M": ""
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGSN0115",
+        "clampingRange": {
+          "DN": "100",
+          "mm": "114.3",
+          "inch": "4"
+        },
+        "dimensions": {
+          "WxT": "32x1.5",
+          "ØL": "10.5",
+          "H1": "85",
+          "H2": "56",
+          "M": ""
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGSN0140",
+        "clampingRange": {
+          "DN": "125",
+          "mm": "139.7",
+          "inch": "5"
+        },
+        "dimensions": {
+          "WxT": "19x2.5",
+          "ØL": "M12",
+          "H1": "156",
+          "H2": "55",
+          "M": ""
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGSN0160",
+        "clampingRange": {
+          "DN": "150",
+          "mm": "168.3",
+          "inch": "6"
+        },
+        "dimensions": {
+          "WxT": "32x2.0",
+          "ØL": "12.5",
+          "H1": "115",
+          "H2": "60",
+          "M": ""
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGSN0220",
+        "clampingRange": {
+          "DN": "200",
+          "mm": "219.1",
+          "inch": "8"
+        },
+        "dimensions": {
+          "WxT": "40x3.0",
+          "ØL": "17.0",
+          "H1": "145",
+          "H2": "90",
+          "M": ""
+        },
+        "packSize": "10"
+      }
+    ],
+    "website": "www.greenman-gbp.co.uk",
+    "images": {
+      "image1": "assets/img/ggsn-hanger.png",
+      "image2": "assets/clamp/DWG/GGSN.PNG",
+      "image3": "assets/clamp/clamps 3d models/GGSN.png",
+      "mainImage": "assets/CLAMPS/Nut-Free.png"
+    },
+    "loadingData": [
+      {
+        "size": "1/2\"-2\"",
+        "maxRecommendedLoad": "2000"
+      },
+      {
+        "size": "2-1/2\"-4\"",
+        "maxRecommendedLoad": "3500"
+      },
+      {
+        "size": "6\"",
+        "maxRecommendedLoad": "5000"
+      },
+      {
+        "size": "8\"",
+        "maxRecommendedLoad": "8500"
+      }
+    ]
+  },
+  "GGQC": {
+    "productName": "GreenGrip Swift Clamp GGQC",
+    "productRange": "PRODUCT RANGE",
+    "brand": "GREEN MAN",
+    "pageNumber": "PAGE 57",
+    "specification": {
+      "material": "Steel 1.0332 acc. to DIN EN 10111",
+      "zincPlating": "Electro Zinc Plated, 8-12 μm",
+      "soundAbsorption": "EPDM; chlorine-free; silicon-free",
+      "noiseReduction": "According to DIN24109",
+      "temperatureResistance": "-50°C to +110°C",
+      "epdmHardness": "48 +/- 5° Shore -A",
+      "fireBehaviour": "Class B2 according to DIN 4102"
+    },
+    "productDefinition": "........",
+    "products": [
+      {
+        "productCode": "GGQC0012",
+        "clampingRange": {
+          "DN": "12-14",
+          "mm": "1/4",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "56",
+          "H": "33",
+          "C": "20",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "150",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0018",
+        "clampingRange": {
+          "DN": "15-19",
+          "mm": "3/8",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "61",
+          "H": "37",
+          "C": "22",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "150",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0022",
+        "clampingRange": {
+          "DN": "20-23.4",
+          "mm": "1/2",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "65",
+          "H": "41",
+          "C": "24",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "100",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0028",
+        "clampingRange": {
+          "DN": "25-28",
+          "mm": "3/4",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "71",
+          "H": "46",
+          "C": "27",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "100",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0032",
+        "clampingRange": {
+          "DN": "32-35",
+          "mm": "1",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "78",
+          "H": "53",
+          "C": "30",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "100",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0040",
+        "clampingRange": {
+          "DN": "40-43",
+          "mm": "1-1/4",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "86",
+          "H": "62",
+          "C": "35",
+          "T": "13",
+          "S": "M5x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0048",
+        "clampingRange": {
+          "DN": "44-49",
+          "mm": "1-1/2",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "92",
+          "H": "68",
+          "C": "38",
+          "T": "13",
+          "S": "M5x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0054",
+        "clampingRange": {
+          "DN": "50-56",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "103",
+          "H": "87",
+          "C": "52",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0060",
+        "clampingRange": {
+          "DN": "57-61",
+          "mm": "2",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "108",
+          "H": "92",
+          "C": "54",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0075",
+        "clampingRange": {
+          "DN": "74-80",
+          "mm": "2-1/2",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "127",
+          "H": "111",
+          "C": "64",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0090",
+        "clampingRange": {
+          "DN": "83-90",
+          "mm": "3",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "138",
+          "H": "122",
+          "C": "69",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0100",
+        "clampingRange": {
+          "DN": "101-106",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "162",
+          "H": "140",
+          "C": "78",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0110",
+        "clampingRange": {
+          "DN": "108-114",
+          "mm": "4",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "170",
+          "H": "148",
+          "C": "82",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0125",
+        "clampingRange": {
+          "DN": "122-128",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "182",
+          "H": "159",
+          "C": "88",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0140",
+        "clampingRange": {
+          "DN": "140-144",
+          "mm": "5",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "201",
+          "H": "178",
+          "C": "97",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0160",
+        "clampingRange": {
+          "DN": "159-163",
+          "mm": "6",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "220",
+          "H": "197",
+          "C": "107",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "20",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0175",
+        "clampingRange": {
+          "DN": "174-179",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x2.5",
+          "W": "234",
+          "H": "379",
+          "C": "198",
+          "T": "13",
+          "S": "M6x30"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2800"
+      },
+      {
+        "productCode": "GGQC0200",
+        "clampingRange": {
+          "DN": "193-200",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x3.0",
+          "W": "257",
+          "H": "236",
+          "C": "127",
+          "T": "17",
+          "S": "M8x30"
+        },
+        "packSize": "10",
+        "maxRecLoad": "2800"
+      },
+      {
+        "productCode": "GGQC0210",
+        "clampingRange": {
+          "DN": "210-212",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x3.0",
+          "W": "269",
+          "H": "248",
+          "C": "133",
+          "T": "17",
+          "S": "M8x30"
+        },
+        "packSize": "10",
+        "maxRecLoad": "2800"
+      },
+      {
+        "productCode": "GGQC0220",
+        "clampingRange": {
+          "DN": "216-220",
+          "mm": "8",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x3.0",
+          "W": "277",
+          "H": "256",
+          "C": "137",
+          "T": "17",
+          "S": "M8x30"
+        },
+        "packSize": "10",
+        "maxRecLoad": "2800"
+      }
+    ],
+    "website": "www.greenman-gbp.co.uk",
+    "images": {
+      "image1": "assets/img/ggqc-clamp.png",
+      "image2": "assets/clamp/DWG/GGQC.PNG",
+      "image3": "assets/img/ggqc-installation.png",
+      "mainImage": "assets/CLAMPS/GreenGrip Swift Clamp GGQC.png"
+    },
+    "loadingData": [
+      {
+        "size": "1/2\"-2\"",
+        "maxRecommendedLoad": "2000"
+      },
+      {
+        "size": "2-1/2\"-4\"",
+        "maxRecommendedLoad": "3500"
+      },
+      {
+        "size": "6\"",
+        "maxRecommendedLoad": "5000"
+      },
+      {
+        "size": "8\"",
+        "maxRecommendedLoad": "8500"
+      }
+    ]
+  },
+  "GGQC_NO_LINING": {
+    "productName": "GreenGrip Swift Clamp - without lining GGQC",
+    "productRange": "PRODUCT RANGE",
+    "brand": "GREEN MAN",
+    "pageNumber": "PAGE 58",
+    "specification": {
+      "material": "Steel 1.0332 acc. to DIN EN 10111",
+      "zincPlating": "Electro Zinc Plated, 8-12 μm",
+      "soundAbsorption": "EPDM; chlorine-free; silicon-free",
+      "noiseReduction": "According to DIN24109",
+      "temperatureResistance": "-50°C to +110°C",
+      "epdmHardness": "48 +/- 5° Shore -A",
+      "fireBehaviour": "Class B2 according to DIN 4102"
+    },
+    "productDefinition": "........",
+    "products": [
+      {
+        "productCode": "GGQC0012",
+        "clampingRange": {
+          "DN": "12-14",
+          "mm": "1/4",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "56",
+          "H": "33",
+          "C": "20",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "150",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0018",
+        "clampingRange": {
+          "DN": "15-19",
+          "mm": "3/8",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "61",
+          "H": "37",
+          "C": "22",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "150",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0022",
+        "clampingRange": {
+          "DN": "20-23.4",
+          "mm": "1/2",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "65",
+          "H": "41",
+          "C": "24",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "100",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0028",
+        "clampingRange": {
+          "DN": "25-28",
+          "mm": "3/4",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "71",
+          "H": "46",
+          "C": "27",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "100",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0032",
+        "clampingRange": {
+          "DN": "32-35",
+          "mm": "1",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "78",
+          "H": "53",
+          "C": "30",
+          "T": "13",
+          "S": "M5x16"
+        },
+        "packSize": "100",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0040",
+        "clampingRange": {
+          "DN": "40-43",
+          "mm": "1-1/4",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "86",
+          "H": "62",
+          "C": "35",
+          "T": "13",
+          "S": "M5x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0048",
+        "clampingRange": {
+          "DN": "44-49",
+          "mm": "1-1/2",
+          "inch": "M8"
+        },
+        "dimensions": {
+          "PxS": "20x1.2",
+          "W": "92",
+          "H": "68",
+          "C": "38",
+          "T": "13",
+          "S": "M5x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1000"
+      },
+      {
+        "productCode": "GGQC0054",
+        "clampingRange": {
+          "DN": "50-56",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "103",
+          "H": "87",
+          "C": "52",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0060",
+        "clampingRange": {
+          "DN": "57-61",
+          "mm": "2",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "108",
+          "H": "92",
+          "C": "54",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0075",
+        "clampingRange": {
+          "DN": "74-80",
+          "mm": "2-1/2",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "127",
+          "H": "111",
+          "C": "64",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0090",
+        "clampingRange": {
+          "DN": "83-90",
+          "mm": "3",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x1.5",
+          "W": "138",
+          "H": "122",
+          "C": "69",
+          "T": "13",
+          "S": "M6x20"
+        },
+        "packSize": "50",
+        "maxRecLoad": "1200"
+      },
+      {
+        "productCode": "GGQC0100",
+        "clampingRange": {
+          "DN": "101-106",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "162",
+          "H": "140",
+          "C": "78",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0110",
+        "clampingRange": {
+          "DN": "108-114",
+          "mm": "4",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "170",
+          "H": "148",
+          "C": "82",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0125",
+        "clampingRange": {
+          "DN": "122-128",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "182",
+          "H": "159",
+          "C": "88",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0140",
+        "clampingRange": {
+          "DN": "140-144",
+          "mm": "5",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "201",
+          "H": "178",
+          "C": "97",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0160",
+        "clampingRange": {
+          "DN": "159-163",
+          "mm": "6",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x2.0",
+          "W": "220",
+          "H": "197",
+          "C": "107",
+          "T": "13",
+          "S": "M8x25"
+        },
+        "packSize": "20",
+        "maxRecLoad": "2100"
+      },
+      {
+        "productCode": "GGQC0175",
+        "clampingRange": {
+          "DN": "174-179",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "20x2.5",
+          "W": "234",
+          "H": "379",
+          "C": "198",
+          "T": "13",
+          "S": "M6x30"
+        },
+        "packSize": "25",
+        "maxRecLoad": "2800"
+      },
+      {
+        "productCode": "GGQC0200",
+        "clampingRange": {
+          "DN": "193-200",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x3.0",
+          "W": "257",
+          "H": "236",
+          "C": "127",
+          "T": "17",
+          "S": "M8x30"
+        },
+        "packSize": "10",
+        "maxRecLoad": "2800"
+      },
+      {
+        "productCode": "GGQC0210",
+        "clampingRange": {
+          "DN": "210-212",
+          "mm": "",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x3.0",
+          "W": "269",
+          "H": "248",
+          "C": "133",
+          "T": "17",
+          "S": "M8x30"
+        },
+        "packSize": "10",
+        "maxRecLoad": "2800"
+      },
+      {
+        "productCode": "GGQC0220",
+        "clampingRange": {
+          "DN": "216-220",
+          "mm": "8",
+          "inch": "M8/M10"
+        },
+        "dimensions": {
+          "PxS": "25x3.0",
+          "W": "277",
+          "H": "256",
+          "C": "137",
+          "T": "17",
+          "S": "M8x30"
+        },
+        "packSize": "10",
+        "maxRecLoad": "2800"
+      }
+    ],
+    "website": "www.greenman-gbp.co.uk",
+    "images": {
+      "image1": "assets/img/ggqc-no-lining-clamp.png",
+      "image2": "assets/clamp/DWG/GGQC.PNG",
+      "image3": "assets/img/ggqc-no-lining-installation.png",
+      "mainImage": "assets/CLAMPS/GreenGrip Swift Clamp - without linning GGQC.png"
+    },
+    "loadingData": [
+      {
+        "size": "1/2\"-2\"",
+        "maxRecommendedLoad": "2000"
+      },
+      {
+        "size": "2-1/2\"-4\"",
+        "maxRecommendedLoad": "3500"
+      },
+      {
+        "size": "6\"",
+        "maxRecommendedLoad": "5000"
+      },
+      {
+        "size": "8\"",
+        "maxRecommendedLoad": "8500"
+      }
+    ]
+  },
+  "GGCH": {
+    "productName": "GreenGrip Clevis Hanger",
+    "productRange": "PRODUCT RANGE",
+    "brand": "GREEN MAN",
+    "pageNumber": "",
+    "specification": {
+      "material": "Steel 10333 acc to DIN EN 10111",
+      "zincPlating": "Electro-galvanized as per DIN EN 10327"
+    },
+    "productDefinition": "The GreenGrip Clevis Hanger is an FM & UL-approved pipe support designed for fire sprinkler and mechanical piping systems. Featuring a clevis-style design with a cross bolt, it provides secure suspension, easy installation, and enhanced load distribution.",
+    "products": [
+      {
+        "productCode": "GGCH015",
+        "clampingRange": {
+          "DN": "15",
+          "mm": "21.3",
+          "inch": "1/2"
+        },
+        "dimensions": {
+          "WxT": "19x2.5",
+          "ØL": "11.0",
+          "H1": "43",
+          "H2": "32"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGCH020",
+        "clampingRange": {
+          "DN": "20",
+          "mm": "26.9",
+          "inch": "3/4"
+        },
+        "dimensions": {
+          "WxT": "19x2.5",
+          "ØL": "11.0",
+          "H1": "49",
+          "H2": "35"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGCH025",
+        "clampingRange": {
+          "DN": "25",
+          "mm": "33.7",
+          "inch": "1"
+        },
+        "dimensions": {
+          "WxT": "19x2.5",
+          "ØL": "11.0",
+          "H1": "53",
+          "H2": "35"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGCH032",
+        "clampingRange": {
+          "DN": "32",
+          "mm": "42.4",
+          "inch": "1-1/4"
+        },
+        "dimensions": {
+          "WxT": "25x2.5",
+          "ØL": "11.0",
+          "H1": "61",
+          "H2": "39"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGCH040",
+        "clampingRange": {
+          "DN": "40",
+          "mm": "48.3",
+          "inch": "1-1/2"
+        },
+        "dimensions": {
+          "WxT": "25x2.5",
+          "ØL": "11.0",
+          "H1": "67",
+          "H2": "43"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGCH050",
+        "clampingRange": {
+          "DN": "50",
+          "mm": "60.3",
+          "inch": "2"
+        },
+        "dimensions": {
+          "WxT": "25x3.0",
+          "ØL": "11.0",
+          "H1": "78",
+          "H2": "48"
+        },
+        "packSize": "100"
+      },
+      {
+        "productCode": "GGCH065",
+        "clampingRange": {
+          "DN": "65",
+          "mm": "76.1",
+          "inch": "2-1/2"
+        },
+        "dimensions": {
+          "WxT": "30x3.5",
+          "ØL": "13.0",
+          "H1": "99",
+          "H2": "60"
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGCH080",
+        "clampingRange": {
+          "DN": "80",
+          "mm": "88.9",
+          "inch": "3"
+        },
+        "dimensions": {
+          "WxT": "30x3.5",
+          "ØL": "13.0",
+          "H1": "112",
+          "H2": "67"
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGCH9A",
+        "clampingRange": {
+          "DN": "94",
+          "mm": "101.6",
+          "inch": "3-1/2"
+        },
+        "dimensions": {
+          "WxT": "30x3.5",
+          "ØL": "13.0",
+          "H1": "141",
+          "H2": "88"
+        },
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGCH100",
+        "clampingRange": {
+          "DN": "100",
+          "mm": "114.3",
+          "inch": "4"
+        },
+        "dimensions": {
+          "WxT": "30x5.0",
+          "ØL": "17.0",
+          "H1": "139",
+          "H2": "82"
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGCH125",
+        "clampingRange": {
+          "DN": "125",
+          "mm": "139.7",
+          "inch": "5"
+        },
+        "dimensions": {
+          "WxT": "30x6.0",
+          "ØL": "17.0",
+          "H1": "167",
+          "H2": "96"
+        },
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGCH150",
+        "clampingRange": {
+          "DN": "150",
+          "mm": "168.3",
+          "inch": "6"
+        },
+        "dimensions": {
+          "WxT": "38x8.0",
+          "ØL": "21.0",
+          "H1": "204",
+          "H2": "116"
+        },
+        "packSize": "10"
+      },
+      {
+        "productCode": "GGCH200",
+        "clampingRange": {
+          "DN": "200",
+          "mm": "219.1",
+          "inch": "8"
+        },
+        "dimensions": {
+          "WxT": "38x9.0",
+          "ØL": "21.0",
+          "H1": "247",
+          "H2": "136"
+        },
+        "packSize": "10"
+      },
+      {
+        "productCode": "GGCH250",
+        "clampingRange": {
+          "DN": "250",
+          "mm": "273.0",
+          "inch": "10"
+        },
+        "dimensions": {
+          "WxT": "50x9.0",
+          "ØL": "21.0",
+          "H1": "306",
+          "H2": "167"
+        },
+        "packSize": "5"
+      },
+      {
+        "productCode": "GGCH300",
+        "clampingRange": {
+          "DN": "300",
+          "mm": "323.9",
+          "inch": "12"
+        },
+        "dimensions": {
+          "WxT": "50x9.0",
+          "ØL": "21.0",
+          "H1": "331",
+          "H2": "148"
+        },
+        "packSize": "5"
+      },
+      {
+        "productCode": "GGCH350",
+        "clampingRange": {
+          "DN": "350",
+          "mm": "355.6",
+          "inch": "14"
+        },
+        "dimensions": {
+          "WxT": "50x9.0",
+          "ØL": "21.0",
+          "H1": "365",
+          "H2": "159"
+        },
+        "packSize": "5"
+      },
+      {
+        "productCode": "GGCH400",
+        "clampingRange": {
+          "DN": "400",
+          "mm": "406.4",
+          "inch": "16"
+        },
+        "dimensions": {
+          "WxT": "50x9.0",
+          "ØL": "21.0",
+          "H1": "419",
+          "H2": "171"
+        },
+        "packSize": "5"
+      },
+      {
+        "productCode": "GGCH450",
+        "clampingRange": {
+          "DN": "450",
+          "mm": "457.2",
+          "inch": "18"
+        },
+        "dimensions": {
+          "WxT": "50x9.0",
+          "ØL": "21.0",
+          "H1": "458",
+          "H2": "188"
+        },
+        "packSize": "5"
+      },
+      {
+        "productCode": "GGCH500",
+        "clampingRange": {
+          "DN": "500",
+          "mm": "508.0",
+          "inch": "20"
+        },
+        "dimensions": {
+          "WxT": "50x9.0",
+          "ØL": "21.0",
+          "H1": "505",
+          "H2": "198"
+        },
+        "packSize": "5"
+      },
+      {
+        "productCode": "GGCH600",
+        "clampingRange": {
+          "DN": "600",
+          "mm": "609.6",
+          "inch": "24"
+        },
+        "dimensions": {
+          "WxT": "50x9.0",
+          "ØL": "21.0",
+          "H1": "592",
+          "H2": "230"
+        },
+        "packSize": "5"
+      }
+    ],
+    "website": "www.greenman-gbp.co.uk",
+    "images": {
+      "image1": "assets/img/ggch-hanger.png",
+      "image2": "assets/clamp/DWG/GGCH.PNG",
+      "image3": "assets/clamp/clamps 3d models/GGCH.jpg",
+      "mainImage": "assets/CLAMPS/GreenGrip Clevis Hanger.png"
+    },
+    "loadingData": [
+      {
+        "size": "1/2\"-2\"",
+        "maxRecommendedLoad": "2000"
+      },
+      {
+        "size": "2-1/2\"-4\"",
+        "maxRecommendedLoad": "3500"
+      },
+      {
+        "size": "6\"",
+        "maxRecommendedLoad": "5000"
+      },
+      {
+        "size": "8\"",
+        "maxRecommendedLoad": "8500"
+      }
+    ]
+  },
+  "GGRR": {
+    "productName": "GreenGrip RiserRest Clamp GGRR",
+    "productRange": "PRODUCT RANGE",
+    "brand": "GREEN MAN",
+    "pageNumber": "PAGE 59",
+    "specification": {
+      "material": "Steel LY2S2 acc. To GIN EN 10111",
+      "zincPlating": "Electro zinc-plated, 8-12 μm"
+    },
+    "productDefinition": "The GreenGrip RiserRest Clamp is designed to support vertical pipes in multi-story buildings by transferring the pipe's weight to the floor slab or structural support. Installed around the pipe, it grips securely while its extended flanges rest on the slab, preventing downward movement and taking stress off pipe joints. This clamp is essential for riser piping in multi-story construction, plumbing, and industrial piping systems, ensuring stable load distribution and protecting the pipe network from excessive strain.",
+    "products": [
+      {
+        "productCode": "GGRR0021",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "21",
+          "inch": "1/2"
+        },
+        "dimensions": {
+          "PxS": "25x4.0",
+          "W": "236",
+          "H": "36"
+        },
+        "S": "M12x40",
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGRR0027",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "27",
+          "inch": "3/4"
+        },
+        "dimensions": {
+          "PxS": "25x4.0",
+          "W": "242",
+          "H": "42"
+        },
+        "S": "M12x40",
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGRR0034",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "34",
+          "inch": "1"
+        },
+        "dimensions": {
+          "PxS": "25x4.0",
+          "W": "248",
+          "H": "48"
+        },
+        "S": "M12x40",
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGRR0043",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "43",
+          "inch": "1-1/4"
+        },
+        "dimensions": {
+          "PxS": "25x4.0",
+          "W": "255",
+          "H": "55"
+        },
+        "S": "M12x40",
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGRR0048",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "48",
+          "inch": "1-1/2"
+        },
+        "dimensions": {
+          "PxS": "25x4.0",
+          "W": "261",
+          "H": "61"
+        },
+        "S": "M12x40",
+        "packSize": "50"
+      },
+      {
+        "productCode": "GGRR0060",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "60",
+          "inch": "2"
+        },
+        "dimensions": {
+          "PxS": "30x5.0",
+          "W": "274",
+          "H": "74"
+        },
+        "S": "M12x40",
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGRR0076",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "76",
+          "inch": "2-1/2"
+        },
+        "dimensions": {
+          "PxS": "30x5.0",
+          "W": "287",
+          "H": "87"
+        },
+        "S": "M12x40",
+        "packSize": "25"
+      },
+      {
+        "productCode": "GGRR0089",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "89",
+          "inch": "3"
+        },
+        "dimensions": {
+          "PxS": "30x5.0",
+          "W": "299",
+          "H": "99"
+        },
+        "S": "M12x50",
+        "packSize": "20"
+      },
+      {
+        "productCode": "GGRR0114",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "114",
+          "inch": "4"
+        },
+        "dimensions": {
+          "PxS": "38x6.5",
+          "W": "331",
+          "H": "126"
+        },
+        "S": "M12x50",
+        "packSize": "20"
+      },
+      {
+        "productCode": "GGRR0140",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "140",
+          "inch": "5"
+        },
+        "dimensions": {
+          "PxS": "38x6.5",
+          "W": "356",
+          "H": "151"
+        },
+        "S": "M12x50",
+        "packSize": "10"
+      },
+      {
+        "productCode": "GGRR0165",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "165",
+          "inch": "6"
+        },
+        "dimensions": {
+          "PxS": "51x6.5",
+          "W": "406",
+          "H": "181"
+        },
+        "S": "M12x50",
+        "packSize": "10"
+      },
+      {
+        "productCode": "GGRR0219",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "219",
+          "inch": "8"
+        },
+        "dimensions": {
+          "PxS": "51x9.5",
+          "W": "464",
+          "H": "239"
+        },
+        "S": "M16x60",
+        "packSize": "5"
+      },
+      {
+        "productCode": "GGRR0273",
+        "clampingRange": {
+          "DN": "-",
+          "mm": "273",
+          "inch": "10"
+        },
+        "dimensions": {
+          "PxS": "51x9.5",
+          "W": "517",
+          "H": "292"
+        },
+        "S": "M16x60",
+        "packSize": "5"
+      }
+    ],
+    "website": "www.greenman-gbp.co.uk",
+    "images": {
+      "image1": "assets/img/ggrr-clamp.png",
+      "image2": "assets/clamp/DWG/GGRR.PNG",
+      "image3": "assets/clamp/clamps 3d models/GGRR.png",
+      "mainImage": "assets/CLAMPS/GreenGrip RiserRest Clamp GGRR.png"
+    },
+    "loadingData": [
+      {
+        "size": "1/2\"-2\"",
+        "maxRecommendedLoad": "2000"
+      },
+      {
+        "size": "2-1/2\"-4\"",
+        "maxRecommendedLoad": "3500"
+      },
+      {
+        "size": "6\"",
+        "maxRecommendedLoad": "5000"
+      },
+      {
+        "size": "8\"",
+        "maxRecommendedLoad": "8500"
+      }
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>C Channel Profiles - Product List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background: #f5f7f5;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .catalog-page {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 34px 18px 60px;
+    }
+
+    .catalog-title {
+      color: #0d3d12;
+      font-size: 34px;
+      margin: 0 0 12px;
+    }
+
+    .catalog-badge {
+      display: inline-block;
+      background: #52B455;
+      color: #fff;
+      padding: 9px 18px;
+      border-radius: 22px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    .catalog-description {
+      background: #fff;
+      padding: 20px 24px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(27, 94, 32, 0.08);
+      line-height: 1.7;
+      color: #334155;
+      margin-bottom: 26px;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+      gap: 18px;
+    }
+
+    .product-card {
+      background: #fff;
+      border-left: 5px solid #0d3d12;
+      border-radius: 12px;
+      padding: 18px;
+      box-shadow: 0 3px 12px rgba(27, 94, 32, 0.12);
+      display: grid;
+      grid-template-columns: 1fr 110px;
+      gap: 14px;
+      align-items: center;
+      min-height: 168px;
+    }
+
+    .product-card h2 {
+      color: #0d3d12;
+      font-size: 20px;
+      margin: 0 0 8px;
+      line-height: 1.25;
+    }
+
+    .product-code {
+      color: #64748b;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+
+    .product-meta {
+      color: #334155;
+      font-size: 13px;
+      margin: 0 0 6px;
+    }
+
+    .view-details {
+      display: inline-flex;
+      background: #52B455;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 800;
+      margin-top: 8px;
+    }
+
+    .product-image {
+      height: 110px;
+      background: #f8faf8;
+      border: 1px solid #e5efe7;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .product-image img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .empty-state {
+      background: #fff;
+      border-radius: 12px;
+      padding: 34px;
+      color: #b42318;
+      text-align: center;
+      box-shadow: 0 3px 12px rgba(27, 94, 32, 0.08);
+    }
+
+    @media (max-width: 680px) {
+      .product-card {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+
+  <main class="catalog-page">
+    <div id="categoryDisplay">
+      <div class="empty-state">Loading C Channel products...</div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script>
+    const PLACEHOLDER_IMAGE = 'assets/img/placeholder.png';
+
+    function slugifyProduct(text) {
+      return String(text || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '') || 'product';
+    }
+
+    function normaliseCChannelProduct(product) {
+      const code = product.productCode || product.properties?.identification || product.id || product.title || product.fullName || 'c-channel';
+      const id = product.id || `c-profile-${slugifyProduct(code)}`;
+      const title = product.title || product.fullName || product.productName || code;
+      const images = Array.isArray(product.images) && product.images.length
+        ? product.images
+        : [product.image, product.technicalDrawing, 'assets/GMC-Channels/centroid xy axis.png'].filter(Boolean);
+      return {
+        ...product,
+        id,
+        title,
+        productCode: product.productCode || code,
+        description: product.description || '',
+        images: images.length ? images : [PLACEHOLDER_IMAGE],
+        properties: product.properties || { identification: code }
+      };
+    }
+
+    function renderProducts(catalog) {
+      const category = catalog.category || {};
+      const products = (category.products || []).map(normaliseCChannelProduct);
+      const container = document.getElementById('categoryDisplay');
+
+      if (!products.length) {
+        container.innerHTML = '<div class="empty-state">No C Channel products found.</div>';
+        return;
+      }
+
+      container.innerHTML = `
+        <h1 class="catalog-title">${category.name || 'C Channel Profiles'}</h1>
+        <span class="catalog-badge">${category.badge || 'C Channels - GMC Series'}</span>
+        <p class="catalog-description">${category.description || ''}</p>
+        <div class="products-grid">
+          ${products.map(product => {
+            const code = product.productCode || product.properties?.identification || product.id;
+            const size = product.properties?.size || product.properties?.Size || '';
+            const weight = product.properties?.weight_kg_m || product.properties?.Weight || '';
+            const image = product.images[0] || PLACEHOLDER_IMAGE;
+            return `
+              <article class="product-card">
+                <div>
+                  <h2>${product.title}</h2>
+                  <p class="product-code">${code}</p>
+                  ${size ? `<p class="product-meta">Size: ${size}</p>` : ''}
+                  ${weight ? `<p class="product-meta">Weight: ${weight} kg/m</p>` : ''}
+                  <a class="view-details" href="c-channel-template.html?id=${product.id}">View Details</a>
+                </div>
+                <div class="product-image">
+                  <img src="${image}" alt="${product.title}" onerror="this.src='${PLACEHOLDER_IMAGE}'">
+                </div>
+              </article>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    async function initProducts() {
+      try {
+        const response = await fetch(`data/c-channel-catalog.json?v=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error('Failed to load C Channel catalogue');
+        const catalog = await response.json();
+        renderProducts(catalog);
+      } catch (error) {
+        console.error('Error loading products:', error);
+        document.getElementById('categoryDisplay').innerHTML =
+          '<div class="empty-state">Error loading products. Please refresh the page.</div>';
+      }
+    }
+
+    Promise.all([
+      fetch('navbar.html').then(response => response.text()),
+      fetch('footer.html').then(response => response.text())
+    ]).then(([navbarData, footerData]) => {
+      document.getElementById('navbar-placeholder').innerHTML = navbarData;
+      document.getElementById('footer-placeholder').innerHTML = footerData;
+      const navScript = document.createElement('script');
+      navScript.src = 'navbar.js';
+      navScript.defer = true;
+      document.body.appendChild(navScript);
+    }).catch(error => console.error('Error loading components:', error));
+
+    initProducts();
+  </script>
+</body>
+</html>

@@ -1,0 +1,3048 @@
+{
+  "category": {
+    "id": "strut-channels",
+    "name": "GM41 Strut Channel Profiles",
+    "badge": "Strut Channels - GM41 Series",
+    "description": "GM41 Strut Channels are engineered steel structural profiles designed for heavy-duty mounting and support applications in industrial, commercial, and infrastructure projects.",
+    "products": [
+      {
+        "id": "strut-profile-gm412115",
+        "title": "Strut Profile GM412115",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM412115.png",
+          "assets/GM-STRUT/CROSS SECTION/GM412115.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM412115",
+          "size": "41x21x1.5",
+          "length_mtr": "00",
+          "weight_kg_m": 1.19,
+          "area_mm2": 142,
+          "cd_mm": 8.06,
+          "iz_mm4": 35895,
+          "iy_mm4": 9456,
+          "wy_mm3": 1738,
+          "wz_mm3": 742
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 4650,
+              "case2_N": 3487,
+              "case3_N": 2325,
+              "case4_N": 1937,
+              "case5_N": 9300
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 2325,
+              "case2_N": 1744,
+              "case3_N": 1162,
+              "case4_N": 969,
+              "case5_N": 4650
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 1550,
+              "case2_N": 1162,
+              "case3_N": 775,
+              "case4_N": 646,
+              "case5_N": 3100
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 1162,
+              "case2_N": 872,
+              "case3_N": 581,
+              "case4_N": 484,
+              "case5_N": 2325
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 930,
+              "case2_N": 697,
+              "case3_N": 465,
+              "case4_N": 387,
+              "case5_N": 1860
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 775,
+              "case2_N": 581,
+              "case3_N": 387,
+              "case4_N": 323,
+              "case5_N": 1550
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 664,
+              "case2_N": 498,
+              "case3_N": 332,
+              "case4_N": 277,
+              "case5_N": 1329
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 581,
+              "case2_N": 416,
+              "case3_N": 291,
+              "case4_N": 242,
+              "case5_N": 1135
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 517,
+              "case2_N": 329,
+              "case3_N": 236,
+              "case4_N": 215,
+              "case5_N": 897
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 454,
+              "case2_N": 266,
+              "case3_N": 191,
+              "case4_N": 177,
+              "case5_N": 726
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 375,
+              "case2_N": 220,
+              "case3_N": 158,
+              "case4_N": 147,
+              "case5_N": 600
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 315,
+              "case2_N": 185,
+              "case3_N": 133,
+              "case4_N": 123,
+              "case5_N": 504
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 269,
+              "case2_N": 158,
+              "case3_N": 113,
+              "case4_N": 105,
+              "case5_N": 430
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 232,
+              "case2_N": 136,
+              "case3_N": 98,
+              "case4_N": 90,
+              "case5_N": 371
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 202,
+              "case2_N": 118,
+              "case3_N": 85,
+              "case4_N": 79,
+              "case5_N": 323
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 177,
+              "case2_N": 104,
+              "case3_N": 75,
+              "case4_N": 69,
+              "case5_N": 284
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 157,
+              "case2_N": 92,
+              "case3_N": 66,
+              "case4_N": 61,
+              "case5_N": 251
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 140,
+              "case2_N": 82,
+              "case3_N": 59,
+              "case4_N": 55,
+              "case5_N": 224
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 126,
+              "case2_N": 74,
+              "case3_N": 53,
+              "case4_N": 49,
+              "case5_N": 201
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 113,
+              "case2_N": 67,
+              "case3_N": 48,
+              "case4_N": 44,
+              "case5_N": 182
+            }
+          ]
+        },
+        "page": 3
+      },
+      {
+        "id": "strut-profile-gm412120",
+        "title": "Strut Profile GM412120",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM412120.png",
+          "assets/GM-STRUT/CROSS SECTION/GM412120.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM412120",
+          "size": "41x21x2.0",
+          "length_mtr": "00",
+          "weight_kg_m": 1.5,
+          "area_mm2": 186,
+          "cd_mm": 8.06,
+          "iz_mm4": 45244,
+          "iy_mm4": 11616,
+          "wy_mm3": 2190,
+          "wz_mm3": 911
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 5709,
+              "case2_N": 4282,
+              "case3_N": 2854,
+              "case4_N": 2379,
+              "case5_N": 11418
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 2854,
+              "case2_N": 2141,
+              "case3_N": 1427,
+              "case4_N": 1189,
+              "case5_N": 5709
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 1903,
+              "case2_N": 1427,
+              "case3_N": 951,
+              "case4_N": 793,
+              "case5_N": 3806
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 1427,
+              "case2_N": 1070,
+              "case3_N": 714,
+              "case4_N": 595,
+              "case5_N": 2854
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 1142,
+              "case2_N": 856,
+              "case3_N": 571,
+              "case4_N": 476,
+              "case5_N": 2284
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 951,
+              "case2_N": 714,
+              "case3_N": 476,
+              "case4_N": 396,
+              "case5_N": 1903
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 816,
+              "case2_N": 612,
+              "case3_N": 408,
+              "case4_N": 340,
+              "case5_N": 1631
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 714,
+              "case2_N": 511,
+              "case3_N": 357,
+              "case4_N": 297,
+              "case5_N": 1394
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 634,
+              "case2_N": 404,
+              "case3_N": 290,
+              "case4_N": 264,
+              "case5_N": 1101
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 558,
+              "case2_N": 327,
+              "case3_N": 235,
+              "case4_N": 218,
+              "case5_N": 892
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 461,
+              "case2_N": 270,
+              "case3_N": 194,
+              "case4_N": 180,
+              "case5_N": 737
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 387,
+              "case2_N": 227,
+              "case3_N": 163,
+              "case4_N": 151,
+              "case5_N": 620
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 330,
+              "case2_N": 194,
+              "case3_N": 139,
+              "case4_N": 129,
+              "case5_N": 528
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 284,
+              "case2_N": 167,
+              "case3_N": 120,
+              "case4_N": 111,
+              "case5_N": 455
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 248,
+              "case2_N": 145,
+              "case3_N": 104,
+              "case4_N": 97,
+              "case5_N": 396
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 218,
+              "case2_N": 128,
+              "case3_N": 92,
+              "case4_N": 85,
+              "case5_N": 348
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 193,
+              "case2_N": 113,
+              "case3_N": 81,
+              "case4_N": 75,
+              "case5_N": 309
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 172,
+              "case2_N": 101,
+              "case3_N": 72,
+              "case4_N": 67,
+              "case5_N": 275
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 154,
+              "case2_N": 91,
+              "case3_N": 65,
+              "case4_N": 60,
+              "case5_N": 247
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 139,
+              "case2_N": 82,
+              "case3_N": 59,
+              "case4_N": 54,
+              "case5_N": 223
+            }
+          ]
+        },
+        "page": 5
+      },
+      {
+        "id": "strut-profile-gm412125",
+        "title": "Strut Profile GM412125",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM412125.png",
+          "assets/GM-STRUT/CROSS SECTION/GM412125.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM412125",
+          "size": "41x21x2.5",
+          "length_mtr": "00",
+          "weight_kg_m": 1.87,
+          "area_mm2": 226,
+          "cd_mm": 8.06,
+          "iz_mm4": 53387,
+          "iy_mm4": 13345,
+          "wy_mm3": 2585,
+          "wz_mm3": 1047
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 6561,
+              "case2_N": 4921,
+              "case3_N": 3281,
+              "case4_N": 2734,
+              "case5_N": 13122
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 3281,
+              "case2_N": 2460,
+              "case3_N": 1640,
+              "case4_N": 1367,
+              "case5_N": 6561
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 2187,
+              "case2_N": 1640,
+              "case3_N": 1094,
+              "case4_N": 911,
+              "case5_N": 4374
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 1640,
+              "case2_N": 1230,
+              "case3_N": 820,
+              "case4_N": 683,
+              "case5_N": 3281
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 1312,
+              "case2_N": 984,
+              "case3_N": 656,
+              "case4_N": 547,
+              "case5_N": 2624
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 1094,
+              "case2_N": 820,
+              "case3_N": 547,
+              "case4_N": 456,
+              "case5_N": 2187
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 937,
+              "case2_N": 703,
+              "case3_N": 469,
+              "case4_N": 391,
+              "case5_N": 1875
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 820,
+              "case2_N": 587,
+              "case3_N": 410,
+              "case4_N": 342,
+              "case5_N": 1601
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 729,
+              "case2_N": 464,
+              "case3_N": 333,
+              "case4_N": 304,
+              "case5_N": 1265
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 641,
+              "case2_N": 376,
+              "case3_N": 270,
+              "case4_N": 250,
+              "case5_N": 1025
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 529,
+              "case2_N": 311,
+              "case3_N": 223,
+              "case4_N": 207,
+              "case5_N": 847
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 445,
+              "case2_N": 261,
+              "case3_N": 187,
+              "case4_N": 174,
+              "case5_N": 712
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 379,
+              "case2_N": 222,
+              "case3_N": 160,
+              "case4_N": 148,
+              "case5_N": 606
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 327,
+              "case2_N": 192,
+              "case3_N": 138,
+              "case4_N": 128,
+              "case5_N": 523
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 285,
+              "case2_N": 167,
+              "case3_N": 120,
+              "case4_N": 111,
+              "case5_N": 456
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 250,
+              "case2_N": 147,
+              "case3_N": 105,
+              "case4_N": 98,
+              "case5_N": 400
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 222,
+              "case2_N": 130,
+              "case3_N": 93,
+              "case4_N": 87,
+              "case5_N": 355
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 198,
+              "case2_N": 116,
+              "case3_N": 83,
+              "case4_N": 77,
+              "case5_N": 316
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 177,
+              "case2_N": 104,
+              "case3_N": 75,
+              "case4_N": 69,
+              "case5_N": 284
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 160,
+              "case2_N": 94,
+              "case3_N": 67,
+              "case4_N": 63,
+              "case5_N": 256
+            }
+          ]
+        },
+        "page": 7
+      },
+      {
+        "id": "strut-profile-gm414115",
+        "title": "Strut Profile GM414115",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM414115.png",
+          "assets/GM-STRUT/CROSS SECTION/GM414115.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM414115",
+          "size": "41x41x1.5",
+          "length_mtr": "00",
+          "weight_kg_m": 1.95,
+          "area_mm2": 203,
+          "cd_mm": 17.7,
+          "iz_mm4": 59656,
+          "iy_mm4": 46953,
+          "wy_mm3": 2889,
+          "wz_mm3": 1989
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 12464,
+              "case2_N": 9348,
+              "case3_N": 6232,
+              "case4_N": 5194,
+              "case5_N": 24929
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 6232,
+              "case2_N": 4674,
+              "case3_N": 3116,
+              "case4_N": 2597,
+              "case5_N": 12464
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 4155,
+              "case2_N": 3116,
+              "case3_N": 2077,
+              "case4_N": 1731,
+              "case5_N": 8310
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 3116,
+              "case2_N": 2337,
+              "case3_N": 1558,
+              "case4_N": 1298,
+              "case5_N": 6232
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 2493,
+              "case2_N": 1870,
+              "case3_N": 1246,
+              "case4_N": 1039,
+              "case5_N": 4986
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 2077,
+              "case2_N": 1558,
+              "case3_N": 1039,
+              "case4_N": 866,
+              "case5_N": 4155
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 1781,
+              "case2_N": 1335,
+              "case3_N": 890,
+              "case4_N": 742,
+              "case5_N": 3561
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 1558,
+              "case2_N": 1169,
+              "case3_N": 779,
+              "case4_N": 649,
+              "case5_N": 3116
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 1385,
+              "case2_N": 1039,
+              "case3_N": 692,
+              "case4_N": 577,
+              "case5_N": 2770
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 1246,
+              "case2_N": 935,
+              "case3_N": 623,
+              "case4_N": 519,
+              "case5_N": 2493
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 1133,
+              "case2_N": 850,
+              "case3_N": 567,
+              "case4_N": 472,
+              "case5_N": 2266
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 1039,
+              "case2_N": 779,
+              "case3_N": 519,
+              "case4_N": 433,
+              "case5_N": 2077
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 959,
+              "case2_N": 719,
+              "case3_N": 479,
+              "case4_N": 400,
+              "case5_N": 1918
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 890,
+              "case2_N": 668,
+              "case3_N": 445,
+              "case4_N": 371,
+              "case5_N": 1781
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 831,
+              "case2_N": 588,
+              "case3_N": 415,
+              "case4_N": 346,
+              "case5_N": 1603
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 779,
+              "case2_N": 517,
+              "case3_N": 371,
+              "case4_N": 325,
+              "case5_N": 1409
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 733,
+              "case2_N": 458,
+              "case3_N": 328,
+              "case4_N": 305,
+              "case5_N": 1248
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 692,
+              "case2_N": 408,
+              "case3_N": 293,
+              "case4_N": 272,
+              "case5_N": 1113
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 624,
+              "case2_N": 366,
+              "case3_N": 263,
+              "case4_N": 244,
+              "case5_N": 999
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 563,
+              "case2_N": 331,
+              "case3_N": 237,
+              "case4_N": 220,
+              "case5_N": 901
+            }
+          ]
+        },
+        "page": 9
+      },
+      {
+        "id": "strut-profile-gm414120",
+        "title": "Strut Profile GM414120",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM414120.png",
+          "assets/GM-STRUT/CROSS SECTION/GM414120.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM414120",
+          "size": "41x41x2.0",
+          "length_mtr": "00",
+          "weight_kg_m": 2.17,
+          "area_mm2": 266,
+          "cd_mm": 17.7,
+          "iz_mm4": 76133,
+          "iy_mm4": 59610,
+          "wy_mm3": 2687,
+          "wz_mm3": 2523
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 15811,
+              "case2_N": 11858,
+              "case3_N": 7905,
+              "case4_N": 6588,
+              "case5_N": 31622
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 7905,
+              "case2_N": 5929,
+              "case3_N": 3953,
+              "case4_N": 3294,
+              "case5_N": 15811
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 5270,
+              "case2_N": 3953,
+              "case3_N": 2635,
+              "case4_N": 2196,
+              "case5_N": 10541
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 3953,
+              "case2_N": 2965,
+              "case3_N": 1976,
+              "case4_N": 1647,
+              "case5_N": 7905
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 3162,
+              "case2_N": 2372,
+              "case3_N": 1581,
+              "case4_N": 1318,
+              "case5_N": 6324
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 2635,
+              "case2_N": 1976,
+              "case3_N": 1318,
+              "case4_N": 1098,
+              "case5_N": 5270
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 2259,
+              "case2_N": 1694,
+              "case3_N": 1129,
+              "case4_N": 941,
+              "case5_N": 4517
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 1976,
+              "case2_N": 1482,
+              "case3_N": 988,
+              "case4_N": 823,
+              "case5_N": 3953
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 1757,
+              "case2_N": 1318,
+              "case3_N": 878,
+              "case4_N": 732,
+              "case5_N": 3514
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 1581,
+              "case2_N": 1186,
+              "case3_N": 791,
+              "case4_N": 659,
+              "case5_N": 3162
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 1437,
+              "case2_N": 1078,
+              "case3_N": 719,
+              "case4_N": 599,
+              "case5_N": 2875
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 1318,
+              "case2_N": 988,
+              "case3_N": 659,
+              "case4_N": 549,
+              "case5_N": 2635
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 1216,
+              "case2_N": 912,
+              "case3_N": 608,
+              "case4_N": 507,
+              "case5_N": 2432
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 1129,
+              "case2_N": 847,
+              "case3_N": 565,
+              "case4_N": 471,
+              "case5_N": 2259
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 1054,
+              "case2_N": 746,
+              "case3_N": 527,
+              "case4_N": 439,
+              "case5_N": 2035
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 988,
+              "case2_N": 656,
+              "case3_N": 471,
+              "case4_N": 412,
+              "case5_N": 1788
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 930,
+              "case2_N": 581,
+              "case3_N": 417,
+              "case4_N": 387,
+              "case5_N": 1584
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 878,
+              "case2_N": 518,
+              "case3_N": 372,
+              "case4_N": 345,
+              "case5_N": 1413
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 793,
+              "case2_N": 465,
+              "case3_N": 334,
+              "case4_N": 310,
+              "case5_N": 1268
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 715,
+              "case2_N": 420,
+              "case3_N": 301,
+              "case4_N": 279,
+              "case5_N": 1145
+            }
+          ]
+        },
+        "page": 11
+      },
+      {
+        "id": "strut-profile-gm414125",
+        "title": "Strut Profile GM414125",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM414125.png",
+          "assets/GM-STRUT/CROSS SECTION/GM414125.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM414125",
+          "size": "41x41x2.5",
+          "length_mtr": "00",
+          "weight_kg_m": 2.66,
+          "area_mm2": 326,
+          "cd_mm": 17.7,
+          "iz_mm4": 91022,
+          "iy_mm4": 70880,
+          "wy_mm3": 4408,
+          "wz_mm3": 2998
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 18787,
+              "case2_N": 14091,
+              "case3_N": 9394,
+              "case4_N": 7828,
+              "case5_N": 37575
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 9394,
+              "case2_N": 7045,
+              "case3_N": 4697,
+              "case4_N": 3914,
+              "case5_N": 18787
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 6262,
+              "case2_N": 4697,
+              "case3_N": 3131,
+              "case4_N": 2609,
+              "case5_N": 12525
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 4697,
+              "case2_N": 3523,
+              "case3_N": 2348,
+              "case4_N": 1957,
+              "case5_N": 9394
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 3757,
+              "case2_N": 2818,
+              "case3_N": 1879,
+              "case4_N": 1566,
+              "case5_N": 7515
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 3131,
+              "case2_N": 2348,
+              "case3_N": 1566,
+              "case4_N": 1305,
+              "case5_N": 6262
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 2684,
+              "case2_N": 2013,
+              "case3_N": 1342,
+              "case4_N": 1118,
+              "case5_N": 5368
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 2348,
+              "case2_N": 1761,
+              "case3_N": 1174,
+              "case4_N": 979,
+              "case5_N": 4697
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 2087,
+              "case2_N": 1566,
+              "case3_N": 1044,
+              "case4_N": 870,
+              "case5_N": 4175
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 1879,
+              "case2_N": 1409,
+              "case3_N": 939,
+              "case4_N": 783,
+              "case5_N": 3757
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 1708,
+              "case2_N": 1281,
+              "case3_N": 854,
+              "case4_N": 712,
+              "case5_N": 3416
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 1566,
+              "case2_N": 1174,
+              "case3_N": 783,
+              "case4_N": 652,
+              "case5_N": 3131
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 1445,
+              "case2_N": 1084,
+              "case3_N": 723,
+              "case4_N": 602,
+              "case5_N": 2890
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 1342,
+              "case2_N": 1006,
+              "case3_N": 671,
+              "case4_N": 559,
+              "case5_N": 2684
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 1252,
+              "case2_N": 888,
+              "case3_N": 626,
+              "case4_N": 522,
+              "case5_N": 2419
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 1174,
+              "case2_N": 780,
+              "case3_N": 560,
+              "case4_N": 489,
+              "case5_N": 2126
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 1105,
+              "case2_N": 691,
+              "case3_N": 496,
+              "case4_N": 460,
+              "case5_N": 1884
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 1044,
+              "case2_N": 616,
+              "case3_N": 442,
+              "case4_N": 410,
+              "case5_N": 1680
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 942,
+              "case2_N": 553,
+              "case3_N": 397,
+              "case4_N": 368,
+              "case5_N": 1508
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 851,
+              "case2_N": 499,
+              "case3_N": 358,
+              "case4_N": 332,
+              "case5_N": 1361
+            }
+          ]
+        },
+        "page": 13
+      },
+      {
+        "id": "strut-profile-gmd414120",
+        "title": "Strut Profile GMD414120",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GMD414120.png",
+          "assets/GM-STRUT/CROSS SECTION/GMD414120.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GMD414120",
+          "size": "41x41x2.0 ][",
+          "length_mtr": 50,
+          "weight_kg_m": 41,
+          "area_mm2": 30,
+          "cd_mm": 2,
+          "iz_mm4": 41,
+          "iy_mm4": 82,
+          "wy_mm3": 82,
+          "wz_mm3": 2
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 52289,
+              "case2_N": 39217,
+              "case3_N": 26145,
+              "case4_N": 21787,
+              "case5_N": 104578
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 26145,
+              "case2_N": 19608,
+              "case3_N": 13072,
+              "case4_N": 10894,
+              "case5_N": 52289
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 17430,
+              "case2_N": 13072,
+              "case3_N": 8715,
+              "case4_N": 7262,
+              "case5_N": 34859
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 13072,
+              "case2_N": 9804,
+              "case3_N": 6536,
+              "case4_N": 5447,
+              "case5_N": 26145
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 10458,
+              "case2_N": 7843,
+              "case3_N": 5229,
+              "case4_N": 4357,
+              "case5_N": 20916
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 8715,
+              "case2_N": 6536,
+              "case3_N": 4357,
+              "case4_N": 3631,
+              "case5_N": 17430
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 7470,
+              "case2_N": 5602,
+              "case3_N": 3735,
+              "case4_N": 3112,
+              "case5_N": 14940
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 6536,
+              "case2_N": 4902,
+              "case3_N": 3268,
+              "case4_N": 2723,
+              "case5_N": 13072
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 5810,
+              "case2_N": 4357,
+              "case3_N": 2905,
+              "case4_N": 2421,
+              "case5_N": 11620
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 5229,
+              "case2_N": 3922,
+              "case3_N": 2614,
+              "case4_N": 2179,
+              "case5_N": 10458
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 4754,
+              "case2_N": 3565,
+              "case3_N": 2377,
+              "case4_N": 1981,
+              "case5_N": 9507
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 4357,
+              "case2_N": 3268,
+              "case3_N": 2179,
+              "case4_N": 1816,
+              "case5_N": 8715
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 4022,
+              "case2_N": 3017,
+              "case3_N": 2011,
+              "case4_N": 1676,
+              "case5_N": 8044
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 3735,
+              "case2_N": 2801,
+              "case3_N": 1867,
+              "case4_N": 1556,
+              "case5_N": 7470
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 3486,
+              "case2_N": 2614,
+              "case3_N": 1743,
+              "case4_N": 1452,
+              "case5_N": 6972
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 3268,
+              "case2_N": 2451,
+              "case3_N": 1634,
+              "case4_N": 1362,
+              "case5_N": 6536
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 3076,
+              "case2_N": 2307,
+              "case3_N": 1538,
+              "case4_N": 1282,
+              "case5_N": 6152
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 2905,
+              "case2_N": 2179,
+              "case3_N": 1452,
+              "case4_N": 1210,
+              "case5_N": 5810
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 2752,
+              "case2_N": 2064,
+              "case3_N": 1376,
+              "case4_N": 1147,
+              "case5_N": 5504
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 2614,
+              "case2_N": 1961,
+              "case3_N": 1307,
+              "case4_N": 1089,
+              "case5_N": 5229
+            }
+          ]
+        },
+        "page": 15
+      },
+      {
+        "id": "strut-profile-gm416220",
+        "title": "Strut Profile GM416220",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM416220.png",
+          "assets/GM-STRUT/CROSS SECTION/GM416220.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM416220",
+          "size": "41x62x2.0",
+          "length_mtr": "00",
+          "weight_kg_m": 2.84,
+          "area_mm2": 350,
+          "cd_mm": 27.7,
+          "iz_mm4": 108568,
+          "iy_mm4": 167227,
+          "wy_mm3": 5258,
+          "wz_mm3": 4830
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 30268,
+              "case2_N": 22701,
+              "case3_N": 15134,
+              "case4_N": 12612,
+              "case5_N": 60536
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 15134,
+              "case2_N": 11351,
+              "case3_N": 7567,
+              "case4_N": 6306,
+              "case5_N": 30268
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 10089,
+              "case2_N": 7567,
+              "case3_N": 5045,
+              "case4_N": 4204,
+              "case5_N": 20179
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 7567,
+              "case2_N": 5675,
+              "case3_N": 3784,
+              "case4_N": 3153,
+              "case5_N": 15134
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 6054,
+              "case2_N": 4540,
+              "case3_N": 3027,
+              "case4_N": 2522,
+              "case5_N": 12107
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 5045,
+              "case2_N": 3784,
+              "case3_N": 2522,
+              "case4_N": 2102,
+              "case5_N": 10089
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 4324,
+              "case2_N": 3243,
+              "case3_N": 2162,
+              "case4_N": 1802,
+              "case5_N": 8648
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 3784,
+              "case2_N": 2838,
+              "case3_N": 1892,
+              "case4_N": 1576,
+              "case5_N": 7567
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 3363,
+              "case2_N": 2522,
+              "case3_N": 1682,
+              "case4_N": 1401,
+              "case5_N": 6726
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 3027,
+              "case2_N": 2270,
+              "case3_N": 1513,
+              "case4_N": 1261,
+              "case5_N": 6054
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 2752,
+              "case2_N": 2064,
+              "case3_N": 1376,
+              "case4_N": 1147,
+              "case5_N": 5503
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 2522,
+              "case2_N": 1892,
+              "case3_N": 1261,
+              "case4_N": 1051,
+              "case5_N": 5045
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 2328,
+              "case2_N": 1746,
+              "case3_N": 1164,
+              "case4_N": 970,
+              "case5_N": 4657
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 2162,
+              "case2_N": 1622,
+              "case3_N": 1081,
+              "case4_N": 901,
+              "case5_N": 4324
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 2018,
+              "case2_N": 1513,
+              "case3_N": 1009,
+              "case4_N": 841,
+              "case5_N": 4036
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 1892,
+              "case2_N": 1419,
+              "case3_N": 946,
+              "case4_N": 788,
+              "case5_N": 3784
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 1780,
+              "case2_N": 1335,
+              "case3_N": 890,
+              "case4_N": 742,
+              "case5_N": 3561
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 1682,
+              "case2_N": 1261,
+              "case3_N": 841,
+              "case4_N": 701,
+              "case5_N": 3363
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 1593,
+              "case2_N": 1195,
+              "case3_N": 797,
+              "case4_N": 664,
+              "case5_N": 3186
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 1513,
+              "case2_N": 1135,
+              "case3_N": 757,
+              "case4_N": 631,
+              "case5_N": 3027
+            }
+          ]
+        },
+        "page": 17
+      },
+      {
+        "id": "strut-profile-gm416225",
+        "title": "Strut Profile GM416225",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM416225.png",
+          "assets/GM-STRUT/CROSS SECTION/GM416225.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM416225",
+          "size": "41x62x2.5",
+          "length_mtr": "00",
+          "weight_kg_m": 3.48,
+          "area_mm2": 431,
+          "cd_mm": 27.7,
+          "iz_mm4": 130540,
+          "iy_mm4": 201514,
+          "wy_mm3": 6321,
+          "wz_mm3": 5818
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 36459,
+              "case2_N": 27345,
+              "case3_N": 18230,
+              "case4_N": 15191,
+              "case5_N": 72919
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 18230,
+              "case2_N": 13672,
+              "case3_N": 9115,
+              "case4_N": 7596,
+              "case5_N": 36459
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 12153,
+              "case2_N": 9115,
+              "case3_N": 6077,
+              "case4_N": 5064,
+              "case5_N": 24306
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 9115,
+              "case2_N": 6836,
+              "case3_N": 4557,
+              "case4_N": 3798,
+              "case5_N": 18230
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 7292,
+              "case2_N": 5469,
+              "case3_N": 3646,
+              "case4_N": 3038,
+              "case5_N": 14584
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 6077,
+              "case2_N": 4557,
+              "case3_N": 3038,
+              "case4_N": 2532,
+              "case5_N": 12153
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 5208,
+              "case2_N": 3906,
+              "case3_N": 2604,
+              "case4_N": 2170,
+              "case5_N": 10417
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 4557,
+              "case2_N": 3418,
+              "case3_N": 2279,
+              "case4_N": 1899,
+              "case5_N": 9115
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 4051,
+              "case2_N": 3038,
+              "case3_N": 2026,
+              "case4_N": 1688,
+              "case5_N": 8102
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 3646,
+              "case2_N": 2734,
+              "case3_N": 1823,
+              "case4_N": 1519,
+              "case5_N": 7292
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 3314,
+              "case2_N": 2486,
+              "case3_N": 1657,
+              "case4_N": 1381,
+              "case5_N": 6629
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 3038,
+              "case2_N": 2279,
+              "case3_N": 1519,
+              "case4_N": 1266,
+              "case5_N": 6077
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 2805,
+              "case2_N": 2103,
+              "case3_N": 1402,
+              "case4_N": 1169,
+              "case5_N": 5609
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 2604,
+              "case2_N": 1953,
+              "case3_N": 1302,
+              "case4_N": 1085,
+              "case5_N": 5208
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 2431,
+              "case2_N": 1823,
+              "case3_N": 1215,
+              "case4_N": 1013,
+              "case5_N": 4861
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 2279,
+              "case2_N": 1709,
+              "case3_N": 1139,
+              "case4_N": 949,
+              "case5_N": 4557
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 2145,
+              "case2_N": 1609,
+              "case3_N": 1072,
+              "case4_N": 894,
+              "case5_N": 4289
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 2026,
+              "case2_N": 1519,
+              "case3_N": 1013,
+              "case4_N": 844,
+              "case5_N": 4051
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 1919,
+              "case2_N": 1439,
+              "case3_N": 959,
+              "case4_N": 800,
+              "case5_N": 3838
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 1823,
+              "case2_N": 1367,
+              "case3_N": 911,
+              "case4_N": 760,
+              "case5_N": 3646
+            }
+          ]
+        },
+        "page": 19
+      },
+      {
+        "id": "strut-profile-gmd416225",
+        "title": "Strut Profile GMD416225",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GMD416225.png",
+          "assets/GM-STRUT/CROSS SECTION/GMD416225.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GMD416225",
+          "size": "41x62x2.5 ][",
+          "length_mtr": "00",
+          "weight_kg_m": 6.96,
+          "area_mm2": 862,
+          "cd_mm": 62.3,
+          "iz_mm4": 260800,
+          "iy_mm4": 1061500,
+          "wy_mm3": 12630,
+          "wz_mm3": 17039
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 106778,
+              "case2_N": 80083,
+              "case3_N": 53389,
+              "case4_N": 44491,
+              "case5_N": 213555
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 53389,
+              "case2_N": 40042,
+              "case3_N": 26694,
+              "case4_N": 22245,
+              "case5_N": 106778
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 35593,
+              "case2_N": 26694,
+              "case3_N": 17796,
+              "case4_N": 14830,
+              "case5_N": 71185
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 26694,
+              "case2_N": 20021,
+              "case3_N": 13347,
+              "case4_N": 11123,
+              "case5_N": 53389
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 21356,
+              "case2_N": 16017,
+              "case3_N": 10678,
+              "case4_N": 8898,
+              "case5_N": 42711
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 17796,
+              "case2_N": 13347,
+              "case3_N": 8898,
+              "case4_N": 7415,
+              "case5_N": 35593
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 15254,
+              "case2_N": 11440,
+              "case3_N": 7627,
+              "case4_N": 6356,
+              "case5_N": 30508
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 13347,
+              "case2_N": 10010,
+              "case3_N": 6674,
+              "case4_N": 5561,
+              "case5_N": 26694
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 11864,
+              "case2_N": 8898,
+              "case3_N": 5932,
+              "case4_N": 4943,
+              "case5_N": 23728
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 10678,
+              "case2_N": 8008,
+              "case3_N": 5339,
+              "case4_N": 4449,
+              "case5_N": 21356
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 9707,
+              "case2_N": 7280,
+              "case3_N": 4854,
+              "case4_N": 4045,
+              "case5_N": 19414
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 8898,
+              "case2_N": 6674,
+              "case3_N": 4449,
+              "case4_N": 3708,
+              "case5_N": 17796
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 8214,
+              "case2_N": 6160,
+              "case3_N": 4107,
+              "case4_N": 3422,
+              "case5_N": 16427
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 7627,
+              "case2_N": 5720,
+              "case3_N": 3813,
+              "case4_N": 3178,
+              "case5_N": 15254
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 7119,
+              "case2_N": 5339,
+              "case3_N": 3559,
+              "case4_N": 2966,
+              "case5_N": 14237
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 6674,
+              "case2_N": 5005,
+              "case3_N": 3337,
+              "case4_N": 2781,
+              "case5_N": 13347
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 6281,
+              "case2_N": 4711,
+              "case3_N": 3141,
+              "case4_N": 2617,
+              "case5_N": 12562
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 5932,
+              "case2_N": 4449,
+              "case3_N": 2966,
+              "case4_N": 2472,
+              "case5_N": 11864
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 5620,
+              "case2_N": 4215,
+              "case3_N": 2810,
+              "case4_N": 2342,
+              "case5_N": 11240
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 5339,
+              "case2_N": 4004,
+              "case3_N": 2669,
+              "case4_N": 2225,
+              "case5_N": 10678
+            }
+          ]
+        },
+        "page": 21
+      },
+      {
+        "id": "strut-profile-gm417220",
+        "title": "Strut Profile GM417220",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM417220.png",
+          "assets/GM-STRUT/CROSS SECTION/GM417220.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM417220",
+          "size": "41x72x2.0",
+          "length_mtr": "00",
+          "weight_kg_m": 3.14,
+          "area_mm2": 390,
+          "cd_mm": 32.5,
+          "iz_mm4": 124013,
+          "iy_mm4": 244391,
+          "wy_mm3": 6005,
+          "wz_mm3": 6144
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 38502,
+              "case2_N": 28877,
+              "case3_N": 19251,
+              "case4_N": 16043,
+              "case5_N": 77005
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 19251,
+              "case2_N": 14438,
+              "case3_N": 9626,
+              "case4_N": 8021,
+              "case5_N": 38502
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 12834,
+              "case2_N": 9626,
+              "case3_N": 6417,
+              "case4_N": 5348,
+              "case5_N": 25668
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 9626,
+              "case2_N": 7219,
+              "case3_N": 4813,
+              "case4_N": 4011,
+              "case5_N": 19251
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 7700,
+              "case2_N": 5775,
+              "case3_N": 3850,
+              "case4_N": 3209,
+              "case5_N": 15401
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 6417,
+              "case2_N": 4813,
+              "case3_N": 3209,
+              "case4_N": 2674,
+              "case5_N": 12834
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 5500,
+              "case2_N": 4125,
+              "case3_N": 2750,
+              "case4_N": 2292,
+              "case5_N": 11001
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 4813,
+              "case2_N": 3610,
+              "case3_N": 2406,
+              "case4_N": 2005,
+              "case5_N": 9626
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 4278,
+              "case2_N": 3209,
+              "case3_N": 2139,
+              "case4_N": 1783,
+              "case5_N": 8556
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 3850,
+              "case2_N": 2888,
+              "case3_N": 1925,
+              "case4_N": 1604,
+              "case5_N": 7700
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 3500,
+              "case2_N": 2625,
+              "case3_N": 1750,
+              "case4_N": 1458,
+              "case5_N": 7000
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 3209,
+              "case2_N": 2406,
+              "case3_N": 1604,
+              "case4_N": 1337,
+              "case5_N": 6417
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 2962,
+              "case2_N": 2221,
+              "case3_N": 1481,
+              "case4_N": 1234,
+              "case5_N": 5923
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 2750,
+              "case2_N": 2063,
+              "case3_N": 1375,
+              "case4_N": 1146,
+              "case5_N": 5500
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 2567,
+              "case2_N": 1925,
+              "case3_N": 1283,
+              "case4_N": 1070,
+              "case5_N": 5134
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 2406,
+              "case2_N": 1805,
+              "case3_N": 1203,
+              "case4_N": 1003,
+              "case5_N": 4813
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 2265,
+              "case2_N": 1699,
+              "case3_N": 1132,
+              "case4_N": 944,
+              "case5_N": 4530
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 2139,
+              "case2_N": 1604,
+              "case3_N": 1070,
+              "case4_N": 891,
+              "case5_N": 4278
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 2026,
+              "case2_N": 1520,
+              "case3_N": 1013,
+              "case4_N": 844,
+              "case5_N": 4053
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 1925,
+              "case2_N": 1444,
+              "case3_N": 963,
+              "case4_N": 802,
+              "case5_N": 3850
+            }
+          ]
+        },
+        "page": 23
+      },
+      {
+        "id": "strut-profile-gm417225",
+        "title": "Strut Profile GM417225",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM417225.png",
+          "assets/GM-STRUT/CROSS SECTION/GM417225.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM417225",
+          "size": "41x72x2.5",
+          "length_mtr": "00",
+          "weight_kg_m": 3.87,
+          "area_mm2": 481,
+          "cd_mm": 32.5,
+          "iz_mm4": 149358,
+          "iy_mm4": 295647,
+          "wy_mm3": 7233,
+          "wz_mm3": 7429
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 46555,
+              "case2_N": 34916,
+              "case3_N": 23278,
+              "case4_N": 19398,
+              "case5_N": 93110
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 23278,
+              "case2_N": 17458,
+              "case3_N": 11639,
+              "case4_N": 9699,
+              "case5_N": 46555
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 15518,
+              "case2_N": 11639,
+              "case3_N": 7759,
+              "case4_N": 6466,
+              "case5_N": 31037
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 11639,
+              "case2_N": 8729,
+              "case3_N": 5819,
+              "case4_N": 4849,
+              "case5_N": 23278
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 9311,
+              "case2_N": 6983,
+              "case3_N": 4656,
+              "case4_N": 3880,
+              "case5_N": 18622
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 7759,
+              "case2_N": 5819,
+              "case3_N": 3880,
+              "case4_N": 3233,
+              "case5_N": 15518
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 6651,
+              "case2_N": 4988,
+              "case3_N": 3325,
+              "case4_N": 2771,
+              "case5_N": 13301
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 5819,
+              "case2_N": 4365,
+              "case3_N": 2910,
+              "case4_N": 2425,
+              "case5_N": 11639
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 5173,
+              "case2_N": 3880,
+              "case3_N": 2586,
+              "case4_N": 2155,
+              "case5_N": 10346
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 4656,
+              "case2_N": 3492,
+              "case3_N": 2328,
+              "case4_N": 1940,
+              "case5_N": 9311
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 4232,
+              "case2_N": 3174,
+              "case3_N": 2116,
+              "case4_N": 1763,
+              "case5_N": 8465
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 3880,
+              "case2_N": 2910,
+              "case3_N": 1940,
+              "case4_N": 1616,
+              "case5_N": 7759
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 3581,
+              "case2_N": 2686,
+              "case3_N": 1791,
+              "case4_N": 1492,
+              "case5_N": 7162
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 3325,
+              "case2_N": 2494,
+              "case3_N": 1663,
+              "case4_N": 1386,
+              "case5_N": 6651
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 3104,
+              "case2_N": 2328,
+              "case3_N": 1552,
+              "case4_N": 1293,
+              "case5_N": 6207
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 2910,
+              "case2_N": 2182,
+              "case3_N": 1455,
+              "case4_N": 1212,
+              "case5_N": 5819
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 2739,
+              "case2_N": 2054,
+              "case3_N": 1369,
+              "case4_N": 1141,
+              "case5_N": 5477
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 2586,
+              "case2_N": 1940,
+              "case3_N": 1293,
+              "case4_N": 1078,
+              "case5_N": 5173
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 2450,
+              "case2_N": 1838,
+              "case3_N": 1225,
+              "case4_N": 1021,
+              "case5_N": 4901
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 2328,
+              "case2_N": 1746,
+              "case3_N": 1164,
+              "case4_N": 970,
+              "case5_N": 4656
+            }
+          ]
+        },
+        "page": 25
+      },
+      {
+        "id": "strut-profile-gm418220",
+        "title": "Strut Profile GM418220",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM418220.png",
+          "assets/GM-STRUT/CROSS SECTION/GM418220.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM418220",
+          "size": "41x82x2.0",
+          "length_mtr": "00",
+          "weight_kg_m": 3.45,
+          "area_mm2": 430,
+          "cd_mm": 37.4,
+          "iz_mm4": 139458,
+          "iy_mm4": 341020,
+          "wy_mm3": 6753,
+          "wz_mm3": 7594
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 47589,
+              "case2_N": 35692,
+              "case3_N": 23795,
+              "case4_N": 19829,
+              "case5_N": 95178
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 23795,
+              "case2_N": 17846,
+              "case3_N": 11897,
+              "case4_N": 9914,
+              "case5_N": 47589
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 15863,
+              "case2_N": 11897,
+              "case3_N": 7932,
+              "case4_N": 6610,
+              "case5_N": 31726
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 11897,
+              "case2_N": 8923,
+              "case3_N": 5949,
+              "case4_N": 4957,
+              "case5_N": 23795
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 9518,
+              "case2_N": 7138,
+              "case3_N": 4759,
+              "case4_N": 3966,
+              "case5_N": 19036
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 7932,
+              "case2_N": 5949,
+              "case3_N": 3966,
+              "case4_N": 3305,
+              "case5_N": 15863
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 6798,
+              "case2_N": 5099,
+              "case3_N": 3399,
+              "case4_N": 2833,
+              "case5_N": 13597
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 5949,
+              "case2_N": 4461,
+              "case3_N": 2974,
+              "case4_N": 2479,
+              "case5_N": 11897
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 5288,
+              "case2_N": 3966,
+              "case3_N": 2644,
+              "case4_N": 2203,
+              "case5_N": 10575
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 4759,
+              "case2_N": 3569,
+              "case3_N": 2379,
+              "case4_N": 1983,
+              "case5_N": 9518
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 4326,
+              "case2_N": 3245,
+              "case3_N": 2163,
+              "case4_N": 1803,
+              "case5_N": 8653
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 3966,
+              "case2_N": 2974,
+              "case3_N": 1983,
+              "case4_N": 1652,
+              "case5_N": 7932
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 3661,
+              "case2_N": 2746,
+              "case3_N": 1830,
+              "case4_N": 1525,
+              "case5_N": 7321
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 3399,
+              "case2_N": 2549,
+              "case3_N": 1700,
+              "case4_N": 1416,
+              "case5_N": 6798
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 3173,
+              "case2_N": 2379,
+              "case3_N": 1586,
+              "case4_N": 1322,
+              "case5_N": 6345
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 2974,
+              "case2_N": 2231,
+              "case3_N": 1487,
+              "case4_N": 1239,
+              "case5_N": 5949
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 2799,
+              "case2_N": 2100,
+              "case3_N": 1400,
+              "case4_N": 1166,
+              "case5_N": 5599
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 2644,
+              "case2_N": 1983,
+              "case3_N": 1322,
+              "case4_N": 1102,
+              "case5_N": 5288
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 2505,
+              "case2_N": 1879,
+              "case3_N": 1252,
+              "case4_N": 1044,
+              "case5_N": 5009
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 2379,
+              "case2_N": 1785,
+              "case3_N": 1190,
+              "case4_N": 991,
+              "case5_N": 4759
+            }
+          ]
+        },
+        "page": 27
+      },
+      {
+        "id": "strut-profile-gm418225",
+        "title": "Strut Profile GM418225",
+        "description": "",
+        "images": [
+          "assets/GM-STRUT/3D MODELS/GM418225.png",
+          "assets/GM-STRUT/CROSS SECTION/GM418225.PNG",
+          "assets/GM-STRUT/GM41design diagram same for all.PNG"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and shear hole haunch connections",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)",
+          "material2": "S235 JR",
+          "materialType2": "HDG | ➤Epoxy coated"
+        },
+        "properties": {
+          "identification": "GM418225",
+          "size": "41x82x2.5",
+          "length_mtr": 2.5,
+          "weight_kg_m": 41,
+          "area_mm2": 82,
+          "cd_mm": 50,
+          "iz_mm4": 30,
+          "iy_mm4": 50,
+          "wy_mm3": 82,
+          "wz_mm3": 2
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "spans": [
+            {
+              "span_mm": 100,
+              "case1_N": 57722,
+              "case2_N": 43292,
+              "case3_N": 28861,
+              "case4_N": 24051,
+              "case5_N": 115445
+            },
+            {
+              "span_mm": 200,
+              "case1_N": 28861,
+              "case2_N": 21646,
+              "case3_N": 14431,
+              "case4_N": 12025,
+              "case5_N": 57722
+            },
+            {
+              "span_mm": 300,
+              "case1_N": 19241,
+              "case2_N": 14431,
+              "case3_N": 9620,
+              "case4_N": 8017,
+              "case5_N": 38482
+            },
+            {
+              "span_mm": 400,
+              "case1_N": 14431,
+              "case2_N": 10823,
+              "case3_N": 7215,
+              "case4_N": 6013,
+              "case5_N": 28861
+            },
+            {
+              "span_mm": 500,
+              "case1_N": 11544,
+              "case2_N": 8658,
+              "case3_N": 5772,
+              "case4_N": 4810,
+              "case5_N": 23089
+            },
+            {
+              "span_mm": 600,
+              "case1_N": 9620,
+              "case2_N": 7215,
+              "case3_N": 4810,
+              "case4_N": 4008,
+              "case5_N": 19241
+            },
+            {
+              "span_mm": 700,
+              "case1_N": 8246,
+              "case2_N": 6185,
+              "case3_N": 4123,
+              "case4_N": 3436,
+              "case5_N": 16492
+            },
+            {
+              "span_mm": 800,
+              "case1_N": 7215,
+              "case2_N": 5411,
+              "case3_N": 3608,
+              "case4_N": 3006,
+              "case5_N": 14431
+            },
+            {
+              "span_mm": 900,
+              "case1_N": 6414,
+              "case2_N": 4810,
+              "case3_N": 3207,
+              "case4_N": 2672,
+              "case5_N": 12827
+            },
+            {
+              "span_mm": 1000,
+              "case1_N": 5772,
+              "case2_N": 4329,
+              "case3_N": 2886,
+              "case4_N": 2405,
+              "case5_N": 11544
+            },
+            {
+              "span_mm": 1100,
+              "case1_N": 5247,
+              "case2_N": 3936,
+              "case3_N": 2624,
+              "case4_N": 2186,
+              "case5_N": 10495
+            },
+            {
+              "span_mm": 1200,
+              "case1_N": 4810,
+              "case2_N": 3608,
+              "case3_N": 2405,
+              "case4_N": 2004,
+              "case5_N": 9620
+            },
+            {
+              "span_mm": 1300,
+              "case1_N": 4440,
+              "case2_N": 3330,
+              "case3_N": 2220,
+              "case4_N": 1850,
+              "case5_N": 8880
+            },
+            {
+              "span_mm": 1400,
+              "case1_N": 4123,
+              "case2_N": 3092,
+              "case3_N": 2062,
+              "case4_N": 1718,
+              "case5_N": 8246
+            },
+            {
+              "span_mm": 1500,
+              "case1_N": 3848,
+              "case2_N": 2886,
+              "case3_N": 1924,
+              "case4_N": 1603,
+              "case5_N": 7696
+            },
+            {
+              "span_mm": 1600,
+              "case1_N": 3608,
+              "case2_N": 2706,
+              "case3_N": 1804,
+              "case4_N": 1503,
+              "case5_N": 7215
+            },
+            {
+              "span_mm": 1700,
+              "case1_N": 3395,
+              "case2_N": 2547,
+              "case3_N": 1698,
+              "case4_N": 1415,
+              "case5_N": 6791
+            },
+            {
+              "span_mm": 1800,
+              "case1_N": 3207,
+              "case2_N": 2405,
+              "case3_N": 1603,
+              "case4_N": 1336,
+              "case5_N": 6414
+            },
+            {
+              "span_mm": 1900,
+              "case1_N": 3038,
+              "case2_N": 2279,
+              "case3_N": 1519,
+              "case4_N": 1266,
+              "case5_N": 6076
+            },
+            {
+              "span_mm": 2000,
+              "case1_N": 2886,
+              "case2_N": 2165,
+              "case3_N": 1443,
+              "case4_N": 1203,
+              "case5_N": 5772
+            }
+          ]
+        },
+        "page": 29
+      }
+    ]
+  }
+}

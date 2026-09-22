@@ -1,0 +1,27 @@
+{
+  "title": "GCCL Products",
+  "code_prefix": "GCCL",
+  "specification": [
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4",
+    "➤Material: S250GD/S235JR"
+  ],
+  "definition": "Specialized components for strut channel systems.",
+  "items": [
+    {
+      "code": "GCCL9004",
+      "image": "assets/img/gccl9004.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GCCL9004",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

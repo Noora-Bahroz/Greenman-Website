@@ -1,0 +1,68 @@
+{
+  "title": "Multi-Directional Reinforced Connector (GMRC)",
+  "code_prefix": "GMRC",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Multi-directional reinforced connectors add strength and rigidity, making joints of the structure, suitable for high-load applications and providing better torsional stability in complex 3D frameworks. The C-shaped sides allow multi-directional assembly with improved load distribution, accommodating more complex structural layouts.",
+  "items": [
+    {
+      "code": "GMRC1002",
+      "image": "assets/img/gmrc1002.png"
+    },
+    {
+      "code": "GMRC1003",
+      "image": "assets/img/gmrc1003.png"
+    },
+    {
+      "code": "GMRC1005",
+      "image": "assets/img/gmrc1005.png"
+    },
+    {
+      "code": "GMRC]004",
+      "image": "assets/img/gmrc]004.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GMRC1002",
+      "Detail": "two directional, T-connection",
+      "Dimensions": "110x60x42x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMRC1003",
+      "Detail": "three directional, left edge connection",
+      "Dimensions": "110x60x42x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMRC1005",
+      "Detail": "three directional, right edge connection",
+      "Dimensions": "110x60x42x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMRC]004",
+      "Detail": "four directional, cross-joint connection",
+      "Dimensions": "110x60x42x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

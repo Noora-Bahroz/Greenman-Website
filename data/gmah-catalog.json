@@ -1,0 +1,33 @@
+{
+  "title": "Multi Angle Base Holder ( GMAH )",
+  "code_prefix": "GMAH",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Multi angle base holder, is designed to allow adjustable angles between connected components. It features a pivoting mechanism, enabling movement or locking at specific angles.",
+  "items": [
+    {
+      "code": "GMAH0001",
+      "image": "assets/img/placeholder.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GMAH0001",
+      "Detail": "2-hole, 0°-180° adjustment, 41/5",
+      "Dimensions": "135x41x5",
+      "Load": "10kN",
+      "For Profile": "GM - profile GM41Z1, GM41Z1,GM41G2",
+      "Weight": "xx"
+    }
+  ],
+  "components": [
+    "1x Channel Holder",
+    "1x Central Bolt with lock nut",
+    "1x Trangular Base"
+  ]
+}

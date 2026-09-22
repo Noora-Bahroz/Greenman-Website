@@ -1,0 +1,159 @@
+{
+  "title": "Profile tooth nut ( GPTN )",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Designed to fit into the inner slot of a strut channel, where it provides a secure threaded anchor point for bolts or threaded rods. The top surface has serrations or grooves that grip the inner edges of the strut channel. These serrations prevent slipping and ensure a strong, stable connection. The channel nut is available in various variations to suit different applications. In its basic form, GPTNxxx is a simple nut, GPTNsxxx is equipped with a spring that retains",
+  "items": [
+    {
+      "code": "GPTNr008",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNr010",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNr012",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNs008",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNs010",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNs012",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNp008",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNp010",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNp012",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNq008",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNq010",
+      "image": "assets/img/placeholder.png"
+    },
+    {
+      "code": "GPTNq012",
+      "image": "assets/img/placeholder.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GPTNr008",
+      "Detail": "serrated",
+      "Dimensions": "35x20x6",
+      "Thread": "8mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNr010",
+      "Detail": "serrated",
+      "Dimensions": "35x20x8",
+      "Thread": "10mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNr012",
+      "Detail": "serrated",
+      "Dimensions": "35x20x9",
+      "Thread": "12mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNs008",
+      "Detail": "serrated, retention spring",
+      "Dimensions": "35x20x6",
+      "Thread": "8mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNs010",
+      "Detail": "serrated, retention spring",
+      "Dimensions": "35x20x8",
+      "Thread": "10mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNs012",
+      "Detail": "serrated, retention spring",
+      "Dimensions": "35x20x9",
+      "Thread": "12mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNp008",
+      "Detail": "serrated, retention nylon sleeve",
+      "Dimensions": "35x20x6",
+      "Thread": "8mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNp010",
+      "Detail": "serrated, retention nylon sleeve",
+      "Dimensions": "35x20x8",
+      "Thread": "10mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNp012",
+      "Detail": "serrated, retention nylon sleeve",
+      "Dimensions": "35x20x9",
+      "Thread": "12mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNq008",
+      "Detail": "serrated, retention nylon sleeve, steel plate",
+      "Dimensions": "35x20x6",
+      "Thread": "8mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNq010",
+      "Detail": "serrated, retention nylon sleeve, steel plate",
+      "Dimensions": "35x20x8",
+      "Thread": "10mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTNq012",
+      "Detail": "serrated, retention nylon sleeve, steel plate",
+      "Dimensions": "35x20x9",
+      "Thread": "12mm",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Double-Sided Connector Bracket (DSCB) – PDF-like Template</title>
+
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="catalog-common.css">
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<main class="canvas">
+    <div class="title-row">
+      <div class="title">Double-Sided Connector Bracket (DSCB)</div>
+    </div>
+
+    <section class="meta-2">
+      <div class="card">
+        <h3>Specification</h3>
+        <ul id="spec-list">
+          <li>➤Material: S250GD/S235JR</li>
+          <li>Surface: ➤Electro-galvanized (Z-275)</li>
+          <li>➤Hot-dip galvanized</li>
+          <li>➤Epoxy coated</li>
+          <li>➤Stainless Steel A2/A4</li>
+        </ul>
+      </div>
+      <div class="def-box">
+        <h3 style="margin:0 0 6px;color:var(--green-dark)">Product Definition</h3>
+        <p id="definition">Loading definition...</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="grid" class="grid" aria-label="Angle connector variants grid">
+        <!-- items injected here -->
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <table class="props" id="dscb-table">
+        <thead>
+          <tr>
+            <th>Product Code</th>
+            <th>Detail</th>
+            <th>Dimensions</th>
+            <th>For Profile</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    const fallbackData = {
+      title: "Double-Sided Connector Bracket (DSCB)",
+      specification:[
+        "➤Material: S250GD/S235JR",
+        "Surface: ➤Electro-galvanized (Z-275)",
+        "➤Hot-dip galvanized",
+        "➤Epoxy coated",
+        "➤Stainless Steel A2/A4"
+      ],
+      definition: "Double-sided connector bracket DSCB is commonly used to connect strut channels, making it an essential component in structural and support systems. Its double-sided feature offers enhanced strength and greater connection flexibility, making it suitable for a wide range of applications.",
+      page: 30,
+      items:[
+        { code:'DSCB4090', image:'assets/img/dscb4090.png' },
+        { code:'DSCB4135', image:'assets/img/dscb4135.png' },
+        { code:'DSCB8090', image:'assets/img/dscb8090.png' },
+        { code:'DSCB8135', image:'assets/img/dscb8135.png' }
+      ],
+      table:[
+        {"Product Code":"DSCB8090","Detail":"8-hole 90° Double-Sided","Dimensions":"135x135x40x4","For Profile":"GM - profile GM41","Weight":"xx"},
+        {"Product Code":"DSCB4090","Detail":"4-hole 90° Double-Sided","Dimensions":"65x65x40x4","For Profile":"GM - profile GM41","Weight":"xx"},
+        {"Product Code":"DSCB8135","Detail":"8-hole 135° Double-Sided","Dimensions":"135x135x40x4","For Profile":"GM - profile GM41","Weight":"xx"},
+        {"Product Code":"DSCB4135","Detail":"4-hole 135° Double-Sided","Dimensions":"65x65x40x4","For Profile":"GM - profile GM41","Weight":"xx"}
+      ]
+    };
+
+    async function loadData(){
+      try{
+        const res = await fetch('data/dscb-catalog.json');
+        if(!res.ok) throw new Error('No JSON found');
+        const data = await res.json();
+        return data;
+      }catch(err){
+        console.warn('Falling back to inline sample data for GACO:', err.message);
+        return fallbackData;
+      }
+    }
+
+    function renderGrid(items){
+      const grid = document.getElementById('grid');
+      grid.innerHTML = items.map(it=>`
+        <div class="item">
+          <span class="tick">✓</span>
+          <img src="${it.image || 'assets/img/placeholder.png'}" alt="${it.code}">
+          <div class="code">${it.code}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderTable(rows){
+      const tbody = document.querySelector('#dscb-table tbody');
+      tbody.innerHTML = rows.map(r=>`
+        <tr>
+          <td>${r['Product Code']||'-'}</td>
+          <td>${r['Detail']||'-'}</td>
+          <td>${r['Dimensions']||'-'}</td>
+          <td>${r['For Profile']||'-'}</td>
+          <td>${r['Weight']||'-'}</td>
+        </tr>
+      `).join('');
+    }
+
+    (async function init(){
+      const data = await loadData();
+      document.querySelector('.title').textContent = data.title || "Double-Sided Connector Bracket (DSCB)";
+      document.title = (data.title || 'Double-Sided Connector Bracket (DSCB)') + ' – GREEN MAN';
+
+      // spec
+      if(Array.isArray(data.specification)){
+        const ul = document.getElementById('spec-list'); ul.innerHTML = data.specification.map(s=>`<li>${s}</li>`).join('');
+      }
+      if(data.definition){ document.getElementById('definition').textContent = data.definition; }
+      if(data.page){ document.getElementById('page-no').textContent = 'PAGE '+data.page; }
+
+      renderGrid(data.items || []);
+      renderTable(data.table || []);
+    })();
+  </script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

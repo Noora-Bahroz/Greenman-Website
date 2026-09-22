@@ -1,0 +1,148 @@
+{
+  "title": "GUHB Products",
+  "code_prefix": "GUHB",
+  "specification": [
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4",
+    "➤Material: S250GD/S235JR"
+  ],
+  "definition": "Specialized components for strut channel systems.",
+  "items": [
+    {
+      "code": "GUHB3021",
+      "image": "assets/img/guhb3021.png"
+    },
+    {
+      "code": "GUHB5062",
+      "image": "assets/img/guhb5062.png"
+    },
+    {
+      "code": "GUHB5041",
+      "image": "assets/img/guhb5041.png"
+    },
+    {
+      "code": "GUHB5072",
+      "image": "assets/img/guhb5072.png"
+    },
+    {
+      "code": "GUHB5052",
+      "image": "assets/img/guhb5052.png"
+    },
+    {
+      "code": "GUHB5082",
+      "image": "assets/img/guhb5082.png"
+    },
+    {
+      "code": "GUHB3021",
+      "image": "assets/img/guhb3021.png"
+    },
+    {
+      "code": "GUHB5041",
+      "image": "assets/img/guhb5041.png"
+    },
+    {
+      "code": "GUHB5052",
+      "image": "assets/img/guhb5052.png"
+    },
+    {
+      "code": "GUHB5062",
+      "image": "assets/img/guhb5062.png"
+    },
+    {
+      "code": "GUHB5072",
+      "image": "assets/img/guhb5072.png"
+    },
+    {
+      "code": "GUHB5082",
+      "image": "assets/img/guhb5082.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GUHB3021",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5062",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5041",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5072",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5052",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5082",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB3021",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5041",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5052",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5062",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5072",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5082",
+      "Detail": "-",
+      "Dimensions": "-",
+      "For Profile": "GM Profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Adjustable Hinge (GAHI) – Product Catalog</title>
+  <link rel="stylesheet" href="catalog-common.css">
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<main class="canvas">
+    <div class="title-row">
+      <div class="title">Adjustable Hinge (GAHI)</div>
+    </div>
+
+    <section class="meta-2">
+      <div class="card">
+        <h3>Specification</h3>
+        <ul id="spec-list"></ul>
+      </div>
+      <div class="def-box">
+        <h3 style="margin:0 0 6px;color:var(--green-dark)">Product Definition</h3>
+        <p id="definition">Loading definition...</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="grid" class="grid" aria-label="Product variants grid">
+        <!-- items injected here -->
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <table class="props" id="product-table">
+        <thead>
+          <tr id="table-header">
+            <!-- Table headers injected here -->
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Table rows injected here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    // Load and render catalog data
+    fetch('data/gahi-catalog.json')
+      .then(r => r.json())
+      .then(data => {
+        // Set title
+        document.querySelector('.title').textContent = data.title;
+        document.title = data.title + ' – Product Catalog';
+
+        // Render specification list
+        const specList = document.getElementById('spec-list');
+        data.specification.forEach(spec => {
+          const li = document.createElement('li');
+          li.textContent = spec;
+          specList.appendChild(li);
+        });
+
+        // Set definition
+        document.getElementById('definition').textContent = data.definition;
+
+        // Render product grid
+        const grid = document.getElementById('grid');
+        data.items.forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'item';
+          div.innerHTML = `
+            <span class="tick">✓</span>
+            <img src="${item.image}" alt="${item.code}" onerror="this.src='assets/img/placeholder.png'">
+            <div class="code">${item.code}</div>
+          `;
+          grid.appendChild(div);
+        });
+
+        // Render table
+        if (data.table && data.table.length > 0) {
+          const tableHeader = document.getElementById('table-header');
+          const tableBody = document.getElementById('table-body');
+
+          // Create table headers
+          const headers = Object.keys(data.table[0]);
+          headers.forEach(header => {
+            const th = document.createElement('th');
+            th.textContent = header;
+            tableHeader.appendChild(th);
+          });
+
+          // Create table rows
+          data.table.forEach(row => {
+            const tr = document.createElement('tr');
+            headers.forEach(header => {
+              const td = document.createElement('td');
+              td.textContent = row[header];
+              tr.appendChild(td);
+            });
+            tableBody.appendChild(tr);
+          });
+        }
+      })
+      .catch(err => console.error('Failed to load catalog data:', err));
+  </script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

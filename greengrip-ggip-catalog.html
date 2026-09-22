@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>GreenGrip Isophonic Pipe Clamp GGIP - Product Catalog</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        /* Hide content until fully loaded */
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+        body:not(.loaded) > *:not(.page-loader) {
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #fff;
+            color: #333;
+        }
+
+        .header {
+            background: #004d40;
+            color: white;
+            padding: 20px 40px;
+            display: none;
+        }
+
+        .content {
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .product-header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            gap: 20px;
+        }
+
+        .product-header h2 {
+            color: #4CAF50;
+            font-size: 28px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-header h2::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .product-images {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .product-image {
+            flex: 1;
+            border: 2px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            background: #fafafa;
+            max-width: 800px;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+
+        .specification {
+            flex: 1;
+            border-left: 4px solid #4CAF50;
+            padding-left: 20px;
+        }
+
+        .specification h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .specification h3::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .spec-item {
+            margin-bottom: 12px;
+            font-size: 13px;
+            line-height: 1.6;
+            display: inline-block;
+            vertical-align: top;
+            width: 48%;
+            margin-right: 2%;
+        }
+
+        .spec-item strong {
+            display: block;
+            color: #555;
+            margin-bottom: 3px;
+        }
+
+        .spec-list {
+            list-style: none;
+            padding-left: 15px;
+        }
+
+        .spec-list li::before {
+            content: '•';
+            color: #4CAF50;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+        
+        /* Make specification items wrap horizontally in grid */
+        .spec-items-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        
+        .spec-item {
+            margin-bottom: 0;
+        }
+
+
+        .product-definition {
+            margin: 40px 0;
+        }
+
+        .product-definition h2 {
+            color: #4CAF50;
+            font-size: 24px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-definition h2::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .product-definition p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        .product-table {
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            background: white;
+        }
+
+        thead {
+            background: #2c2c2c;
+            color: white;
+        }
+
+        thead th {
+            padding: 12px 8px;
+            text-align: center;
+            font-weight: 600;
+            border-right: 1px solid #444;
+        }
+
+        thead th:last-child {
+            border-right: none;
+        }
+
+        .sub-header {
+            background: #e0e0e0;
+            font-weight: normal;
+            font-size: 10px;
+            color: #000 !important;
+        }
+
+        .sub-header th {
+            color: #000 !important;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background: #f0f7f4;
+        }
+
+        tbody td {
+            padding: 10px 8px;
+            text-align: center;
+            border-right: 1px solid #e0e0e0;
+        }
+
+        tbody td:first-child {
+            font-weight: 600;
+            color: #004d40;
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        tbody td:last-child {
+            border-right: none;
+        }
+
+        .footer {
+            display: none;
+        }
+
+        @media print {
+            .content {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 9px;
+            }
+        }
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 1024px) {
+            .content {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background: #fff;
+            }
+
+            .content {
+                padding: 15px;
+                max-width: 100%;
+            }
+
+            .product-header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .product-header h2 {
+                font-size: 22px;
+            }
+
+            .product-images {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .product-image {
+                min-height: 150px;
+            }
+
+            .specification {
+                padding: 12px;
+            }
+
+            .spec-item h4 {
+                font-size: 11px;
+            }
+
+            .spec-item p {
+                font-size: 12px;
+            }
+
+            .product-definition h2 {
+                font-size: 18px;
+            }
+
+            .product-definition p {
+                font-size: 13px;
+            }
+
+            .product-table {
+                overflow-x: auto;
+                margin: 15px -15px;
+                padding: 0 15px;
+            }
+
+            table {
+                font-size: 9px;
+                min-width: 700px;
+            }
+
+            thead th {
+                padding: 6px 4px;
+                font-size: 9px;
+            }
+
+            tbody td {
+                padding: 6px 4px;
+                font-size: 9px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content {
+                padding: 10px;
+            }
+
+            .product-header h2 {
+                font-size: 18px;
+            }
+
+            .product-image {
+                min-height: 120px;
+            }
+
+            .specification {
+                padding: 10px;
+            }
+
+            .spec-item h4 {
+                font-size: 10px;
+            }
+
+            .spec-item p {
+                font-size: 11px;
+            }
+
+            .product-definition h2 {
+                font-size: 16px;
+            }
+
+            .product-definition p {
+                font-size: 12px;
+            }
+
+            table {
+                font-size: 8px;
+            }
+
+            thead th {
+                padding: 5px 3px;
+                font-size: 8px;
+            }
+
+            tbody td {
+                padding: 5px 3px;
+                font-size: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <h2 class="loader-text">Loading...</h2>
+            <p class="loader-subtext">GREEN MAN</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div id="navbar-placeholder"></div>
+
+    <div class="header">
+        <h1><span class="product-range">PRODUCT</span> RANGE</h1>
+        <div class="brand">GREEN MAN</div>
+    </div>
+
+    <div class="content">
+        <div class="product-header">
+            <div style="flex: 1;">
+                <h2 id="productName"><!-- Product name will be loaded here --></h2>
+                
+                <div class="product-images">
+                    <div class="product-image">
+                        <img src="assets/img/ggip-clamp.png" alt="GGIP Clamp" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EClamp Image%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-image">
+                        <img src="assets/img/ggip-dimensions.png" alt="GGIP Dimensions" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EDimensions%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-image">
+                        <img src="assets/img/ggip-mounting.png" alt="GGIP Mounting" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EMounting%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="specification">
+                <h3>Specification</h3>
+                <div class="spec-items-container">
+                    <div class="spec-item" id="materialSurfaceContainer" style="display: none;">
+                        <strong>• Material</strong>
+                        <ul class="spec-list" id="materialSurface">
+                            <!-- Material surface will be loaded here -->
+                        </ul>
+                    </div>
+                    <div class="spec-item" id="materialInsertContainer" style="display: none;">
+                        <strong>• Material Insert</strong>
+                        <ul class="spec-list">
+                            <li id="materialInsert"><!-- Material insert will be loaded here --></li>
+                        </ul>
+                    </div>
+                    <div class="spec-item" id="zincPlatingContainer" style="display: none;">
+                        <strong>• Zinc Plating</strong>
+                        <span id="zincPlating"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="effectiveDensityContainer" style="display: none;">
+                        <strong>• Effective density</strong>
+                        <span id="effectiveDensity"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="thermalConductivityContainer" style="display: none;">
+                        <strong>• Thermal conductivity</strong>
+                        <span id="thermalConductivity"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="fireResistanceContainer" style="display: none;">
+                        <strong>• Fire Resistance</strong>
+                        <span id="fireResistance"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="faceSideContainer" style="display: none;">
+                        <strong>• Face Side</strong>
+                        <span id="faceSide"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="soundContainer" style="display: none;">
+                        <strong>• Sound -</strong>
+                        <span id="sound"><!-- Sound info will be loaded here --></span><br>
+                        <span id="soundDetails" style="margin-left: 15px;"><!-- Sound details will be loaded here --></span>
+                    </div>
+                    <div class="spec-item" id="soundAbsorptionContainer" style="display: none;">
+                        <strong>• Sound Absorption Lining</strong>
+                        <span id="soundAbsorptionLining"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="noiseReductionContainer" style="display: none;">
+                        <strong>• Noise Reduction</strong>
+                        <span id="noiseReduction"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="temperatureContainer" style="display: none;">
+                        <strong>• Temperature-<br>resistance</strong>
+                        <span id="temperatureResistance"><!-- Temperature will be loaded here --></span>
+                    </div>
+                    <div class="spec-item" id="comStrengthContainer" style="display: none;">
+                        <strong>• Com. Strength</strong>
+                        <span id="comStrength"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="waterVapourPermeabilityContainer" style="display: none;">
+                        <strong>• Water vapour<br>permeability</strong>
+                        <span id="waterVapourPermeability"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="epdmHardnessContainer" style="display: none;">
+                        <strong>• EPDM hardness</strong>
+                        <span id="epdmHardness"><!-- EPDM hardness will be loaded here --></span>
+                    </div>
+                    <div class="spec-item" id="fireBehaviourContainer" style="display: none;">
+                        <strong>• Fire Behaviour</strong>
+                        <span id="fireBehaviour"><!-- Will be loaded if available --></span>
+                    </div>
+                    <div class="spec-item" id="centerRibContainer" style="display: none;">
+                        <strong>• Center Rib</strong>
+                        <div id="centerRibDetails"><!-- Will be loaded if available --></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-definition">
+            <h2>Product Definition</h2>
+            <p id="productDefinition">
+                <!-- Product definition will be loaded here -->
+            </p>
+        </div>
+
+        <div class="product-table">
+            <table id="productTable">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Product Code</th>
+                        <th colspan="2" id="clampingRangeHeader">Clamping Range</th>
+                        <th rowspan="2" id="connectingHeader">Connecting<br>Thread</th>
+                        <th rowspan="2" id="threadD2Header" style="display:none;">D2</th>
+                        <th colspan="5" id="dimensionsHeader">Dimensions [mm]</th>
+                        <th rowspan="2" id="sHeader">S</th>
+                        <th rowspan="2" id="lockingHeader" style="display:none;">Locking<br>Screw</th>
+                        <th rowspan="2" id="packSizeHeader">Pack Size<br>[pcs]</th>
+                        <th rowspan="2" id="maxRecLoadHeader">Max.Rec.<br>Load [N]</th>
+                    </tr>
+                    <tr class="sub-header">
+                        <th id="clampCol1">D[mm]</th>
+                        <th id="clampCol2">[inch]</th>
+                        <th id="clampCol3" style="display:none;">DN</th>
+                        <th id="connectSubHeader" style="display:none;">D1</th>
+                        <th id="dimPxS">P x s</th>
+                        <th id="dimW">W</th>
+                        <th id="dimH">H'</th>
+                        <th id="dimC">C</th>
+                        <th id="dimT">T</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                    <!-- Products will be loaded here via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-website" id="website">www.greenman-gbp.co.uk</div>
+        <div class="footer-page" id="pageNumber">PAGE 47</div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/greengrip-ggip-renderer.js"></script>
+    
+    <script>
+        // Load navbar
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading navbar:', error));
+
+        // Load footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading footer:', error));
+
+        // Hide page loader
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.body.classList.add('loaded');
+            }, 100);
+        });
+    </script>
+</body>
+</html>

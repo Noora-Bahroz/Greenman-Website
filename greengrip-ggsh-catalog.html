@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>GreenGrip Sprinkler Pipe Hanger GGSH - Product Catalog</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #fff;
+            color: #333;
+        }
+
+        .content {
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .product-header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            gap: 20px;
+        }
+
+        .product-header h2 {
+            color: #4CAF50;
+            font-size: 28px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-header h2::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .product-images {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .product-image {
+            flex: 1;
+            border: 2px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            background: #fafafa;
+            min-height: 300px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .specification {
+            flex: 0 0 350px;
+            border-left: 4px solid #4CAF50;
+            padding-left: 20px;
+        }
+
+        .specification h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .specification h3::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .spec-item {
+            margin-bottom: 12px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .spec-item strong {
+            display: block;
+            color: #555;
+            margin-bottom: 3px;
+        }
+
+        .spec-list {
+            list-style: none;
+            padding-left: 15px;
+        }
+
+        .spec-list li::before {
+            content: '•';
+            color: #4CAF50;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+
+        .definition-loading-container {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 30px;
+            margin: 40px 0;
+            align-items: start;
+        }
+
+        .product-definition {
+            flex: 1;
+        }
+
+        .product-definition h2 {
+            color: #4CAF50;
+            font-size: 24px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-definition h2::before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .product-definition p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        .loading-data-section {
+            background: #2c2c2c;
+            color: white;
+            padding: 15px 20px;
+            min-width: 400px;
+        }
+
+        .loading-data-section h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .loading-data-table {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .loading-data-table table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        .loading-data-table thead {
+            background: #444;
+        }
+
+        .loading-data-table th {
+            padding: 8px;
+            text-align: center;
+            font-weight: 600;
+            border: 1px solid #555;
+        }
+
+        .loading-data-table tbody tr {
+            background: #e0e0e0;
+            color: #000;
+        }
+
+        .loading-data-table tbody tr:nth-child(even) {
+            background: #f0f0f0;
+        }
+
+        .loading-data-table td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #ccc;
+            color: #000;
+        }
+
+        .product-table {
+            margin-top: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            background: white;
+        }
+
+        thead {
+            background: #2c2c2c;
+            color: white;
+        }
+
+        thead th {
+            padding: 12px 8px;
+            text-align: center;
+            font-weight: 600;
+            border-right: 1px solid #444;
+        }
+
+        thead th:last-child {
+            border-right: none;
+        }
+
+        .sub-header {
+            background: #e0e0e0;
+            font-weight: normal;
+            font-size: 10px;
+            color: #000 !important;
+        }
+
+        .sub-header th {
+            color: #000 !important;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background: #f0f7f4;
+        }
+
+        tbody td {
+            padding: 10px 8px;
+            text-align: center;
+            border-right: 1px solid #e0e0e0;
+        }
+
+        tbody td:first-child {
+            font-weight: 600;
+            color: #004d40;
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        tbody td:last-child {
+            border-right: none;
+        }
+
+        .footer {
+            display: none;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #004d40;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .footer-website {
+            font-size: 14px;
+        }
+
+        .footer-page {
+            background: #4CAF50;
+            padding: 8px 20px;
+            font-weight: bold;
+        }
+
+        @media print {
+            .content {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 9px;
+            }
+        }
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 1024px) {
+            .content {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background: #fff;
+            }
+
+            .content {
+                padding: 15px;
+                max-width: 100%;
+            }
+
+            .product-header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .product-header h2 {
+                font-size: 22px;
+            }
+
+            .product-images {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .product-image {
+                min-height: 150px;
+            }
+
+            .specification {
+                padding: 12px;
+            }
+
+            .spec-items-container {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .spec-item h4 {
+                font-size: 11px;
+            }
+
+            .spec-item p {
+                font-size: 12px;
+            }
+
+            .product-definition h2 {
+                font-size: 18px;
+            }
+
+            .product-definition p {
+                font-size: 13px;
+            }
+
+            .product-table {
+                overflow-x: auto;
+                margin: 15px -15px;
+                padding: 0 15px;
+            }
+
+            table {
+                font-size: 9px;
+                min-width: 700px;
+            }
+
+            thead th {
+                padding: 6px 4px;
+                font-size: 9px;
+            }
+
+            tbody td {
+                padding: 6px 4px;
+                font-size: 9px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .content {
+                padding: 10px;
+            }
+
+            .product-header h2 {
+                font-size: 18px;
+            }
+
+            .product-image {
+                min-height: 120px;
+            }
+
+            .specification {
+                padding: 10px;
+            }
+
+            .spec-item h4 {
+                font-size: 10px;
+            }
+
+            .spec-item p {
+                font-size: 11px;
+            }
+
+            .product-definition h2 {
+                font-size: 16px;
+            }
+
+            .product-definition p {
+                font-size: 12px;
+            }
+
+            table {
+                font-size: 8px;
+                min-width: 600px;
+            }
+
+            thead th {
+                padding: 5px 3px;
+                font-size: 8px;
+            }
+
+            tbody td {
+                padding: 5px 3px;
+                font-size: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <h2 class="loader-text">Loading...</h2>
+            <p class="loader-subtext">GREEN MAN</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div id="navbar-placeholder"></div>
+
+    <div class="content">
+        <div class="product-header">
+            <div style="flex: 1;">
+                <h2 id="productName"><!-- Product name will be loaded here --></h2>
+                
+                <div class="product-images">
+                    <div class="product-image">
+                        <img id="productImage1" src="" alt="Product Image" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EProduct Image%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-image">
+                        <img id="productImage2" src="" alt="Dimensions" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EDimensions%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="product-image">
+                        <img id="productImage3" src="" alt="Installation" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22200%22 height=%22200%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22%3EInstallation%3C/text%3E%3C/svg%3E'">
+                    </div>
+                </div>
+            </div>
+
+            <div class="specification">
+                <h3>Specification</h3>
+                <div class="spec-item" id="materialContainer">
+                    <strong>• Material</strong>
+                    <ul class="spec-list" id="materialList">
+                        <!-- Material will be loaded here -->
+                    </ul>
+                </div>
+                <div class="spec-item" id="surfaceContainer">
+                    <strong>• Surface</strong>
+                    <ul class="spec-list" id="surfaceList">
+                        <!-- Surface will be loaded here -->
+                    </ul>
+                </div>
+                <div class="spec-item" id="materialConnectionContainer">
+                    <strong>• Material</strong>
+                    <strong style="margin-left: 15px;">Connection</strong>
+                    <ul class="spec-list">
+                        <li id="materialConnection"><!-- Material Connection will be loaded here --></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="definition-loading-container">
+            <div class="product-definition">
+                <h2>Product Definition</h2>
+                <p id="productDefinition">
+                    <!-- Product definition will be loaded here -->
+                </p>
+            </div>
+
+            <!-- Loading Data Section -->
+            <div class="loading-data-section">
+                <h3>Loading Data</h3>
+                <div class="loading-data-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Max. Recommended Load [N]</th>
+                            </tr>
+                        </thead>
+                        <tbody id="loadingDataTableBody">
+                            <!-- Loading data will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-table">
+            <table id="productTable">
+                <thead id="productTableHead">
+                    <tr>
+                        <th rowspan="2">Product Code</th>
+                        <th colspan="3">Clamping Range</th>
+                        <th colspan="5">Dimensions [mm]</th>
+                        <th rowspan="2">Pack Size<br>[pcs]</th>
+                    </tr>
+                    <tr class="sub-header" id="productTableSubHead">
+                        <th>DN</th>
+                        <th>D[mm]</th>
+                        <th>[inch]</th>
+                        <th>W x T</th>
+                        <th>G</th>
+                        <th>H1</th>
+                        <th>H2</th>
+                        <th>M</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                    <!-- Products will be loaded here via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-website" id="website">www.greenman-gbp.co.uk</div>
+        <div class="footer-page" id="pageNumber">PAGE 55</div>
+    </div>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+[
+  {
+    "page": 1,
+    "product_code": "GACO",
+    "rows": [
+      {
+        "Product Code": "GACO0452",
+        "Detail": "@ Angle Connector’s (GACO )",
+        "Dimensions": "GACO0902",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GACO0454",
+        "Detail": "➤Electro-galvanized (Z-275) Angle connectors are specialized components designed for connecting",
+        "Dimensions": "GACO0452",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GACO1354",
+        "Detail": "➤Hot-dip galvanized strut channels at specific angles, typically 90 degrees, 45 degrees",
+        "Dimensions": "GACO1352",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GACO0902",
+        "Detail": "GACO0902 2-hole 90° 48x48x40x5 GM - profile GM4 kN 2.5 KN Xx",
+        "Dimensions": "GACO0903",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "xx"
+      },
+      {
+        "Product Code": "GACO1352",
+        "Detail": "GACO0452 2-hole 45° 52x86x40x5 GM - profile GM4 kN 2.5 kN Xx",
+        "Dimensions": "GACO0904",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM41",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GACO0903",
+        "Detail": "GACO1352 2-hole 135° 48x71x40x5 GM - profile GM4 1kN 2.5 kN Xx",
+        "Dimensions": "GACO0454",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GACO0904",
+        "Detail": "GACO0903 3-hole 90° 48x98x40x5 GM - profile GM4 KN 2.5 KN xx",
+        "Dimensions": "GACO1354",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "Xx"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "product_code": "GMDC",
+    "rows": [
+      {
+        "Product Code": "GMDC1090",
+        "Detail": "single sided, short neck, 90°",
+        "Dimensions": "41x41x40x5",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4kKN",
+        "For Profile": "GM - profile GM4",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GMDC2092",
+        "Detail": "double sided, short neck, 90°",
+        "Dimensions": "41x41x40x5",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4KN",
+        "For Profile": "GM - profile GM4",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GMDC3180",
+        "Detail": "double sided, long neck, 90°",
+        "Dimensions": "95x41x40x5",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4KN",
+        "For Profile": "GM - profile GM41",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GMDC2090",
+        "Detail": "double sided, long neck, long wings, 90°",
+        "Dimensions": "95x95x40x5S",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4KN",
+        "For Profile": "GM - profile GM4",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GMDC2091",
+        "Detail": "double sided, long neck, 180°",
+        "Dimensions": "95x41x40x5",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4KN",
+        "For Profile": "GM - profile GM4",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GMDC2180",
+        "Detail": "double sided, long neck, long wings, 180°",
+        "Dimensions": "95x95x40x5",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4kN",
+        "For Profile": "GM - profile GM4",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GMDC2181",
+        "Detail": "triple sided, long neck, 90°+180°",
+        "Dimensions": "95x41x40x5",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4KN",
+        "For Profile": "GM - profile GM41",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GMDC3181",
+        "Detail": "triple sided, long neck, long wings, 90°+180°",
+        "Dimensions": "95x95x40x5S",
+        "Load Isolated": "2.5KN",
+        "Load fixed on profile": "4KN",
+        "For Profile": "GM - profile GM41",
+        "Weight": "XX"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "product_code": "GZCO",
+    "rows": [
+      {
+        "Product Code": "GZCO2021",
+        "Detail": "@ 2Z-Shape Connector (GZCO )",
+        "Dimensions": "40x21x40x5",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM41",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GZCO3021",
+        "Detail": "2-hole M21-step",
+        "Dimensions": "95x21x40x5",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM41",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GZCO2041",
+        "Detail": "3-hole M21-step",
+        "Dimensions": "40x41x40x5",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM41",
+        "Weight": "xx"
+      },
+      {
+        "Product Code": "GZCO3041",
+        "Detail": "2-hole M41-step",
+        "Dimensions": "95x41x40x5",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM41",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GZCO3062",
+        "Detail": "3-hole M41-step",
+        "Dimensions": "95x62x40x5S",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM41",
+        "Weight": "XX"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "product_code": "GUHB",
+    "rows": [
+      {
+        "Product Code": "GUHB3021",
+        "Detail": "@ U-Shape Winged Bracket (GUWB )",
+        "Dimensions": "GUHBS5041",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GUHB5062",
+        "Detail": "Material: S2S5OGD/S235JR U-Shape Winged Brackets are specialized components designed for",
+        "Dimensions": "GUHB5052",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "XX"
+      },
+      {
+        "Product Code": "GUHB5052",
+        "Detail": "GUHB3021 3-hole M21 40x21xS 3.5KN GM - profile GM4 XX",
+        "Dimensions": "GUHB5062",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GUHB5072",
+        "Detail": "GUHBS5041 5-hole M41 40x41x5 3.5KN GM - profile GM4 XX",
+        "Dimensions": "GUHB5072",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM4",
+        "Weight": "XX"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "product_code": "GCWA",
+    "rows": [
+      {
+        "Product Code": "GCWA4108",
+        "Detail": "@ Reinforced Angle Connector ( GRAC )",
+        "Dimensions": "GRAC4100",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "For Profile": "GM - profile GM41",
+        "Weight": "XX"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "product_code": "GECC",
+    "rows": [
+      {
+        "Product Code": "GECC0200",
+        "Detail": "GECC0200 C-shape, 4-hole connection 200x42x5 GM-Profile GM41 Xx",
+        "Dimensions": "GECC0200",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "Weight": "Xx"
+      },
+      {
+        "Product Code": "GECC0400",
+        "Detail": "GECC0400 C-shape, 8-hole connection 400x42x5 GM-Profile GM41 XX",
+        "Dimensions": "GECC0400",
+        "Load Isolated": "",
+        "Load fixed on profile": "",
+        "Weight": "XX"
+      }
+    ]
+  }
+]

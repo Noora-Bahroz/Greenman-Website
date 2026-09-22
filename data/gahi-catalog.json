@@ -1,0 +1,30 @@
+{
+  "title": "Adjustable Hinge (GAHI)",
+  "code_prefix": "GAHI",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Adjustable pivot mechanism allows for rotation, enabling precise angle adjustments. Facilitates connection of rods to structures at customizable angles.",
+  "items": [
+    {
+      "code": "GAHI0001",
+      "image": "assets/img/gahi0001.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GAHI0001",
+      "Detail": "Adjustable Hinge with terminal hole",
+      "Dimensions": "60x40x5",
+      "Thread": "M8-M12",
+      "Load - 0°": "6kN",
+      "Load - 45°": "4kN",
+      "Load - 90°": "2.5kN",
+      "Weight": "xx"
+    }
+  ]
+}

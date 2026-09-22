@@ -1,0 +1,4390 @@
+{
+  "category": {
+    "id": "c-channels",
+    "name": "C Channel Profiles",
+    "badge": "C Channels - GMC Series",
+    "description": "C-Channels are structural steel profiles characterized by their C-shaped cross-section, engineered to deliver strength, rigidity, and stability in a variety of load-bearing applications.",
+    "products": [
+      {
+        "id": "c-profile-gmc271812",
+        "title": "C Profile GMC271812",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC271812.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC271812.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC271812",
+          "size": "27x18x1.2",
+          "area_mm2": 72.72,
+          "weight_kg_m": 0.571,
+          "cd_mm": 13.5,
+          "iz_mm4": 3170,
+          "wy_mm3": 283
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 1773,
+              "case2": 1330,
+              "case3": 887,
+              "case4": 739,
+              "case5": 3547
+            },
+            {
+              "span_mm": 200,
+              "case1": 887,
+              "case2": 665,
+              "case3": 443,
+              "case4": 369,
+              "case5": 1773
+            },
+            {
+              "span_mm": 300,
+              "case1": 591,
+              "case2": 443,
+              "case3": 296,
+              "case4": 246,
+              "case5": 1182
+            },
+            {
+              "span_mm": 400,
+              "case1": 443,
+              "case2": 333,
+              "case3": 222,
+              "case4": 185,
+              "case5": 887
+            },
+            {
+              "span_mm": 500,
+              "case1": 355,
+              "case2": 266,
+              "case3": 177,
+              "case4": 148,
+              "case5": 709
+            },
+            {
+              "span_mm": 600,
+              "case1": 296,
+              "case2": 222,
+              "case3": 148,
+              "case4": 123,
+              "case5": 591
+            },
+            {
+              "span_mm": 700,
+              "case1": 253,
+              "case2": 190,
+              "case3": 127,
+              "case4": 106,
+              "case5": 507
+            },
+            {
+              "span_mm": 800,
+              "case1": 222,
+              "case2": 147,
+              "case3": 105,
+              "case4": 89,
+              "case5": 399
+            },
+            {
+              "span_mm": 900,
+              "case1": 197,
+              "case2": 116,
+              "case3": 83,
+              "case4": 70,
+              "case5": 316
+            },
+            {
+              "span_mm": 1000,
+              "case1": 160,
+              "case2": 94,
+              "case3": 67,
+              "case4": 57,
+              "case5": 256
+            },
+            {
+              "span_mm": 1100,
+              "case1": 132,
+              "case2": 78,
+              "case3": 56,
+              "case4": 47,
+              "case5": 211
+            },
+            {
+              "span_mm": 1200,
+              "case1": 111,
+              "case2": 65,
+              "case3": 47,
+              "case4": 40,
+              "case5": 178
+            },
+            {
+              "span_mm": 1300,
+              "case1": 95,
+              "case2": 55,
+              "case3": 40,
+              "case4": 34,
+              "case5": 151
+            },
+            {
+              "span_mm": 1400,
+              "case1": 82,
+              "case2": 48,
+              "case3": 34,
+              "case4": 29,
+              "case5": 130
+            },
+            {
+              "span_mm": 1500,
+              "case1": 71,
+              "case2": 42,
+              "case3": 30,
+              "case4": 25,
+              "case5": 114
+            },
+            {
+              "span_mm": 1600,
+              "case1": 62,
+              "case2": 37,
+              "case3": 26,
+              "case4": 22,
+              "case5": 100
+            },
+            {
+              "span_mm": 1700,
+              "case1": 55,
+              "case2": 32,
+              "case3": 23,
+              "case4": 20,
+              "case5": 88
+            },
+            {
+              "span_mm": 1800,
+              "case1": 49,
+              "case2": 29,
+              "case3": 21,
+              "case4": 18,
+              "case5": 79
+            },
+            {
+              "span_mm": 1900,
+              "case1": 44,
+              "case2": 26,
+              "case3": 19,
+              "case4": 16,
+              "case5": 71
+            },
+            {
+              "span_mm": 2000,
+              "case1": 40,
+              "case2": 23,
+              "case3": 17,
+              "case4": 14,
+              "case5": 64
+            },
+            {
+              "span_mm": 2100,
+              "case1": 36,
+              "case2": 21,
+              "case3": 15,
+              "case4": 13,
+              "case5": 58
+            },
+            {
+              "span_mm": 2200,
+              "case1": 33,
+              "case2": 19,
+              "case3": 14,
+              "case4": 12,
+              "case5": 53
+            },
+            {
+              "span_mm": 2300,
+              "case1": 30,
+              "case2": 18,
+              "case3": 13,
+              "case4": 11,
+              "case5": 48
+            },
+            {
+              "span_mm": 2400,
+              "case1": 28,
+              "case2": 16,
+              "case3": 12,
+              "case4": 10,
+              "case5": 44
+            },
+            {
+              "span_mm": 2500,
+              "case1": 26,
+              "case2": 15,
+              "case3": 11,
+              "case4": 9,
+              "case5": 41
+            },
+            {
+              "span_mm": 2600,
+              "case1": 24,
+              "case2": 14,
+              "case3": 10,
+              "case4": 8,
+              "case5": 38
+            },
+            {
+              "span_mm": 2700,
+              "case1": 22,
+              "case2": 13,
+              "case3": 9,
+              "case4": 8,
+              "case5": 35
+            },
+            {
+              "span_mm": 2800,
+              "case1": 20,
+              "case2": 12,
+              "case3": 9,
+              "case4": 7,
+              "case5": 33
+            },
+            {
+              "span_mm": 2900,
+              "case1": 19,
+              "case2": 11,
+              "case3": 8,
+              "case4": 7,
+              "case5": 30
+            },
+            {
+              "span_mm": 3000,
+              "case1": 18,
+              "case2": 10,
+              "case3": 7,
+              "case4": 6,
+              "case5": 28
+            }
+          ]
+        },
+        "page": 2
+      },
+      {
+        "id": "c-profile-gmc283015",
+        "title": "C Profile GMC283015",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC283015.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC283015.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC283015",
+          "size": "28x30x1.5",
+          "area_mm2": 127.5,
+          "weight_kg_m": 1.001,
+          "cd_mm": 14,
+          "iz_mm4": 15374,
+          "wy_mm3": 886
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 5552,
+              "case2": 4164,
+              "case3": 2776,
+              "case4": 2313,
+              "case5": 11105
+            },
+            {
+              "span_mm": 200,
+              "case1": 2776,
+              "case2": 2082,
+              "case3": 1388,
+              "case4": 1157,
+              "case5": 5552
+            },
+            {
+              "span_mm": 300,
+              "case1": 1851,
+              "case2": 1388,
+              "case3": 925,
+              "case4": 771,
+              "case5": 3702
+            },
+            {
+              "span_mm": 400,
+              "case1": 1388,
+              "case2": 1041,
+              "case3": 694,
+              "case4": 578,
+              "case5": 2776
+            },
+            {
+              "span_mm": 500,
+              "case1": 1110,
+              "case2": 833,
+              "case3": 555,
+              "case4": 463,
+              "case5": 2221
+            },
+            {
+              "span_mm": 600,
+              "case1": 925,
+              "case2": 694,
+              "case3": 463,
+              "case4": 386,
+              "case5": 1851
+            },
+            {
+              "span_mm": 700,
+              "case1": 793,
+              "case2": 595,
+              "case3": 397,
+              "case4": 330,
+              "case5": 1586
+            },
+            {
+              "span_mm": 800,
+              "case1": 694,
+              "case2": 521,
+              "case3": 347,
+              "case4": 289,
+              "case5": 1388
+            },
+            {
+              "span_mm": 900,
+              "case1": 617,
+              "case2": 463,
+              "case3": 308,
+              "case4": 257,
+              "case5": 1234
+            },
+            {
+              "span_mm": 1000,
+              "case1": 555,
+              "case2": 416,
+              "case3": 278,
+              "case4": 231,
+              "case5": 1110
+            },
+            {
+              "span_mm": 1100,
+              "case1": 505,
+              "case2": 376,
+              "case3": 252,
+              "case4": 210,
+              "case5": 1010
+            },
+            {
+              "span_mm": 1200,
+              "case1": 463,
+              "case2": 316,
+              "case3": 227,
+              "case4": 192,
+              "case5": 861
+            },
+            {
+              "span_mm": 1300,
+              "case1": 427,
+              "case2": 269,
+              "case3": 193,
+              "case4": 164,
+              "case5": 734
+            },
+            {
+              "span_mm": 1400,
+              "case1": 395,
+              "case2": 232,
+              "case3": 166,
+              "case4": 141,
+              "case5": 633
+            },
+            {
+              "span_mm": 1500,
+              "case1": 344,
+              "case2": 202,
+              "case3": 145,
+              "case4": 123,
+              "case5": 551
+            },
+            {
+              "span_mm": 1600,
+              "case1": 303,
+              "case2": 178,
+              "case3": 127,
+              "case4": 108,
+              "case5": 484
+            },
+            {
+              "span_mm": 1700,
+              "case1": 268,
+              "case2": 157,
+              "case3": 113,
+              "case4": 96,
+              "case5": 429
+            },
+            {
+              "span_mm": 1800,
+              "case1": 239,
+              "case2": 140,
+              "case3": 101,
+              "case4": 85,
+              "case5": 383
+            },
+            {
+              "span_mm": 1900,
+              "case1": 215,
+              "case2": 126,
+              "case3": 90,
+              "case4": 77,
+              "case5": 343
+            },
+            {
+              "span_mm": 2000,
+              "case1": 194,
+              "case2": 114,
+              "case3": 82,
+              "case4": 69,
+              "case5": 310
+            },
+            {
+              "span_mm": 2100,
+              "case1": 176,
+              "case2": 103,
+              "case3": 74,
+              "case4": 63,
+              "case5": 281
+            },
+            {
+              "span_mm": 2200,
+              "case1": 160,
+              "case2": 94,
+              "case3": 67,
+              "case4": 57,
+              "case5": 256
+            },
+            {
+              "span_mm": 2300,
+              "case1": 146,
+              "case2": 86,
+              "case3": 62,
+              "case4": 52,
+              "case5": 234
+            },
+            {
+              "span_mm": 2400,
+              "case1": 135,
+              "case2": 79,
+              "case3": 57,
+              "case4": 48,
+              "case5": 215
+            },
+            {
+              "span_mm": 2500,
+              "case1": 124,
+              "case2": 73,
+              "case3": 52,
+              "case4": 44,
+              "case5": 198
+            },
+            {
+              "span_mm": 2600,
+              "case1": 115,
+              "case2": 67,
+              "case3": 48,
+              "case4": 41,
+              "case5": 183
+            },
+            {
+              "span_mm": 2700,
+              "case1": 106,
+              "case2": 62,
+              "case3": 45,
+              "case4": 38,
+              "case5": 170
+            },
+            {
+              "span_mm": 2800,
+              "case1": 99,
+              "case2": 58,
+              "case3": 42,
+              "case4": 35,
+              "case5": 158
+            },
+            {
+              "span_mm": 2900,
+              "case1": 92,
+              "case2": 54,
+              "case3": 39,
+              "case4": 33,
+              "case5": 147
+            },
+            {
+              "span_mm": 3000,
+              "case1": 86,
+              "case2": 51,
+              "case3": 36,
+              "case4": 31,
+              "case5": 138
+            }
+          ]
+        },
+        "page": 4
+      },
+      {
+        "id": "c-profile-gmc283020",
+        "title": "C Profile GMC283020",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC283015.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC283015.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC283015",
+          "size": "28x30x20",
+          "area_mm2": 168,
+          "weight_kg_m": 1.319,
+          "cd_mm": 14,
+          "iz_mm4": 19049,
+          "wy_mm3": 1097
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 6875,
+              "case2": 5156,
+              "case3": 3437,
+              "case4": 2864,
+              "case5": 13749
+            },
+            {
+              "span_mm": 200,
+              "case1": 3437,
+              "case2": 2578,
+              "case3": 1719,
+              "case4": 1432,
+              "case5": 6875
+            },
+            {
+              "span_mm": 300,
+              "case1": 2292,
+              "case2": 1719,
+              "case3": 1146,
+              "case4": 955,
+              "case5": 4583
+            },
+            {
+              "span_mm": 400,
+              "case1": 1719,
+              "case2": 1289,
+              "case3": 859,
+              "case4": 716,
+              "case5": 3437
+            },
+            {
+              "span_mm": 500,
+              "case1": 1375,
+              "case2": 1031,
+              "case3": 687,
+              "case4": 573,
+              "case5": 2750
+            },
+            {
+              "span_mm": 600,
+              "case1": 1146,
+              "case2": 859,
+              "case3": 573,
+              "case4": 477,
+              "case5": 2292
+            },
+            {
+              "span_mm": 700,
+              "case1": 982,
+              "case2": 737,
+              "case3": 491,
+              "case4": 409,
+              "case5": 1964
+            },
+            {
+              "span_mm": 800,
+              "case1": 859,
+              "case2": 644,
+              "case3": 430,
+              "case4": 358,
+              "case5": 1719
+            },
+            {
+              "span_mm": 900,
+              "case1": 764,
+              "case2": 573,
+              "case3": 382,
+              "case4": 318,
+              "case5": 1528
+            },
+            {
+              "span_mm": 1000,
+              "case1": 687,
+              "case2": 516,
+              "case3": 344,
+              "case4": 286,
+              "case5": 1375
+            },
+            {
+              "span_mm": 1100,
+              "case1": 625,
+              "case2": 466,
+              "case3": 312,
+              "case4": 260,
+              "case5": 1250
+            },
+            {
+              "span_mm": 1200,
+              "case1": 573,
+              "case2": 391,
+              "case3": 281,
+              "case4": 238,
+              "case5": 1067
+            },
+            {
+              "span_mm": 1300,
+              "case1": 529,
+              "case2": 333,
+              "case3": 239,
+              "case4": 203,
+              "case5": 909
+            },
+            {
+              "span_mm": 1400,
+              "case1": 490,
+              "case2": 288,
+              "case3": 206,
+              "case4": 175,
+              "case5": 784
+            },
+            {
+              "span_mm": 1500,
+              "case1": 427,
+              "case2": 250,
+              "case3": 180,
+              "case4": 152,
+              "case5": 683
+            },
+            {
+              "span_mm": 1600,
+              "case1": 375,
+              "case2": 220,
+              "case3": 158,
+              "case4": 134,
+              "case5": 600
+            },
+            {
+              "span_mm": 1700,
+              "case1": 332,
+              "case2": 195,
+              "case3": 140,
+              "case4": 119,
+              "case5": 532
+            },
+            {
+              "span_mm": 1800,
+              "case1": 296,
+              "case2": 174,
+              "case3": 125,
+              "case4": 106,
+              "case5": 474
+            },
+            {
+              "span_mm": 1900,
+              "case1": 266,
+              "case2": 156,
+              "case3": 112,
+              "case4": 95,
+              "case5": 426
+            },
+            {
+              "span_mm": 2000,
+              "case1": 240,
+              "case2": 141,
+              "case3": 101,
+              "case4": 86,
+              "case5": 384
+            },
+            {
+              "span_mm": 2100,
+              "case1": 218,
+              "case2": 128,
+              "case3": 92,
+              "case4": 78,
+              "case5": 348
+            },
+            {
+              "span_mm": 2200,
+              "case1": 198,
+              "case2": 116,
+              "case3": 84,
+              "case4": 71,
+              "case5": 317
+            },
+            {
+              "span_mm": 2300,
+              "case1": 181,
+              "case2": 107,
+              "case3": 76,
+              "case4": 65,
+              "case5": 290
+            },
+            {
+              "span_mm": 2400,
+              "case1": 167,
+              "case2": 98,
+              "case3": 70,
+              "case4": 60,
+              "case5": 267
+            },
+            {
+              "span_mm": 2500,
+              "case1": 154,
+              "case2": 90,
+              "case3": 65,
+              "case4": 55,
+              "case5": 246
+            },
+            {
+              "span_mm": 2600,
+              "case1": 142,
+              "case2": 83,
+              "case3": 60,
+              "case4": 51,
+              "case5": 227
+            },
+            {
+              "span_mm": 2700,
+              "case1": 132,
+              "case2": 77,
+              "case3": 55,
+              "case4": 47,
+              "case5": 211
+            },
+            {
+              "span_mm": 2800,
+              "case1": 122,
+              "case2": 72,
+              "case3": 52,
+              "case4": 44,
+              "case5": 196
+            },
+            {
+              "span_mm": 2900,
+              "case1": 114,
+              "case2": 67,
+              "case3": 48,
+              "case4": 41,
+              "case5": 183
+            },
+            {
+              "span_mm": 3000,
+              "case1": 107,
+              "case2": 63,
+              "case3": 45,
+              "case4": 38,
+              "case5": 171
+            }
+          ]
+        },
+        "page": 6
+      },
+      {
+        "id": "c-profile-gmc384015",
+        "title": "C Profile GMC384015",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC384015.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC384015.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC384015",
+          "size": "38x40x1.5",
+          "area_mm2": 172.5,
+          "weight_kg_m": 1.354,
+          "cd_mm": 14,
+          "iz_mm4": 41922,
+          "wy_mm3": 1860
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 11656,
+              "case2": 8742,
+              "case3": 5828,
+              "case4": 4857,
+              "case5": 23312
+            },
+            {
+              "span_mm": 200,
+              "case1": 5828,
+              "case2": 4371,
+              "case3": 2914,
+              "case4": 2428,
+              "case5": 11656
+            },
+            {
+              "span_mm": 300,
+              "case1": 3885,
+              "case2": 2914,
+              "case3": 1943,
+              "case4": 1619,
+              "case5": 7771
+            },
+            {
+              "span_mm": 400,
+              "case1": 2914,
+              "case2": 2186,
+              "case3": 1457,
+              "case4": 1214,
+              "case5": 5828
+            },
+            {
+              "span_mm": 500,
+              "case1": 2331,
+              "case2": 1748,
+              "case3": 1166,
+              "case4": 971,
+              "case5": 4662
+            },
+            {
+              "span_mm": 600,
+              "case1": 1943,
+              "case2": 1457,
+              "case3": 971,
+              "case4": 809,
+              "case5": 3885
+            },
+            {
+              "span_mm": 700,
+              "case1": 1665,
+              "case2": 1249,
+              "case3": 833,
+              "case4": 694,
+              "case5": 3330
+            },
+            {
+              "span_mm": 800,
+              "case1": 1457,
+              "case2": 1093,
+              "case3": 729,
+              "case4": 607,
+              "case5": 2914
+            },
+            {
+              "span_mm": 900,
+              "case1": 1295,
+              "case2": 971,
+              "case3": 648,
+              "case4": 540,
+              "case5": 2590
+            },
+            {
+              "span_mm": 1000,
+              "case1": 1166,
+              "case2": 874,
+              "case3": 583,
+              "case4": 486,
+              "case5": 2331
+            },
+            {
+              "span_mm": 1100,
+              "case1": 1060,
+              "case2": 795,
+              "case3": 530,
+              "case4": 442,
+              "case5": 2119
+            },
+            {
+              "span_mm": 1200,
+              "case1": 971,
+              "case2": 729,
+              "case3": 486,
+              "case4": 405,
+              "case5": 1943
+            },
+            {
+              "span_mm": 1300,
+              "case1": 897,
+              "case2": 672,
+              "case3": 448,
+              "case4": 374,
+              "case5": 1793
+            },
+            {
+              "span_mm": 1400,
+              "case1": 833,
+              "case2": 624,
+              "case3": 416,
+              "case4": 347,
+              "case5": 1665
+            },
+            {
+              "span_mm": 1500,
+              "case1": 777,
+              "case2": 551,
+              "case3": 389,
+              "case4": 324,
+              "case5": 1502
+            },
+            {
+              "span_mm": 1600,
+              "case1": 729,
+              "case2": 484,
+              "case3": 348,
+              "case4": 295,
+              "case5": 1321
+            },
+            {
+              "span_mm": 1700,
+              "case1": 686,
+              "case2": 429,
+              "case3": 308,
+              "case4": 261,
+              "case5": 1170
+            },
+            {
+              "span_mm": 1800,
+              "case1": 648,
+              "case2": 383,
+              "case3": 275,
+              "case4": 233,
+              "case5": 1043
+            },
+            {
+              "span_mm": 1900,
+              "case1": 585,
+              "case2": 344,
+              "case3": 246,
+              "case4": 209,
+              "case5": 936
+            },
+            {
+              "span_mm": 2000,
+              "case1": 528,
+              "case2": 310,
+              "case3": 222,
+              "case4": 189,
+              "case5": 845
+            },
+            {
+              "span_mm": 2100,
+              "case1": 479,
+              "case2": 281,
+              "case3": 202,
+              "case4": 171,
+              "case5": 767
+            },
+            {
+              "span_mm": 2200,
+              "case1": 437,
+              "case2": 256,
+              "case3": 184,
+              "case4": 156,
+              "case5": 698
+            },
+            {
+              "span_mm": 2300,
+              "case1": 399,
+              "case2": 234,
+              "case3": 168,
+              "case4": 143,
+              "case5": 639
+            },
+            {
+              "span_mm": 2400,
+              "case1": 367,
+              "case2": 215,
+              "case3": 154,
+              "case4": 131,
+              "case5": 587
+            },
+            {
+              "span_mm": 2500,
+              "case1": 338,
+              "case2": 198,
+              "case3": 142,
+              "case4": 121,
+              "case5": 541
+            },
+            {
+              "span_mm": 2600,
+              "case1": 313,
+              "case2": 183,
+              "case3": 132,
+              "case4": 112,
+              "case5": 500
+            },
+            {
+              "span_mm": 2700,
+              "case1": 290,
+              "case2": 170,
+              "case3": 122,
+              "case4": 104,
+              "case5": 464
+            },
+            {
+              "span_mm": 2800,
+              "case1": 269,
+              "case2": 158,
+              "case3": 113,
+              "case4": 96,
+              "case5": 431
+            },
+            {
+              "span_mm": 2900,
+              "case1": 251,
+              "case2": 147,
+              "case3": 106,
+              "case4": 90,
+              "case5": 402
+            },
+            {
+              "span_mm": 3000,
+              "case1": 235,
+              "case2": 138,
+              "case3": 99,
+              "case4": 84,
+              "case5": 376
+            }
+          ]
+        },
+        "page": 8
+      },
+      {
+        "id": "c-profile-gmc384020",
+        "title": "C Profile GMC384020",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC384020.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC384020.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC384020",
+          "size": "38x40x2.0",
+          "area_mm2": 228,
+          "weight_kg_m": 1.79,
+          "cd_mm": 19,
+          "iz_mm4": 53125,
+          "wy_mm3": 2356
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 14764,
+              "case2": 11073,
+              "case3": 7382,
+              "case4": 6152,
+              "case5": 29529
+            },
+            {
+              "span_mm": 200,
+              "case1": 7382,
+              "case2": 5537,
+              "case3": 3691,
+              "case4": 3076,
+              "case5": 14764
+            },
+            {
+              "span_mm": 300,
+              "case1": 4921,
+              "case2": 3691,
+              "case3": 2461,
+              "case4": 2051,
+              "case5": 9843
+            },
+            {
+              "span_mm": 400,
+              "case1": 3691,
+              "case2": 2768,
+              "case3": 1846,
+              "case4": 1538,
+              "case5": 7382
+            },
+            {
+              "span_mm": 500,
+              "case1": 2953,
+              "case2": 2215,
+              "case3": 1476,
+              "case4": 1230,
+              "case5": 5906
+            },
+            {
+              "span_mm": 600,
+              "case1": 2461,
+              "case2": 1846,
+              "case3": 1230,
+              "case4": 1025,
+              "case5": 4921
+            },
+            {
+              "span_mm": 700,
+              "case1": 2109,
+              "case2": 1582,
+              "case3": 1055,
+              "case4": 879,
+              "case5": 4218
+            },
+            {
+              "span_mm": 800,
+              "case1": 1846,
+              "case2": 1384,
+              "case3": 923,
+              "case4": 769,
+              "case5": 3691
+            },
+            {
+              "span_mm": 900,
+              "case1": 1640,
+              "case2": 1230,
+              "case3": 820,
+              "case4": 684,
+              "case5": 3281
+            },
+            {
+              "span_mm": 1000,
+              "case1": 1476,
+              "case2": 1107,
+              "case3": 738,
+              "case4": 615,
+              "case5": 2953
+            },
+            {
+              "span_mm": 1100,
+              "case1": 1342,
+              "case2": 1007,
+              "case3": 671,
+              "case4": 559,
+              "case5": 2684
+            },
+            {
+              "span_mm": 1200,
+              "case1": 1230,
+              "case2": 923,
+              "case3": 615,
+              "case4": 513,
+              "case5": 2461
+            },
+            {
+              "span_mm": 1300,
+              "case1": 1136,
+              "case2": 852,
+              "case3": 568,
+              "case4": 473,
+              "case5": 2271
+            },
+            {
+              "span_mm": 1400,
+              "case1": 1055,
+              "case2": 791,
+              "case3": 527,
+              "case4": 439,
+              "case5": 2109
+            },
+            {
+              "span_mm": 1500,
+              "case1": 984,
+              "case2": 698,
+              "case3": 492,
+              "case4": 410,
+              "case5": 1904
+            },
+            {
+              "span_mm": 1600,
+              "case1": 923,
+              "case2": 614,
+              "case3": 440,
+              "case4": 374,
+              "case5": 1673
+            },
+            {
+              "span_mm": 1700,
+              "case1": 868,
+              "case2": 544,
+              "case3": 390,
+              "case4": 331,
+              "case5": 1482
+            },
+            {
+              "span_mm": 1800,
+              "case1": 820,
+              "case2": 485,
+              "case3": 348,
+              "case4": 295,
+              "case5": 1322
+            },
+            {
+              "span_mm": 1900,
+              "case1": 742,
+              "case2": 435,
+              "case3": 312,
+              "case4": 265,
+              "case5": 1187
+            },
+            {
+              "span_mm": 2000,
+              "case1": 669,
+              "case2": 393,
+              "case3": 282,
+              "case4": 239,
+              "case5": 1071
+            },
+            {
+              "span_mm": 2100,
+              "case1": 607,
+              "case2": 356,
+              "case3": 256,
+              "case4": 217,
+              "case5": 971
+            },
+            {
+              "span_mm": 2200,
+              "case1": 553,
+              "case2": 325,
+              "case3": 233,
+              "case4": 198,
+              "case5": 885
+            },
+            {
+              "span_mm": 2300,
+              "case1": 506,
+              "case2": 297,
+              "case3": 213,
+              "case4": 181,
+              "case5": 810
+            },
+            {
+              "span_mm": 2400,
+              "case1": 465,
+              "case2": 273,
+              "case3": 196,
+              "case4": 166,
+              "case5": 744
+            },
+            {
+              "span_mm": 2500,
+              "case1": 428,
+              "case2": 251,
+              "case3": 180,
+              "case4": 153,
+              "case5": 685
+            },
+            {
+              "span_mm": 2600,
+              "case1": 396,
+              "case2": 232,
+              "case3": 167,
+              "case4": 141,
+              "case5": 634
+            },
+            {
+              "span_mm": 2700,
+              "case1": 367,
+              "case2": 216,
+              "case3": 155,
+              "case4": 131,
+              "case5": 588
+            },
+            {
+              "span_mm": 2800,
+              "case1": 342,
+              "case2": 200,
+              "case3": 144,
+              "case4": 122,
+              "case5": 546
+            },
+            {
+              "span_mm": 2900,
+              "case1": 318,
+              "case2": 187,
+              "case3": 134,
+              "case4": 114,
+              "case5": 509
+            },
+            {
+              "span_mm": 3000,
+              "case1": 298,
+              "case2": 175,
+              "case3": 125,
+              "case4": 106,
+              "case5": 476
+            }
+          ]
+        },
+        "page": 10
+      },
+      {
+        "id": "c-profile-gmc402015",
+        "title": "C Profile GMC402015",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC402015.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC402015.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC402015",
+          "size": "40x20x1.5",
+          "area_mm2": 115.5,
+          "weight_kg_m": 0.907,
+          "cd_mm": 20,
+          "iz_mm4": 7985,
+          "wy_mm3": 669
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 4192,
+              "case2": 3144,
+              "case3": 2096,
+              "case4": 1747,
+              "case5": 8385
+            },
+            {
+              "span_mm": 200,
+              "case1": 2096,
+              "case2": 1572,
+              "case3": 1048,
+              "case4": 873,
+              "case5": 4192
+            },
+            {
+              "span_mm": 300,
+              "case1": 1397,
+              "case2": 1048,
+              "case3": 699,
+              "case4": 582,
+              "case5": 2795
+            },
+            {
+              "span_mm": 400,
+              "case1": 1048,
+              "case2": 786,
+              "case3": 524,
+              "case4": 437,
+              "case5": 2096
+            },
+            {
+              "span_mm": 500,
+              "case1": 838,
+              "case2": 629,
+              "case3": 419,
+              "case4": 349,
+              "case5": 1677
+            },
+            {
+              "span_mm": 600,
+              "case1": 699,
+              "case2": 524,
+              "case3": 349,
+              "case4": 291,
+              "case5": 1397
+            },
+            {
+              "span_mm": 700,
+              "case1": 599,
+              "case2": 449,
+              "case3": 299,
+              "case4": 250,
+              "case5": 1198
+            },
+            {
+              "span_mm": 800,
+              "case1": 524,
+              "case2": 369,
+              "case3": 262,
+              "case4": 218,
+              "case5": 1006
+            },
+            {
+              "span_mm": 900,
+              "case1": 466,
+              "case2": 292,
+              "case3": 209,
+              "case4": 177,
+              "case5": 795
+            },
+            {
+              "span_mm": 1000,
+              "case1": 402,
+              "case2": 236,
+              "case3": 169,
+              "case4": 144,
+              "case5": 644
+            },
+            {
+              "span_mm": 1100,
+              "case1": 333,
+              "case2": 195,
+              "case3": 140,
+              "case4": 119,
+              "case5": 532
+            },
+            {
+              "span_mm": 1200,
+              "case1": 279,
+              "case2": 164,
+              "case3": 118,
+              "case4": 100,
+              "case5": 447
+            },
+            {
+              "span_mm": 1300,
+              "case1": 238,
+              "case2": 140,
+              "case3": 100,
+              "case4": 85,
+              "case5": 381
+            },
+            {
+              "span_mm": 1400,
+              "case1": 205,
+              "case2": 121,
+              "case3": 86,
+              "case4": 73,
+              "case5": 329
+            },
+            {
+              "span_mm": 1500,
+              "case1": 179,
+              "case2": 105,
+              "case3": 75,
+              "case4": 64,
+              "case5": 286
+            },
+            {
+              "span_mm": 1600,
+              "case1": 157,
+              "case2": 92,
+              "case3": 66,
+              "case4": 56,
+              "case5": 252
+            },
+            {
+              "span_mm": 1700,
+              "case1": 139,
+              "case2": 82,
+              "case3": 59,
+              "case4": 50,
+              "case5": 223
+            },
+            {
+              "span_mm": 1800,
+              "case1": 124,
+              "case2": 73,
+              "case3": 52,
+              "case4": 44,
+              "case5": 199
+            },
+            {
+              "span_mm": 1900,
+              "case1": 111,
+              "case2": 65,
+              "case3": 47,
+              "case4": 40,
+              "case5": 178
+            },
+            {
+              "span_mm": 2000,
+              "case1": 101,
+              "case2": 59,
+              "case3": 42,
+              "case4": 36,
+              "case5": 161
+            },
+            {
+              "span_mm": 2100,
+              "case1": 91,
+              "case2": 54,
+              "case3": 38,
+              "case4": 33,
+              "case5": 146
+            },
+            {
+              "span_mm": 2200,
+              "case1": 83,
+              "case2": 49,
+              "case3": 35,
+              "case4": 30,
+              "case5": 133
+            },
+            {
+              "span_mm": 2300,
+              "case1": 76,
+              "case2": 45,
+              "case3": 32,
+              "case4": 27,
+              "case5": 122
+            },
+            {
+              "span_mm": 2400,
+              "case1": 70,
+              "case2": 41,
+              "case3": 29,
+              "case4": 25,
+              "case5": 112
+            },
+            {
+              "span_mm": 2500,
+              "case1": 64,
+              "case2": 38,
+              "case3": 27,
+              "case4": 23,
+              "case5": 103
+            },
+            {
+              "span_mm": 2600,
+              "case1": 60,
+              "case2": 35,
+              "case3": 25,
+              "case4": 21,
+              "case5": 95
+            },
+            {
+              "span_mm": 2700,
+              "case1": 55,
+              "case2": 32,
+              "case3": 23,
+              "case4": 20,
+              "case5": 88
+            },
+            {
+              "span_mm": 2800,
+              "case1": 51,
+              "case2": 30,
+              "case3": 22,
+              "case4": 18,
+              "case5": 82
+            },
+            {
+              "span_mm": 2900,
+              "case1": 48,
+              "case2": 28,
+              "case3": 20,
+              "case4": 17,
+              "case5": 77
+            },
+            {
+              "span_mm": 3000,
+              "case1": 45,
+              "case2": 26,
+              "case3": 19,
+              "case4": 16,
+              "case5": 72
+            }
+          ]
+        },
+        "page": 12
+      },
+      {
+        "id": "c-profile-gmc402020",
+        "title": "C Profile GMC402020",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC402020.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC402020.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC402020",
+          "size": "40x20x2.2",
+          "area_mm2": 152,
+          "weight_kg_m": 1.193,
+          "cd_mm": 20,
+          "iz_mm4": 9763,
+          "wy_mm3": 819
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 5132,
+              "case2": 3849,
+              "case3": 2566,
+              "case4": 2139,
+              "case5": 10265
+            },
+            {
+              "span_mm": 200,
+              "case1": 2566,
+              "case2": 1925,
+              "case3": 1283,
+              "case4": 1069,
+              "case5": 5132
+            },
+            {
+              "span_mm": 300,
+              "case1": 1711,
+              "case2": 1283,
+              "case3": 855,
+              "case4": 713,
+              "case5": 3422
+            },
+            {
+              "span_mm": 400,
+              "case1": 1283,
+              "case2": 962,
+              "case3": 642,
+              "case4": 535,
+              "case5": 2566
+            },
+            {
+              "span_mm": 500,
+              "case1": 1026,
+              "case2": 770,
+              "case3": 513,
+              "case4": 428,
+              "case5": 2053
+            },
+            {
+              "span_mm": 600,
+              "case1": 855,
+              "case2": 642,
+              "case3": 428,
+              "case4": 356,
+              "case5": 1711
+            },
+            {
+              "span_mm": 700,
+              "case1": 733,
+              "case2": 550,
+              "case3": 367,
+              "case4": 306,
+              "case5": 1466
+            },
+            {
+              "span_mm": 800,
+              "case1": 642,
+              "case2": 451,
+              "case3": 321,
+              "case4": 267,
+              "case5": 1230
+            },
+            {
+              "span_mm": 900,
+              "case1": 570,
+              "case2": 357,
+              "case3": 256,
+              "case4": 217,
+              "case5": 972
+            },
+            {
+              "span_mm": 1000,
+              "case1": 492,
+              "case2": 289,
+              "case3": 207,
+              "case4": 176,
+              "case5": 787
+            },
+            {
+              "span_mm": 1100,
+              "case1": 407,
+              "case2": 239,
+              "case3": 171,
+              "case4": 145,
+              "case5": 651
+            },
+            {
+              "span_mm": 1200,
+              "case1": 342,
+              "case2": 201,
+              "case3": 144,
+              "case4": 122,
+              "case5": 547
+            },
+            {
+              "span_mm": 1300,
+              "case1": 291,
+              "case2": 171,
+              "case3": 123,
+              "case4": 104,
+              "case5": 466
+            },
+            {
+              "span_mm": 1400,
+              "case1": 251,
+              "case2": 147,
+              "case3": 106,
+              "case4": 90,
+              "case5": 402
+            },
+            {
+              "span_mm": 1500,
+              "case1": 219,
+              "case2": 128,
+              "case3": 92,
+              "case4": 78,
+              "case5": 350
+            },
+            {
+              "span_mm": 1600,
+              "case1": 192,
+              "case2": 113,
+              "case3": 81,
+              "case4": 69,
+              "case5": 308
+            },
+            {
+              "span_mm": 1700,
+              "case1": 170,
+              "case2": 100,
+              "case3": 72,
+              "case4": 61,
+              "case5": 272
+            },
+            {
+              "span_mm": 1800,
+              "case1": 152,
+              "case2": 89,
+              "case3": 64,
+              "case4": 54,
+              "case5": 243
+            },
+            {
+              "span_mm": 1900,
+              "case1": 136,
+              "case2": 80,
+              "case3": 57,
+              "case4": 49,
+              "case5": 218
+            },
+            {
+              "span_mm": 2000,
+              "case1": 123,
+              "case2": 72,
+              "case3": 52,
+              "case4": 44,
+              "case5": 197
+            },
+            {
+              "span_mm": 2100,
+              "case1": 112,
+              "case2": 65,
+              "case3": 47,
+              "case4": 40,
+              "case5": 179
+            },
+            {
+              "span_mm": 2200,
+              "case1": 102,
+              "case2": 60,
+              "case3": 43,
+              "case4": 36,
+              "case5": 163
+            },
+            {
+              "span_mm": 2300,
+              "case1": 93,
+              "case2": 55,
+              "case3": 39,
+              "case4": 33,
+              "case5": 149
+            },
+            {
+              "span_mm": 2400,
+              "case1": 85,
+              "case2": 50,
+              "case3": 36,
+              "case4": 31,
+              "case5": 137
+            },
+            {
+              "span_mm": 2500,
+              "case1": 79,
+              "case2": 46,
+              "case3": 33,
+              "case4": 28,
+              "case5": 126
+            },
+            {
+              "span_mm": 2600,
+              "case1": 73,
+              "case2": 43,
+              "case3": 31,
+              "case4": 26,
+              "case5": 116
+            },
+            {
+              "span_mm": 2700,
+              "case1": 67,
+              "case2": 40,
+              "case3": 28,
+              "case4": 24,
+              "case5": 108
+            },
+            {
+              "span_mm": 2800,
+              "case1": 63,
+              "case2": 37,
+              "case3": 26,
+              "case4": 22,
+              "case5": 100
+            },
+            {
+              "span_mm": 2900,
+              "case1": 59,
+              "case2": 34,
+              "case3": 25,
+              "case4": 21,
+              "case5": 94
+            },
+            {
+              "span_mm": 3000,
+              "case1": 55,
+              "case2": 32,
+              "case3": 23,
+              "case4": 20,
+              "case5": 87
+            }
+          ]
+        },
+        "page": 14
+      },
+      {
+        "id": "c-profile-gmc753820",
+        "title": "C Profile GMC753820",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC753820.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC753820.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC753820",
+          "size": "75x38x2.0",
+          "area_mm2": 294,
+          "weight_kg_m": 2.308,
+          "cd_mm": 37.5,
+          "iz_mm4": 302722,
+          "wy_mm3": 80133
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 22291,
+              "case2": 16718,
+              "case3": 11145,
+              "case4": 9288,
+              "case5": 44581
+            },
+            {
+              "span_mm": 200,
+              "case1": 11145,
+              "case2": 8359,
+              "case3": 5573,
+              "case4": 4644,
+              "case5": 22291
+            },
+            {
+              "span_mm": 300,
+              "case1": 7430,
+              "case2": 5573,
+              "case3": 3715,
+              "case4": 3096,
+              "case5": 14860
+            },
+            {
+              "span_mm": 400,
+              "case1": 5573,
+              "case2": 4179,
+              "case3": 2786,
+              "case4": 2322,
+              "case5": 11145
+            },
+            {
+              "span_mm": 500,
+              "case1": 4458,
+              "case2": 3344,
+              "case3": 2229,
+              "case4": 1858,
+              "case5": 8916
+            },
+            {
+              "span_mm": 600,
+              "case1": 3715,
+              "case2": 2786,
+              "case3": 1858,
+              "case4": 1548,
+              "case5": 7430
+            },
+            {
+              "span_mm": 700,
+              "case1": 3184,
+              "case2": 2388,
+              "case3": 1592,
+              "case4": 1327,
+              "case5": 6369
+            },
+            {
+              "span_mm": 800,
+              "case1": 2786,
+              "case2": 2090,
+              "case3": 1393,
+              "case4": 1161,
+              "case5": 5573
+            },
+            {
+              "span_mm": 900,
+              "case1": 2477,
+              "case2": 1858,
+              "case3": 1238,
+              "case4": 1032,
+              "case5": 4953
+            },
+            {
+              "span_mm": 1000,
+              "case1": 2229,
+              "case2": 1672,
+              "case3": 1115,
+              "case4": 929,
+              "case5": 4458
+            },
+            {
+              "span_mm": 1100,
+              "case1": 2026,
+              "case2": 1520,
+              "case3": 1013,
+              "case4": 844,
+              "case5": 4053
+            },
+            {
+              "span_mm": 1200,
+              "case1": 1858,
+              "case2": 1393,
+              "case3": 929,
+              "case4": 774,
+              "case5": 3715
+            },
+            {
+              "span_mm": 1300,
+              "case1": 1715,
+              "case2": 1286,
+              "case3": 857,
+              "case4": 714,
+              "case5": 3429
+            },
+            {
+              "span_mm": 1400,
+              "case1": 1592,
+              "case2": 1194,
+              "case3": 796,
+              "case4": 663,
+              "case5": 3184
+            },
+            {
+              "span_mm": 1500,
+              "case1": 1486,
+              "case2": 1054,
+              "case3": 743,
+              "case4": 619,
+              "case5": 2872
+            },
+            {
+              "span_mm": 1600,
+              "case1": 1393,
+              "case2": 926,
+              "case3": 664,
+              "case4": 563,
+              "case5": 2524
+            },
+            {
+              "span_mm": 1700,
+              "case1": 1311,
+              "case2": 820,
+              "case3": 588,
+              "case4": 499,
+              "case5": 2236
+            },
+            {
+              "span_mm": 1800,
+              "case1": 1238,
+              "case2": 732,
+              "case3": 525,
+              "case4": 445,
+              "case5": 1994
+            },
+            {
+              "span_mm": 1900,
+              "case1": 1119,
+              "case2": 657,
+              "case3": 471,
+              "case4": 400,
+              "case5": 1790
+            },
+            {
+              "span_mm": 2000,
+              "case1": 1010,
+              "case2": 593,
+              "case3": 425,
+              "case4": 361,
+              "case5": 1615
+            },
+            {
+              "span_mm": 2100,
+              "case1": 916,
+              "case2": 538,
+              "case3": 386,
+              "case4": 327,
+              "case5": 1465
+            },
+            {
+              "span_mm": 2200,
+              "case1": 834,
+              "case2": 490,
+              "case3": 351,
+              "case4": 298,
+              "case5": 1335
+            },
+            {
+              "span_mm": 2300,
+              "case1": 763,
+              "case2": 448,
+              "case3": 321,
+              "case4": 273,
+              "case5": 1222
+            },
+            {
+              "span_mm": 2400,
+              "case1": 701,
+              "case2": 412,
+              "case3": 295,
+              "case4": 250,
+              "case5": 1122
+            },
+            {
+              "span_mm": 2500,
+              "case1": 646,
+              "case2": 379,
+              "case3": 272,
+              "case4": 231,
+              "case5": 1034
+            },
+            {
+              "span_mm": 2600,
+              "case1": 597,
+              "case2": 351,
+              "case3": 252,
+              "case4": 213,
+              "case5": 956
+            },
+            {
+              "span_mm": 2700,
+              "case1": 554,
+              "case2": 325,
+              "case3": 233,
+              "case4": 198,
+              "case5": 886
+            },
+            {
+              "span_mm": 2800,
+              "case1": 515,
+              "case2": 302,
+              "case3": 217,
+              "case4": 184,
+              "case5": 824
+            },
+            {
+              "span_mm": 2900,
+              "case1": 480,
+              "case2": 282,
+              "case3": 202,
+              "case4": 172,
+              "case5": 768
+            },
+            {
+              "span_mm": 3000,
+              "case1": 449,
+              "case2": 263,
+              "case3": 189,
+              "case4": 160,
+              "case5": 718
+            }
+          ]
+        },
+        "page": 16
+      },
+      {
+        "id": "c-profile-gmc753820-z-axis",
+        "title": "C Profile GMC753820 - Z -Axis",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC753820.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC753820.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC753820",
+          "size": "75x38x2.0",
+          "area_mm2": 294,
+          "weight_kg_m": 2.308,
+          "cd_mm": 37.5,
+          "iz_mm4": 302722,
+          "wy_mm3": 80133
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 50585,
+              "case2": 37938,
+              "case3": 25292,
+              "case4": 21077,
+              "case5": 101169
+            },
+            {
+              "span_mm": 200,
+              "case1": 25292,
+              "case2": 18969,
+              "case3": 12646,
+              "case4": 10538,
+              "case5": 50585
+            },
+            {
+              "span_mm": 300,
+              "case1": 16862,
+              "case2": 12646,
+              "case3": 8431,
+              "case4": 7026,
+              "case5": 33723
+            },
+            {
+              "span_mm": 400,
+              "case1": 12646,
+              "case2": 9485,
+              "case3": 6323,
+              "case4": 5269,
+              "case5": 25292
+            },
+            {
+              "span_mm": 500,
+              "case1": 10117,
+              "case2": 7588,
+              "case3": 5058,
+              "case4": 4215,
+              "case5": 20234
+            },
+            {
+              "span_mm": 600,
+              "case1": 8431,
+              "case2": 6323,
+              "case3": 4215,
+              "case4": 3513,
+              "case5": 16862
+            },
+            {
+              "span_mm": 700,
+              "case1": 7226,
+              "case2": 5420,
+              "case3": 3613,
+              "case4": 3011,
+              "case5": 14453
+            },
+            {
+              "span_mm": 800,
+              "case1": 6323,
+              "case2": 4742,
+              "case3": 3162,
+              "case4": 2635,
+              "case5": 12646
+            },
+            {
+              "span_mm": 900,
+              "case1": 5621,
+              "case2": 4215,
+              "case3": 2810,
+              "case4": 2342,
+              "case5": 11241
+            },
+            {
+              "span_mm": 1000,
+              "case1": 5058,
+              "case2": 3794,
+              "case3": 2529,
+              "case4": 2108,
+              "case5": 10117
+            },
+            {
+              "span_mm": 1100,
+              "case1": 4599,
+              "case2": 3449,
+              "case3": 2299,
+              "case4": 1916,
+              "case5": 9197
+            },
+            {
+              "span_mm": 1200,
+              "case1": 4215,
+              "case2": 3162,
+              "case3": 2108,
+              "case4": 1756,
+              "case5": 8431
+            },
+            {
+              "span_mm": 1300,
+              "case1": 3891,
+              "case2": 2918,
+              "case3": 1946,
+              "case4": 1621,
+              "case5": 7782
+            },
+            {
+              "span_mm": 1400,
+              "case1": 3613,
+              "case2": 2710,
+              "case3": 1807,
+              "case4": 1505,
+              "case5": 7226
+            },
+            {
+              "span_mm": 1500,
+              "case1": 3372,
+              "case2": 2529,
+              "case3": 1686,
+              "case4": 1405,
+              "case5": 6745
+            },
+            {
+              "span_mm": 1600,
+              "case1": 3162,
+              "case2": 2371,
+              "case3": 1581,
+              "case4": 1317,
+              "case5": 6323
+            },
+            {
+              "span_mm": 1700,
+              "case1": 2976,
+              "case2": 2232,
+              "case3": 1488,
+              "case4": 1240,
+              "case5": 5951
+            },
+            {
+              "span_mm": 1800,
+              "case1": 2810,
+              "case2": 2108,
+              "case3": 1405,
+              "case4": 1171,
+              "case5": 5621
+            },
+            {
+              "span_mm": 1900,
+              "case1": 2662,
+              "case2": 1997,
+              "case3": 1331,
+              "case4": 1109,
+              "case5": 5325
+            },
+            {
+              "span_mm": 2000,
+              "case1": 2529,
+              "case2": 1897,
+              "case3": 1265,
+              "case4": 1054,
+              "case5": 5058
+            },
+            {
+              "span_mm": 2100,
+              "case1": 2409,
+              "case2": 1807,
+              "case3": 1204,
+              "case4": 1004,
+              "case5": 4818
+            },
+            {
+              "span_mm": 2200,
+              "case1": 2299,
+              "case2": 1724,
+              "case3": 1150,
+              "case4": 958,
+              "case5": 4599
+            },
+            {
+              "span_mm": 2300,
+              "case1": 2199,
+              "case2": 1649,
+              "case3": 1100,
+              "case4": 916,
+              "case5": 4399
+            },
+            {
+              "span_mm": 2400,
+              "case1": 2108,
+              "case2": 1555,
+              "case3": 1054,
+              "case4": 878,
+              "case5": 4215
+            },
+            {
+              "span_mm": 2500,
+              "case1": 2023,
+              "case2": 1433,
+              "case3": 1012,
+              "case4": 843,
+              "case5": 3906
+            },
+            {
+              "span_mm": 2600,
+              "case1": 1946,
+              "case2": 1325,
+              "case3": 950,
+              "case4": 806,
+              "case5": 3611
+            },
+            {
+              "span_mm": 2700,
+              "case1": 1874,
+              "case2": 1228,
+              "case3": 881,
+              "case4": 748,
+              "case5": 3349
+            },
+            {
+              "span_mm": 2800,
+              "case1": 1807,
+              "case2": 1142,
+              "case3": 819,
+              "case4": 695,
+              "case5": 3114
+            },
+            {
+              "span_mm": 2900,
+              "case1": 1744,
+              "case2": 1065,
+              "case3": 764,
+              "case4": 648,
+              "case5": 2903
+            },
+            {
+              "span_mm": 3000,
+              "case1": 1686,
+              "case2": 995,
+              "case3": 714,
+              "case4": 605,
+              "case5": 2712
+            }
+          ]
+        },
+        "page": 18
+      },
+      {
+        "id": "c-profile-gmc753825",
+        "title": "C Profile GMC753825",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC753825.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC753825.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC753825",
+          "size": "75x38x2.5",
+          "area_mm2": 365,
+          "weight_kg_m": 2.865,
+          "cd_mm": 37.5,
+          "iz_mm4": 341020,
+          "wy_mm3": 95907
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 26683,
+              "case2": 20013,
+              "case3": 13342,
+              "case4": 11118,
+              "case5": 53367
+            },
+            {
+              "span_mm": 200,
+              "case1": 13342,
+              "case2": 10006,
+              "case3": 6671,
+              "case4": 5559,
+              "case5": 26683
+            },
+            {
+              "span_mm": 300,
+              "case1": 8894,
+              "case2": 6671,
+              "case3": 4447,
+              "case4": 3706,
+              "case5": 17789
+            },
+            {
+              "span_mm": 400,
+              "case1": 6671,
+              "case2": 5003,
+              "case3": 3335,
+              "case4": 290030200780,
+              "case5": 13342
+            },
+            {
+              "span_mm": 500,
+              "case1": 5337,
+              "case2": 4003,
+              "case3": 2668,
+              "case4": 2224,
+              "case5": 10673
+            },
+            {
+              "span_mm": 600,
+              "case1": 4447,
+              "case2": 3335,
+              "case3": 2224,
+              "case4": 1853,
+              "case5": 8894
+            },
+            {
+              "span_mm": 700,
+              "case1": 3812,
+              "case2": 2859,
+              "case3": 1906,
+              "case4": 1588,
+              "case5": 7624
+            },
+            {
+              "span_mm": 800,
+              "case1": 3335,
+              "case2": 2502,
+              "case3": 1668,
+              "case4": 1390,
+              "case5": 6671
+            },
+            {
+              "span_mm": 900,
+              "case1": 2965,
+              "case2": 2224,
+              "case3": 1482,
+              "case4": 1235,
+              "case5": 5930
+            },
+            {
+              "span_mm": 1000,
+              "case1": 2668,
+              "case2": 2001,
+              "case3": 1334,
+              "case4": 1112,
+              "case5": 5337
+            },
+            {
+              "span_mm": 1100,
+              "case1": 2426,
+              "case2": 1819,
+              "case3": 1213,
+              "case4": 1011,
+              "case5": 4852
+            },
+            {
+              "span_mm": 1200,
+              "case1": 2224,
+              "case2": 1668,
+              "case3": 1112,
+              "case4": 927,
+              "case5": 4447
+            },
+            {
+              "span_mm": 1300,
+              "case1": 2053,
+              "case2": 1539,
+              "case3": 1026,
+              "case4": 855,
+              "case5": 4105
+            },
+            {
+              "span_mm": 1400,
+              "case1": 1906,
+              "case2": 1429,
+              "case3": 953,
+              "case4": 794,
+              "case5": 3812
+            },
+            {
+              "span_mm": 1500,
+              "case1": 1779,
+              "case2": 1261,
+              "case3": 889,
+              "case4": 741,
+              "case5": 3437
+            },
+            {
+              "span_mm": 1600,
+              "case1": 1668,
+              "case2": 1108,
+              "case3": 795,
+              "case4": 674,
+              "case5": 3021
+            },
+            {
+              "span_mm": 1700,
+              "case1": 1570,
+              "case2": 982,
+              "case3": 704,
+              "case4": 597,
+              "case5": 2676
+            },
+            {
+              "span_mm": 1800,
+              "case1": 1482,
+              "case2": 876,
+              "case3": 628,
+              "case4": 533,
+              "case5": 2387
+            },
+            {
+              "span_mm": 1900,
+              "case1": 1339,
+              "case2": 786,
+              "case3": 564,
+              "case4": 478,
+              "case5": 2142
+            },
+            {
+              "span_mm": 2000,
+              "case1": 1208,
+              "case2": 709,
+              "case3": 509,
+              "case4": 432,
+              "case5": 1933
+            },
+            {
+              "span_mm": 2100,
+              "case1": 1096,
+              "case2": 643,
+              "case3": 461,
+              "case4": 391,
+              "case5": 1754
+            },
+            {
+              "span_mm": 2200,
+              "case1": 999,
+              "case2": 586,
+              "case3": 420,
+              "case4": 357,
+              "case5": 1598
+            },
+            {
+              "span_mm": 2300,
+              "case1": 914,
+              "case2": 536,
+              "case3": 385,
+              "case4": 326,
+              "case5": 1462
+            },
+            {
+              "span_mm": 2400,
+              "case1": 839,
+              "case2": 493,
+              "case3": 353,
+              "case4": 300,
+              "case5": 1343
+            },
+            {
+              "span_mm": 2500,
+              "case1": 773,
+              "case2": 454,
+              "case3": 326,
+              "case4": 276,
+              "case5": 1237
+            },
+            {
+              "span_mm": 2600,
+              "case1": 715,
+              "case2": 420,
+              "case3": 301,
+              "case4": 255,
+              "case5": 1144
+            },
+            {
+              "span_mm": 2700,
+              "case1": 663,
+              "case2": 389,
+              "case3": 279,
+              "case4": 237,
+              "case5": 1061
+            },
+            {
+              "span_mm": 2800,
+              "case1": 617,
+              "case2": 362,
+              "case3": 260,
+              "case4": 220,
+              "case5": 986
+            },
+            {
+              "span_mm": 2900,
+              "case1": 575,
+              "case2": 337,
+              "case3": 242,
+              "case4": 205,
+              "case5": 920
+            },
+            {
+              "span_mm": 3000,
+              "case1": 537,
+              "case2": 315,
+              "case3": 226,
+              "case4": 192,
+              "case5": 859
+            }
+          ]
+        },
+        "page": 20
+      },
+      {
+        "id": "c-profile-gmc753825-z-axis",
+        "title": "C Profile GMC753825 - Z -Axis",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC753825.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC753825.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC753825",
+          "size": "75x38x2.5",
+          "area_mm2": 365,
+          "weight_kg_m": 2.865,
+          "cd_mm": 37.5,
+          "iz_mm4": 341020,
+          "wy_mm3": 95907
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 47589,
+              "case2": 35692,
+              "case3": 23795,
+              "case4": 19829,
+              "case5": 95178
+            },
+            {
+              "span_mm": 200,
+              "case1": 23795,
+              "case2": 17846,
+              "case3": 11897,
+              "case4": 9914,
+              "case5": 47589
+            },
+            {
+              "span_mm": 300,
+              "case1": 15863,
+              "case2": 11897,
+              "case3": 7932,
+              "case4": 6610,
+              "case5": 31726
+            },
+            {
+              "span_mm": 400,
+              "case1": 11897,
+              "case2": 8923,
+              "case3": 5949,
+              "case4": 4957,
+              "case5": 23795
+            },
+            {
+              "span_mm": 500,
+              "case1": 9518,
+              "case2": 7138,
+              "case3": 4759,
+              "case4": 3966,
+              "case5": 19036
+            },
+            {
+              "span_mm": 600,
+              "case1": 7932,
+              "case2": 5949,
+              "case3": 3966,
+              "case4": 3305,
+              "case5": 15863
+            },
+            {
+              "span_mm": 700,
+              "case1": 6798,
+              "case2": 5099,
+              "case3": 3399,
+              "case4": 2833,
+              "case5": 13597
+            },
+            {
+              "span_mm": 800,
+              "case1": 5949,
+              "case2": 4461,
+              "case3": 2974,
+              "case4": 2479,
+              "case5": 11897
+            },
+            {
+              "span_mm": 900,
+              "case1": 5288,
+              "case2": 3966,
+              "case3": 2644,
+              "case4": 2203,
+              "case5": 10575
+            },
+            {
+              "span_mm": 1000,
+              "case1": 4759,
+              "case2": 3569,
+              "case3": 2379,
+              "case4": 1983,
+              "case5": 9518
+            },
+            {
+              "span_mm": 1100,
+              "case1": 4326,
+              "case2": 3245,
+              "case3": 2163,
+              "case4": 1803,
+              "case5": 8653
+            },
+            {
+              "span_mm": 1200,
+              "case1": 3966,
+              "case2": 2974,
+              "case3": 1983,
+              "case4": 1652,
+              "case5": 7932
+            },
+            {
+              "span_mm": 1300,
+              "case1": 3661,
+              "case2": 2746,
+              "case3": 1830,
+              "case4": 1525,
+              "case5": 7321
+            },
+            {
+              "span_mm": 1400,
+              "case1": 3399,
+              "case2": 2549,
+              "case3": 1700,
+              "case4": 1416,
+              "case5": 6798
+            },
+            {
+              "span_mm": 1500,
+              "case1": 3173,
+              "case2": 2379,
+              "case3": 1586,
+              "case4": 1322,
+              "case5": 6345
+            },
+            {
+              "span_mm": 1600,
+              "case1": 2974,
+              "case2": 2231,
+              "case3": 1487,
+              "case4": 1239,
+              "case5": 5949
+            },
+            {
+              "span_mm": 1700,
+              "case1": 2799,
+              "case2": 2100,
+              "case3": 1400,
+              "case4": 1166,
+              "case5": 5599
+            },
+            {
+              "span_mm": 1800,
+              "case1": 2644,
+              "case2": 1983,
+              "case3": 1322,
+              "case4": 1102,
+              "case5": 5288
+            },
+            {
+              "span_mm": 1900,
+              "case1": 2505,
+              "case2": 1879,
+              "case3": 1252,
+              "case4": 1044,
+              "case5": 5009
+            },
+            {
+              "span_mm": 2000,
+              "case1": 2379,
+              "case2": 1785,
+              "case3": 1190,
+              "case4": 991,
+              "case5": 4759
+            },
+            {
+              "span_mm": 2100,
+              "case1": 2266,
+              "case2": 1700,
+              "case3": 1133,
+              "case4": 944,
+              "case5": 4532
+            },
+            {
+              "span_mm": 2200,
+              "case1": 2163,
+              "case2": 1622,
+              "case3": 1082,
+              "case4": 901,
+              "case5": 4326
+            },
+            {
+              "span_mm": 2300,
+              "case1": 2069,
+              "case2": 1552,
+              "case3": 1035,
+              "case4": 862,
+              "case5": 4138
+            },
+            {
+              "span_mm": 2400,
+              "case1": 1983,
+              "case2": 1487,
+              "case3": 991,
+              "case4": 826,
+              "case5": 3966
+            },
+            {
+              "span_mm": 2500,
+              "case1": 1904,
+              "case2": 1428,
+              "case3": 952,
+              "case4": 793,
+              "case5": 3807
+            },
+            {
+              "span_mm": 2600,
+              "case1": 1830,
+              "case2": 1373,
+              "case3": 915,
+              "case4": 763,
+              "case5": 3661
+            },
+            {
+              "span_mm": 2700,
+              "case1": 1763,
+              "case2": 1322,
+              "case3": 881,
+              "case4": 734,
+              "case5": 3525
+            },
+            {
+              "span_mm": 2800,
+              "case1": 1700,
+              "case2": 1275,
+              "case3": 850,
+              "case4": 708,
+              "case5": 3399
+            },
+            {
+              "span_mm": 2900,
+              "case1": 1641,
+              "case2": 1200,
+              "case3": 821,
+              "case4": 684,
+              "case5": 3270
+            },
+            {
+              "span_mm": 3000,
+              "case1": 1586,
+              "case2": 1121,
+              "case3": 793,
+              "case4": 661,
+              "case5": 3056
+            }
+          ]
+        },
+        "page": 22
+      },
+      {
+        "id": "c-profile-gmc1005020",
+        "title": "C Profile GMC1005020",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC1005020.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC1005020.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC1005020",
+          "size": "100x50x2.0",
+          "area_mm2": 392,
+          "weight_kg_m": 3.077,
+          "cd_mm": 50,
+          "iz_mm4": 733043,
+          "wy_mm3": 295647
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 39167,
+              "case2": 29375,
+              "case3": 19583,
+              "case4": 16319,
+              "case5": 78333
+            },
+            {
+              "span_mm": 200,
+              "case1": 19583,
+              "case2": 14688,
+              "case3": 9792,
+              "case4": 8160,
+              "case5": 39167
+            },
+            {
+              "span_mm": 300,
+              "case1": 13056,
+              "case2": 9792,
+              "case3": 6528,
+              "case4": 5440,
+              "case5": 26111
+            },
+            {
+              "span_mm": 400,
+              "case1": 9792,
+              "case2": 7344,
+              "case3": 4896,
+              "case4": 4080,
+              "case5": 19583
+            },
+            {
+              "span_mm": 500,
+              "case1": 7833,
+              "case2": 5875,
+              "case3": 3917,
+              "case4": 3264,
+              "case5": 15667
+            },
+            {
+              "span_mm": 600,
+              "case1": 6528,
+              "case2": 4896,
+              "case3": 3264,
+              "case4": 2720,
+              "case5": 13056
+            },
+            {
+              "span_mm": 700,
+              "case1": 5595,
+              "case2": 4196,
+              "case3": 2798,
+              "case4": 2331,
+              "case5": 11190
+            },
+            {
+              "span_mm": 800,
+              "case1": 4896,
+              "case2": 3672,
+              "case3": 2448,
+              "case4": 2040,
+              "case5": 9792
+            },
+            {
+              "span_mm": 900,
+              "case1": 4352,
+              "case2": 3264,
+              "case3": 2176,
+              "case4": 1813,
+              "case5": 8704
+            },
+            {
+              "span_mm": 1000,
+              "case1": 3917,
+              "case2": 2938,
+              "case3": 1958,
+              "case4": 1632,
+              "case5": 7833
+            },
+            {
+              "span_mm": 1100,
+              "case1": 3561,
+              "case2": 2670,
+              "case3": 1780,
+              "case4": 1484,
+              "case5": 7121
+            },
+            {
+              "span_mm": 1200,
+              "case1": 3264,
+              "case2": 2448,
+              "case3": 1632,
+              "case4": 1360,
+              "case5": 6528
+            },
+            {
+              "span_mm": 1300,
+              "case1": 3013,
+              "case2": 2260,
+              "case3": 1506,
+              "case4": 1255,
+              "case5": 6026
+            },
+            {
+              "span_mm": 1400,
+              "case1": 2798,
+              "case2": 2098,
+              "case3": 1399,
+              "case4": 1166,
+              "case5": 5595
+            },
+            {
+              "span_mm": 1500,
+              "case1": 2611,
+              "case2": 1958,
+              "case3": 1306,
+              "case4": 1088,
+              "case5": 5222
+            },
+            {
+              "span_mm": 1600,
+              "case1": 2448,
+              "case2": 1836,
+              "case3": 1224,
+              "case4": 1020,
+              "case5": 4896
+            },
+            {
+              "span_mm": 1700,
+              "case1": 2304,
+              "case2": 1728,
+              "case3": 1152,
+              "case4": 960,
+              "case5": 4608
+            },
+            {
+              "span_mm": 1800,
+              "case1": 2176,
+              "case2": 1632,
+              "case3": 1088,
+              "case4": 907,
+              "case5": 4352
+            },
+            {
+              "span_mm": 1900,
+              "case1": 2061,
+              "case2": 1539,
+              "case3": 1031,
+              "case4": 859,
+              "case5": 4123
+            },
+            {
+              "span_mm": 2000,
+              "case1": 1958,
+              "case2": 1389,
+              "case3": 979,
+              "case4": 816,
+              "case5": 3787
+            },
+            {
+              "span_mm": 2100,
+              "case1": 1865,
+              "case2": 1260,
+              "case3": 904,
+              "case4": 767,
+              "case5": 3435
+            },
+            {
+              "span_mm": 2200,
+              "case1": 1780,
+              "case2": 1148,
+              "case3": 824,
+              "case4": 699,
+              "case5": 3129
+            },
+            {
+              "span_mm": 2300,
+              "case1": 1703,
+              "case2": 1050,
+              "case3": 753,
+              "case4": 639,
+              "case5": 2863
+            },
+            {
+              "span_mm": 2400,
+              "case1": 1632,
+              "case2": 965,
+              "case3": 692,
+              "case4": 587,
+              "case5": 2630
+            },
+            {
+              "span_mm": 2500,
+              "case1": 1515,
+              "case2": 889,
+              "case3": 638,
+              "case4": 541,
+              "case5": 2423
+            },
+            {
+              "span_mm": 2600,
+              "case1": 1400,
+              "case2": 822,
+              "case3": 590,
+              "case4": 500,
+              "case5": 2241
+            },
+            {
+              "span_mm": 2700,
+              "case1": 1299,
+              "case2": 762,
+              "case3": 547,
+              "case4": 464,
+              "case5": 2078
+            },
+            {
+              "span_mm": 2800,
+              "case1": 1207,
+              "case2": 709,
+              "case3": 508,
+              "case4": 431,
+              "case5": 1932
+            },
+            {
+              "span_mm": 2900,
+              "case1": 1126,
+              "case2": 661,
+              "case3": 474,
+              "case4": 402,
+              "case5": 1801
+            },
+            {
+              "span_mm": 3000,
+              "case1": 1052,
+              "case2": 617,
+              "case3": 443,
+              "case4": 376,
+              "case5": 1683
+            }
+          ]
+        },
+        "page": 24
+      },
+      {
+        "id": "c-profile-gmc1005020-z-axis",
+        "title": "C Profile GMC1005020 - Z - Axis",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC1005020.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC1005020.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC1005020",
+          "size": "100x50x2.0",
+          "area_mm2": 392,
+          "weight_kg_m": 3.077,
+          "cd_mm": 50,
+          "iz_mm4": 733043,
+          "wy_mm3": 295647
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 91869,
+              "case2": 68902,
+              "case3": 45935,
+              "case4": 38279,
+              "case5": 183739
+            },
+            {
+              "span_mm": 200,
+              "case1": 45935,
+              "case2": 34451,
+              "case3": 22967,
+              "case4": 19139,
+              "case5": 91869
+            },
+            {
+              "span_mm": 300,
+              "case1": 30623,
+              "case2": 22967,
+              "case3": 15312,
+              "case4": 12760,
+              "case5": 61246
+            },
+            {
+              "span_mm": 400,
+              "case1": 22967,
+              "case2": 17226,
+              "case3": 11484,
+              "case4": 9570,
+              "case5": 45935
+            },
+            {
+              "span_mm": 500,
+              "case1": 18374,
+              "case2": 13780,
+              "case3": 9187,
+              "case4": 7656,
+              "case5": 36748
+            },
+            {
+              "span_mm": 600,
+              "case1": 15312,
+              "case2": 11484,
+              "case3": 7656,
+              "case4": 6380,
+              "case5": 30623
+            },
+            {
+              "span_mm": 700,
+              "case1": 13124,
+              "case2": 9843,
+              "case3": 6562,
+              "case4": 5468,
+              "case5": 26248
+            },
+            {
+              "span_mm": 800,
+              "case1": 11484,
+              "case2": 8613,
+              "case3": 5742,
+              "case4": 4785,
+              "case5": 22967
+            },
+            {
+              "span_mm": 900,
+              "case1": 10208,
+              "case2": 7656,
+              "case3": 5104,
+              "case4": 4253,
+              "case5": 20415
+            },
+            {
+              "span_mm": 1000,
+              "case1": 9187,
+              "case2": 6890,
+              "case3": 4593,
+              "case4": 3828,
+              "case5": 18374
+            },
+            {
+              "span_mm": 1100,
+              "case1": 8352,
+              "case2": 6264,
+              "case3": 4176,
+              "case4": 3480,
+              "case5": 16704
+            },
+            {
+              "span_mm": 1200,
+              "case1": 7656,
+              "case2": 5742,
+              "case3": 3828,
+              "case4": 3190,
+              "case5": 15312
+            },
+            {
+              "span_mm": 1300,
+              "case1": 7067,
+              "case2": 5300,
+              "case3": 3533,
+              "case4": 2945,
+              "case5": 14134
+            },
+            {
+              "span_mm": 1400,
+              "case1": 6562,
+              "case2": 4922,
+              "case3": 3281,
+              "case4": 2734,
+              "case5": 13124
+            },
+            {
+              "span_mm": 1500,
+              "case1": 6125,
+              "case2": 4593,
+              "case3": 3062,
+              "case4": 2552,
+              "case5": 12249
+            },
+            {
+              "span_mm": 1600,
+              "case1": 5742,
+              "case2": 4306,
+              "case3": 2871,
+              "case4": 2392,
+              "case5": 11484
+            },
+            {
+              "span_mm": 1700,
+              "case1": 5404,
+              "case2": 4053,
+              "case3": 2702,
+              "case4": 2252,
+              "case5": 10808
+            },
+            {
+              "span_mm": 1800,
+              "case1": 5104,
+              "case2": 3828,
+              "case3": 2552,
+              "case4": 2127,
+              "case5": 10208
+            },
+            {
+              "span_mm": 1900,
+              "case1": 4835,
+              "case2": 3626,
+              "case3": 2418,
+              "case4": 2015,
+              "case5": 9670
+            },
+            {
+              "span_mm": 2000,
+              "case1": 4593,
+              "case2": 3445,
+              "case3": 2297,
+              "case4": 1914,
+              "case5": 9187
+            },
+            {
+              "span_mm": 2100,
+              "case1": 4375,
+              "case2": 3281,
+              "case3": 2187,
+              "case4": 1823,
+              "case5": 8749
+            },
+            {
+              "span_mm": 2200,
+              "case1": 4176,
+              "case2": 3132,
+              "case3": 2088,
+              "case4": 1740,
+              "case5": 8352
+            },
+            {
+              "span_mm": 2300,
+              "case1": 3994,
+              "case2": 2996,
+              "case3": 1997,
+              "case4": 1664,
+              "case5": 7989
+            },
+            {
+              "span_mm": 2400,
+              "case1": 3828,
+              "case2": 2871,
+              "case3": 1914,
+              "case4": 1595,
+              "case5": 7656
+            },
+            {
+              "span_mm": 2500,
+              "case1": 3675,
+              "case2": 2756,
+              "case3": 1837,
+              "case4": 1531,
+              "case5": 7350
+            },
+            {
+              "span_mm": 2600,
+              "case1": 3533,
+              "case2": 2650,
+              "case3": 1767,
+              "case4": 1472,
+              "case5": 7067
+            },
+            {
+              "span_mm": 2700,
+              "case1": 3403,
+              "case2": 2552,
+              "case3": 1701,
+              "case4": 1418,
+              "case5": 6805
+            },
+            {
+              "span_mm": 2800,
+              "case1": 3281,
+              "case2": 2461,
+              "case3": 1641,
+              "case4": 1367,
+              "case5": 6562
+            },
+            {
+              "span_mm": 2900,
+              "case1": 3168,
+              "case2": 2376,
+              "case3": 1584,
+              "case4": 1320,
+              "case5": 6336
+            },
+            {
+              "span_mm": 3000,
+              "case1": 3062,
+              "case2": 2297,
+              "case3": 1531,
+              "case4": 1276,
+              "case5": 6125
+            }
+          ]
+        },
+        "page": 26
+      },
+      {
+        "id": "c-profile-gmc1005025",
+        "title": "C Profile GMC1005025",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC1005025.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC1005025.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC1005025",
+          "size": "100x50x2.5",
+          "area_mm2": 487.5,
+          "weight_kg_m": 3.827,
+          "cd_mm": 50,
+          "iz_mm4": 1061500,
+          "wy_mm3": 896148
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 106778,
+              "case2": 80083,
+              "case3": 53389,
+              "case4": 44491,
+              "case5": 213555
+            },
+            {
+              "span_mm": 200,
+              "case1": 53389,
+              "case2": 40042,
+              "case3": 26694,
+              "case4": 22245,
+              "case5": 106778
+            },
+            {
+              "span_mm": 300,
+              "case1": 35593,
+              "case2": 26694,
+              "case3": 17796,
+              "case4": 14830,
+              "case5": 71185
+            },
+            {
+              "span_mm": 400,
+              "case1": 26694,
+              "case2": 20021,
+              "case3": 13347,
+              "case4": 11123,
+              "case5": 53389
+            },
+            {
+              "span_mm": 500,
+              "case1": 21356,
+              "case2": 16017,
+              "case3": 10678,
+              "case4": 8898,
+              "case5": 42711
+            },
+            {
+              "span_mm": 600,
+              "case1": 17796,
+              "case2": 13347,
+              "case3": 8898,
+              "case4": 7415,
+              "case5": 35593
+            },
+            {
+              "span_mm": 700,
+              "case1": 15254,
+              "case2": 11440,
+              "case3": 7627,
+              "case4": 6356,
+              "case5": 30508
+            },
+            {
+              "span_mm": 800,
+              "case1": 13347,
+              "case2": 10010,
+              "case3": 6674,
+              "case4": 5561,
+              "case5": 26694
+            },
+            {
+              "span_mm": 900,
+              "case1": 11864,
+              "case2": 8898,
+              "case3": 5932,
+              "case4": 4943,
+              "case5": 23728
+            },
+            {
+              "span_mm": 1000,
+              "case1": 10678,
+              "case2": 8008,
+              "case3": 5339,
+              "case4": 4449,
+              "case5": 21356
+            },
+            {
+              "span_mm": 1100,
+              "case1": 9707,
+              "case2": 7280,
+              "case3": 4854,
+              "case4": 4045,
+              "case5": 19414
+            },
+            {
+              "span_mm": 1200,
+              "case1": 8898,
+              "case2": 6674,
+              "case3": 4449,
+              "case4": 3708,
+              "case5": 17796
+            },
+            {
+              "span_mm": 1300,
+              "case1": 8214,
+              "case2": 6160,
+              "case3": 4107,
+              "case4": 3422,
+              "case5": 16427
+            },
+            {
+              "span_mm": 1400,
+              "case1": 7627,
+              "case2": 5720,
+              "case3": 3813,
+              "case4": 3178,
+              "case5": 15254
+            },
+            {
+              "span_mm": 1500,
+              "case1": 7119,
+              "case2": 5339,
+              "case3": 3559,
+              "case4": 2966,
+              "case5": 14237
+            },
+            {
+              "span_mm": 1600,
+              "case1": 6674,
+              "case2": 5005,
+              "case3": 3337,
+              "case4": 2781,
+              "case5": 13347
+            },
+            {
+              "span_mm": 1700,
+              "case1": 6281,
+              "case2": 4711,
+              "case3": 3141,
+              "case4": 2617,
+              "case5": 12562
+            },
+            {
+              "span_mm": 1800,
+              "case1": 5932,
+              "case2": 4449,
+              "case3": 2966,
+              "case4": 2472,
+              "case5": 11864
+            },
+            {
+              "span_mm": 1900,
+              "case1": 5620,
+              "case2": 4215,
+              "case3": 2810,
+              "case4": 2342,
+              "case5": 11240
+            },
+            {
+              "span_mm": 2000,
+              "case1": 5339,
+              "case2": 4004,
+              "case3": 2669,
+              "case4": 2225,
+              "case5": 10678
+            },
+            {
+              "span_mm": 2100,
+              "case1": 5085,
+              "case2": 3813,
+              "case3": 2542,
+              "case4": 2119,
+              "case5": 10169
+            },
+            {
+              "span_mm": 2200,
+              "case1": 4854,
+              "case2": 3640,
+              "case3": 2427,
+              "case4": 2022,
+              "case5": 9707
+            },
+            {
+              "span_mm": 2300,
+              "case1": 4643,
+              "case2": 3482,
+              "case3": 2321,
+              "case4": 1934,
+              "case5": 9285
+            },
+            {
+              "span_mm": 2400,
+              "case1": 4449,
+              "case2": 3337,
+              "case3": 2225,
+              "case4": 1854,
+              "case5": 8898
+            },
+            {
+              "span_mm": 2500,
+              "case1": 4271,
+              "case2": 3203,
+              "case3": 2136,
+              "case4": 1780,
+              "case5": 8542
+            },
+            {
+              "span_mm": 2600,
+              "case1": 4107,
+              "case2": 3080,
+              "case3": 2053,
+              "case4": 1711,
+              "case5": 8214
+            },
+            {
+              "span_mm": 2700,
+              "case1": 3955,
+              "case2": 2966,
+              "case3": 1977,
+              "case4": 1648,
+              "case5": 7909
+            },
+            {
+              "span_mm": 2800,
+              "case1": 3813,
+              "case2": 2860,
+              "case3": 1907,
+              "case4": 1589,
+              "case5": 7627
+            },
+            {
+              "span_mm": 2900,
+              "case1": 3682,
+              "case2": 2761,
+              "case3": 1841,
+              "case4": 1534,
+              "case5": 7364
+            },
+            {
+              "span_mm": 3000,
+              "case1": 3559,
+              "case2": 2669,
+              "case3": 1780,
+              "case4": 1483,
+              "case5": 7119
+            }
+          ]
+        },
+        "page": 28
+      },
+      {
+        "id": "c-profile-gmc1005025-z-axis",
+        "title": "C Profile GMC1005025 - Z - Axis",
+        "description": "",
+        "images": [
+          "assets/GMC-Channels/c-channels/3d-models/GMC1005025.png",
+          "assets/GMC-Channels/c-channels/CROSS-SECTION/GMC1005025.PNG",
+          "assets/GMC-Channels/centroid xy axis.png"
+        ],
+        "specifications": {},
+        "mountingMethod": "Form-locking connections and Material: S235JR",
+        "technicalData": {
+          "material1": "S250GD",
+          "materialType1": "pre-galvanized (Z-275)"
+        },
+        "properties": {
+          "identification": "GMC1005025",
+          "size": "100x50x2.5",
+          "area_mm2": 487.5,
+          "weight_kg_m": 3.827,
+          "cd_mm": 50,
+          "iz_mm4": 1061500,
+          "wy_mm3": 896148
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 112311,
+              "case2": 84233,
+              "case3": 56156,
+              "case4": 46796,
+              "case5": 224622
+            },
+            {
+              "span_mm": 200,
+              "case1": 56156,
+              "case2": 42117,
+              "case3": 28078,
+              "case4": 23398,
+              "case5": 112311
+            },
+            {
+              "span_mm": 300,
+              "case1": 37437,
+              "case2": 28078,
+              "case3": 18719,
+              "case4": 15599,
+              "case5": 74874
+            },
+            {
+              "span_mm": 400,
+              "case1": 28078,
+              "case2": 21058,
+              "case3": 14039,
+              "case4": 11699,
+              "case5": 56156
+            },
+            {
+              "span_mm": 500,
+              "case1": 22462,
+              "case2": 16847,
+              "case3": 11231,
+              "case4": 9359,
+              "case5": 44924
+            },
+            {
+              "span_mm": 600,
+              "case1": 18719,
+              "case2": 14039,
+              "case3": 9359,
+              "case4": 7799,
+              "case5": 37437
+            },
+            {
+              "span_mm": 700,
+              "case1": 16044,
+              "case2": 12033,
+              "case3": 8022,
+              "case4": 6685,
+              "case5": 32089
+            },
+            {
+              "span_mm": 800,
+              "case1": 14039,
+              "case2": 10529,
+              "case3": 7019,
+              "case4": 5850,
+              "case5": 28078
+            },
+            {
+              "span_mm": 900,
+              "case1": 12479,
+              "case2": 9359,
+              "case3": 6240,
+              "case4": 5200,
+              "case5": 24958
+            },
+            {
+              "span_mm": 1000,
+              "case1": 11231,
+              "case2": 8423,
+              "case3": 5616,
+              "case4": 4680,
+              "case5": 22462
+            },
+            {
+              "span_mm": 1100,
+              "case1": 10210,
+              "case2": 7658,
+              "case3": 5105,
+              "case4": 4254,
+              "case5": 20420
+            },
+            {
+              "span_mm": 1200,
+              "case1": 9359,
+              "case2": 7019,
+              "case3": 4680,
+              "case4": 3900,
+              "case5": 18719
+            },
+            {
+              "span_mm": 1300,
+              "case1": 8639,
+              "case2": 6479,
+              "case3": 4320,
+              "case4": 3600,
+              "case5": 17279
+            },
+            {
+              "span_mm": 1400,
+              "case1": 8022,
+              "case2": 6017,
+              "case3": 4011,
+              "case4": 3343,
+              "case5": 16044
+            },
+            {
+              "span_mm": 1500,
+              "case1": 7487,
+              "case2": 5616,
+              "case3": 3744,
+              "case4": 3120,
+              "case5": 14975
+            },
+            {
+              "span_mm": 1600,
+              "case1": 7019,
+              "case2": 5265,
+              "case3": 3510,
+              "case4": 2925,
+              "case5": 14039
+            },
+            {
+              "span_mm": 1700,
+              "case1": 6607,
+              "case2": 4955,
+              "case3": 3303,
+              "case4": 2753,
+              "case5": 13213
+            },
+            {
+              "span_mm": 1800,
+              "case1": 6240,
+              "case2": 4680,
+              "case3": 3120,
+              "case4": 2600,
+              "case5": 12479
+            },
+            {
+              "span_mm": 1900,
+              "case1": 5911,
+              "case2": 4433,
+              "case3": 2956,
+              "case4": 2463,
+              "case5": 11822
+            },
+            {
+              "span_mm": 2000,
+              "case1": 5616,
+              "case2": 4212,
+              "case3": 2808,
+              "case4": 2340,
+              "case5": 11231
+            },
+            {
+              "span_mm": 2100,
+              "case1": 5348,
+              "case2": 4011,
+              "case3": 2674,
+              "case4": 2228,
+              "case5": 10696
+            },
+            {
+              "span_mm": 2200,
+              "case1": 5105,
+              "case2": 3829,
+              "case3": 2553,
+              "case4": 2127,
+              "case5": 10210
+            },
+            {
+              "span_mm": 2300,
+              "case1": 4883,
+              "case2": 3662,
+              "case3": 2442,
+              "case4": 2035,
+              "case5": 9766
+            },
+            {
+              "span_mm": 2400,
+              "case1": 4680,
+              "case2": 3510,
+              "case3": 2340,
+              "case4": 1950,
+              "case5": 9359
+            },
+            {
+              "span_mm": 2500,
+              "case1": 4492,
+              "case2": 3369,
+              "case3": 2246,
+              "case4": 1872,
+              "case5": 8985
+            },
+            {
+              "span_mm": 2600,
+              "case1": 4320,
+              "case2": 3240,
+              "case3": 2160,
+              "case4": 1800,
+              "case5": 8639
+            },
+            {
+              "span_mm": 2700,
+              "case1": 4160,
+              "case2": 3120,
+              "case3": 2080,
+              "case4": 1733,
+              "case5": 8319
+            },
+            {
+              "span_mm": 2800,
+              "case1": 4011,
+              "case2": 3008,
+              "case3": 2006,
+              "case4": 1671,
+              "case5": 8022
+            },
+            {
+              "span_mm": 2900,
+              "case1": 3873,
+              "case2": 2905,
+              "case3": 1936,
+              "case4": 1614,
+              "case5": 7746
+            },
+            {
+              "span_mm": 3000,
+              "case1": 3744,
+              "case2": 2808,
+              "case3": 1872,
+              "case4": 1560,
+              "case5": 7487
+            }
+          ]
+        },
+        "page": 30
+      }
+    ]
+  }
+}

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>C Profile – PDF-like Template</title>
+  <link rel="stylesheet" href="catalog-common.css">
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<header>
+  </header>
+
+  <main class="canvas" role="main">
+    <!-- Title row -->
+    <div class="title-row">
+      <div class="bullet"></div>
+      <h1 class="title">C-Profile Loading...</h1>
+    </div>
+
+    <!-- Top visuals -->
+    <section class="visuals" aria-label="Product visuals">
+      <div class="ph"><!-- Replace with product render -->
+        <img src="" alt="" />
+        <span style="position:absolute">Product Image</span>
+      </div>
+      <div class="ph">Dimensional Drawing</div>
+      <div class="ph">Section View</div>
+    </section>
+
+    <!-- Meta cards (Specification / Mounting method / Technical data) -->
+    <section class="meta">
+      <div class="card">
+        <h3>Specification</h3>
+        <p>C-profile rail, perforated, toothed</p>
+        <h3 style="margin-top:12px">Mounting method</h3>
+        <p>Form-locking connections and shear hole haunch connections</p>
+      </div>
+      <div class="card">
+        <h3>Technical data</h3>
+        <div class="list">
+          <div class="kv"><div class="k">Material:</div><div class="v">S250GD</div></div>
+          <div class="kv"><div class="k">Material type:</div><div class="v">pre-galvanized (Z-275)</div></div>
+          <div class="kv"><div class="k">Material:</div><div class="v">S235JR</div></div>
+          <div class="kv"><div class="k">Material type:</div><div class="v">➤Hot-dip galvanized<br>➤Epoxy coated</div></div>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:center;justify-content:center;padding:8px">
+        <img src="assets/GMC-Channels/centroid xy axis.png" alt="Centroid XY Axis" style="width:100%;height:100%;object-fit:contain">
+      </div>
+    </section>
+
+    <!-- Product Definition -->
+    <section style="margin: 16px 0; padding: 16px; background: rgba(204,232,201,0.15); border-left: 4px solid var(--dark-teal); border-radius: 4px;">
+      <h3 style="color: var(--dark-teal); font-size: 15px; margin: 0 0 10px 0; font-weight: 700;">Product Definition</h3>
+      <p style="margin: 0; font-size: 12px; line-height: 1.6; color: var(--ink); text-align: justify;">
+        C-Channels are structural steel profiles characterized by their C-shaped cross-section, engineered to deliver strength, rigidity, and stability in a variety of load-bearing applications. Manufactured from high-quality steel and available in different sizes, thicknesses, and surface finishes (galvanized, hot-rolled, or coated), C-Channels are designed to withstand demanding environments while ensuring long service life. Their open profile makes them lightweight yet robust, offering excellent resistance against bending and twisting under load. C-Channels are widely used as framing members, support beams, mounting rails, and reinforcements in both industrial and commercial construction. They are ideal for supporting roofing systems, machinery frameworks, conveyor structures, and as secondary supports in bridges and heavy equipment.
+      </p>
+    </section>
+
+    <!-- Type strip + properties table -->
+    <section aria-label="Type properties">
+      <div class="type-strip">
+        <div><b>Type GMC27 18 1.2</b></div>
+        <div style="text-align:right;color:#ddd;font-weight:400;font-size:11px"></div>
+      </div>
+      <table class="props">
+        <thead>
+          <tr>
+            <th>Identification</th>
+            <th>Size<br><small>[mm/mm]</small></th>
+            <th>Area<br><small>[mm2]</small></th>
+            <th>Weight<br><small>[kg/mtr]</small></th>
+            <th>Centroid dist CD<br><small>[mm]</small></th>
+            <th>Moment of Inertia<br><small>mm4 Z-AXIS</small></th>
+            <th>Moment of Inertia<br><small>mm4 Y-AXIS</small></th>
+            <th>Resistant Module<br><small>mm3 Z-AXIS</small></th>
+            <th>Resistant Module<br><small>mm3 Y-AXIS</small></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GMC271812</td>
+            <td>27×18×1.2</td>
+            <td>72.72</td>
+            <td>0.571</td>
+            <td>13.5</td>
+            <td>3170</td>
+            <td>—</td>
+            <td>—</td>
+            <td>283</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Load Cases -->
+    <section class="load-header">
+      <div class="load-title">Load Cases</div>
+      <div class="load-subtitle">Max Recommended Load - N</div>
+    </section>
+
+    <!-- Cases captions + diagrams -->
+    <section class="cases" aria-label="Load case overview">
+      <!-- Row 1: CASE titles (left cell intentionally empty) -->
+      <div class="cell" aria-hidden="true"></div>
+      <div class="cell"><div class="cap">CASE 1</div></div>
+      <div class="cell"><div class="cap">CASE 2</div></div>
+      <div class="cell"><div class="cap">CASE 3</div></div>
+      <div class="cell"><div class="cap">CASE 4</div></div>
+      <div class="cell" style="border-right:none"><div class="cap">CASE 5</div></div>
+
+      <!-- Row 2: Subtitles; left is F/L indicator -->
+      <div class="cell">
+        <div class="span-fl" aria-label="Force/Length indicator">
+          <span class="f">F</span>
+          <span class="l">L</span>
+        </div>
+      </div>
+      <div class="cell"><div class="sub">Single point<br>load at center</div></div>
+      <div class="cell"><div class="sub">2 point loads,<br>equidistant</div></div>
+      <div class="cell"><div class="sub">3 point loads,<br>equidistant</div></div>
+      <div class="cell"><div class="sub">4 point loads,<br>equidistant</div></div>
+      <div class="cell" style="border-right:none"><div class="sub">Uniformly<br>distributed load</div></div>
+
+      <!-- Row 3: Diagrams; left is SPAN mm label -->
+      <div class="cell"><div class="span-label">SPAN<br>mm</div></div>
+      <div class="cell"><div class="diagram"><img src="assets/GMC-Channels/load cases/1.png" alt="Case 1 Diagram" style="width:100%;height:100%;object-fit:contain;"></div></div>
+      <div class="cell"><div class="diagram"><img src="assets/GMC-Channels/load cases/2.png" alt="Case 2 Diagram" style="width:100%;height:100%;object-fit:contain;"></div></div>
+      <div class="cell"><div class="diagram"><img src="assets/GMC-Channels/load cases/3.png" alt="Case 3 Diagram" style="width:100%;height:100%;object-fit:contain;"></div></div>
+      <div class="cell"><div class="diagram"><img src="assets/GMC-Channels/load cases/4.png" alt="Case 4 Diagram" style="width:100%;height:100%;object-fit:contain;"></div></div>
+      <div class="cell" style="border-right:none"><div class="diagram"><img src="assets/GMC-Channels/load cases/5.png" alt="Case 5 Diagram" style="width:100%;height:100%;object-fit:contain;"></div></div>
+    </section>
+
+    <div class="loads-wrapper" aria-label="Loads table">
+      <script>
+        const spans = Array.from({length:30}, (_,i)=> (i+1)*100); // 100..3000
+        document.currentScript.insertAdjacentHTML('afterend', spans.map(mm => `
+          <div class="load-row">
+            <div class="cell">${mm}</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+          </div>`).join(''))
+      </script>
+    </div>
+
+    <!-- Page footer -->
+    <div class="page-footer">
+      <span>GREEN MAN</span>
+      <span>PAGE 1</span>
+    </div>
+  </main>
+
+  <script>
+    // Get product ID from URL parameter (?id=c-profile-gmc271812)
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id') || 'c-profile-gmc271812'; // Default to first product
+
+    // Load and render product data
+    async function loadProduct() {
+      try {
+        const response = await fetch('data/c-channel-catalog.json');
+        const catalog = await response.json();
+        const products = catalog.category.products;
+        
+        // Find the product by ID
+        const product = products.find(p => p.id === productId);
+        
+        if (!product) {
+          console.error('Product not found:', productId);
+          return;
+        }
+        
+        // Update title
+        document.querySelector('.title').textContent = product.title;
+        document.title = `${product.title} – GREEN MAN`;
+        
+        // Update images if product has identification code
+        if (product.properties && product.properties.identification) {
+          const identification = product.properties.identification;
+          const visuals = document.querySelectorAll('.visuals .ph');
+          
+          // Map identification to DWG filename (extract base model number)
+          // GMC271812 -> GMC28, GMC283015 -> GMC28/GMC30, GMC1005020 -> GMC100, etc.
+          const idMatch = identification.match(/GMC(\d+)/);
+          let dwgName = '';
+          if (idMatch) {
+            const baseNum = idMatch[1];
+            // Map to available DWG files
+            if (baseNum.startsWith('271') || baseNum.startsWith('283')) dwgName = 'GMC28';
+            else if (baseNum.startsWith('28') || baseNum.startsWith('30')) dwgName = 'GMC30';
+            else if (baseNum.startsWith('384')) dwgName = 'GMC384015';
+            else if (baseNum.startsWith('40')) dwgName = 'GMC40';
+            else if (baseNum.startsWith('75')) dwgName = 'GMC75';
+            else if (baseNum.startsWith('100')) dwgName = 'GMC100';
+            else if (baseNum.startsWith('105')) dwgName = 'GMC105';
+          }
+          
+          // 3D Model image (first placeholder)
+          if (visuals[0]) {
+            visuals[0].innerHTML = `<img src="assets/GMC-Channels/c-channels/3d-models/${identification}.png" 
+              alt="${identification} 3D Model" 
+              style="max-width:100%;max-height:100%;object-fit:contain"
+              onerror="this.parentElement.innerHTML='<span>3D Model</span>'" />`;
+          }
+          
+          // Dimensional Drawing (second placeholder)
+          if (visuals[1] && dwgName) {
+            visuals[1].innerHTML = `<img src="assets/GMC-Channels/c-channels/DWG/${dwgName}.png" 
+              alt="${identification} Dimensional Drawing" 
+              style="max-width:100%;max-height:100%;object-fit:contain"
+              onerror="this.parentElement.innerHTML='<span>Dimensional Drawing</span>'" />`;
+          }
+          
+          // Cross Section image (third placeholder)
+          if (visuals[2]) {
+            visuals[2].innerHTML = `<img src="assets/GMC-Channels/c-channels/CROSS-SECTION/${identification}.PNG" 
+              alt="${identification} Cross Section" 
+              style="max-width:100%;max-height:100%;object-fit:contain"
+              onerror="this.parentElement.innerHTML='<span>Section View</span>'" />`;
+          }
+        }
+        
+        // Update specification description if available
+        if (product.description) {
+          const specCard = document.querySelector('.meta .card:first-child');
+          const descP = specCard.querySelector('p');
+          descP.textContent = product.description;
+        }
+        
+        // Update mounting method
+        if (product.mountingMethod) {
+          const mountCard = document.querySelector('.meta .card:first-child');
+          const mountP = mountCard.querySelectorAll('p')[1];
+          if (mountP) mountP.textContent = product.mountingMethod;
+        }
+        
+        // Update technical data
+        if (product.technicalData) {
+          const techCard = document.querySelector('.meta .card:nth-child(2)');
+          const list = techCard.querySelector('.list');
+          list.innerHTML = '';
+          
+          // Material 1
+          if (product.technicalData.material1) {
+            list.innerHTML += `
+              <div class="kv"><div class="k">Material:</div><div class="v">${product.technicalData.material1}</div></div>
+              <div class="kv"><div class="k">Material type:</div><div class="v">${product.technicalData.materialType1 || 'N/A'}</div></div>
+            `;
+          }
+          
+          // Material 2 if available
+          if (product.technicalData.material2) {
+            list.innerHTML += `
+              <div class="kv"><div class="k">Material:</div><div class="v">${product.technicalData.material2}</div></div>
+              <div class="kv"><div class="k">Material type:</div><div class="v">➤Hot-dip galvanized<br>➤Epoxy coated</div></div>
+            `;
+          }
+        }
+        
+        // Update properties table
+        if (product.properties && product.properties.identification) {
+          const tbody = document.querySelector('.props tbody');
+          const size = product.properties.size ? product.properties.size.replace(/×/g, 'x') : '—';
+          tbody.innerHTML = `
+            <tr>
+              <td>${product.properties.identification || '—'}</td>
+              <td>${size}</td>
+              <td>${product.properties.area_mm2 || '—'}</td>
+              <td>${product.properties.weight_kg_m || '—'}</td>
+              <td>${product.properties.cd_mm || '—'}</td>
+              <td>${product.properties.iz_mm4 || '—'}</td>
+              <td>${product.properties.iy_mm4 || '—'}</td>
+              <td>${product.properties.wz_mm3 || '—'}</td>
+              <td>${product.properties.wy_mm3 || '—'}</td>
+            </tr>
+          `;
+          
+          // Update type strip with identification
+          const typeText = product.properties.identification.replace('GMC', 'GMC');
+          const sizeParts = size.split('x'); // e.g., "28x30x1.5" -> ["28", "30", "1.5"]
+          if (sizeParts.length >= 3) {
+            document.querySelector('.type-strip b').textContent = `Type GMC${sizeParts[0]} ${sizeParts[1]} ${sizeParts[2]}`;
+          } else {
+            document.querySelector('.type-strip b').textContent = `Type ${product.properties.identification}`;
+          }
+        }
+        
+        // Update load cases table
+        if (product.loadCases && product.loadCases.data && product.loadCases.data.length > 0) {
+          const wrapper = document.querySelector('.loads-wrapper');
+          wrapper.innerHTML = ''; // Clear placeholder rows
+          
+          product.loadCases.data.forEach(row => {
+            const div = document.createElement('div');
+            div.className = 'load-row';
+            div.innerHTML = `
+              <div class="cell">${row.span_mm}</div>
+              <div class="cell">${row.case1 !== null ? row.case1 : '—'}</div>
+              <div class="cell">${row.case2 !== null ? row.case2 : '—'}</div>
+              <div class="cell">${row.case3 !== null ? row.case3 : '—'}</div>
+              <div class="cell">${row.case4 !== null ? row.case4 : '—'}</div>
+              <div class="cell">${row.case5 !== null ? row.case5 : '—'}</div>
+            `;
+            wrapper.appendChild(div);
+          });
+        }
+        
+        // Update page number (based on product.page if available)
+        const pageFooter = document.querySelector('.page-footer span:last-child');
+        if (product.page && pageFooter) {
+          pageFooter.textContent = `PAGE ${product.page}`;
+        }
+        
+        console.log('Product loaded:', product.title);
+        
+      } catch (error) {
+        console.error('Error loading product:', error);
+        document.querySelector('.title').textContent = 'Error loading product data';
+      }
+    }
+    
+    // Load product on page load
+    loadProduct();
+  </script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

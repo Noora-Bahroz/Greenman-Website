@@ -1,0 +1,152 @@
+{
+  "title": "Multi-Directional Connector (GMDC)",
+  "code_prefix": "GMDC",
+  "specification": [
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4",
+    "➤Material: S250GD/S235JR"
+  ],
+  "definition": "Multi-directional connectors are specialized components designed for connecting strut channels in multiple directions, typically at 90 degrees and 180 degrees, to create strong and stable structural joints. These brackets facilitate the assembly of custom frameworks by allowing flexible alignment and angle combinations.",
+  "items": [
+    {
+      "code": "GMDC1090",
+      "image": "assets/img/gmdc1090.png"
+    },
+    {
+      "code": "GMDC2090",
+      "image": "assets/img/gmdc2090.png"
+    },
+    {
+      "code": "GMDC2091",
+      "image": "assets/img/gmdc2091.png"
+    },
+    {
+      "code": "GMDC2092",
+      "image": "assets/img/gmdc2092.png"
+    },
+    {
+      "code": "GMDC3180",
+      "image": "assets/img/gmdc3180.png"
+    },
+    {
+      "code": "GMDC2180",
+      "image": "assets/img/gmdc2180.png"
+    },
+    {
+      "code": "GMDC3181",
+      "image": "assets/img/gmdc3181.png"
+    },
+    {
+      "code": "GMDC2181",
+      "image": "assets/img/gmdc2181.png"
+    },
+    {
+      "code": "GMDC1090",
+      "image": "assets/img/gmdc1090.png"
+    },
+    {
+      "code": "GMDC2090",
+      "image": "assets/img/gmdc2090.png"
+    },
+    {
+      "code": "GMDC2091",
+      "image": "assets/img/gmdc2091.png"
+    },
+    {
+      "code": "GMDC2092",
+      "image": "assets/img/gmdc2092.png"
+    },
+    {
+      "code": "GMDC2180",
+      "image": "assets/img/gmdc2180.png"
+    },
+    {
+      "code": "GMDC2181",
+      "image": "assets/img/gmdc2181.png"
+    },
+    {
+      "code": "GMDC3180",
+      "image": "assets/img/gmdc3180.png"
+    },
+    {
+      "code": "GMDC3181",
+      "image": "assets/img/gmdc3181.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GMDC1090",
+      "Detail": "single sided, short neck, 90°",
+      "Dimensions": "41x41x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMDC2090",
+      "Detail": "double sided, short neck, 90°",
+      "Dimensions": "41x41x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMDC2091",
+      "Detail": "double sided, long neck, 90°",
+      "Dimensions": "95x41x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMDC2092",
+      "Detail": "double sided, long neck, long wings, 90°",
+      "Dimensions": "95x95x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMDC2180",
+      "Detail": "double sided, long neck, 180°",
+      "Dimensions": "95x41x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMDC2181",
+      "Detail": "double sided, long neck, long wings, 180°",
+      "Dimensions": "95x95x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMDC3180",
+      "Detail": "triple sided, long neck, 90°+180°",
+      "Dimensions": "95x41x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GMDC3181",
+      "Detail": "triple sided, long neck, long wings, 90°+180°",
+      "Dimensions": "95x95x40x5",
+      "Load Isolated": "2.5kN",
+      "Load fixed on profile": "4kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

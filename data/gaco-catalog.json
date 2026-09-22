@@ -1,0 +1,135 @@
+{
+  "title": "Angle Connector's (GACO)",
+  "code_prefix": "GACO",
+  "specification": [
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4",
+    "➤Material: S250GD/S235JR"
+  ],
+  "definition": "Angle connectors are specialized components designed for connecting strut channels at specific angles, typically 90 degrees, 45 degrees and 135 degrees. These connectors play a critical role in ensuring structural integrity and stability in modular support systems.",
+  "items": [
+    {
+      "code": "GACO0902",
+      "image": "assets/img/gaco0902.png"
+    },
+    {
+      "code": "GACO0452",
+      "image": "assets/img/gaco0452.png"
+    },
+    {
+      "code": "GACO1352",
+      "image": "assets/img/gaco1352.png"
+    },
+    {
+      "code": "GACO0903",
+      "image": "assets/img/gaco0903.png"
+    },
+    {
+      "code": "GACO0904",
+      "image": "assets/img/gaco0904.png"
+    },
+    {
+      "code": "GACO0454",
+      "image": "assets/img/gaco0454.png"
+    },
+    {
+      "code": "GACO1354",
+      "image": "assets/img/gaco1354.png"
+    },
+    {
+      "code": "GACO0902",
+      "image": "assets/img/gaco0902.png"
+    },
+    {
+      "code": "GACO0452",
+      "image": "assets/img/gaco0452.png"
+    },
+    {
+      "code": "GACO1352",
+      "image": "assets/img/gaco1352.png"
+    },
+    {
+      "code": "GACO0903",
+      "image": "assets/img/gaco0903.png"
+    },
+    {
+      "code": "GACO0904",
+      "image": "assets/img/gaco0904.png"
+    },
+    {
+      "code": "GACO0454",
+      "image": "assets/img/gaco0454.png"
+    },
+    {
+      "code": "GACO1354",
+      "image": "assets/img/gaco1354.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GACO0902",
+      "Detail": "2-hole 90° angle",
+      "Dimensions": "48x48x40x5",
+      "For Profile": "GM Profile GM41",
+      "Load Isolated": "1 kN",
+      "Load fixed on profile": "2.5 kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GACO0452",
+      "Detail": "2-hole 45° angle",
+      "Dimensions": "52x68x40x5",
+      "For Profile": "GM Profile GM41",
+      "Load Isolated": "1 kN",
+      "Load fixed on profile": "2.5 kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GACO1352",
+      "Detail": "2-hole 135° angle",
+      "Dimensions": "48x71x40x5",
+      "For Profile": "GM Profile GM41",
+      "Load Isolated": "1 kN",
+      "Load fixed on profile": "2.5 kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GACO0903",
+      "Detail": "3-hole 90° angle",
+      "Dimensions": "48x98x40x5",
+      "For Profile": "GM Profile GM41",
+      "Load Isolated": "1 kN",
+      "Load fixed on profile": "2.5 kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GACO0904",
+      "Detail": "4-hole 90° angle",
+      "Dimensions": "95x98x40x5",
+      "For Profile": "GM Profile GM41",
+      "Load Isolated": "1 kN",
+      "Load fixed on profile": "2.5 kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GACO0454",
+      "Detail": "4-hole 45° angle",
+      "Dimensions": "116x116x40x5",
+      "For Profile": "GM Profile GM41",
+      "Load Isolated": "1 kN",
+      "Load fixed on profile": "2.5 kN",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GACO1354",
+      "Detail": "4-hole 135° angle",
+      "Dimensions": "102x102x40x5",
+      "For Profile": "GM Profile GM41",
+      "Load Isolated": "1 kN",
+      "Load fixed on profile": "2.5 kN",
+      "Weight": "xx"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>Metal Anchors – Product List</title>
+
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+      padding-top: 100px;
+    }
+
+    .page-header {
+      text-align: left;
+      margin-bottom: 30px;
+    }
+
+    .page-title {
+      color: #0d3d12;
+      font-size: 36px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .page-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #52B455 0%, #2D9F3C 100%);
+      color: white;
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .page-description {
+      color: #555;
+      line-height: 1.6;
+      font-size: 16px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(27, 94, 32, 0.1);
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(27, 94, 32, 0.15);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-left: 4px solid #0d3d12;
+      display: grid;
+      grid-template-columns: 1fr 120px;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 15px rgba(27, 94, 32, 0.25);
+    }
+
+    .product-card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .product-card h3 {
+      color: #0d3d12;
+      font-size: 18px;
+      margin: 0 0 5px 0;
+      font-weight: 700;
+    }
+
+    .product-code {
+      color: #666;
+      font-size: 14px;
+      margin: 0 0 10px 0;
+    }
+
+    .product-size {
+      color: #888;
+      font-size: 13px;
+      margin: 0;
+    }
+
+    .view-details {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #52B455 0%, #2D9F3C 100%);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 13px;
+      transition: all 0.3s;
+      box-shadow: 0 2px 8px rgba(82, 180, 85, 0.3);
+      width: fit-content;
+    }
+
+    .view-details:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(82, 180, 85, 0.4);
+    }
+
+    .product-card-image {
+      width: 120px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      border-radius: 6px;
+      overflow: hidden;
+      border: none;
+      transition: all 0.3s ease;
+    }
+
+    .product-card:hover .product-card-image {
+      transform: scale(1.05);
+    }
+
+    .product-card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 0;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: #666;
+      font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+        padding-top: 80px;
+      }
+
+      .products-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .product-card {
+        grid-template-columns: 1fr;
+      }
+
+      .product-card-image {
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Navigation Bar (Loaded from navbar.html) -->
+  <div id="navbar-placeholder"></div>
+
+  <div class="container">
+    <div class="page-header">
+      <span class="page-badge" id="pageBadge">Loading...</span>
+      <h1 class="page-title" id="pageTitle">Loading...</h1>
+      <p class="page-description" id="pageDescription">Loading...</p>
+    </div>
+
+    <div class="products-grid" id="productsGrid">
+      <div class="loading">Loading anchor products...</div>
+    </div>
+  </div>
+
+  <!-- Footer (Loaded from footer.html) -->
+  <div id="footer-placeholder"></div>
+
+  <script>
+    // Load anchor products from anchor-catalog.json
+    async function loadAnchorProducts() {
+      try {
+        const response = await fetch('data/anchor-catalog.json');
+        const data = await response.json();
+        
+        // Update page header
+        document.getElementById('pageBadge').textContent = 'Metal Anchors';
+        document.getElementById('pageTitle').textContent = 'Metal Anchors – Product List';
+        document.getElementById('pageDescription').textContent = 'Explore our range of high-performance metal anchors engineered for secure fastening in concrete and masonry. From through-bolt designs to expansion anchors, our products deliver exceptional strength, corrosion resistance, and installation efficiency for demanding structural applications.';
+        
+        // Render product cards
+        const grid = document.getElementById('productsGrid');
+        grid.innerHTML = '';
+        
+        data.products.forEach(product => {
+          const card = document.createElement('div');
+          card.className = 'product-card';
+          card.onclick = () => window.location.href = `anchor-template.html?code=${product.productCode}`;
+          
+          card.innerHTML = `
+            <div class="product-card-content">
+              <h3>${product.name}</h3>
+              <p class="product-code">Product Code: ${product.productCode}</p>
+              <p class="product-size">${product.variants.length} Variants Available</p>
+              <a href="anchor-template.html?code=${product.productCode}" class="view-details" onclick="event.stopPropagation()">
+                View Details
+              </a>
+            </div>
+            <div class="product-card-image">
+              <img src="${product.images?.['3d'] || 'assets/Anchors/3d/' + product.productCode + '.png'}" alt="${product.name}">
+            </div>
+          `;
+          
+          grid.appendChild(card);
+        });
+        
+        console.log(`Loaded ${data.products.length} anchor products`);
+      } catch (error) {
+        console.error('Error loading anchor products:', error);
+        document.getElementById('productsGrid').innerHTML = 
+          '<p style="text-align:center;padding:40px;color:#d32f2f">Error loading products. Please refresh the page.</p>';
+      }
+    }
+    
+    // Load navbar
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+        const script = document.createElement('script');
+        script.src = 'navbar.js';
+        document.body.appendChild(script);
+      });
+    
+    // Load footer
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer-placeholder').innerHTML = data;
+      });
+    
+    // Initialize
+    loadAnchorProducts();
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "title": "Channel Washer (GCWA)",
+  "code_prefix": "GCWA",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Channel Washers are essential components used with strut profiles to securely fasten and stabilize installations in modular support systems. They provide a secure and even clamping force, preventing misalignment or loosening of the fastened components. They evenly distribute the load across the channel, minimizing stress on the profile and preventing deformation.",
+  "items": [
+    {
+      "code": "GCWA4108",
+      "image": "assets/img/gcwa4108.png"
+    },
+    {
+      "code": "GCWA4110",
+      "image": "assets/img/gcwa4110.png"
+    },
+    {
+      "code": "GCWA4112",
+      "image": "assets/img/gcwa4112.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GCWA4108",
+      "Detail": "Channel Washer 41/8",
+      "Dimensions": "41.3x40x4",
+      "Hole Dia": "M8",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GCWA4110",
+      "Detail": "Channel Washer 41/10",
+      "Dimensions": "41.3x40x4",
+      "Hole Dia": "M10",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GCWA4112",
+      "Detail": "Channel Washer 41/12",
+      "Dimensions": "41.3x40x4",
+      "Hole Dia": "M12",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

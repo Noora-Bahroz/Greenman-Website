@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Angle Connectors (GACO) – PDF-like Template</title>
+  <link rel="stylesheet" href="catalog-common.css">
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<main class="canvas">
+    <div class="title-row">
+      <span class="bullet"></span>
+      <div class="title">Angle Connector's (GACO)</div>
+    </div>
+
+    <section class="meta-2">
+      <div class="card">
+        <h3>Specification</h3>
+        <ul id="spec-list">
+          <li>➤Electro-galvanized (Z-275)</li>
+          <li>➤Hot-dip galvanized</li>
+          <li>➤Epoxy coated</li>
+          <li>➤Stainless Steel A2/A4</li>
+          <li>➤Material: S250GD/S235JR</li>
+        </ul>
+      </div>
+      <div class="def-box">
+        <h3 style="margin:0 0 6px;color:var(--green-dark)">Product Definition</h3>
+        <p id="definition">Angle connectors are specialized components designed for connecting strut channels at specific angles, typically 90°, 45° and 135°. These connectors play a critical role in ensuring structural integrity and stability in modular support systems.</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="grid" class="grid" aria-label="Angle connector variants grid">
+        <!-- items injected here -->
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <table class="props" id="gaco-table">
+        <thead>
+          <tr>
+            <th>Product Code</th>
+            <th>Detail</th>
+            <th>Dimensions</th>
+            <th>For Profile</th>
+            <th>Load Isolated</th>
+            <th>Load fixed on profile</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    const fallbackData = {
+      title: "Angle Connector's (GACO)",
+      specification:[
+        "➤Electro-galvanized (Z-275)",
+        "➤Hot-dip galvanized",
+        "➤Epoxy coated",
+        "➤Stainless Steel A2/A4",
+        "➤Material: S250GD/S235JR"
+      ],
+      definition: document.getElementById('definition').textContent,
+      page: 30,
+      items:[
+        { code:'GACO0902', image:'assets/img/placeholder.png' },
+        { code:'GACO0452', image:'assets/img/placeholder.png' },
+        { code:'GACO1352', image:'assets/img/placeholder.png' },
+        { code:'GACO0903', image:'assets/img/placeholder.png' },
+        { code:'GACO0904', image:'assets/img/placeholder.png' },
+        { code:'GACO0454', image:'assets/img/placeholder.png' },
+        { code:'GACO1354', image:'assets/img/placeholder.png' }
+      ],
+      table:[
+        {"Product Code":"GACO0902","Detail":"2-hole 90°","Dimensions":"48x48x40x5","For Profile":"GM - profile GM41","Load Isolated":"1 kN","Load fixed on profile":"2.5 kN","Weight":"xx"},
+        {"Product Code":"GACO0452","Detail":"2-hole 45°","Dimensions":"52x68x40x5","For Profile":"GM - profile GM41","Load Isolated":"1 kN","Load fixed on profile":"2.5 kN","Weight":"xx"},
+        {"Product Code":"GACO1352","Detail":"2-hole 135°","Dimensions":"48x71x40x5","For Profile":"GM - profile GM41","Load Isolated":"1 kN","Load fixed on profile":"2.5 kN","Weight":"xx"},
+        {"Product Code":"GACO0903","Detail":"3-hole 90°","Dimensions":"48x98x40x5","For Profile":"GM - profile GM41","Load Isolated":"1 kN","Load fixed on profile":"2.5 kN","Weight":"xx"},
+        {"Product Code":"GACO0904","Detail":"4-hole 90°","Dimensions":"95x98x40x5","For Profile":"GM - profile GM41","Load Isolated":"1 kN","Load fixed on profile":"2.5 kN","Weight":"xx"},
+        {"Product Code":"GACO0454","Detail":"4-hole 45°","Dimensions":"116x116x40x5","For Profile":"GM - profile GM41","Load Isolated":"1 kN","Load fixed on profile":"2.5 kN","Weight":"xx"},
+        {"Product Code":"GACO1354","Detail":"4-hole 135°","Dimensions":"102x102x40x5","For Profile":"GM - profile GM41","Load Isolated":"1 kN","Load fixed on profile":"2.5 kN","Weight":"xx"}
+      ]
+    };
+
+    async function loadData(){
+      try{
+        const res = await fetch('data/gaco-catalog.json');
+        if(!res.ok) throw new Error('No JSON found');
+        const data = await res.json();
+        return data;
+      }catch(err){
+        console.warn('Falling back to inline sample data for GACO:', err.message);
+        return fallbackData;
+      }
+    }
+
+    function renderGrid(items){
+      const grid = document.getElementById('grid');
+      grid.innerHTML = items.map(it=>`
+        <div class="item">
+          <span class="tick">✓</span>
+          <img src="${it.image || 'assets/img/placeholder.png'}" alt="${it.code}">
+          <div class="code">${it.code}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderTable(rows){
+      const tbody = document.querySelector('#gaco-table tbody');
+      tbody.innerHTML = rows.map(r=>`
+        <tr>
+          <td>${r['Product Code']||'-'}</td>
+          <td>${r['Detail']||'-'}</td>
+          <td>${r['Dimensions']||'-'}</td>
+          <td>${r['For Profile']||'-'}</td>
+          <td>${r['Load Isolated']||'-'}</td>
+          <td>${r['Load fixed on profile']||'-'}</td>
+          <td>${r['Weight']||'-'}</td>
+        </tr>
+      `).join('');
+    }
+
+    (async function init(){
+      const data = await loadData();
+      document.querySelector('.title').textContent = data.title || "Angle Connector's (GACO)";
+      document.title = (data.title || 'Angle Connectors (GACO)') + ' – GREEN MAN';
+
+      // spec
+      if(Array.isArray(data.specification)){
+        const ul = document.getElementById('spec-list'); ul.innerHTML = data.specification.map(s=>`<li>${s}</li>`).join('');
+      }
+      if(data.definition){ document.getElementById('definition').textContent = data.definition; }
+      if(data.page){ document.getElementById('page-no').textContent = 'PAGE '+data.page; }
+
+      renderGrid(data.items || []);
+      renderTable(data.table || []);
+    })();
+  </script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <title>Seismic Solutions Collection | GREEN MAN</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product-hero {
+            background: linear-gradient(135deg, #0d3518 0%, #1B5E20 50%, #0d3518 100%);
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        .product-hero h1 {
+            font-size: 1.82rem;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .product-hero p {
+            font-size: 0.975rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.4;
+            opacity: 0.95;
+        }
+
+        .product-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 25px 15px;
+            zoom: 1.04;
+        }
+
+        .product-section {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 30px;
+        }
+
+        .product-section:last-child {
+            border-bottom: none;
+        }
+
+        .product-section h2 {
+            color: #1B5E20;
+            font-size: 1.69rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .specification-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border: 1px solid #1B5E20;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .specification-box h3 {
+            color: #1B5E20;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #2D9F3C;
+        }
+
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .spec-item {
+            background: white;
+            padding: 8px;
+            border-radius: 5px;
+            border-left: 2px solid #2D9F3C;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+
+        .spec-item strong {
+            display: block;
+            color: #1B5E20;
+            margin-bottom: 3px;
+            font-size: 0.91rem;
+        }
+
+        .spec-item span {
+            color: #333;
+            font-size: 0.975rem;
+        }
+
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .image-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(27, 94, 32, 0.2);
+        }
+
+        .image-card h4 {
+            background: linear-gradient(135deg, #1B5E20, #2D9F3C);
+            color: white;
+            padding: 8px 12px;
+            margin: 0;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        .image-card img {
+            width: 50%;
+            height: auto;
+            display: block;
+            padding: 10px;
+            padding-top: 20px;
+            background: white;
+            margin: 0 auto;
+        }
+
+        .product-definition {
+            background: linear-gradient(135deg, rgba(27, 94, 32, 0.05), rgba(45, 159, 60, 0.05));
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .product-definition h3 {
+            color: #1B5E20;
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+
+        .product-definition p {
+            color: #333;
+            font-size: 0.975rem;
+            line-height: 1.5;
+        }
+
+        .installation-table {
+            overflow-x: auto;
+            margin-top: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            font-size: 0.95rem;
+        }
+
+        thead {
+            background: #1B5E20;
+            color: white;
+        }
+
+        th {
+            padding: 15px 12px;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+            border-right: 1px solid rgba(255,255,255,0.1);
+            font-weight: 700;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        th:last-child {
+            border-right: none;
+        }
+
+        td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        tbody tr:hover {
+            background: rgba(27, 94, 32, 0.05);
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .desktop-spacing {
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .desktop-spacing {
+                display: none;
+            }
+
+            .product-hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .images-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .specification-box {
+                padding: 15px;
+            }
+
+            .product-definition {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+    <div class="desktop-spacing"></div>
+
+    <!-- Product Hero -->
+    <section class="product-hero">
+        <h1>Seismic Solutions Collection</h1>
+        <p>High-performance structural connectors designed for seismic zones, providing flexible, secure, and resilient support for strut systems in commercial and industrial installations.</p>
+    </section>
+
+    <!-- Product Content -->
+    <section class="product-content">
+        
+        <!-- GGASH Product Section -->
+        <div class="product-section">
+            <h2>Green Griplock Adjustable Seismic Hinge - GGASH</h2>
+            
+            <!-- Specification Box -->
+            <div class="specification-box">
+                <h3>🔧 Product Specifications</h3>
+                <div class="spec-grid">
+                    <div class="spec-item">
+                        <strong>Material</strong>
+                        <span>Steel</span>
+                    </div>
+                    <div class="spec-item">
+                        <strong>Finish</strong>
+                        <span>Electrogalvanized</span>
+                    </div>
+                    <div class="spec-item">
+                        <strong>Application</strong>
+                        <span>Seismic Zones</span>
+                    </div>
+                    <div class="spec-item">
+                        <strong>Type</strong>
+                        <span>Adjustable Hinge</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Definition -->
+            <div class="product-definition">
+                <h3>📋 Product Definition</h3>
+                <p>Green Griplock Adjustable Seismic Hinge (GGASH) is a high-performance structural connector designed to provide flexible, secure, and resilient support for strut systems in seismic zones, combining adjustability with eco-conscious engineering.</p>
+            </div>
+
+            <!-- Images Section -->
+            <div class="images-grid">
+                <div class="image-card">
+                    <h4>Product Image</h4>
+                    <img src="assets/Seismic/img1/GGASH.png" alt="GGASH Product Image">
+                </div>
+                <div class="image-card">
+                    <h4>Technical Drawing</h4>
+                    <img src="assets/Seismic/img2-dwg/GGASH.PNG" alt="GGASH Technical Drawing">
+                </div>
+            </div>
+
+            <!-- Installation Parameters Table -->
+            <div class="specification-box">
+                <h3>📏 Installation Parameters</h3>
+                <div class="installation-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product Code</th>
+                                <th>HS1(MM)</th>
+                                <th>HS2(MM)</th>
+                                <th>Thickness(MM)</th>
+                                <th>Width(MM)</th>
+                                <th>Length(MM)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>GGASH0177</td>
+                                <td>228</td>
+                                <td>177</td>
+                                <td>25</td>
+                                <td>41</td>
+                                <td>179</td>
+                            </tr>
+                            <tr>
+                                <td>GGASH0228</td>
+                                <td>228</td>
+                                <td>228</td>
+                                <td>25</td>
+                                <td>41</td>
+                                <td>179</td>
+                            </tr>
+                            <tr>
+                                <td>GGASH0279</td>
+                                <td>228</td>
+                                <td>279</td>
+                                <td>25</td>
+                                <td>41</td>
+                                <td>179</td>
+                            </tr>
+                            <tr>
+                                <td>GGASH0330</td>
+                                <td>228</td>
+                                <td>330</td>
+                                <td>25</td>
+                                <td>41</td>
+                                <td>179</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- GSBH Product Section -->
+        <div class="product-section">
+            <h2>Greenman Strut Brace 360-Hinge - GSBH</h2>
+            
+            <!-- Specification Box -->
+            <div class="specification-box">
+                <h3>🔧 Product Specifications</h3>
+                <div class="spec-grid">
+                    <div class="spec-item">
+                        <strong>Color</strong>
+                        <span>Silver</span>
+                    </div>
+                    <div class="spec-item">
+                        <strong>Material</strong>
+                        <span>Carbon Steel</span>
+                    </div>
+                    <div class="spec-item">
+                        <strong>Finish</strong>
+                        <span>HDG / Electro-Galvanized</span>
+                    </div>
+                    <div class="spec-item">
+                        <strong>Rotation</strong>
+                        <span>360° Full Rotation</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Definition -->
+            <div class="product-definition">
+                <h3>📋 Product Definition</h3>
+                <p>The GreenMan Strut Brace 360-Hinge (GSBH) is a high-strength adjustable hinge for Unistrut systems, allowing full 360° rotation for flexible seismic bracing and precise alignment. Built from durable galvanized steel, it provides reliable multi-directional support for piping, ducting, and equipment in commercial and industrial installations.</p>
+            </div>
+
+            <!-- Images Section -->
+            <div class="images-grid">
+                <div class="image-card">
+                    <h4>Product Image</h4>
+                    <img src="assets/Seismic/img1/GSBH.png" alt="GSBH Product Image">
+                </div>
+                <div class="image-card">
+                    <h4>Technical Drawing</h4>
+                    <img src="assets/Seismic/img2-dwg/GSBH.png" alt="GSBH Technical Drawing">
+                </div>
+            </div>
+
+            <!-- Installation Parameters Table -->
+            <div class="specification-box">
+                <h3>📏 Installation Parameters</h3>
+                <div class="installation-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th>Specification</th>
+                                <th>Hole Size</th>
+                                <th>Expansion Bolt</th>
+                                <th>Maximum Load(N)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>GSBH12</td>
+                                <td>GM-A</td>
+                                <td>φ14</td>
+                                <td>M12</td>
+                                <td>7300</td>
+                            </tr>
+                            <tr>
+                                <td>GSBH12</td>
+                                <td>GM-B</td>
+                                <td>φ14</td>
+                                <td>M12</td>
+                                <td>7300</td>
+                            </tr>
+                            <tr>
+                                <td>GSBH12</td>
+                                <td>GM-C</td>
+                                <td>φ14</td>
+                                <td>M12</td>
+                                <td>7300</td>
+                            </tr>
+                            <tr>
+                                <td>GSBH12</td>
+                                <td>GM-D</td>
+                                <td>φ14</td>
+                                <td>M12</td>
+                                <td>7300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+{
+  "title": "Z-Shape Connector (GZCO)",
+  "code_prefix": "GZCO",
+  "specification": [
+    "➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4",
+    "➤Material: S250GD/S235JR"
+  ],
+  "definition": "Z-shape Connector, with two horizontal flanges and a vertical section in between. This shape helps in bridging and aligning two strut channels that are on different planes. It adds versatility to strut channel connections by allowing multiple configurations and orientations, expanding the design possibilities in structural and framing applications.",
+  "items": [
+    {
+      "code": "GZCO2021",
+      "image": "assets/img/gzco2021.png"
+    },
+    {
+      "code": "GZCO3041",
+      "image": "assets/img/gzco3041.png"
+    },
+    {
+      "code": "GZCO3021",
+      "image": "assets/img/gzco3021.png"
+    },
+    {
+      "code": "GZCO3062",
+      "image": "assets/img/gzco3062.png"
+    },
+    {
+      "code": "GZCO2041",
+      "image": "assets/img/gzco2041.png"
+    },
+    {
+      "code": "GZCO2021",
+      "image": "assets/img/gzco2021.png"
+    },
+    {
+      "code": "GZCO3021",
+      "image": "assets/img/gzco3021.png"
+    },
+    {
+      "code": "GZCO2041",
+      "image": "assets/img/gzco2041.png"
+    },
+    {
+      "code": "GZCO3041",
+      "image": "assets/img/gzco3041.png"
+    },
+    {
+      "code": "GZCO3062",
+      "image": "assets/img/gzco3062.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GZCO2021",
+      "Detail": "2-hole M21-step",
+      "Dimensions": "40x21x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GZCO3021",
+      "Detail": "3-hole M21-step",
+      "Dimensions": "95x21x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GZCO2041",
+      "Detail": "2-hole M41-step",
+      "Dimensions": "40x41x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GZCO3041",
+      "Detail": "3-hole M41-step",
+      "Dimensions": "95x41x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GZCO3062",
+      "Detail": "3-hole M62-step",
+      "Dimensions": "95x62x40x5",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

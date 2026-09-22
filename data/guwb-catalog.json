@@ -1,0 +1,88 @@
+{
+  "title": "U-Shape Winged Bracket (GUWB)",
+  "code_prefix": "GUWB",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "U-Shape Winged Brackets are specialized components designed for connecting GM Profiles to a base structure, ensuring alignment and stability. These brackets provide flexibility and play a critical role in ensuring structural integrity and stability in modular support systems.",
+  "items": [
+    {
+      "code": "GUHB3021",
+      "image": "assets/img/guhb3021.png"
+    },
+    {
+      "code": "GUHB5041",
+      "image": "assets/img/guhb5041.png"
+    },
+    {
+      "code": "GUHB5052",
+      "image": "assets/img/guhb5052.png"
+    },
+    {
+      "code": "GUHB5062",
+      "image": "assets/img/guhb5062.png"
+    },
+    {
+      "code": "GUHB5072",
+      "image": "assets/img/guhb5072.png"
+    },
+    {
+      "code": "GUHB5082",
+      "image": "assets/img/guhb5082.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GUHB3021",
+      "Detail": "3-hole M21",
+      "Dimensions": "40x21x5",
+      "Load": "3.5kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5041",
+      "Detail": "5-hole M41",
+      "Dimensions": "40x41x5",
+      "Load": "3.5kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5052",
+      "Detail": "5-hole M52",
+      "Dimensions": "40x52x5",
+      "Load": "3.5kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5062",
+      "Detail": "5-hole M62",
+      "Dimensions": "40x62x5",
+      "Load": "3.5kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5072",
+      "Detail": "5-hole M72",
+      "Dimensions": "40x72x5",
+      "Load": "3.5kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GUHB5082",
+      "Detail": "5-hole M82",
+      "Dimensions": "40x82x5",
+      "Load": "3.5kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Python scripts (not needed for production)
+*.py
+__pycache__/
+*.pyc
+
+# Development files
+debug_*.py
+extract_*.py
+product-json-generator.html
+
+# Large files that might not be needed
+Product-Catalogues-PDF/
+
+# Version control
+.git/
+.gitignore
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

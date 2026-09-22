@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Fasteners & Hardware - Greenman</title>
+    
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .content-
+        /* Hide content until fully loaded */
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+        body:not(.loaded) > *:not(.page-loader) {
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .content-section {
+            margin-bottom: 3rem;
+        }
+        .content-section h2 {
+            color: #1B5E20;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        .content-section p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            color: #444;
+        }
+        .content-section ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content-section li {
+            margin-bottom: 0.5rem;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <header class="content-header">
+        <div>
+            <h1 class="text-5xl font-bold mb-4">Industrial Fasteners & Hardware</h1>
+            <p class="text-xl">Precision-engineered for strength and reliability</p>
+        </div>
+    </header>
+
+    <main class="content-body">
+        <div class="content-section">
+            <h2>Anchoring Solutions</h2>
+            <p>Greenman provides a comprehensive range of anchoring solutions designed for concrete & masonry connections, façade claddings, and industrial fixings. Our products are engineered to meet the rigorous demands of modern infrastructure projects.</p>
+            
+            <h3 class="text-xl font-bold mb-3 mt-6 text-gray-800">Our Solutions Include:</h3>
+            <ul>
+                <li><strong>Mechanical & Chemical Anchors:</strong> High-performance anchors for heavy-duty applications.</li>
+                <li><strong>Façade-specific Brackets and Bolts:</strong> Specialized solutions for building envelopes.</li>
+                <li><strong>High-tensile Fasteners and Nylon Plugs:</strong> Versatile fixing options for various substrates.</li>
+            </ul>
+            
+            <p>All our anchoring products are tested for tensile, shear, and seismic performance under ISO/ASTM guidelines, ensuring safety and reliability in critical applications.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Sealants & Sealing Solutions</h2>
+            <p>Complementing our hardware, we offer advanced sealing solutions for HVAC ducts, façades, expansion joints, and fire-rated assemblies.</p>
+            <ul>
+                <li>Silicone, PU, and duct sealants</li>
+                <li>Intumescent fire sealants (UL-certified)</li>
+                <li>Weatherproof and thermally stable foams</li>
+            </ul>
+            <p>Our sealants meet SMACNA, UL94, and ASTM C920 standards.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Global Standards</h2>
+            <p>We design all products in accordance with ISO, ASTM, DIN, SMACNA, FM and UL standards — ready for seismic, fire-safe, and energy-efficient infrastructure worldwide. Our solutions strike the balance between affordability and performance, ensuring compliance without sacrificing safety or strength.</p>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // Load navbar and footer
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            document.getElementById('navbar-placeholder').innerHTML = navbarData;
+            document.getElementById('footer-placeholder').innerHTML = footerData;
+            
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            document.body.appendChild(navScript);
+        });
+    </script>
+</body>
+</html>

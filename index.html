@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Resource Hints for Performance -->
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <title>GREEN MAN - Industrial Fastening Solutions</title>
+    
+    <!-- Google Fonts: Roboto - Optimized -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Load navbar CSS in head to prevent flash -->
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Critical CSS inline for faster first paint -->
+    <style>
+        /* Hide content until fully loaded */
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+        body:not(.loaded) > *:not(.page-loader) {
+            visibility: hidden;
+            opacity: 0;
+        }
+        body{margin:0;padding:0;font-family:'Roboto',sans-serif;overflow-x:hidden}
+        .page-loader{position:fixed;top:0;left:0;width:100%;height:100vh;background:linear-gradient(135deg,#1B5E20,#2D9F3C);display:flex;justify-content:center;align-items:center;z-index:9999;transition:opacity .5s,visibility .5s}
+        body.loaded .page-loader{opacity:0;visibility:hidden}
+        body.loaded > *:not(.page-loader){visibility:visible;opacity:1;transition:opacity .3s ease-in}
+        .loader-spinner{width:60px;height:60px;border:4px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin 1s linear infinite}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        .loader-text{color:#fff;margin-top:20px;font-size:24px}
+        .loader-subtext{color:rgba(255,255,255,.8);font-size:14px;margin-top:8px}
+    </style>
+
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <h2 class="loader-text">Loading...</h2>
+            <p class="loader-subtext">GREEN MAN</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <video id="heroVideo" muted playsinline preload="metadata">
+                <source src="Video/4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1>Precision Steel Mounting<br>Solutions</h1>
+            <p>Engineering excellence in steel pipe clamps and industrial fastening systems. Our products deliver unmatched strength, corrosion resistance, and long-term reliability for demanding industrial applications.</p>
+            <!-- <div class="hero-buttons">
+                <a href="#" class="btn">Steel Pipe Clamps</a>
+                <a href="#" class="btn">Mounting Systems</a>
+            </div> -->
+        </div>
+    </section>
+    
+    <script>
+        // Optimized video cycling with smart background preloading
+        const heroVideo = document.getElementById('heroVideo');
+        const videoSources = [
+            'Video/4.mp4',  // Start with smallest video (668KB)
+            'Video/3.mp4',
+            'Video/6.mp4',
+            'Video/1.mp4',
+            'Video/2.mp4',
+            'Video/5.mp4',
+            'Video/7.mp4'
+        ];
+        
+        let currentVideoIndex = 0;
+        let videosShuffled = false;
+        let preloadedVideo = null;
+        let hasStartedPreloading = false;
+        
+        // Shuffle videos randomly (deferred)
+        function shuffleVideos() {
+            if (!videosShuffled) {
+                for (let i = videoSources.length - 1; i > 1; i--) {  // Keep first video
+                    const j = Math.floor(Math.random() * (i - 1)) + 1;
+                    [videoSources[i], videoSources[j]] = [videoSources[j], videoSources[i]];
+                }
+                videosShuffled = true;
+            }
+        }
+        
+        // Preload next video in background
+        function preloadNextVideo() {
+            const nextIndex = (currentVideoIndex + 1) % videoSources.length;
+            preloadedVideo = document.createElement('video');
+            preloadedVideo.src = videoSources[nextIndex];
+            preloadedVideo.preload = 'auto';
+            console.log('Preloading next video:', videoSources[nextIndex]);
+        }
+        
+        // Wait for first video to load before hiding loader
+        let videoLoaded = false;
+        
+        heroVideo.addEventListener('loadeddata', function() {
+            if (!videoLoaded) {
+                videoLoaded = true;
+                // Fade out loader once video is ready
+                document.body.classList.add('loaded');
+                
+                // Start playing the video
+                const playPromise = heroVideo.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        console.log('Video autoplay prevented:', error);
+                    });
+                }
+                
+                // Start preloading next video after 3 seconds
+                setTimeout(() => {
+                    if (!hasStartedPreloading) {
+                        shuffleVideos();
+                        preloadNextVideo();
+                        hasStartedPreloading = true;
+                    }
+                }, 3000);
+            }
+        });
+        
+        // Fallback: Hide loader after 5 seconds if video doesn't load
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                if (!videoLoaded) {
+                    console.log('Fallback: Hiding loader after timeout');
+                    document.body.classList.add('loaded');
+                }
+            }, 5000);
+        });
+        
+        // Smooth transition to next video when current ends
+        heroVideo.addEventListener('ended', function() {
+            currentVideoIndex = (currentVideoIndex + 1) % videoSources.length;
+            heroVideo.src = videoSources[currentVideoIndex];
+            heroVideo.play().catch(err => console.log('Video play error:', err));
+            
+            // Preload the next video in background after 2 seconds
+            setTimeout(preloadNextVideo, 2000);
+        });
+    </script>
+
+    <!-- Content Blocks -->
+    <section class="content-blocks">
+        <div class="blocks-wrapper">
+            <div class="block-item col-6" style="height: 510px; grid-row: span 2;">
+                <a href="Product-Catalogues-PDF/Installation Support System.pdf" download="Installation-Support-System.pdf">
+                    <div class="block-image">
+                        <img src="assets/pipe-mounting-systems.png" alt="Installation Support System" width="800" height="600">
+                    </div>
+                    <div class="block-overlay"></div>
+                    <div class="block-content">
+                        <h3 class="block-title">Installation Support System</h3>
+                        <span class="block-line"></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="block-item col-6" style="height: 245px;">
+                <a href="industrial-fasteners.html">
+                    <div class="block-image">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Industrial fasteners">
+                    </div>
+                    <div class="block-overlay"></div>
+                    <div class="block-content">
+                        <h3 class="block-title">Industrial Fasteners & Hardware</h3>
+                        <span class="block-line"></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="block-item col-6" style="height: 245px;">
+                <a href="sealants.html">
+                    <div class="block-image">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Sealants & Sealing Solutions">
+                    </div>
+                    <div class="block-overlay"></div>
+                    <div class="block-content">
+                        <h3 class="block-title">Sealants & Sealing Solutions</h3>
+                        <span class="block-line"></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="block-item col-2" style="height: 245px;">
+                <a href="quality-assurance.html">
+                    <div class="block-image">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Quality Assurance">
+                    </div>
+                    <div class="block-overlay"></div>
+                    <div class="block-content">
+                        <h3 class="block-title">Quality Assurance & Testing</h3>
+                        <span class="block-line"></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="block-item col-2" style="height: 245px;">
+                <a href="technical-documentation.html">
+                    <div class="block-image">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60" alt="Technical documentation">
+                    </div>
+                    <div class="block-overlay"></div>
+                    <div class="block-content">
+                        <h3 class="block-title">Technical Documentation & Certificates</h3>
+                        <span class="block-line"></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="block-item col-4" style="height: 245px;">
+                <a href="engineering-solutions.html">
+                    <div class="block-image">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Engineering solutions">
+                    </div>
+                    <div class="block-overlay"></div>
+                    <div class="block-content">
+                        <h3 class="block-title">Custom Engineering Solutions</h3>
+                        <span class="block-line"></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="block-item col-4" style="height: 245px;">
+                <a href="installation-guides.html">
+                    <div class="block-image">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Installation guides">
+                    </div>
+                    <div class="block-overlay"></div>
+                    <div class="block-content">
+                        <h3 class="block-title">Installation Guides & Assembly Diagrams</h3>
+                        <span class="block-line"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="our-story-section bg-gray-50 py-20">
+        <div class="container mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="story-content text-left">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From a Bold Vision to a Global Force</h2>
+                    <p class="mt-4 text-lg leading-8 text-gray-600">More than a decade ago, Greenman began not as a company, but as a vision—to engineer solutions that don't just support structures, but strengthen the very foundations of progress.</p>
+                    
+                    <div class="mt-12 space-y-8">
+                        <div class="story-item">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-700 text-white">
+                                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z"/></svg>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg font-medium text-gray-900">A Legacy of Precision</h3>
+                                    <p class="mt-2 text-base text-gray-600">From the first bolt to the latest modular system, our journey has been one of purpose and precision, earning the trust of builders and visionaries alike.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="story-item">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-green-700 text-white">
+                                        <img src="assets/img/icons/accountability.png" alt="A New Chapter Unfolds" class="h-6 w-6" style="filter: brightness(0) invert(1);">
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h3 class="text-lg font-medium text-gray-900">A New Chapter Unfolds</h3>
+                                    <p class="mt-2 text-base text-gray-600">Today, we are transforming into a global force, with our compass pointing toward digital intelligence, sustainable engineering.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                       
+                    </div>
+                </div>
+                
+                <div class="story-image">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1000&q=80" alt="Greenman Vision and Global Force" class="rounded-lg shadow-lg w-full h-auto" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industrial Solutions Section -->
+    <section class="industrial-solutions-section">
+        <div class="industrial-container">
+            <div class="industrial-images">
+                <div class="main-image">
+                    <img src="assets/img/industrial-main.jpg" alt="Industrial mounting system" loading="lazy">
+                </div>
+            
+            </div>
+            <div class="industrial-content">
+                <h2>Industrial Solutions</h2>
+                <p>Provides secure mounting and support for piping and mechanical systems in industrial settings, featuring beam attachments such as U-holder clamps and beam clamps, along with thermal pipe supports including rollers, pipe guides, sliding points, and fix points to ensure precise, durable pipe alignment and controlled movement.</p>
+                <p>Our comprehensive industrial solutions portfolio encompasses advanced engineering systems designed to meet the rigorous demands of modern infrastructure projects. From heavy-duty beam attachments that ensure robust structural support to precision-engineered thermal pipe supports that accommodate thermal expansion and contraction, every component is manufactured to international standards. These solutions are essential for industries including oil and gas, petrochemical, power generation, water treatment, and commercial construction. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Partner Section -->
+    <section class="global-partner-section">
+        <div class="global-partner-container">
+            <div class="global-partner-content-wrapper">
+                <div class="global-partner-text">
+                    <div class="global-partner-header">
+                        <h2>Global <span>Partner</span> In<br>Construction Efficiency</h2>
+                        <p class="global-partner-description">
+                            Greenman supports projects around the world with solutions designed for speed, safety, and engineering reliability. From commercial high-rises to industrial facilities, our presence spans across continents, delivering excellence in every installation. We understand the unique challenges of international construction projects and provide tailored solutions that meet local codes while maintaining global quality standards.
+                        </p>
+                        <p class="global-partner-description">
+                            Our modular & off-site prefabricated systems reduce on-site workload, accelerate installation, and improve accuracy making us a preferred partner for fast-track global developments. By manufacturing components in controlled factory environments, we eliminate weather delays, minimize site congestion, and ensure consistent quality across every project. This approach not only shortens construction timelines by up to 40% but also reduces material waste and enhances worker safety. Our engineering teams work closely with contractors to optimize designs for efficient assembly, providing detailed installation guides and on-site technical support when needed.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="global-partner-images-wrapper">
+                    <div class="diagonal-lines">
+                        <div class="diagonal-line"></div>
+                        <div class="diagonal-line"></div>
+                        <div class="diagonal-line"></div>
+                        <div class="diagonal-line"></div>
+                    </div>
+                    <div class="global-partner-image-gallery">
+                        <div class="gallery-image" data-position="1">
+                            <img src="assets/images/Screenshot 2025-12-01 222822.png" alt="Global Partnership 1" loading="lazy">
+                        </div>
+                        <div class="gallery-image" data-position="2">
+                            <img src="assets/images/Screenshot 2025-12-01 222833.png" alt="Global Partnership 2" loading="lazy">
+                        </div>
+                        <div class="gallery-image" data-position="3">
+                            <img src="assets/images/Screenshot 2025-12-01 222841.png" alt="Global Partnership 3" loading="lazy">
+                        </div>
+                        <div class="gallery-image" data-position="4">
+                            <img src="assets/images/Screenshot 2025-12-01 222848.png" alt="Global Partnership 4" loading="lazy">
+                        </div>
+                        <div class="gallery-image" data-position="5">
+                            <img src="assets/images/Screenshot 2025-12-01 222855.png" alt="Global Partnership 5" loading="lazy">
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+
+            <div class="why-contractors-section">
+                <h3>Why Global <span>Contractors</span><br>Choose Greenman</h3>
+
+                <div class="contractors-reasons">
+                    <div class="reason-item">
+                        <div class="reason-number">
+                            <img src="assets/img/icons/gear.png" alt="Smarter Installations">
+                        </div>
+                        <div class="reason-content">
+                            <h4>Smarter Installations</h4>
+                            <p>Modular, prefabricated systems reduce installation time and eliminate job-site complexities.</p>
+                        </div>
+                    </div>
+
+                    <div class="reason-item">
+                        <div class="reason-number">
+                            <img src="assets/img/icons/prototype.png" alt="Cost-Effective Engineering">
+                        </div>
+                        <div class="reason-content">
+                            <h4>Cost-Effective Engineering</h4>
+                            <p>Structures designed to meet performance and safety requirements without unnecessary material consumption.</p>
+                        </div>
+                    </div>
+
+                    <div class="reason-item">
+                        <div class="reason-number">
+                            <img src="assets/img/icons/car-engine.png" alt="Compliance Without Limits">
+                        </div>
+                        <div class="reason-content">
+                            <h4>Compliance Without Limits</h4>
+                            <p>Products are aligned with ISO, ASTM, DIN, SMACNA, EN, FM & UL standards to support seismic, fire safe, & energy efficient infrastructure.</p>
+                        </div>
+                    </div>
+
+                    <div class="reason-item">
+                        <div class="reason-number">
+                            <img src="assets/img/icons/image.png" alt="Technology-Driven Production">
+                        </div>
+                        <div class="reason-content">
+                            <h4>Technology-Driven Production</h4>
+                            <p>Automation, CAD/BIM integration, and precision manufacturing ensure superior consistency and scalability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section class="sustainability-section py-20">
+        <div class="container mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="sustainability-content">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Engineering a Greener Tomorrow</h2>
+                    <p class="mt-4 text-lg text-gray-600">We believe construction can be a force for environmental good. Our commitment to sustainability is embedded in every aspect of our operation, from the materials we source to the products we deliver.</p>
+                    <ul class="mt-8 space-y-4">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"/></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-900">Eco-Conscious Materials</h4>
+                                <p class="mt-1 text-base text-gray-600">Utilizing low-VOC adhesives, non-toxic insulation, and recyclable plastics to minimize environmental impact.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <img src="assets/img/icons/accountability.png" alt="Carbon Accountability" class="h-6 w-6" style="filter: invert(25%) sepia(84%) saturate(1551%) hue-rotate(105deg) brightness(94%) contrast(94%);">
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-900">Carbon Accountability</h4>
+                                <p class="mt-1 text-base text-gray-600">Implementing energy-efficient production and logistics planning to reduce our carbon footprint.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <svg class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z"/></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium text-gray-900">Green Building Ready</h4>
+                                <p class="mt-1 text-base text-gray-600">Our LEED-compliant solutions help you achieve your project's sustainability goals.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sustainability-image">
+                    <img src="assets/img/mark-potterton-sNVkn3507Oo-unsplash.jpg" alt="Sustainable Engineering" class="rounded-lg shadow-lg" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section bg-gray-50 py-20">
+        <div class="container mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+                <div class="text-left">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Trusted by Industry Leaders</h2>
+                    <p class="mt-4 text-lg leading-8 text-gray-600">Our commitment to excellence is reflected in the feedback we receive from our partners and clients across the globe.</p>
+                </div>
+                <div class="testimonials-image flex justify-end">
+                    <img src="assets/img/team.png" alt="Our Team" width="128" height="128" loading="lazy">
+                </div>
+            </div>
+            <div class="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="testimonial-body">
+                        <p class="text-gray-600">"Greenman's modular support systems have revolutionized our on-site efficiency. The quality is top-tier, and their BIM-ready designs integrated seamlessly with our workflow, saving us significant time and cost on our latest high-rise project."</p>
+                    </div>
+                    <div class="testimonial-footer mt-6 flex items-center">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Carter">
+                        <div class="ml-4">
+                            <h4 class="text-base font-medium text-gray-900">John Carter</h4>
+                            <p class="text-sm text-gray-500">Lead Engineer, Apex Construction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="testimonial-body">
+                        <p class="text-gray-600">"The technical support from Greenman is unparalleled. Their engineering team provided us with seismic anchoring designs that met stringent international codes, giving us complete confidence in our infrastructure's resilience."</p>
+                    </div>
+                    <div class="testimonial-footer mt-6 flex items-center">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria Sanchez">
+                        <div class="ml-4">
+                            <h4 class="text-base font-medium text-gray-900">Maria Sanchez</h4>
+                            <p class="text-sm text-gray-500">Project Director, Global Infrastructure Partners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card bg-white p-8 rounded-lg shadow-md">
+                    <div class="testimonial-body">
+                        <p class="text-gray-600">"For our renewable energy projects, Greenman's solar installation systems were a game-changer. The weld-free, bolt-on frames are robust and incredibly fast to deploy. Their focus on sustainable engineering aligns perfectly with our company's mission."</p>
+                    </div>
+                    <div class="testimonial-footer mt-6 flex items-center">
+                        <img class="h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/men/56.jpg" alt="Ahmed Al-Jamil">
+                        <div class="ml-4">
+                            <h4 class="text-base font-medium text-gray-900">Ahmed Al-Jamil</h4>
+                            <p class="text-sm text-gray-500">CEO, Sunstone Renewables</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Navbar Component -->
+    <script>
+        // Performance monitoring
+        if ('performance' in window) {
+            window.addEventListener('load', () => {
+                setTimeout(() => {
+                    const perfData = performance.getEntriesByType('navigation')[0];
+                    console.log('Page Load Time:', Math.round(perfData.loadEventEnd - perfData.fetchStart), 'ms');
+                    console.log('DOM Content Loaded:', Math.round(perfData.domContentLoadedEventEnd - perfData.fetchStart), 'ms');
+                }, 0);
+            });
+        }
+        
+        // Optimized: Load navbar and footer in parallel
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                console.log('Navbar JavaScript loaded successfully');
+                // Mark page as fully loaded after all components are ready
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                console.error('Failed to load navbar JavaScript');
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded'); // Still show page on error
+        
+            document.body.classList.add('loaded');
+        });
+    </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('Service Worker registered'))
+                    .catch(err => console.log('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>

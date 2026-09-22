@@ -1,0 +1,44 @@
+{
+  "title": "Profile Node Bracket (GPNB)",
+  "code_prefix": "GPNB",
+  "specification": {
+    "Material": "S250GD/S235JR",
+    "Surface": [
+      "➤Electro-galvanized (Z-275)",
+      "➤Hot-dip galvanized",
+      "➤Epoxy coated",
+      "➤Stainless Steel A2/A4"
+    ]
+  },
+  "definition": "GPNB a node connector designed to create intersections between strut channels. It provides connectivity on one or both sides and includes a provision for hanging using a threaded rod. This versatile component is ideal for constructing grids of strut channels in modular frameworks.",
+  "items": [
+    {
+      "code": "GPNB0010",
+      "image": "assets/img/gpnb0010.png"
+    },
+    {
+      "code": "GPNB0020",
+      "image": "assets/img/gpnb0020.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GPNB0010",
+      "Detail": "Profile Node, Single Side Connection",
+      "Dimensions": "125x60x44, 65, 85",
+      "For Profile - Crosswise": "GM-Profile GMD4162",
+      "For Profile - Lengthwise": "GM-Profile GM4141, GM4162, GMD4141",
+      "For threaded rod": "M12",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPNB0020",
+      "Detail": "Profile Node, Double Side Connection",
+      "Dimensions": "125x60x60x44, 65, 85",
+      "For Profile - Crosswise": "GM-Profile GMD4162",
+      "For Profile - Lengthwise": "GM-Profile GM4141, GM4162, GMD4141",
+      "For threaded rod": "M12",
+      "Weight": "xx"
+    }
+  ]
+}

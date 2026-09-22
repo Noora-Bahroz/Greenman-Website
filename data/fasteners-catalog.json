@@ -1,0 +1,374 @@
+{
+  "gbhc": {
+    "productCode": "GBHC",
+    "productName": "GreenBolt HexCap",
+    "fullName": "GreenBolt HexCap - GBHC",
+    "category": "Fasteners & Screws",
+    "subcategory": "Hex Cap Bolts",
+    "description": "A precision-engineered component for hanger and support systems, providing the reliable backbone for structural, HVAC, and mechanical installations. It transforms metal excellence into a strong, durable, and highly versatile solution for modern infrastructure for strut systems in seismic zones, combining adjustability with eco-conscious engineering.",
+    "image": "assets/Fasteners and screws/GBHC/gbhc-main.jpg",
+    "technicalDrawing": "assets/Fasteners and screws/GBHC/gbhc-technical.jpg",
+    "specifications": {
+      "material": "Steel",
+      "finish": [
+        "Zinc Plated",
+        "Hot Dipped",
+        "SS-304 (A2)",
+        "SS-316 (A4)"
+      ]
+    },
+    "products": [
+      {
+        "productCode": "GBHC630",
+        "size": "M6 x 30",
+        "maxRecLoads": 10
+      },
+      {
+        "productCode": "GBHC660",
+        "size": "M6 x 60",
+        "maxRecLoads": 10
+      },
+      {
+        "productCode": "GBHC840",
+        "size": "M8 x 40",
+        "maxRecLoads": 19
+      },
+      {
+        "productCode": "GBHC845",
+        "size": "M8 x 45",
+        "maxRecLoads": 19
+      },
+      {
+        "productCode": "GBHC1045",
+        "size": "M10 x 45",
+        "maxRecLoads": 31
+      },
+      {
+        "productCode": "GBHC1080",
+        "size": "M10 x 80",
+        "maxRecLoads": 31
+      },
+      {
+        "productCode": "GBHC1245",
+        "size": "M12 x 45",
+        "maxRecLoads": 45
+      },
+      {
+        "productCode": "GBHCM1260",
+        "size": "M12 x 60",
+        "maxRecLoads": 45
+      },
+      {
+        "productCode": "GBHCM16100",
+        "size": "M16 x 100",
+        "maxRecLoads": 85
+      },
+      {
+        "productCode": "GBHCM16110",
+        "size": "M16 x 110",
+        "maxRecLoads": 85
+      },
+      {
+        "productCode": "GBHCM18140",
+        "size": "M18 x 140",
+        "maxRecLoads": 105
+      },
+      {
+        "productCode": "GBHCM18150",
+        "size": "M18 x 150",
+        "maxRecLoads": 105
+      },
+      {
+        "productCode": "GBHCM2080",
+        "size": "M20 x 80",
+        "maxRecLoads": 133
+      },
+      {
+        "productCode": "GBHCM20110",
+        "size": "M20 x 110",
+        "maxRecLoads": 133
+      }
+    ]
+  },
+  "gmsls": {
+    "productCode": "GMSLS",
+    "productName": "Greenman Slot-Lok Screw",
+    "fullName": "Greenman Slot-Lok Screw - GMSLS",
+    "category": "Fasteners & Screws",
+    "subcategory": "Slotted Head Screws",
+    "description": "The Greenman Slot-Lok Screw offers strong, controlled fastening with a durable slotted head design. Built for versatility, it delivers consistent torque and dependable hold across a wide range of components.",
+    "image": "assets/Fasteners and screws/GMSLS/gmsls-main.jpg",
+    "technicalDrawing": "assets/Fasteners and screws/GMSLS/gmsls-technical.jpg",
+    "specifications": {
+      "material": "Steel",
+      "finish": [
+        "Zinc Plated",
+        "Hot Dipped",
+        "SS-304 (A2)",
+        "SS-316 (A4)"
+      ]
+    },
+    "products": [
+      {
+        "productCode": "GMSLS06",
+        "size": "M6",
+        "maxRecLoads": 5
+      },
+      {
+        "productCode": "GMSLS08",
+        "size": "M8",
+        "maxRecLoads": 9
+      },
+      {
+        "productCode": "GMSLS10",
+        "size": "M10",
+        "maxRecLoads": 15
+      },
+      {
+        "productCode": "GMSLS12",
+        "size": "M12",
+        "maxRecLoads": 22
+      },
+      {
+        "productCode": "GMSLS16",
+        "size": "M16",
+        "maxRecLoads": 42
+      },
+      {
+        "productCode": "GMSLS20",
+        "size": "M20",
+        "maxRecLoads": 66
+      }
+    ]
+  },
+  "gmsps": {
+    "productCode": "GMSPS",
+    "productName": "Greenman Slotted Pan Head Screw",
+    "fullName": "Greenman Slotted Pan Head Screw - GMSPS",
+    "category": "Fasteners & Screws",
+    "subcategory": "Pan Head Screws",
+    "description": "A versatile, easy-to-use fastener, the Greenman Slotted Pan Head Screw secures components firmly while sitting neatly on the surface. Its classic slotted drive and broad pan head make it the go-to solution for everyday metalwork, electronics, and general assembly applications.",
+    "image": "assets/Fasteners and screws/GMSPS/gmsps-main.jpg",
+    "technicalDrawing": "assets/Fasteners and screws/GMSPS/gmsps-technical.jpg",
+    "specifications": {
+      "material": "Steel",
+      "finish": [
+        "Zinc Plated",
+        "Hot Dipped",
+        "SS-304 (A2)",
+        "SS-316 (A4)"
+      ]
+    },
+    "products": [
+      {
+        "productCode": "GMSPS04",
+        "size": "M4",
+        "nutThickness": 4
+      },
+      {
+        "productCode": "GMSPS06",
+        "size": "M6",
+        "nutThickness": 7
+      },
+      {
+        "productCode": "GMSPS08",
+        "size": "M8",
+        "nutThickness": 11
+      },
+      {
+        "productCode": "GMSPS10",
+        "size": "M10",
+        "nutThickness": 16
+      },
+      {
+        "productCode": "GMSPS12",
+        "size": "M12",
+        "nutThickness": 23
+      },
+      {
+        "productCode": "GMSPS16",
+        "size": "M16",
+        "nutThickness": 31
+      }
+    ]
+  },
+  "gmsqf": {
+    "productCode": "GMSQF",
+    "productName": "Greenman Structural Quad-Drive Fastener",
+    "fullName": "Greenman Structural Quad-Drive Fastener - GMSQF",
+    "category": "Fasteners & Screws",
+    "subcategory": "Quad-Drive Fasteners",
+    "description": "The Greenman Structural Quad-Drive Fastener is a heavy-duty, engineered screw designed for superior load-bearing capacity in wood and construction applications. It features a robust, multi-contact Quad-Drive recess for maximum torque transfer and a reliable, non-slip installation, significantly reducing proj",
+    "image": "assets/Fasteners and screws/GMSQF/gmsqf-main.jpg",
+    "technicalDrawing": "assets/Fasteners and screws/GMSQF/gmsqf-technical.jpg",
+    "specifications": {
+      "material": "Steel",
+      "finish": [
+        "Zinc Plated",
+        "Hot Dipped",
+        "SS-304 (A2)",
+        "SS-316 (A4)"
+      ]
+    },
+    "products": [
+      {
+        "productCode": "GMSQF14",
+        "size": "1/4\"",
+        "nutThickness": 3
+      },
+      {
+        "productCode": "GMSQF516",
+        "size": "5/16\"",
+        "nutThickness": 3.6
+      },
+      {
+        "productCode": "GMSQF38",
+        "size": "3/8\"",
+        "nutThickness": 4.3
+      },
+      {
+        "productCode": "GMSQFM6",
+        "size": "M6",
+        "nutThickness": 5
+      },
+      {
+        "productCode": "GMSQFM8",
+        "size": "M8",
+        "nutThickness": 6.5
+      },
+      {
+        "productCode": "GMSQFM10",
+        "size": "M10",
+        "nutThickness": 8
+      }
+    ]
+  },
+  "gmshn": {
+    "productCode": "GMSHN",
+    "productName": "Greenman Standard Hex Nut",
+    "fullName": "Greenman Standard Hex Nut - GMSHN",
+    "category": "Fasteners & Screws",
+    "subcategory": "Hex Nuts",
+    "description": "The Greenman Standard Hex Nut is the foundation of reliable fastening, providing a simple, strong, and universal joint when paired with a matching threaded bolt. Manufactured for consistent durability and easy wrench-driven installation, it is the essential component for secure assembly across all general engineering and construction projects.",
+    "image": "assets/Fasteners and screws/GMSHN/gmshn-main.jpg",
+    "technicalDrawing": "assets/Fasteners and screws/GMSHN/gmshn-technical.jpg",
+    "specifications": {
+      "material": "Steel",
+      "finish": [
+        "Zinc Plated",
+        "Hot Dipped",
+        "SS-304 (A2)",
+        "SS-316 (A4)"
+      ]
+    },
+    "products": [
+      {
+        "productCode": "GMSHN06",
+        "size": "M6",
+        "maxRecLoads": 11
+      },
+      {
+        "productCode": "GMSHN08",
+        "size": "M8",
+        "maxRecLoads": 20
+      },
+      {
+        "productCode": "GMSHN10",
+        "size": "M10",
+        "maxRecLoads": 15
+      },
+      {
+        "productCode": "GMSHN12",
+        "size": "M12",
+        "maxRecLoads": 45
+      },
+      {
+        "productCode": "GMSHN16",
+        "size": "M16",
+        "maxRecLoads": 85
+      },
+      {
+        "productCode": "GMSHN20",
+        "size": "M20",
+        "maxRecLoads": 105
+      }
+    ]
+  },
+  "gmtmc": {
+    "productCode": "GMTMC",
+    "productName": "GreenMan Thread-Mate Coupler",
+    "fullName": "GreenMan Thread-Mate Coupler - GMTMC",
+    "category": "Fasteners & Screws",
+    "subcategory": "Rod Couplers",
+    "description": "A precision-engineered connector designed to join two threaded rods with perfect alignment and secure load transfer. Its accurate internal threading ensures strong, vibration-resistant fastening for structural and mechanical applications.",
+    "image": "assets/Fasteners and screws/GMTMC/gmtmc-main.jpg",
+    "technicalDrawing": "assets/Fasteners and screws/GMTMC/gmtmc-technical.jpg",
+    "specifications": {
+      "material": "Steel",
+      "finish": [
+        "Zinc Plated",
+        "Hot Dipped",
+        "SS-304 (A2)",
+        "SS-316 (A4)"
+      ]
+    },
+    "products": [
+      {
+        "productCode": "GMTMC0620",
+        "size": "M6 x 20",
+        "outerDia": 11,
+        "couplerLength": 18,
+        "threadedLength": 18,
+        "recLoads": 10
+      },
+      {
+        "productCode": "GMTMC0630",
+        "size": "M6 x 30",
+        "outerDia": 11,
+        "couplerLength": 18,
+        "threadedLength": 20,
+        "recLoads": 13
+      },
+      {
+        "productCode": "GMTMC0825",
+        "size": "M8 x 25",
+        "outerDia": 13,
+        "couplerLength": 24,
+        "threadedLength": 23,
+        "recLoads": 18
+      },
+      {
+        "productCode": "GMTMC1030",
+        "size": "M10 x 30",
+        "outerDia": 17,
+        "couplerLength": 30,
+        "threadedLength": 30,
+        "recLoads": 28
+      },
+      {
+        "productCode": "GMTMC1235",
+        "size": "M12 x 35",
+        "outerDia": 19,
+        "couplerLength": 36,
+        "threadedLength": 35,
+        "recLoads": 40
+      },
+      {
+        "productCode": "GMTMC1650",
+        "size": "M16 x 50",
+        "outerDia": 24,
+        "couplerLength": 48,
+        "threadedLength": 42,
+        "recLoads": 76
+      },
+      {
+        "productCode": "GMTMC2060",
+        "size": "M20 x 60",
+        "outerDia": 30,
+        "couplerLength": 60,
+        "threadedLength": 46,
+        "recLoads": 119
+      }
+    ]
+  }
+}

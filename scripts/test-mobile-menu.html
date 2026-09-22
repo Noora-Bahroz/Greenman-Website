@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <div style="padding: 20px; background: #f0f0f0;">
+        <h3>Testing Mobile Menu</h3>
+        <button onclick="testToggle()">Toggle Dropdown Class</button>
+        <div id="status" style="margin: 10px 0; padding: 10px; background: white;"></div>
+    </div>
+
+    <header>
+        <div class="header-wrapper">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo-transparent.png" alt="GREEN MAN">
+                </a>
+            </div>
+            <button class="hamburger active" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="main-nav active">
+                <ul class="nav-menu">
+                    <li class="nav-item has-mega" id="testItem">
+                        <a href="#" class="nav-link">
+                            Documentation
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12.828" height="7.828" viewBox="0 0 12.828 7.828">
+                                <g transform="translate(-3.586 -53.586)">
+                                    <line x1="5" y2="5" transform="translate(10 55)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line>
+                                    <line x1="5" y1="5" transform="translate(5 55)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line>
+                                </g>
+                            </svg>
+                        </a>
+                        <div class="products-mega">
+                            <div class="mega-inner">
+                                <div class="mega-col">
+                                    <h4>Product Catalogues</h4>
+                                    <ul class="mega-links">
+                                        <li><a href="#">C-Channel Catalogue</a></li>
+                                        <li><a href="#">Strut Channel GM41 Series</a></li>
+                                        <li><a href="#">Channel Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-col">
+                                    <h4>Technical Documentation</h4>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Installation Support System</a></li>
+                                        <li><a href="#">Additional Documentation</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script>
+        function testToggle() {
+            const item = document.getElementById('testItem');
+            const mega = item.querySelector('.products-mega');
+            item.classList.toggle('dropdown-open');
+            
+            const status = document.getElementById('status');
+            const computedStyle = window.getComputedStyle(mega);
+            status.innerHTML = `
+                <strong>Classes:</strong> ${item.className}<br>
+                <strong>Display:</strong> ${computedStyle.display}<br>
+                <strong>Max-Height:</strong> ${computedStyle.maxHeight}<br>
+                <strong>Overflow:</strong> ${computedStyle.overflow}<br>
+                <strong>Padding:</strong> ${computedStyle.padding}<br>
+                <strong>Opacity:</strong> ${computedStyle.opacity}<br>
+                <strong>Visibility:</strong> ${computedStyle.visibility}
+            `;
+        }
+        
+        // Auto-run on load
+        setTimeout(testToggle, 500);
+    </script>
+    <script src="navbar.js" defer></script>
+</body>
+</html>

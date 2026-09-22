@@ -1,0 +1,28 @@
+{
+  "title": "Reinforced Angle Connector (GRAC)",
+  "code_prefix": "GRAC",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Reinforced angle connectors are specialized components designed for connecting strut channels at typically 90 degrees. A triangular reinforcing rib along its corner adds strength and rigidity.",
+  "items": [
+    {
+      "code": "GRAC4100",
+      "image": "assets/img/grac4100.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GRAC4100",
+      "Detail": "4-hole 90° Reinforced",
+      "Dimensions": "90x90x40x5",
+      "Load Isolated": "4 kN",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

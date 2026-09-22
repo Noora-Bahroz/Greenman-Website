@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product JSON Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        /* Hide content until fully loaded */
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+        body:not(.loaded) > *:not(.page-loader) {
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+        
+        .image-inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .spec-group, .tech-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .add-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 10px;
+            transition: background 0.3s;
+        }
+        
+        .add-btn:hover {
+            background: #5568d3;
+        }
+        
+        .generate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+        
+        .generate-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .output {
+            background: #f5f5f5;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 30px;
+            display: none;
+        }
+        
+        .output.show {
+            display: block;
+        }
+        
+        .output h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .output pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        
+        .copy-btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        
+        .copy-btn:hover {
+            background: #45a049;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+    </style>
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<div class="container">
+        <h1>🚀 Product JSON Generator</h1>
+        <p class="subtitle">Quickly generate product JSON data for your catalog</p>
+        
+        <form id="productForm">
+            <div class="section-title">Basic Information</div>
+            
+            <div class="form-group">
+                <label>Product ID (unique identifier, e.g., "c-profile-001")</label>
+                <input type="text" id="productId" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Product Title</label>
+                <input type="text" id="productTitle" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Description</label>
+                <textarea id="productDesc" required></textarea>
+            </div>
+            
+            <div class="section-title">Images (2 URLs)</div>
+            
+            <div class="image-inputs">
+                <div class="form-group">
+                    <label>Image 1 URL</label>
+                    <input type="url" id="image1" required>
+                </div>
+                <div class="form-group">
+                    <label>Image 2 URL</label>
+                    <input type="url" id="image2" required>
+                </div>
+            </div>
+            
+            <div class="section-title">Specifications (4 key-value pairs)</div>
+            <div id="specsContainer">
+                <div class="spec-group">
+                    <input type="text" placeholder="Spec Key 1" class="spec-key">
+                    <input type="text" placeholder="Spec Value 1" class="spec-value">
+                </div>
+                <div class="spec-group">
+                    <input type="text" placeholder="Spec Key 2" class="spec-key">
+                    <input type="text" placeholder="Spec Value 2" class="spec-value">
+                </div>
+                <div class="spec-group">
+                    <input type="text" placeholder="Spec Key 3" class="spec-key">
+                    <input type="text" placeholder="Spec Value 3" class="spec-value">
+                </div>
+                <div class="spec-group">
+                    <input type="text" placeholder="Spec Key 4" class="spec-key">
+                    <input type="text" placeholder="Spec Value 4" class="spec-value">
+                </div>
+            </div>
+            
+            <div class="section-title">Technical Data (4 key-value pairs)</div>
+            <div id="techContainer">
+                <div class="tech-group">
+                    <input type="text" placeholder="Tech Key 1" class="tech-key">
+                    <input type="text" placeholder="Tech Value 1" class="tech-value">
+                </div>
+                <div class="tech-group">
+                    <input type="text" placeholder="Tech Key 2" class="tech-key">
+                    <input type="text" placeholder="Tech Value 2" class="tech-value">
+                </div>
+                <div class="tech-group">
+                    <input type="text" placeholder="Tech Key 3" class="tech-key">
+                    <input type="text" placeholder="Tech Value 3" class="tech-value">
+                </div>
+                <div class="tech-group">
+                    <input type="text" placeholder="Tech Key 4" class="tech-key">
+                    <input type="text" placeholder="Tech Value 4" class="tech-value">
+                </div>
+            </div>
+            
+            <button type="submit" class="generate-btn">✨ Generate JSON</button>
+        </form>
+        
+        <div id="output" class="output">
+            <h3>📋 Generated JSON (Copy this into your products.json)</h3>
+            <pre id="jsonOutput"></pre>
+            <button class="copy-btn" onclick="copyToClipboard()">📄 Copy to Clipboard</button>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('productForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Collect specifications
+            const specs = {};
+            const specKeys = document.querySelectorAll('.spec-key');
+            const specValues = document.querySelectorAll('.spec-value');
+            
+            specKeys.forEach((key, index) => {
+                if (key.value && specValues[index].value) {
+                    specs[key.value] = specValues[index].value;
+                }
+            });
+            
+            // Collect technical data
+            const techData = {};
+            const techKeys = document.querySelectorAll('.tech-key');
+            const techValues = document.querySelectorAll('.tech-value');
+            
+            techKeys.forEach((key, index) => {
+                if (key.value && techValues[index].value) {
+                    techData[key.value] = techValues[index].value;
+                }
+            });
+            
+            // Build product object
+            const product = {
+                id: document.getElementById('productId').value,
+                title: document.getElementById('productTitle').value,
+                description: document.getElementById('productDesc').value,
+                images: [
+                    document.getElementById('image1').value,
+                    document.getElementById('image2').value
+                ],
+                specifications: specs,
+                technicalData: techData
+            };
+            
+            // Display JSON
+            const jsonOutput = document.getElementById('jsonOutput');
+            jsonOutput.textContent = JSON.stringify(product, null, 2);
+            
+            document.getElementById('output').classList.add('show');
+            
+            // Scroll to output
+            document.getElementById('output').scrollIntoView({ behavior: 'smooth' });
+        });
+        
+        function copyToClipboard() {
+            const jsonText = document.getElementById('jsonOutput').textContent;
+            navigator.clipboard.writeText(jsonText).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                const originalText = btn.textContent;
+                btn.textContent = '✅ Copied!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+
+    <!-- Load Navbar Component -->
+    <script>
+        // Load navbar component after DOM is ready
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                const placeholder = document.getElementById('navbar-placeholder');
+                if (placeholder) {
+                    placeholder.innerHTML = data;
+                
+                document.body.classList.add('loaded');
+                }
+            })
+            .catch(error => console.error('Error loading navbar:', error));
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "title": "Rod Bracing Node Bracket (GBNB)",
+  "code_prefix": "GBNB",
+  "specification": {
+    "Material": "S250GD/S235JR",
+    "Surface": [
+      "➤Electro-galvanized (Z-275)",
+      "➤Hot-dip galvanized",
+      "➤Epoxy coated",
+      "➤Stainless Steel A2/A4"
+    ]
+  },
+  "definition": "Adjustable pivot mechanism allows for rotation, enabling precise angle adjustments. Facilitates connection of rods to structures at customizable angles.",
+  "items": [
+    {
+      "code": "GBNB0012",
+      "image": "assets/img/gbnb0012.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GBNB0012",
+      "Detail": "Treaded Rod Node",
+      "For threaded rod": "M12",
+      "Load": "10 kN",
+      "Weight": "xx"
+    }
+  ]
+}

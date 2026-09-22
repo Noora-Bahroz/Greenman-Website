@@ -1,0 +1,40 @@
+{
+  "title": "Edge-to-Edge Channel Connector (GECC)",
+  "code_prefix": "GECC",
+  "specification": {
+    "Material": "S250GD/S235JR",
+    "Surface": [
+      "➤Electro-galvanized (Z-275)",
+      "➤Hot-dip galvanized",
+      "➤Epoxy coated",
+      "➤Stainless Steel A2/A4"
+    ]
+  },
+  "definition": "GECC is a channel connector designed to join two strut channels at edges, effectively increasing the length of the strut channel.",
+  "items": [
+    {
+      "code": "GECC0200",
+      "image": "assets/img/gecc0200.png"
+    },
+    {
+      "code": "GECC0400",
+      "image": "assets/img/gecc0400.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GECC0200",
+      "Detail": "C-shape, 4-hole connection",
+      "Dimensions": "200x42x5",
+      "For Profile": "GM-Profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GECC0400",
+      "Detail": "C-shape, 8-hole connection",
+      "Dimensions": "400x42x5",
+      "For Profile": "GM-Profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

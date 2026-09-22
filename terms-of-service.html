@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Green Man Industrial Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        .terms-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 100px 20px 60px;
+        }
+        
+        .terms-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .terms-header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        .terms-header p {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+        
+        .terms-content {
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .terms-section {
+            margin-bottom: 30px;
+        }
+        
+        .terms-section h2 {
+            font-size: 1.8rem;
+            color: #27ae60;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #27ae60;
+            padding-bottom: 10px;
+        }
+        
+        .terms-section p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .terms-section ul {
+            margin-left: 20px;
+            line-height: 2;
+        }
+        
+        .terms-section ul li {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .terms-container {
+                padding: 80px 15px 40px;
+            }
+            
+            .terms-header h1 {
+                font-size: 2rem;
+            }
+            
+            .terms-content {
+                padding: 25px;
+            }
+            
+            .terms-section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Terms of Service Content -->
+    <div class="terms-container">
+        <div class="terms-header">
+            <h1>Terms of Service</h1>
+            <p>Last Updated: December 2, 2025</p>
+        </div>
+        
+        <div class="terms-content">
+            <div class="terms-section">
+                <h2>1. Acceptance of Terms</h2>
+                <p>Welcome to Greenman. By accessing our website and using our services, you agree to comply with and be bound by the following terms and conditions. These terms govern your access to and use of Greenman's website, products, and services. If you do not agree with any part of these terms, please do not use our services.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2>2. Company Information</h2>
+                <p>Greenman is a flagship brand of Gladiator Building Products, specializing in fastening & fixing solutions, hanging support installation systems, and other allied products for the mechanical and electromechanical industry. Our products are manufactured in strict compliance with international standards including ISO 9001, ISO 14001, and ISO 45001.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2>3. Products and Specifications</h2>
+                <p>We strive to ensure that all product descriptions, specifications, and technical data provided on our website are accurate. However, Greenman reserves the right to modify product specifications, designs, and materials without prior notice as part of our continuous improvement process. All our products are designed to meet global codes such as ASTM, DIN, SMACNA, FM, and UL standards.</p>
+                <p>It is the user's responsibility to ensure that the products selected are suitable for their specific application and comply with local building codes and regulations.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2>4. Intellectual Property</h2>
+                <p>All content included on this site, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is the property of Greenman or its content suppliers and protected by international copyright laws. The compilation of all content on this site is the exclusive property of Greenman.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2>5. Use of Website</h2>
+                <p>You are granted a limited license to access and make personal use of this website. You may not download (other than page caching) or modify it, or any portion of it, except with express written consent of Greenman. This license does not include any resale or commercial use of this site or its contents; any collection and use of any product listings, descriptions, or prices; or any use of data mining, robots, or similar data gathering and extraction tools.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2>6. Limitation of Liability</h2>
+                <p>Greenman shall not be liable for any direct, indirect, incidental, special, or consequential damages that result from the use of, or the inability to use, the materials on this site or the performance of the products, even if Greenman has been advised of the possibility of such damages. In no event shall Greenman's total liability to you for all damages, losses, and causes of action exceed the amount paid by you, if any, for accessing this site or purchasing products.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2>7. Governing Law</h2>
+                <p>These terms and conditions are governed by and construed in accordance with the laws of the jurisdiction in which Greenman operates. You agree to submit to the exclusive jurisdiction of the courts located within our operating jurisdiction for the resolution of any disputes.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2>8. Changes to Terms</h2>
+                <p>Greenman reserves the right to update or modify these Terms of Service at any time without prior notice. Your use of the website following any such change constitutes your agreement to follow and be bound by the Terms of Service as changed.</p>
+            </div>
+            
+            <div class="terms-section">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about our terms of service, please contact us:</p>
+                <ul>
+                    <li><strong>Email:</strong> info@greenman-gbp.com</li>
+                    <li><strong>Phone:</strong> +92 345 5388367</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="navbar.js"></script>
+    <script>
+        // Load navbar
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+
+        // Load footer
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "title": "Profile bolt with tooth head GPTB",
+  "code_prefix": "GPTB",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Designed to fit into the inner slot of a strut channel, where it provides a secure threaded anchor point for quick fixing of accessories and clamps. The T-shape head has serrations or grooves that grip the inner edges of the strut channel. These serrations prevent slipping and ensure a strong, stable connection.",
+  "items": [
+    {
+      "code": "GCCLL004",
+      "image": "assets/img/placeholder.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GPTB0830",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x6",
+      "Size": "M8x30",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB0840",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x6",
+      "Size": "M8x40",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB0850",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x6",
+      "Size": "M8x50",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB0860",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x6",
+      "Size": "M8x60",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1030",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x8",
+      "Size": "M10x30",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1040",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x8",
+      "Size": "M10x40",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1050",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x8",
+      "Size": "M10x50",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1060",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x8",
+      "Size": "M10x60",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1230",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x9",
+      "Size": "M12x30",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1240",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x9",
+      "Size": "M12x40",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1250",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x9",
+      "Size": "M12x50",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GPTB1260",
+      "Detail": "serrated T-head, with or without steel plate",
+      "Dimensions": "35x20x9",
+      "Size": "M12x60",
+      "For Profile": "GM - profile GM41",
+      "Weight": "xx"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "title": "Base Holder (GBHO)",
+  "code_prefix": "GBHO",
+  "specification": [
+    "➤Material: S250GD/S235JR",
+    "Surface: ➤Electro-galvanized (Z-275)",
+    "➤Hot-dip galvanized",
+    "➤Epoxy coated",
+    "➤Stainless Steel A2/A4"
+  ],
+  "definition": "Base Holder for strut channels are essential mounting accessories designed to provide a secure and stable foundation for modular support systems. These holders are engineered to anchor strut profiles to floors, walls, or ceilings, ensuring a robust and reliable connection. Available in various sizes and configurations, base brackets are compatible with standard strut channels and are equipped with pre-drilled holes for easy installation using bolts and anchors.",
+  "items": [
+    {
+      "code": "GBHO2041",
+      "image": "assets/img/gbho2041.png"
+    },
+    {
+      "code": "GBHO4041",
+      "image": "assets/img/gbho4041.png"
+    },
+    {
+      "code": "GBHO2082",
+      "image": "assets/img/gbho2082.png"
+    },
+    {
+      "code": "GBHO4082",
+      "image": "assets/img/gbho4082.png"
+    },
+    {
+      "code": "GBHO4124",
+      "image": "assets/img/gbho4124.png"
+    }
+  ],
+  "table": [
+    {
+      "Product Code": "GBHO2041",
+      "Detail": "2-hole 41/4 v/h",
+      "Dimensions": "38x95x5",
+      "Load": "12kN",
+      "For Profile": "GM - profile GM4121, GM4141,GM4162",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBHO4041",
+      "Detail": "4-hole 41/4",
+      "Dimensions": "38x95x5",
+      "Load": "12kN",
+      "For Profile": "GM - profile GM4121, GM4141,GM4162",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBHO2082",
+      "Detail": "2-hole 82/4",
+      "Dimensions": "82x95x5",
+      "Load": "12kN",
+      "For Profile": "GM - profile GM4182, GMD4141",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBHO4082",
+      "Detail": "4-hole 82/4",
+      "Dimensions": "82x95x5",
+      "Load": "12kN",
+      "For Profile": "GM - profile GM4182, GMD4141",
+      "Weight": "xx"
+    },
+    {
+      "Product Code": "GBHO4124",
+      "Detail": "4-hole 124/5",
+      "Dimensions": "124x95x5",
+      "Load": "12kN",
+      "For Profile": "GM - profile GMD4162",
+      "Weight": "xx"
+    }
+  ]
+}

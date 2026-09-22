@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Channel Washer (GCWA) – PDF-like Template</title>
+  <link rel="stylesheet" href="catalog-common.css">
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<main class="canvas">
+    <div class="title-row">
+      <div class="title">Channel Washer (GCWA)</div>
+    </div>
+
+    <section class="meta-2">
+      <div class="card">
+        <h3>Specification</h3>
+        <ul id="spec-list">
+          <li>➤Material: S250GD/S235JR</li>
+          <li>Surface: ➤Electro-galvanized (Z-275)</li>
+          <li>➤Hot-dip galvanized</li>
+          <li>➤Epoxy coated</li>
+          <li>➤Stainless Steel A2/A4</li>
+        </ul>
+      </div>
+      <div class="def-box">
+        <h3 style="margin:0 0 6px;color:var(--green-dark)">Product Definition</h3>
+        <p id="definition">Loading definition...</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="grid" class="grid" aria-label="Angle connector variants grid">
+        <!-- items injected here -->
+      </div>
+    </section>
+
+    <section class="table-wrap">
+      <table class="props" id="gcwa-table">
+        <thead>
+          <tr>
+            <th>Product Code</th>
+            <th>Detail</th>
+            <th>Dimensions</th>
+            <th>Hole Dia</th>
+            <th>For Profile</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script>
+    const fallbackData = {
+      title: "Channel Washer (GCWA)",
+      specification:[
+        "➤Material: S250GD/S235JR",
+        "Surface: ➤Electro-galvanized (Z-275)",
+        "➤Hot-dip galvanized",
+        "➤Epoxy coated",
+        "➤Stainless Steel A2/A4"
+      ],
+      definition: "Channel Washers are essential components used with strut profiles to securely fasten and stabilize installations in modular support systems. They provide a secure and even clamping force, preventing misalignment or loosening of the fastened components. They evenly distribute the load across the channel, minimizing stress on the profile and preventing deformation.",
+      page: 30,
+      items:[
+        { code:'GCWA4108', image:'assets/img/gcwa4108.png' },
+        { code:'GCWA4110', image:'assets/img/gcwa4110.png' },
+        { code:'GCWA4112', image:'assets/img/gcwa4112.png' }
+      ],
+      table:[
+        {"Product Code":"GCWA4108","Detail":"Channel Washer 41/8","Dimensions":"41.3x40x4","Hole Dia":"M8","For Profile":"GM - profile GM41","Weight":"xx"},
+        {"Product Code":"GCWA4110","Detail":"Channel Washer 41/10","Dimensions":"41.3x40x4","Hole Dia":"M10","For Profile":"GM - profile GM41","Weight":"xx"},
+        {"Product Code":"GCWA4112","Detail":"Channel Washer 41/12","Dimensions":"41.3x40x4","Hole Dia":"M12","For Profile":"GM - profile GM41","Weight":"xx"}
+      ]
+    };
+
+    async function loadData(){
+      try{
+        const res = await fetch('data/gcwa-catalog.json');
+        if(!res.ok) throw new Error('No JSON found');
+        const data = await res.json();
+        return data;
+      }catch(err){
+        console.warn('Falling back to inline sample data for GACO:', err.message);
+        return fallbackData;
+      }
+    }
+
+    function renderGrid(items){
+      const grid = document.getElementById('grid');
+      grid.innerHTML = items.map(it=>`
+        <div class="item">
+          <span class="tick">✓</span>
+          <img src="${it.image || 'assets/img/placeholder.png'}" alt="${it.code}">
+          <div class="code">${it.code}</div>
+        </div>
+      `).join('');
+    }
+
+    function renderTable(rows){
+      const tbody = document.querySelector('#gcwa-table tbody');
+      tbody.innerHTML = rows.map(r=>`
+        <tr>
+          <td>${r['Product Code']||'-'}</td>
+          <td>${r['Detail']||'-'}</td>
+          <td>${r['Dimensions']||'-'}</td>
+          <td>${r['Hole Dia']||'-'}</td>
+          <td>${r['For Profile']||'-'}</td>
+          <td>${r['Weight']||'-'}</td>
+        </tr>
+      `).join('');
+    }
+
+    (async function init(){
+      const data = await loadData();
+      document.querySelector('.title').textContent = data.title || "Channel Washer (GCWA)";
+      document.title = (data.title || 'Channel Washer (GCWA)') + ' – GREEN MAN';
+
+      // spec
+      if(Array.isArray(data.specification)){
+        const ul = document.getElementById('spec-list'); ul.innerHTML = data.specification.map(s=>`<li>${s}</li>`).join('');
+      }
+      if(data.definition){ document.getElementById('definition').textContent = data.definition; }
+      if(data.page){ document.getElementById('page-no').textContent = 'PAGE '+data.page; }
+
+      renderGrid(data.items || []);
+      renderTable(data.table || []);
+    })();
+  </script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

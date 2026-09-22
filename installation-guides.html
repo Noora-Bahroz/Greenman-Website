@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation Guides & Assembly Diagrams - Greenman</title>
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content-header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1581092162384-8987c1d64718?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .content-
+        /* Hide content until fully loaded */
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+        body:not(.loaded) > *:not(.page-loader) {
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .content-section {
+            margin-bottom: 3rem;
+        }
+        .content-section h2 {
+            color: #1B5E20;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        .content-section p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+            color: #444;
+        }
+        .content-section ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .content-section li {
+            margin-bottom: 0.5rem;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <header class="content-header">
+        <div>
+            <h1 class="text-5xl font-bold mb-4">Installation Guides & Assembly Diagrams</h1>
+            <p class="text-xl">Simplifying construction with clear guidance</p>
+        </div>
+    </header>
+
+    <main class="content-body">
+        <div class="content-section">
+            <h2>Smarter, Simpler Installations</h2>
+            <p>Greenman’s modular and off-site prefabricated systems are designed to minimize on-site labor and maximize efficiency. To ensure these benefits are fully realized, we provide detailed installation guides and assembly diagrams for all our systems.</p>
+            <p>Our approach shortens construction timelines by up to 40%, reduces material waste, and enhances worker safety. We work closely with contractors to provide on-site technical support when needed, ensuring that every installation is performed correctly and efficiently.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Modular Support Systems</h2>
+            <p>Our guides cover our full range of modular support systems, including:</p>
+            <ul>
+                <li>Strut channels, brackets, and clamps</li>
+                <li>Seismic & thermal expansion supports</li>
+                <li>Beam attachments and pipe guides</li>
+            </ul>
+            <p>These systems are designed for HVAC, plumbing, fire protection, and industrial piping applications. Our documentation ensures that installers understand how to assemble these components to meet international compliance standards like ISO 9001, ASTM E119, and DIN EN 1090.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Resources</h2>
+            <p>We provide:</p>
+            <ul>
+                <li>Detailed assembly diagrams</li>
+                <li>Step-by-step installation manuals</li>
+                <li>Video tutorials (coming soon)</li>
+                <li>On-site training and support</li>
+            </ul>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            document.getElementById('navbar-placeholder').innerHTML = navbarData;
+            document.getElementById('footer-placeholder').innerHTML = footerData;
+            
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            document.body.appendChild(navScript);
+        });
+    </script>
+</body>
+</html>

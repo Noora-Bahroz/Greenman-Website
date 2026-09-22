@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <title>GreenGrip Collection - GREEN MAN</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    /* Product Grid */
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 25px;
+        margin-bottom: 30px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .product-card {
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(27, 94, 32, 0.15);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-left: 4px solid #0d3d12;
+        display: grid;
+        grid-template-columns: 1fr 120px;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(27, 94, 32, 0.25);
+    }
+
+    .product-card h3 {
+        color: #0d3d12;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .product-card .product-code {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .product-card .product-count {
+        background: #fff3e0;
+        color: #f57c00;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 13px;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+
+    .product-card .view-details {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: linear-gradient(135deg, #52B455 0%, #2D9F3C 100%);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 13px;
+        transition: all 0.3s;
+        box-shadow: 0 2px 8px rgba(82, 180, 85, 0.3);
+        width: fit-content;
+    }
+
+    .product-card .view-details:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(82, 180, 85, 0.4);
+    }
+
+    .product-card-content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .product-card-image {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f8f9fa;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 2px solid #e8f5e9;
+        transition: all 0.3s ease;
+    }
+
+    .product-card:hover .product-card-image {
+        border-color: #52B455;
+        box-shadow: 0 2px 8px rgba(82, 180, 85, 0.2);
+    }
+
+    .product-card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 10px;
+    }
+
+    .code-badge {
+        background: #e8f5e9;
+        color: #2D9F3C;
+        padding: 6px 14px;
+        border-radius: 6px;
+        font-weight: 700;
+        font-family: 'Roboto', monospace;
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    @media (max-width: 768px) {
+        .products-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .product-card {
+            grid-template-columns: 1fr 100px;
+        }
+        
+        .product-card-image {
+            width: 100px;
+            height: 100px;
+        }
+    }
+</style>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <h2 class="loader-text">Loading...</h2>
+            <p class="loader-subtext">GREEN MAN</p>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div id="navbar-placeholder"></div>
+
+
+                    <!-- GGIP Series Section -->
+    <section class="product-detail-section" id="ggip-series" style="background: #ffffff; padding: 20px 0; margin-top: 10px;">
+        
+            <div class="section-header" style="text-align: center; margin-bottom: 20px;">
+                <h2 style="font-size: 2.5rem; color: #1B5E20; font-weight: 700; margin: 0;">GGIP Series Collection</h2>
+                <p style="color: #666; margin-top: 10px; font-size: 1.1rem;">GreenGrip Isophonic Pipe Clamp Systems</p>
+            
+
+            <div class="products-grid">
+
+                <div class="product-card" onclick="window.location.href='greengrip-ggip-catalog.html'">
+                    <div class="product-card-content">
+                        <h3>GreenGrip Isophonic Pipe Clamp GGIP</h3>
+                        <div class="product-code">Code: <span class="code-badge">GGIP</span></div>
+                        <div class="product-count">26 items</div>
+                        <a href="greengrip-ggip-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                            View Products
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="product-card-image">
+                        <img src="assets/img/placeholder.png" alt="GGIP" onerror="this.src='assets/img/placeholder.png'">
+                    </div>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='greengrip-ggip-catalog.html?product=ggcp'">
+                    <div class="product-card-content">
+                        <h3>GreenGrip Coloured Isophonic Pipe Clamp GGCP</h3>
+                        <div class="product-code">Code: <span class="code-badge">GGCP</span></div>
+                        <div class="product-count">19 items</div>
+                        <a href="greengrip-ggip-catalog.html?product=ggcp" class="view-details" onclick="event.stopPropagation()">
+                            View Products
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="product-card-image">
+                        <img src="assets/img/placeholder.png" alt="GGCP" onerror="this.src='assets/img/placeholder.png'">
+                    </div>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='greengrip-ggip-catalog.html?product=gght'">
+                    <div class="product-card-content">
+                        <h3>GreenGrip Heavy Duty Pipe Clamp GGHT</h3>
+                        <div class="product-code">Code: <span class="code-badge">GGHT</span></div>
+                        <div class="product-count">18 items</div>
+                        <a href="greengrip-ggip-catalog.html?product=gght" class="view-details" onclick="event.stopPropagation()">
+                            View Products
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="product-card-image">
+                        <img src="assets/img/placeholder.png" alt="GGHT" onerror="this.src='assets/img/placeholder.png'">
+                    </div>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='greengrip-ggip-catalog.html?product=ggsp'">
+                    <div class="product-card-content">
+                        <h3>GreenGrip Special Applications GGSP</h3>
+                        <div class="product-code">Code: <span class="code-badge">GGSP</span></div>
+                        <div class="product-count">15 items</div>
+                        <a href="greengrip-ggip-catalog.html?product=ggsp" class="view-details" onclick="event.stopPropagation()">
+                            View Products
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="product-card-image">
+                        <img src="assets/img/placeholder.png" alt="GGSP" onerror="this.src='assets/img/placeholder.png'">
+                    </div>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='greengrip-ggip-catalog.html?product=ggih'">
+                    <div class="product-card-content">
+                        <h3>GreenGrip Installation Hardware GGIH</h3>
+                        <div class="product-code">Code: <span class="code-badge">GGIH</span></div>
+                        <div class="product-count">12 items</div>
+                        <a href="greengrip-ggip-catalog.html?product=ggih" class="view-details" onclick="event.stopPropagation()">
+                            View Products
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                                <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="product-card-image">
+                        <img src="assets/img/placeholder.png" alt="GGIH" onerror="this.src='assets/img/placeholder.png'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

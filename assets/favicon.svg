@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green leaf/plant icon for GREEN MAN brand -->
+  <rect width="64" height="64" rx="12" fill="#1B5E20"/>
+  
+  <!-- Stylized "GM" or leaf design -->
+  <g transform="translate(12, 12)">
+    <!-- Leaf shape -->
+    <path d="M20 5 C25 5, 30 10, 32 15 C34 20, 33 25, 30 30 C28 33, 25 35, 22 36 C20 36.5, 18 36, 16 35 C12 32, 10 28, 10 23 C10 18, 12 13, 15 10 C17 7.5, 18.5 5, 20 5 Z" 
+          fill="#2D9F3C" stroke="#4CAF50" stroke-width="1.5"/>
+    
+    <!-- Vein in leaf -->
+    <path d="M20 5 L22 36" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Letter G -->
+    <text x="8" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">G</text>
+    
+    <!-- Letter M -->
+    <text x="20" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">M</text>
+  </g>
+  
+  <!-- Alternative: Simple leaf icon -->
+  <g transform="translate(16, 16)">
+    <ellipse cx="16" cy="16" rx="14" ry="18" fill="#2D9F3C" opacity="0.3"/>
+    <path d="M16 2 Q20 10, 16 32 Q12 10, 16 2" fill="#4CAF50"/>
+    <path d="M16 2 L16 32" stroke="#1B5E20" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

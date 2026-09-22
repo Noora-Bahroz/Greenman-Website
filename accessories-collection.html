@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>Accessories Collection – Product List</title>
+  <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+  <style>
+    .header {
+      text-align: center;
+    }
+    .category-info {
+      display: none !important;
+    }
+    
+    /* Product Grid */
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 25px;
+        margin-bottom: 30px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .product-card {
+        background: white;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(27, 94, 32, 0.15);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-left: 4px solid #0d3d12;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .product-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(27, 94, 32, 0.25);
+    }
+
+    .product-card h3 {
+        color: #0d3d12;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .product-card .product-code {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .product-card .product-count {
+        background: #fff3e0;
+        color: #f57c00;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 13px;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+
+    .product-card .view-details {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: linear-gradient(135deg, #52B455 0%, #2D9F3C 100%);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 13px;
+        transition: all 0.3s;
+        box-shadow: 0 2px 8px rgba(82, 180, 85, 0.3);
+        width: fit-content;
+        align-self: flex-start;
+    }
+
+    .product-card .view-details:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(82, 180, 85, 0.4);
+    }
+
+    .code-badge {
+        background: #e8f5e9;
+        color: #2D9F3C;
+        padding: 6px 14px;
+        border-radius: 6px;
+        font-weight: 700;
+        font-family: 'Roboto', monospace;
+        font-size: 13px;
+        width: fit-content;
+    }
+
+    @media (max-width: 768px) {
+        .products-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+  </style>
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+
+  <div class="container">
+        <!-- Accessories Section (From Document AI Extraction) -->
+    <section class="product-detail-section" id="channel-accessories" style="background: #f8f9fa; padding: 20px 0; margin-top: 10px;">
+        
+            <div class="section-header" style="text-align: center; margin-bottom: 20px;">
+                <h2 style="font-size: 2.5rem; color: #1B5E20; font-weight: 700; margin: 0;">Channel Accessories Collection</h2>
+            
+
+            
+            <div class="products-grid">
+
+                <div class="product-card" onclick="window.location.href='gaco-catalog.html'">
+                    <h3>Angle Connector's (GACO)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GACO</span></div>
+                    <div class="product-count">14 items</div>
+                    <a href="gaco-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gfco-catalog.html'">
+                    <h3>Flat Connector (GFCO)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GFCO</span></div>
+                    <div class="product-count">9 items</div>
+                    <a href="gfco-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gbdc-catalog.html'">
+                    <h3>Bi-Directional Connector (GBDC)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GBDC</span></div>
+                    <div class="product-count">8 items</div>
+                    <a href="gbdc-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gmdc-catalog.html'">
+                    <h3>Multi-Directional Connector (GMDC)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GMDC</span></div>
+                    <div class="product-count">8 items</div>
+                    <a href="gmdc-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gmrc-catalog.html'">
+                    <h3>Multi-Directional Reinforced Connector (GMRC)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GMRC</span></div>
+                    <div class="product-count">6 items</div>
+                    <a href="gmrc-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gzco-catalog.html'">
+                    <h3>Z-Shape Connector (GZCO)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GZCO</span></div>
+                    <div class="product-count">5 items</div>
+                    <a href="gzco-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='guwb-catalog.html'">
+                    <h3>U-Shape Winged Bracket (GUWB)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GUWB</span></div>
+                    <div class="product-count">9 items</div>
+                    <a href="guwb-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='grac-catalog.html'">
+                    <h3>Reinforced Angle Connector (GRAC)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GRAC</span></div>
+                    <div class="product-count">1 items</div>
+                    <a href="grac-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gcwa-catalog.html'">
+                    <h3>Channel Washer (GCWA)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GCWA</span></div>
+                    <div class="product-count">7 items</div>
+                    <a href="gcwa-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='dscb-catalog.html'">
+                    <h3>Double-Sided Connector Bracket (DSCB)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">DSCB</span></div>
+                    <div class="product-count">4 items</div>
+                    <a href="dscb-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gbho-catalog.html'">
+                    <h3>Base Holder (GBHO)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GBHO</span></div>
+                    <div class="product-count">5 items</div>
+                    <a href="gbho-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gptn-catalog.html'">
+                    <h3>Profile Tooth Nut (GPTN)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GPTN</span></div>
+                    <div class="product-count">11 items</div>
+                    <a href="gptn-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gptb-catalog.html'">
+                    <h3>Profile Bolt with Tooth Head (GPTB)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GPTB</span></div>
+                    <div class="product-count">13 items</div>
+                    <a href="gptb-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gmah-catalog.html'">
+                    <h3>Multi Angle Base Holder (GMAH)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GMAH</span></div>
+                    <div class="product-count">1 items</div>
+                    <a href="gmah-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gahi-catalog.html'">
+                    <h3>Adjustible Hinge (GAHI)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GAHI</span></div>
+                    <div class="product-count">6 items</div>
+                    <a href="gahi-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gbat-catalog.html'">
+                    <h3>Beam Attachment U-Shaped Holder (GBUHxxxx)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GBUH</span></div>
+                    <div class="product-count">8 items</div>
+                    <a href="gbat-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gbnb-catalog.html'">
+                    <h3>Rod Bracing Node Bracket (GBNB)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GBNB</span></div>
+                    <div class="product-count">20 items</div>
+                    <a href="gbnb-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gbcc-catalog.html'">
+                    <h3>Back-to-Back Channel Connector (GBCC)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GBCC</span></div>
+                    <div class="product-count">1 items</div>
+                    <a href="gbcc-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gecc-catalog.html'">
+                    <h3>Edge-to-Edge Channel Connector (GECC)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GECC</span></div>
+                    <div class="product-count">8 items</div>
+                    <a href="gecc-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="product-card" onclick="window.location.href='gpnb-catalog.html'">
+                    <h3>Profile Node Bracket (GPNB)</h3>
+                    <div class="product-code">Product Code: <span class="code-badge">GPNB</span></div>
+                    <div class="product-count">2 items</div>
+                    <a href="gpnb-catalog.html" class="view-details" onclick="event.stopPropagation()">
+                        View Products
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                            <path d="M1 8h14M8 1l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+
+        // Dynamic Product Count Loader
+        async function loadProductCounts() {
+            // Get all rows in the Channel Accessories Collection table and GGIP Series Collection table
+            const tableRows = document.querySelectorAll('tbody tr[onclick*="-catalog.html"]');
+            
+            for (const row of tableRows) {
+                // Extract the code prefix from the onclick attribute
+                const onclickAttr = row.getAttribute('onclick');
+                
+                // Handle regular catalog pattern
+                let match = onclickAttr.match(/window\.location\.href='([^']+)-catalog\.html'/);
+                if (match) {
+                    const codePrefix = match[1];
+                    const jsonFile = `data/${codePrefix}-catalog.json`;
+                    
+                    try {
+                        // Fetch the catalog JSON file
+                        const response = await fetch(jsonFile);
+                        const data = await response.json();
+                        
+                        // Count products in the table array
+                        const productCount = data.table ? data.table.length : 0;
+                        
+                        // Find the span showing item count in this row
+                        const itemSpan = row.querySelector('span[style*="background: #fff3e0"]');
+                        if (itemSpan) {
+                            itemSpan.textContent = `${productCount} item${productCount !== 1 ? 's' : ''}`;
+                        }
+                    } catch (error) {
+                        console.error(`Error loading ${jsonFile}:`, error);
+                    }
+                }
+                
+                // Handle GreenGrip GGIP Series pattern
+                match = onclickAttr.match(/window\.location\.href='greengrip-ggip-catalog\.html(\?product=(\w+))?'/);
+                if (match) {
+                    const productType = match[2]; // Will be undefined for root GGIP, or 'ggcp', 'gght', etc.
+                    const jsonFile = 'data/greengrip-ggip-catalog.json';
+                    
+                    try {
+                        // Fetch the GreenGrip GGIP catalog JSON file
+                        const response = await fetch(jsonFile);
+                        const allData = await response.json();
+                        
+                        // Get the correct product array based on type
+                        let productCount = 0;
+                        if (productType && allData[productType]) {
+                            // Nested product type (ggcp, gght, etc.)
+                            productCount = allData[productType].products ? allData[productType].products.length : 0;
+                        } else {
+                            // Root GGIP products
+                            productCount = allData.products ? allData.products.length : 0;
+                        }
+                        
+                        // Find the span showing item count in this row
+                        const itemSpan = row.querySelector('span[style*="background: #fff3e0"]');
+                        if (itemSpan) {
+                            itemSpan.textContent = `${productCount} item${productCount !== 1 ? 's' : ''}`;
+                        }
+                    } catch (error) {
+                        console.error(`Error loading ${jsonFile}:`, error);
+                    }
+                }
+            }
+        }
+        
+        // Enhanced JavaScript for modern interactions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load product counts dynamically
+            loadProductCounts();
+            
+            // Page loader
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    document.body.classList.add('loaded');
+                }, 1000);
+            });
+            
+            // Smooth scroll for back to top button
+            const backToTopBtn = document.querySelector('.back-to-top');
+            if (backToTopBtn) {
+                backToTopBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+            
+            // Parallax effect for hero section
+            const heroBackground = document.querySelector('.hero-background');
+            if (heroBackground) {
+                window.addEventListener('scroll', function() {
+                    const scrolled = window.pageYOffset;
+                    const rate = scrolled * 0.3;
+                    heroBackground.style.transform = `translateY(${rate}px)`;
+                });
+            }
+            
+            // Enhanced dropdown interactions
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                const dropdown = item.querySelector('.dropdown');
+                if (dropdown) {
+                    item.addEventListener('mouseenter', function() {
+                        dropdown.classList.add('active');
+                    });
+                    
+                    item.addEventListener('mouseleave', function() {
+                        dropdown.classList.remove('active');
+                    });
+                }
+            });
+            
+            // Animate blocks on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -100px 0px'
+            };
+            
+            const blockObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'scale(1)';
+                    }
+                });
+            }, observerOptions);
+            
+            const blocks = document.querySelectorAll('.block-item');
+            blocks.forEach((block, index) => {
+                block.style.opacity = '0';
+                block.style.transform = 'scale(0.9)';
+                block.style.transition = `all 0.6s ease ${index * 0.1}s`;
+                blockObserver.observe(block);
+            });
+            
+            // Ripple effect for buttons
+            function createRipple(event) {
+                const button = event.currentTarget;
+                const ripple = document.createElement('span');
+                const diameter = Math.max(button.clientWidth, button.clientHeight);
+                const radius = diameter / 2;
+                
+                ripple.style.width = ripple.style.height = `${diameter}px`;
+                ripple.style.left = `${event.clientX - button.offsetLeft - radius}px`;
+                ripple.style.top = `${event.clientY - button.offsetTop - radius}px`;
+                ripple.classList.add('ripple');
+                
+                const rippleStyle = document.createElement('style');
+                rippleStyle.textContent = `
+                    .ripple {
+                        position: absolute;
+                        border-radius: 50%;
+                        background: rgba(255, 255, 255, 0.6);
+                        transform: scale(0);
+                        animation: ripple-animation 0.6s ease-out;
+                        pointer-events: none;
+                    }
+                    @keyframes ripple-animation {
+                        to {
+                            transform: scale(4);
+                            opacity: 0;
+                        }
+                    }
+                `;
+                if (!document.querySelector('#ripple-style')) {
+                    rippleStyle.id = 'ripple-style';
+                    document.head.appendChild(rippleStyle);
+                }
+                
+                const existingRipple = button.querySelector('.ripple');
+                if (existingRipple) {
+                    existingRipple.remove();
+                }
+                
+                button.style.position = 'relative';
+                button.style.overflow = 'hidden';
+                button.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            }
+            
+            const buttons = document.querySelectorAll('.btn, .block-item');
+            buttons.forEach(button => {
+                button.addEventListener('click', createRipple);
+            });
+            
+            // Sticky header behavior
+            let lastScroll = 0;
+            const header = document.querySelector('header');
+            
+            window.addEventListener('scroll', function() {
+                const currentScroll = window.pageYOffset;
+                
+                if (currentScroll <= 0) {
+                    header.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.15)';
+                } else {
+                    header.style.boxShadow = '0 6px 30px rgba(0, 0, 0, 0.25)';
+                }
+                
+                if (currentScroll > lastScroll && currentScroll > 100) {
+                    // Scrolling down
+                    header.style.transform = 'translateY(-100%)';
+                } else {
+                    // Scrolling up
+                    header.style.transform = 'translateY(0)';
+                }
+                
+                lastScroll = currentScroll;
+            });
+            
+            // Animate product detail items on scroll
+            const productDetailObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.2,
+                rootMargin: '0px 0px -50px 0px'
+            });
+            
+            const productDetailItems = document.querySelectorAll('.product-detail-item');
+            productDetailItems.forEach(item => {
+                productDetailObserver.observe(item);
+            });
+            
+            console.log('%c🌿 GREEN MAN - Enhanced Experience Loaded! ', 'background: #1B5E20; color: #fff; padding: 10px; font-size: 14px; font-weight: bold; border-radius: 5px;');
+            
+            // Make technical tables expand on first hover and stay expanded permanently
+            function setupTableExpansion() {
+                const tableContainers = document.querySelectorAll('.technical-table-container');
+                tableContainers.forEach(container => {
+                    // Once expanded, never collapse automatically
+                    const lockExpanded = () => {
+                        if (!container.classList.contains('expanded')) {
+                            container.classList.add('expanded');
+                            // Mark as locked so future clicks won't toggle it closed
+                            container.dataset.locked = 'true';
+                        }
+                    };
+
+                    // 1) First mouseenter locks it open (user hovers to preview; we keep it open)
+                    container.addEventListener('mouseenter', (e) => {
+                        // Ignore if already locked
+                        if (container.dataset.locked === 'true') return;
+                        lockExpanded();
+                    }, { once: true });
+
+                    // 2) Click also locks it open (for touch or intentional lock)
+                    container.addEventListener('click', function(e) {
+                        // Don't react to row navigation clicks
+                        if (e.target.closest('tbody tr')) return;
+                        // Never toggle closed; only lock open
+                        lockExpanded();
+                    });
+
+                    // Prevent clicks on tbody rows from affecting lock logic
+                    const tbody = container.querySelector('tbody');
+                    if (tbody) {
+                        tbody.addEventListener('click', function(e) {
+                            e.stopPropagation();
+                        });
+                    }
+                });
+
+                if (tableContainers.length > 0) {
+                    console.log(`✅ Table expansion locked for ${tableContainers.length} tables`);
+                }
+            }
+            
+            // Make tables mobile responsive by adding data-label attributes
+            function setupResponsiveTables() {
+                // Handle technical-table class tables
+                const technicalTables = document.querySelectorAll('.technical-table');
+                technicalTables.forEach(table => {
+                    const headers = Array.from(table.querySelectorAll('thead th')).map(th => th.textContent.trim());
+                    const rows = table.querySelectorAll('tbody tr');
+                    
+                    rows.forEach(row => {
+                        const cells = row.querySelectorAll('td');
+                        cells.forEach((cell, index) => {
+                            if (headers[index]) {
+                                cell.setAttribute('data-label', headers[index]);
+                            }
+                        });
+                    });
+                });
+                
+                // Handle accessories-table class tables
+                const accessoriesTables = document.querySelectorAll('.accessories-table');
+                accessoriesTables.forEach(table => {
+                    const headers = Array.from(table.querySelectorAll('thead th')).map(th => th.textContent.trim());
+                    const rows = table.querySelectorAll('tbody tr');
+                    
+                    rows.forEach(row => {
+                        const cells = row.querySelectorAll('td');
+                        cells.forEach((cell, index) => {
+                            if (headers[index]) {
+                                cell.setAttribute('data-label', headers[index]);
+                            }
+                        });
+                    });
+                });
+                
+                // Handle any other tables that might be added later
+                const allTables = document.querySelectorAll('table');
+                allTables.forEach(table => {
+                    // Skip if already processed
+                    if (table.classList.contains('technical-table') || table.classList.contains('accessories-table')) {
+                        return;
+                    }
+                    
+                    const headers = Array.from(table.querySelectorAll('thead th')).map(th => th.textContent.trim());
+                    if (headers.length > 0) {
+                        const rows = table.querySelectorAll('tbody tr');
+                        rows.forEach(row => {
+                            const cells = row.querySelectorAll('td');
+                            cells.forEach((cell, index) => {
+                                if (headers[index]) {
+                                    cell.setAttribute('data-label', headers[index]);
+                                }
+                            });
+                        });
+                    }
+                });
+                
+                console.log(`✅ Responsive data-labels added to ${technicalTables.length + accessoriesTables.length} tables`);
+            }
+            
+            // Setup dynamic card number indicator on scroll
+            function setupDynamicCardNumbers() {
+                if (window.innerWidth <= 768) {
+                    const tableContainers = document.querySelectorAll('.technical-table-container');
+                    
+                    tableContainers.forEach(container => {
+                        const table = container.querySelector('.technical-table');
+                        if (!table) return;
+                        
+                        const rows = Array.from(table.querySelectorAll('tbody tr'));
+                        if (rows.length === 0) return;
+                        
+                        // Create header indicator element
+                        const headerIndicator = document.createElement('div');
+                        headerIndicator.className = 'table-header-indicator';
+                        
+                        const cardNumber = document.createElement('div');
+                        cardNumber.className = 'card-number';
+                        cardNumber.textContent = '1';
+                        
+                        const productCode = document.createElement('div');
+                        productCode.className = 'product-code';
+                        
+                        // Get product code from the first row's second cell (Item Code)
+                        const firstRow = rows[0];
+                        if (firstRow) {
+                            const cells = firstRow.querySelectorAll('td');
+                            // Item code is usually in the second cell (index 1)
+                            if (cells.length > 1) {
+                                const itemCode = cells[1].textContent.trim();
+                                // Extract the product prefix (e.g., GMC, GM41, GGIP)
+                                const match = itemCode.match(/^([A-Z]+\d*)/);
+                                if (match) {
+                                    productCode.textContent = match[1];
+                                }
+                            }
+                        }
+                        
+                        headerIndicator.appendChild(cardNumber);
+                        headerIndicator.appendChild(productCode);
+                        
+                        // Insert at the beginning of the container
+                        container.insertBefore(headerIndicator, container.firstChild);
+                        
+                        // Add scroll event listener
+                        container.addEventListener('scroll', function() {
+                            const containerTop = this.scrollTop;
+                            const containerHeight = this.clientHeight;
+                            const scrollCenter = containerTop + (containerHeight / 2);
+                            
+                            // Find which card is in the center of the viewport
+                            let currentCardIndex = 0;
+                            
+                            for (let i = 0; i < rows.length; i++) {
+                                const row = rows[i];
+                                const rowTop = row.offsetTop;
+                                const rowBottom = rowTop + row.offsetHeight;
+                                
+                                if (scrollCenter >= rowTop && scrollCenter < rowBottom) {
+                                    currentCardIndex = i;
+                                    break;
+                                } else if (scrollCenter >= rowBottom && i === rows.length - 1) {
+                                    currentCardIndex = i;
+                                } else if (scrollCenter < rowTop) {
+                                    currentCardIndex = Math.max(0, i - 1);
+                                    break;
+                                }
+                            }
+                            
+                            const newCardNumber = currentCardIndex + 1;
+                            const currentDisplayNumber = cardNumber.textContent;
+                            
+                            // Update card number
+                            if (currentDisplayNumber !== String(newCardNumber)) {
+                                cardNumber.textContent = newCardNumber;
+                            }
+                            
+                            // Update product code dynamically from current row
+                            const currentRow = rows[currentCardIndex];
+                            if (currentRow) {
+                                const cells = currentRow.querySelectorAll('td');
+                                if (cells.length > 1) {
+                                    const itemCode = cells[1].textContent.trim();
+                                    const match = itemCode.match(/^([A-Z]+\d*)/);
+                                    if (match && productCode.textContent !== match[1]) {
+                                        productCode.textContent = match[1];
+                                    }
+                                }
+                            }
+                        }, { passive: true });
+                        
+                        // Trigger initial update
+                        container.dispatchEvent(new Event('scroll'));
+                    });
+                    
+                    // Also handle accessories table
+                    const accessoriesContainers = document.querySelectorAll('.accessories-table-container');
+                    accessoriesContainers.forEach(container => {
+                        const table = container.querySelector('.accessories-table');
+                        if (!table) return;
+                        
+                        const rows = Array.from(table.querySelectorAll('tbody tr'));
+                        if (rows.length === 0) return;
+                        
+                        // Create header indicator element
+                        const headerIndicator = document.createElement('div');
+                        headerIndicator.className = 'table-header-indicator';
+                        
+                        const cardNumber = document.createElement('div');
+                        cardNumber.className = 'card-number';
+                        cardNumber.textContent = '1';
+                        
+                        const productCode = document.createElement('div');
+                        productCode.className = 'product-code';
+                        
+                        // Get code prefix from the first row's third cell (Code Prefix column)
+                        const firstRow = rows[0];
+                        if (firstRow) {
+                            const cells = firstRow.querySelectorAll('td');
+                            // Code Prefix is usually in the third cell (index 2, after # and Product Category)
+                            if (cells.length > 2) {
+                                // Try to find the code prefix by looking at data-label or content
+                                let codePrefix = '';
+                                for (let i = 0; i < cells.length; i++) {
+                                    const label = cells[i].getAttribute('data-label');
+                                    if (label && label.toLowerCase().includes('code prefix')) {
+                                        codePrefix = cells[i].textContent.trim();
+                                        break;
+                                    }
+                                }
+                                if (codePrefix) {
+                                    productCode.textContent = codePrefix;
+                                } else {
+                                    productCode.textContent = 'ACCESSORIES';
+                                }
+                            }
+                        }
+                        
+                        headerIndicator.appendChild(cardNumber);
+                        headerIndicator.appendChild(productCode);
+                        
+                        // Insert at the beginning of the container
+                        container.insertBefore(headerIndicator, container.firstChild);
+                        
+                        // Add scroll event listener
+                        container.addEventListener('scroll', function() {
+                            const containerTop = this.scrollTop;
+                            const containerHeight = this.clientHeight;
+                            const scrollCenter = containerTop + (containerHeight / 2);
+                            
+                            let currentCardIndex = 0;
+                            
+                            for (let i = 0; i < rows.length; i++) {
+                                const row = rows[i];
+                                const rowTop = row.offsetTop;
+                                const rowBottom = rowTop + row.offsetHeight;
+                                
+                                if (scrollCenter >= rowTop && scrollCenter < rowBottom) {
+                                    currentCardIndex = i;
+                                    break;
+                                } else if (scrollCenter >= rowBottom && i === rows.length - 1) {
+                                    currentCardIndex = i;
+                                } else if (scrollCenter < rowTop) {
+                                    currentCardIndex = Math.max(0, i - 1);
+                                    break;
+                                }
+                            }
+                            
+                            const newCardNumber = currentCardIndex + 1;
+                            const currentDisplayNumber = cardNumber.textContent;
+                            
+                            // Update card number
+                            if (currentDisplayNumber !== String(newCardNumber)) {
+                                cardNumber.textContent = newCardNumber;
+                            }
+                            
+                            // Update code prefix dynamically from current row
+                            const currentRow = rows[currentCardIndex];
+                            if (currentRow) {
+                                const cells = currentRow.querySelectorAll('td');
+                                let codePrefix = '';
+                                for (let i = 0; i < cells.length; i++) {
+                                    const label = cells[i].getAttribute('data-label');
+                                    if (label && label.toLowerCase().includes('code prefix')) {
+                                        codePrefix = cells[i].textContent.trim();
+                                        break;
+                                    }
+                                }
+                                if (codePrefix && productCode.textContent !== codePrefix) {
+                                    productCode.textContent = codePrefix;
+                                }
+                            }
+                        }, { passive: true });
+                        
+                        container.dispatchEvent(new Event('scroll'));
+                    });
+                    
+                    console.log(`✅ Dynamic card numbers enabled for ${tableContainers.length + accessoriesContainers.length} tables`);
+                }
+            }
+            
+            // Make product cards tappable on mobile to navigate to detail pages
+            function setupMobileCardNavigation() {
+                if (window.innerWidth <= 768) {
+                    const productSubtitles = document.querySelectorAll('.product-subtitle');
+                    productSubtitles.forEach(subtitle => {
+                        subtitle.style.cursor = 'pointer';
+                        
+                        subtitle.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            
+                            // Get the product title text
+                            const productText = this.textContent.trim().replace('→', '').trim();
+                            
+                            // Map product names to their respective pages
+                            const productPages = {
+                                'C CHANNEL': 'c-channel-list.html',
+                                'STRUT CHANNEL': 'strut-list.html',
+                                'GGIP PRODUCT': 'ggip-list.html'
+                            };
+                            
+                            // Find matching page
+                            for (let [key, page] of Object.entries(productPages)) {
+                                if (productText.toUpperCase().includes(key)) {
+                                    window.location.href = page;
+                                    return;
+                                }
+                            }
+                            
+                            // If no match, scroll to the table
+                            const tableContainer = this.closest('.product-detail-item').querySelector('.technical-table-container');
+                            if (tableContainer) {
+                                tableContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                            }
+                        });
+                    });
+                    
+                    console.log(`✅ Mobile navigation enabled for ${productSubtitles.length} product cards`);
+                }
+            }
+            
+            // Run after a short delay to ensure tables are loaded
+            setTimeout(setupTableExpansion, 1000);
+            setTimeout(setupResponsiveTables, 1200);
+            setTimeout(setupDynamicCardNumbers, 1250);
+            setTimeout(setupMobileCardNavigation, 1300);
+
+            // Persist + restore helpers
+            function saveReturnState(state) {
+                try { sessionStorage.setItem('gm_return_state', JSON.stringify(state)); } catch(e) {}
+            }
+            function getReturnState() {
+                try { return JSON.parse(sessionStorage.getItem('gm_return_state') || 'null'); } catch(e) { return null; }
+            }
+            function clearReturnState() {
+                try { sessionStorage.removeItem('gm_return_state'); } catch(e) {}
+            }
+
+            // After tables render, restore previous table/row/scroll
+            function restoreTableState(attempt = 0) {
+                const state = getReturnState();
+                if (!state) return;
+                const containers = document.querySelectorAll('.technical-table-container');
+                const tables = document.querySelectorAll('.technical-table');
+                if (tables.length === 0 || containers.length === 0) {
+                    if (attempt < 15) return setTimeout(() => restoreTableState(attempt + 1), 200);
+                    return; // Give up silently
+                }
+                const tableIndex = Math.min(state.tableIndex || 0, tables.length - 1);
+                const table = tables[tableIndex];
+                const container = containers[tableIndex] || table.closest('.technical-table-container');
+                if (!table || !container) return clearReturnState();
+
+                // Lock container expanded
+                container.classList.add('expanded');
+                container.dataset.locked = 'true';
+
+                // Try to highlight the row
+                const rows = table.querySelectorAll('tbody tr');
+                if (rows.length === 0) {
+                    if (attempt < 15) return setTimeout(() => restoreTableState(attempt + 1), 200);
+                } else {
+                    const rowIdx = Math.max(0, Math.min(state.rowIndex || 0, rows.length - 1));
+                    const row = rows[rowIdx];
+                    if (row) {
+                        row.classList.add('row-restore-highlight');
+                        // Prefer scrolling to row, fallback to saved scroll
+                        row.scrollIntoView({ block: 'center', behavior: 'instant' in window ? 'instant' : 'auto' });
+                        setTimeout(() => row.classList.remove('row-restore-highlight'), 2500);
+                    }
+                }
+                clearReturnState();
+            }
+            
+            // Make C Channel table rows clickable - wait for dynamic content to load
+            function attachTableClickHandlers() {
+                const cChannelTable = document.querySelector('.technical-table');
+                if (cChannelTable) {
+                    const tableRows = cChannelTable.querySelectorAll('tbody tr');
+                    if (tableRows.length > 0) {
+                        tableRows.forEach(row => {
+                            row.addEventListener('click', function() {
+                                // Get the Item Code from the second column (index 1)
+                                const itemCode = this.cells[1].textContent.trim();
+                                
+                                // Convert item code to product ID (e.g., GMC271812 -> c-profile-gmc271812)
+                                const productId = 'c-profile-' + itemCode.toLowerCase();
+
+                                // Save state before navigating (table 0)
+                                const rowIndex = Array.from(tableRows).indexOf(this);
+                                saveReturnState({ page: 'index', tableIndex: 0, rowIndex, itemCode, ts: Date.now() });
+                                
+                                // Navigate to the C Channel template page with product ID
+                                window.location.href = `c-channel-template.html?id=${productId}`;
+                            });
+                            
+                            // Add visual feedback
+                            row.style.cursor = 'pointer';
+                            row.title = 'Click to view detailed specifications and load cases';
+                        });
+                        console.log(`✅ Attached click handlers to ${tableRows.length} C Channel table rows`);
+                    } else {
+                        // Table exists but no rows yet, retry in a moment
+                        setTimeout(attachTableClickHandlers, 500);
+                    }
+                } else {
+                    // Table doesn't exist yet, retry in a moment
+                    setTimeout(attachTableClickHandlers, 500);
+                }
+            }
+            
+            // Start trying to attach handlers
+            attachTableClickHandlers();
+            
+            // Make Strut Channel table rows clickable - wait for dynamic content to load
+            function attachStrutTableClickHandlers() {
+                // Find all technical tables (both C-Channel and Strut)
+                const allTables = document.querySelectorAll('.technical-table');
+                
+                // The strut table should be the second one (index 1)
+                if (allTables.length > 1) {
+                    const strutTable = allTables[1];
+                    const tableRows = strutTable.querySelectorAll('tbody tr');
+                    
+                    if (tableRows.length > 0) {
+                        tableRows.forEach(row => {
+                            row.addEventListener('click', function() {
+                                // Get the Item Code from the second column (index 1)
+                                const itemCode = this.cells[1].textContent.trim();
+                                
+                                // Convert item code to product ID (e.g., GM412115 -> strut-profile-gm412115)
+                                const productId = 'strut-profile-' + itemCode.toLowerCase();
+
+                                
+                                // Save state before navigating (table 1)
+                                const rowIndex = Array.from(tableRows).indexOf(this);
+                                saveReturnState({ page: 'index', tableIndex: 1, rowIndex, itemCode, ts: Date.now() });
+                                
+                                // Navigate to the Strut template page with product ID
+                                window.location.href = `strut-template.html?id=${productId}`;
+                            });
+                            
+                            // Add visual feedback
+                            row.style.cursor = 'pointer';
+                            row.title = 'Click to view detailed specifications and load cases';
+                        });
+                        console.log(`✅ Attached click handlers to ${tableRows.length} Strut Channel table rows`);
+                    } else {
+                        // Table exists but no rows yet, retry in a moment
+                        setTimeout(attachStrutTableClickHandlers, 500);
+                    }
+                } else {
+                    // Strut table doesn't exist yet, retry in a moment
+                    setTimeout(attachStrutTableClickHandlers, 500);
+                }
+            }
+            
+            // Start trying to attach strut handlers
+            attachStrutTableClickHandlers();
+
+            // Attempt restoration after things are wired
+            setTimeout(() => restoreTableState(0), 600);
+        });
+    </script>
+  </div>
+
+  <script src="js/product-renderer.js"></script>
+  <script src="js/table-utils.js"></script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

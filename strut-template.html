@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Strut Profile – PDF-like Template</title>
+  <link rel="stylesheet" href="catalog-common.css">
+
+        <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  
+    <!-- Navigation Bar (Loaded from navbar.html) -->
+    <div id="navbar-placeholder"></div>
+<header>
+  </header>
+
+  <main class="canvas" role="main">
+    <!-- Title row -->
+    <div class="title-row">
+      <span class="bullet" aria-hidden="true"></span>
+      <div class="title">Strut Profile GM412115</div>
+    </div>
+
+    <!-- Top visuals -->
+    <section class="visuals" aria-label="Product visuals">
+      <div class="ph" id="product-image-1">
+        <img src="" alt="3D Model" style="width:100%;height:100%;object-fit:contain" />
+      </div>
+      <div class="ph" id="product-image-2">
+        <img src="" alt="Cross Section" style="width:100%;height:100%;object-fit:contain" />
+      </div>
+      <div class="ph" id="product-image-3">
+        <img src="" alt="Design Diagram" style="width:100%;height:100%;object-fit:contain" />
+      </div>
+    </section>
+
+    <!-- Product Definition -->
+    <section style="margin: 16px 0; padding: 16px; background: rgba(204,232,201,0.15); border-left: 4px solid var(--dark-teal); border-radius: 4px;">
+      <h3 style="color: var(--dark-teal); font-size: 15px; margin: 0 0 10px 0; font-weight: 700;">Product Definition</h3>
+      <p style="margin: 0; font-size: 12px; line-height: 1.6; color: var(--ink); text-align: justify;">
+        GM41 Strut Channels are engineered steel structural profiles designed for heavy-duty mounting and support applications in industrial, commercial, and infrastructure projects.
+      </p>
+    </section>
+
+    <!-- Meta cards (Specification / Mounting method / Technical data) -->
+    <section class="meta">
+      <div class="card">
+        <h3>Specification</h3>
+        <p>C-profile rail, perforated, toothed</p>
+        <h3 style="margin-top:12px">Mounting method</h3>
+        <p>Form-locking connections and shear hole launch connections</p>
+      </div>
+      <div class="card">
+        <h3>Technical data</h3>
+        <div class="list">
+          <div class="kv"><div class="k">Material:</div><div class="v">S250GD</div></div>
+          <div class="kv"><div class="k">Material type:</div><div class="v">pre-galvanized (Z-275)</div></div>
+          <div class="kv"><div class="k">Material:</div><div class="v">S235JR</div></div>
+          <div class="kv"><div class="k">Material type:</div><div class="v">hot-dip-galvanized<br>➤Epoxy coated</div></div>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:center;justify-content:center;padding:8px">
+        <img src="assets/GM-STRUT/centroid xy axis.png" alt="Centroid XY Axis" style="width:100%;height:100%;object-fit:contain">
+      </div>
+    </section>
+
+    <!-- Type strip + properties table -->
+    <section aria-label="Type properties">
+      <table class="props">
+        <thead>
+          <tr>
+            <th>Identification</th>
+            <th>Weight<br><small>[kg/m]</small></th>
+            <th>Length<br><small>[m]</small></th>
+            <th>Area<br><small>[mm²]</small></th>
+            <th>Centroid dist CD<br><small>[mm]</small></th>
+            <th>Moment of Inertia<br><small>mm⁴ Z-AXIS</small></th>
+            <th>Moment of Inertia<br><small>mm⁴ Y-AXIS</small></th>
+            <th>Resistant Module<br><small>mm³ Z-AXIS</small></th>
+            <th>Resistant Module<br><small>mm³ Y-AXIS</small></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Identification">GM412115</td>
+            <td data-label="Weight [kg/m]">1.19</td>
+            <td data-label="Length [m]">3.6</td>
+            <td data-label="Area [mm²]">142</td>
+            <td data-label="Centroid dist CD [mm]">8.06</td>
+            <td data-label="Moment of Inertia mm⁴ Z-AXIS">35895</td>
+            <td data-label="Moment of Inertia mm⁴ Y-AXIS">9456</td>
+            <td data-label="Resistant Module mm³ Z-AXIS">1738</td>
+            <td data-label="Resistant Module mm³ Y-AXIS">742</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Load Cases -->
+    <section class="load-header">
+      <div class="load-title">Load Cases</div>
+      <div class="load-subtitle">Max Recommended Load - N</div>
+    </section>
+
+    <!-- Cases captions + diagrams -->
+    <section class="cases" aria-label="Load case overview">
+      <!-- Row 1: CASE titles (left cell intentionally empty) -->
+      <div class="cell" aria-hidden="true"></div>
+      <div class="cell"><div class="cap">CASE 1</div></div>
+      <div class="cell"><div class="cap">CASE 2</div></div>
+      <div class="cell"><div class="cap">CASE 3</div></div>
+      <div class="cell"><div class="cap">CASE 4</div></div>
+      <div class="cell" style="border-right:none"><div class="cap">CASE 5</div></div>
+
+      <!-- Row 2: Subtitles; left is F/L indicator -->
+      <div class="cell">
+        <div class="span-fl" aria-label="Force/Length indicator">
+          <span class="f">F</span>
+          <span class="l">L</span>
+        </div>
+      </div>
+      <div class="cell"><div class="sub">Single point<br>load at center</div></div>
+      <div class="cell"><div class="sub">2 point loads,<br>equidistant</div></div>
+      <div class="cell"><div class="sub">3 point loads,<br>equidistant</div></div>
+      <div class="cell"><div class="sub">4 point loads,<br>equidistant</div></div>
+      <div class="cell" style="border-right:none"><div class="sub">Uniformly<br>distributed load</div></div>
+
+      <!-- Row 3: Diagrams; left is SPAN mm label -->
+      <div class="cell"><div class="span-label">SPAN<br>mm</div></div>
+      <div class="cell"><div class="diagram"><img src="assets/load cases/Case 1.PNG" alt="Case 1 Diagram" style="width:100%;height:100%;object-fit:contain"></div></div>
+      <div class="cell"><div class="diagram"><img src="assets/load cases/Case 2.PNG" alt="Case 2 Diagram" style="width:100%;height:100%;object-fit:contain"></div></div>
+      <div class="cell"><div class="diagram"><img src="assets/load cases/Case 3.PNG" alt="Case 3 Diagram" style="width:100%;height:100%;object-fit:contain"></div></div>
+      <div class="cell"><div class="diagram"><img src="assets/load cases/Case 4.PNG" alt="Case 4 Diagram" style="width:100%;height:100%;object-fit:contain"></div></div>
+      <div class="cell" style="border-right:none"><div class="diagram"><img src="assets/load cases/Case 5.PNG" alt="Case 5 Diagram" style="width:100%;height:100%;object-fit:contain"></div></div>
+    </section>
+
+    <div class="loads-wrapper" aria-label="Loads table">
+      <script>
+        const spans = Array.from({length:20}, (_,i)=> (i+1)*100); // 100..2000
+        document.currentScript.insertAdjacentHTML('afterend', spans.map(mm => `
+          <div class="load-row">
+            <div class="cell">${mm}</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+            <div class="cell">—</div>
+          </div>`).join(''))
+      </script>
+    </div>
+  </main>
+
+  <script>
+    // Get product ID from URL parameter (?id=strut-profile-gm412115)
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id') || 'strut-profile-gm412115'; // Default to first product
+
+    // Load and render product data
+    async function loadProduct() {
+      try {
+        const response = await fetch('data/strut-channel-catalog.json');
+        const catalog = await response.json();
+        const products = catalog.category.products;
+        
+        // Find the product by ID
+        const product = products.find(p => p.id === productId);
+        
+        if (!product) {
+          console.error('Product not found:', productId);
+          return;
+        }
+        
+        // Update title
+        document.querySelector('.title').textContent = product.title;
+        document.title = `${product.title} – GREEN MAN`;
+        
+        // Update images
+        if (product.images && product.images.length > 0) {
+          // Image 1: 3D Model
+          if (product.images[0]) {
+            const img1 = document.querySelector('#product-image-1 img');
+            img1.src = product.images[0];
+            img1.alt = '3D Model';
+          }
+          // Image 2: Cross Section
+          if (product.images[1]) {
+            const img2 = document.querySelector('#product-image-2 img');
+            img2.src = product.images[1];
+            img2.alt = 'Cross Section';
+          }
+          // Image 3: Design Diagram
+          if (product.images[2]) {
+            const img3 = document.querySelector('#product-image-3 img');
+            img3.src = product.images[2];
+            img3.alt = 'Design Diagram';
+          }
+        }
+        
+        // Update specification description if available
+        if (product.description) {
+          const specCard = document.querySelector('.meta .card:first-child');
+          const descP = specCard.querySelector('p');
+          descP.textContent = product.description;
+        }
+        
+        // Update mounting method
+        if (product.mountingMethod) {
+          const mountCard = document.querySelector('.meta .card:first-child');
+          const mountP = mountCard.querySelectorAll('p')[1];
+          if (mountP) mountP.textContent = product.mountingMethod;
+        }
+        
+        // Update technical data
+        if (product.technicalData) {
+          const techCard = document.querySelector('.meta .card:nth-child(2)');
+          const list = techCard.querySelector('.list');
+          list.innerHTML = '';
+          
+          // Material 1
+          if (product.technicalData.material1) {
+            list.innerHTML += `
+              <div class="kv"><div class="k">Material:</div><div class="v">${product.technicalData.material1}</div></div>
+              <div class="kv"><div class="k">Material type:</div><div class="v">${product.technicalData.materialType1 || 'N/A'}</div></div>
+            `;
+          }
+          
+          // Material 2 if available
+          if (product.technicalData.material2) {
+            list.innerHTML += `
+              <div class="kv"><div class="k">Material:</div><div class="v">${product.technicalData.material2}</div></div>
+              <div class="kv"><div class="k">Material type:</div><div class="v">${product.technicalData.materialType2 || '➤Hot-dip galvanized ➤Epoxy coated'}</div></div>
+            `;
+          }
+        }
+        
+        // Update properties table
+        if (product.properties && product.properties.identification) {
+          const tbody = document.querySelector('.props tbody');
+          const size = product.properties.size ? product.properties.size.replace(/×/g, 'x') : '—';
+          tbody.innerHTML = `
+            <tr>
+              <td data-label="Identification">${product.properties.identification || '—'}</td>
+              <td data-label="Weight [kg/m]">${product.properties.weight_kg_m || '—'}</td>
+              <td data-label="Length [m]">${product.properties.length_mtr || product.properties.length_m || '—'}</td>
+              <td data-label="Area [mm²]">${product.properties.area_mm2 || '—'}</td>
+              <td data-label="Centroid dist CD [mm]">${product.properties.cd_mm || '—'}</td>
+              <td data-label="Moment of Inertia mm⁴ Z-AXIS">${product.properties.moment_inertia_z_axis || product.properties.iz_mm4 || '—'}</td>
+              <td data-label="Moment of Inertia mm⁴ Y-AXIS">${product.properties.moment_inertia_y_axis || product.properties.iy_mm4 || '—'}</td>
+              <td data-label="Resistant Module mm³ Z-AXIS">${product.properties.resistant_modulus_z_axis || product.properties.wy_mm3 || '—'}</td>
+              <td data-label="Resistant Module mm³ Y-AXIS">${product.properties.resistant_modulus_y_axis || product.properties.wz_mm3 || '—'}</td>
+            </tr>
+          `;
+        }
+        
+        // Update load cases table
+        if (product.loadCases && product.loadCases.spans && product.loadCases.spans.length > 0) {
+          const wrapper = document.querySelector('.loads-wrapper');
+          wrapper.innerHTML = ''; // Clear placeholder rows
+          
+          product.loadCases.spans.forEach(row => {
+            const div = document.createElement('div');
+            div.className = 'load-row';
+            div.innerHTML = `
+              <div class="cell">${row.span_mm}</div>
+              <div class="cell">${row.case1_N !== null && row.case1_N !== undefined ? row.case1_N : '—'}</div>
+              <div class="cell">${row.case2_N !== null && row.case2_N !== undefined ? row.case2_N : '—'}</div>
+              <div class="cell">${row.case3_N !== null && row.case3_N !== undefined ? row.case3_N : '—'}</div>
+              <div class="cell">${row.case4_N !== null && row.case4_N !== undefined ? row.case4_N : '—'}</div>
+              <div class="cell">${row.case5_N !== null && row.case5_N !== undefined ? row.case5_N : '—'}</div>
+            `;
+            wrapper.appendChild(div);
+          });
+        }
+        
+        // Update page number (based on product.page if available)
+        if (product.page) {
+          const pageFooter = document.querySelector('.page-footer span:last-child');
+          if (pageFooter) {
+            pageFooter.textContent = `PAGE ${product.page}`;
+          }
+        }
+        
+        console.log('Product loaded:', product.title);
+        
+      } catch (error) {
+        console.error('Error loading product:', error);
+        document.querySelector('.title').textContent = 'Error loading product data';
+      }
+    }
+    
+    // Load product on page load
+    loadProduct();
+  </script>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Components -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            // Load navbar JavaScript AFTER HTML is injected
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            navScript.onload = function() {
+                document.body.classList.add('loaded');
+            };
+            navScript.onerror = function() {
+                document.body.classList.add('loaded'); // Still show page even if nav fails
+            };
+            document.body.appendChild(navScript);
+        }).catch(error => {
+            console.error('Error loading components:', error);
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>

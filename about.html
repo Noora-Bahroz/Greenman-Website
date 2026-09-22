@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <title>About Us - GREEN MAN</title>
+    
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="navbar.css">
+    
+    <style>
+        /* About Us Page Specific Styles */
+        .about-hero {
+            position: relative;
+            padding: 120px 0 60px;
+            background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+            overflow: hidden;
+        }
+
+        .about-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: url('assets\img\greenman.png') center/cover no-repeat;
+            clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+            opacity: 0.15;
+        }
+
+        .about-hero-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .about-text-section {
+            padding: 20px 0;
+        }
+
+        .about-logo {
+            margin-bottom: 30px;
+        }
+
+        .about-logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .about-hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 30px;
+            line-height: 1.2;
+        }
+
+        .about-hero h1 span {
+            color: var(--secondary-green);
+        }
+
+        .about-description {
+            font-size: 16px;
+            line-height: 1.9;
+            color: #555;
+            text-align: justify;
+        }
+
+        .about-image-section {
+            position: relative;
+        }
+
+        .about-building-image {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 2;
+        }
+
+        .green-accent {
+            position: absolute;
+            background: var(--secondary-green);
+            z-index: 1;
+        }
+
+        .green-accent-1 {
+            top: -20px;
+            right: -20px;
+            width: 150px;
+            height: 150px;
+            clip-path: polygon(100% 0, 0 0, 100% 100%);
+        }
+
+        .green-accent-2 {
+            bottom: -20px;
+            right: -20px;
+            width: 200px;
+            height: 100px;
+            clip-path: polygon(100% 0, 100% 100%, 0 100%);
+        }
+
+        /* Mission Vision Section */
+        .mission-vision-section {
+            background: #ffffff;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mission-vision-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .mission-box, .vision-box {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 60px;
+            background: #f9f9f9;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .vision-box {
+            flex-direction: row-reverse;
+        }
+
+        .mission-box:last-child, .vision-box:last-child {
+            margin-bottom: 0;
+        }
+
+        .mission-content, .vision-content {
+            flex: 1;
+            padding: 50px;
+        }
+
+        .mission-image, .vision-image {
+            flex: 0 0 45%;
+            height: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mission-image img, .vision-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .mission-box h2, .vision-box h2 {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--primary-green);
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .mission-box h2::after, .vision-box h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--secondary-green);
+        }
+
+        .mission-box p, .vision-box p {
+            font-size: 17px;
+            line-height: 1.9;
+            color: #555;
+        }
+
+        /* Core Values Section */
+        .core-values-section {
+            padding: 80px 0;
+            background: linear-gradient(180deg, #ffffff 0%, #f5f5f5 100%);
+        }
+
+        .core-values-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        .core-values-header h2 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .core-values-header h2 span {
+            color: var(--secondary-green);
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .value-item {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--secondary-green);
+        }
+
+        .value-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-left-color: var(--light-green);
+        }
+
+        .value-icon {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 20px;
+            padding: 12px;
+            background: linear-gradient(135deg, var(--secondary-green), var(--light-green));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .value-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+        }
+
+        .value-item h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-green);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .value-item h3 span {
+            color: var(--secondary-green);
+        }
+
+        .value-item p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: #555;
+        }
+
+        /* Office Image Section */
+        .office-image-section {
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .office-image-wrapper {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .office-image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .office-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+        }
+
+        .office-overlay .logo-overlay {
+            text-align: center;
+        }
+
+        .office-overlay .logo-overlay img {
+            height: 80px;
+            width: auto;
+            filter: brightness(0) invert(1);
+        }
+
+        /* CEO Message Section */
+        .ceo-message-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ceo-message-section::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: var(--secondary-green);
+            opacity: 0.05;
+            border-radius: 50%;
+        }
+
+        .ceo-message-section::after {
+            content: '';
+            position: absolute;
+            bottom: -150px;
+            left: -150px;
+            width: 500px;
+            height: 500px;
+            background: var(--primary-green);
+            opacity: 0.03;
+            border-radius: 50%;
+        }
+
+        .ceo-message-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .ceo-message-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .ceo-message-header h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #333;
+            position: relative;
+            display: inline-block;
+        }
+
+        .ceo-message-header h2 span {
+            color: var(--secondary-green);
+        }
+
+        .ceo-message-content {
+            position: relative;
+        }
+
+        .message-border-box {
+            background: #fff;
+            padding: 60px 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .message-border-box p {
+            font-size: 17px;
+            line-height: 1.9;
+            color: #444;
+            margin-bottom: 25px;
+            text-align: justify;
+        }
+
+        .message-border-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .message-border-box .highlight-text {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-green);
+            text-align: center;
+            font-style: italic;
+            margin: 35px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(27, 94, 32, 0.05), rgba(45, 159, 60, 0.05));
+            border-radius: 10px;
+            border-left: 4px solid var(--secondary-green);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .about-hero-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .about-hero h1 {
+                font-size: 40px;
+            }
+
+            .mission-box, .vision-box {
+                flex-direction: column !important;
+                gap: 0;
+            }
+
+            .mission-image, .vision-image {
+                flex: 0 0 300px;
+                width: 100%;
+            }
+
+            .mission-content, .vision-content {
+                padding: 40px 30px;
+            }
+
+            .mission-box h2, .vision-box h2 {
+                font-size: 36px;
+            }
+
+            .core-values-header h2 {
+                font-size: 36px;
+            }
+
+            .values-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .about-hero {
+                padding: 100px 0 40px;
+            }
+
+            .about-hero-content {
+                padding: 0 20px;
+                gap: 30px;
+            }
+
+            .about-hero h1 {
+                font-size: 32px;
+            }
+
+            .about-description {
+                font-size: 15px;
+            }
+
+            .mission-vision-container {
+                padding: 60px 20px;
+            }
+
+            .mission-box h2, .vision-box h2 {
+                font-size: 28px;
+            }
+
+            .mission-box p, .vision-box p {
+                font-size: 15px;
+            }
+
+            .core-values-section {
+                padding: 60px 0;
+            }
+
+            .core-values-container {
+                padding: 0 20px;
+            }
+
+            .core-values-header h2 {
+                font-size: 28px;
+                margin-bottom: 30px;
+            }
+
+            .values-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .value-item {
+                padding: 25px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .about-hero h1 {
+                font-size: 28px;
+            }
+
+            .about-logo img {
+                height: 40px;
+            }
+
+            .mission-box h2, .vision-box h2 {
+                font-size: 24px;
+            }
+
+            .core-values-header h2 {
+                font-size: 24px;
+            }
+        }
+
+        /* CEO Message Responsive */
+        @media (max-width: 1024px) {
+            .ceo-message-header h2 {
+                font-size: 40px;
+            }
+
+            .message-border-box {
+                padding: 50px 40px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .ceo-message-section {
+                padding: 60px 0;
+            }
+
+            .ceo-message-container {
+                padding: 0 20px;
+            }
+
+            .ceo-message-header {
+                margin-bottom: 40px;
+            }
+
+            .ceo-message-header h2 {
+                font-size: 32px;
+            }
+
+            .message-border-box {
+                padding: 40px 30px;
+                border-left: 6px solid var(--secondary-green);
+                border-right: 6px solid var(--secondary-green);
+            }
+
+            .message-border-box::before,
+            .message-border-box::after {
+                width: 120px;
+            }
+
+            .message-border-box p {
+                font-size: 15px;
+                line-height: 1.8;
+                margin-bottom: 20px;
+            }
+
+            .message-border-box .highlight-text {
+                font-size: 17px;
+                padding: 15px;
+                margin: 25px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .ceo-message-header h2 {
+                font-size: 28px;
+            }
+
+            .message-border-box {
+                padding: 30px 20px;
+                border-left: 4px solid var(--secondary-green);
+                border-right: 4px solid var(--secondary-green);
+            }
+
+            .message-border-box::before,
+            .message-border-box::after {
+                width: 100px;
+                height: 25px;
+            }
+
+            .message-border-box p {
+                font-size: 14px;
+            }
+
+            .message-border-box .highlight-text {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- About Hero Section -->
+    <section class="about-hero">
+        <div class="about-hero-content">
+            <div class="about-text-section">
+                <h1>About <span>Us</span></h1>
+                <p class="about-description">
+                    Greenman is the flagship brand of Gladiator Building Products, a leader in engineered fastening and electromechanical support systems. With decades of industry expertise and state-of-the-art manufacturing facilities, we specialize in converting high-grade metals into precision-engineered components used across HVAC installations, plumbing infrastructure, industrial piping networks, mechanical installations, and comprehensive structural support systems. Our extensive product portfolio serves contractors, engineers, and construction professionals worldwide, providing them with reliable solutions for even the most demanding applications.
+                    <br><br>
+                    Every product we manufacture adheres to strict international compliance frameworks including ISO quality management standards, ASTM material specifications, DIN precision engineering standards, and EN European conformity requirements. This unwavering commitment ensures that each component delivers exceptional durability, unmatched reliability.
+                </p>
+            </div>
+            <div class="about-image-section">
+                <img src="assets\img\greenman.png" alt="Commercial Building" class="about-building-image">
+                <div class="green-accent green-accent-1"></div>
+                <div class="green-accent green-accent-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="mission-vision-section">
+        <div class="mission-vision-container">
+            <div class="mission-box">
+                <div class="mission-image">
+                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80" alt="Mission - Team Collaboration">
+                </div>
+                <div class="mission-content">
+                    <h2>Mission</h2>
+                    <p>To empower infrastructure development across global markets by delivering compliant, precision-engineered fastening and support systems that offer exceptional strength, seamless scalability, and consistent quality. We are committed to supporting builders and contractors with innovative solutions that meet international standards while driving efficiency and reliability in every project we serve.</p>
+                </div>
+            </div>
+            <div class="vision-box">
+                <div class="vision-image">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80" alt="Vision - Future Growth">
+                </div>
+                <div class="vision-content">
+                    <h2>Vision</h2>
+                    <p>To become the world's most trusted and innovative provider of modular electromechanical systems, enabling faster, smarter, and greener construction practices across emerging and developed economies. We envision a future where our solutions set the global benchmark for quality, sustainability, and technological advancement in the building products industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section class="core-values-section">
+        
+            <div class="core-values-header">
+                <h2>Core <span>Values</span></h2>
+            
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <img src="assets/img/icons/gear.png" alt="Innovation Icon">
+                    </div>
+                    <h3><span>Innovation:</span></h3>
+                    <p>Engineering solutions built on smart manufacturing and modern technologies.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <img src="assets/img/icons/prototype.png" alt="Sustainability Icon">
+                    </div>
+                    <h3><span>Sustainability:</span></h3>
+                    <p>Reducing environmental impact through responsible design and materials.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <img src="assets/img/icons/car-engine.png" alt="Quality Icon">
+                    </div>
+                    <h3><span>Quality:</span></h3>
+                    <p>Delivering globally benchmarked, standards-compliant products.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <img src="assets/img/icons/image.png" alt="Customer Focus Icon">
+                    </div>
+                    <h3><span>Customer Focus:</span></h3>
+                    <p>Providing reliable support, consistency, and value to every project.</p>
+                </div>
+      
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- CEO Message Section -->
+    <section class="ceo-message-section">
+        <div class="ceo-message-container">
+            <div class="ceo-message-header">
+                <h2>Message <span>From The</span> CEO</h2>
+            </div>
+            
+            <div class="ceo-message-content">
+                <div class="message-border-box">
+                    <p>
+                        At Greenman, our vision extends beyond manufacturing we aim to shape the infrastructure of tomorrow. Every bracket, anchor, and modular system we create is a commitment to strength, safety, and innovation. We believe that emerging markets deserve access to the same world-class engineering used in global megaprojects, and we work every day to deliver that reality.
+                    </p>
+                    
+                    <p>
+                        Our journey has transformed us from a regional producer into a globally aligned electromechanical solutions provider. As we embrace digital manufacturing, smarter systems, and sustainable engineering, our commitment remains the same:
+                    </p>
+                    
+                    <p class="highlight-text">
+                        Build trust, deliver performance, and empower progress.
+                    </p>
+                    
+                    <p>
+                        We are proud of what we have achieved but even more excited for what lies ahead. Greenman will continue to expand, innovate, and support the builders who shape skylines, power industries, and create the future.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Load Navbar & Footer -->
+    <script>
+        Promise.all([
+            fetch('navbar.html').then(r => r.text()),
+            fetch('footer.html').then(r => r.text())
+        ]).then(([navbarData, footerData]) => {
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            
+            if (navbarPlaceholder) navbarPlaceholder.innerHTML = navbarData;
+            if (footerPlaceholder) footerPlaceholder.innerHTML = footerData;
+            
+            const navScript = document.createElement('script');
+            navScript.src = 'navbar.js';
+            navScript.defer = true;
+            document.body.appendChild(navScript);
+        }).catch(error => console.error('Error loading components:', error));
+    </script>
+</body>
+</html>
