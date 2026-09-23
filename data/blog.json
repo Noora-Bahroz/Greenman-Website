@@ -90,14 +90,14 @@
     },
     {
       "id": 9,
-      "title": "Troubleshooting Common Installation Challenges",
+      "title": "Troubleshooting Common Installation Challenges Made Possible",
       "excerpt": "Expert solutions to frequent installation issues and how to prevent them during channel system projects.",
       "category": "installation",
       "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800",
       "date": "October 10, 2025",
       "readTime": "8 min read",
       "featured": false,
-      "content": "<h2>Common Installation Issues & Solutions</h2>\n                    \n                    <h3>Alignment Problems</h3>\n                    <p><strong>Issue:</strong> Channels not aligning properly during installation</p>\n                    <p><strong>Solution:</strong> Use laser alignment tools and install temporary bracing before final fastening</p>\n\n                    <h3>Anchor Failure</h3>\n                    <p><strong>Issue:</strong> Anchors pulling out under load</p>\n                    <p><strong>Solution:</strong> Verify substrate strength, use appropriate anchor type and size, ensure proper embedment depth</p>\n\n                    <h3>Connection Loosening</h3>\n                    <p><strong>Issue:</strong> Bolted connections becoming loose over time</p>\n                    <p><strong>Solution:</strong> Use locking hardware, apply proper torque, schedule regular inspections</p>\n\n                    <h3>Corrosion at Connections</h3>\n                    <p><strong>Issue:</strong> Galvanic corrosion at dissimilar metal interfaces</p>\n                    <p><strong>Solution:</strong> Use isolation washers, compatible fasteners, and appropriate sealants</p>"
+      "content": "<p>hey i made a change.</p>"
     }
   ]
 }
