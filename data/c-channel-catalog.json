@@ -20,6 +20,281 @@
           "material1": "S250GD",
           "materialType1": "pre-galvanized (Z-275)"
         },
+        "properties": {
+          "identification": "GMC271812",
+          "size": "27x18x1.2",
+          "area_mm2": 72.72,
+          "weight_kg_m": 0.571,
+          "cd_mm": 13.5,
+          "iz_mm4": 3170,
+          "wy_mm3": 283
+        },
+        "loadCases": {
+          "cases": [
+            {
+              "name": "CASE 1",
+              "description": "Single point load at center"
+            },
+            {
+              "name": "CASE 2",
+              "description": "2 point loads, equidistant"
+            },
+            {
+              "name": "CASE 3",
+              "description": "3 point loads, equidistant"
+            },
+            {
+              "name": "CASE 4",
+              "description": "4 point loads, equidistant"
+            },
+            {
+              "name": "CASE 5",
+              "description": "Uniformly distributed load"
+            }
+          ],
+          "data": [
+            {
+              "span_mm": 100,
+              "case1": 1773,
+              "case2": 1330,
+              "case3": 887,
+              "case4": 739,
+              "case5": 3547
+            },
+            {
+              "span_mm": 200,
+              "case1": 887,
+              "case2": 665,
+              "case3": 443,
+              "case4": 369,
+              "case5": 1773
+            },
+            {
+              "span_mm": 300,
+              "case1": 591,
+              "case2": 443,
+              "case3": 296,
+              "case4": 246,
+              "case5": 1182
+            },
+            {
+              "span_mm": 400,
+              "case1": 443,
+              "case2": 333,
+              "case3": 222,
+              "case4": 185,
+              "case5": 887
+            },
+            {
+              "span_mm": 500,
+              "case1": 355,
+              "case2": 266,
+              "case3": 177,
+              "case4": 148,
+              "case5": 709
+            },
+            {
+              "span_mm": 600,
+              "case1": 296,
+              "case2": 222,
+              "case3": 148,
+              "case4": 123,
+              "case5": 591
+            },
+            {
+              "span_mm": 700,
+              "case1": 253,
+              "case2": 190,
+              "case3": 127,
+              "case4": 106,
+              "case5": 507
+            },
+            {
+              "span_mm": 800,
+              "case1": 222,
+              "case2": 147,
+              "case3": 105,
+              "case4": 89,
+              "case5": 399
+            },
+            {
+              "span_mm": 900,
+              "case1": 197,
+              "case2": 116,
+              "case3": 83,
+              "case4": 70,
+              "case5": 316
+            },
+            {
+              "span_mm": 1000,
+              "case1": 160,
+              "case2": 94,
+              "case3": 67,
+              "case4": 57,
+              "case5": 256
+            },
+            {
+              "span_mm": 1100,
+              "case1": 132,
+              "case2": 78,
+              "case3": 56,
+              "case4": 47,
+              "case5": 211
+            },
+            {
+              "span_mm": 1200,
+              "case1": 111,
+              "case2": 65,
+              "case3": 47,
+              "case4": 40,
+              "case5": 178
+            },
+            {
+              "span_mm": 1300,
+              "case1": 95,
+              "case2": 55,
+              "case3": 40,
+              "case4": 34,
+              "case5": 151
+            },
+            {
+              "span_mm": 1400,
+              "case1": 82,
+              "case2": 48,
+              "case3": 34,
+              "case4": 29,
+              "case5": 130
+            },
+            {
+              "span_mm": 1500,
+              "case1": 71,
+              "case2": 42,
+              "case3": 30,
+              "case4": 25,
+              "case5": 114
+            },
+            {
+              "span_mm": 1600,
+              "case1": 62,
+              "case2": 37,
+              "case3": 26,
+              "case4": 22,
+              "case5": 100
+            },
+            {
+              "span_mm": 1700,
+              "case1": 55,
+              "case2": 32,
+              "case3": 23,
+              "case4": 20,
+              "case5": 88
+            },
+            {
+              "span_mm": 1800,
+              "case1": 49,
+              "case2": 29,
+              "case3": 21,
+              "case4": 18,
+              "case5": 79
+            },
+            {
+              "span_mm": 1900,
+              "case1": 44,
+              "case2": 26,
+              "case3": 19,
+              "case4": 16,
+              "case5": 71
+            },
+            {
+              "span_mm": 2000,
+              "case1": 40,
+              "case2": 23,
+              "case3": 17,
+              "case4": 14,
+              "case5": 64
+            },
+            {
+              "span_mm": 2100,
+              "case1": 36,
+              "case2": 21,
+              "case3": 15,
+              "case4": 13,
+              "case5": 58
+            },
+            {
+              "span_mm": 2200,
+              "case1": 33,
+              "case2": 19,
+              "case3": 14,
+              "case4": 12,
+              "case5": 53
+            },
+            {
+              "span_mm": 2300,
+              "case1": 30,
+              "case2": 18,
+              "case3": 13,
+              "case4": 11,
+              "case5": 48
+            },
+            {
+              "span_mm": 2400,
+              "case1": 28,
+              "case2": 16,
+              "case3": 12,
+              "case4": 10,
+              "case5": 44
+            },
+            {
+              "span_mm": 2500,
+              "case1": 26,
+              "case2": 15,
+              "case3": 11,
+              "case4": 9,
+              "case5": 41
+            },
+            {
+              "span_mm": 2600,
+              "case1": 24,
+              "case2": 14,
+              "case3": 10,
+              "case4": 8,
+              "case5": 38
+            },
+            {
+              "span_mm": 2700,
+              "case1": 22,
+              "case2": 13,
+              "case3": 9,
+              "case4": 8,
+              "case5": 35
+            },
+            {
+              "span_mm": 2800,
+              "case1": 20,
+              "case2": 12,
+              "case3": 9,
+              "case4": 7,
+              "case5": 33
+            },
+            {
+              "span_mm": 2900,
+              "case1": 19,
+              "case2": 11,
+              "case3": 8,
+              "case4": 7,
+              "case5": 30
+            },
+            {
+              "span_mm": 3000,
+              "case1": 18,
+              "case2": 10,
+              "case3": 7,
+              "case4": 6,
+              "case5": 28
+            }
+          ]
+        },
         "page": 2
       },
       {
