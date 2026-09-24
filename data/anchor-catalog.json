@@ -2663,7 +2663,7 @@
       },
       "images": {
         "3d": "assets/Anchors/3d/GBHSA.png",
-        "drawing": "assets/Anchors/Drawing/GBHSA.png"
+        "drawing": "assets/Anchors/3d/GBHSA.png"
       },
       "variants": [
         {

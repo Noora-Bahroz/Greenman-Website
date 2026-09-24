@@ -8,9 +8,6 @@ debug_*.py
 extract_*.py
 product-json-generator.html
 
-# Large files that might not be needed
-Product-Catalogues-PDF/
-
 # Version control
 .git/
 .gitignore

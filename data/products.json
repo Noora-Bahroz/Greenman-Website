@@ -632,8 +632,8 @@
           "subtitle": "GB HTA",
           "description": "GreenBolt H2 Through Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel",
@@ -1310,8 +1310,8 @@
           "subtitle": "GBEPSA M x",
           "description": "GreenBolt EnduraPrime Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel (Heat-treated)",
@@ -1550,8 +1550,8 @@
           "subtitle": "GBHSAL M x",
           "description": "Greenbolt HexLock Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel",
@@ -1662,8 +1662,8 @@
           "subtitle": "GBHSAC M x",
           "description": "Greenbolt HexLock Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel",
@@ -1696,8 +1696,8 @@
           "subtitle": "GBFSAL",
           "description": "Greenbolt Flush Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Stainless Steel A2 (AISI 304)",
@@ -1842,8 +1842,8 @@
           "subtitle": "GBDSAL",
           "description": "Greenbolt Dome Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel",
@@ -1889,8 +1889,8 @@
           "subtitle": "GBTSAC",
           "description": "Greenbolt Talon Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel",
@@ -1949,8 +1949,8 @@
           "subtitle": "GBOSAC",
           "description": "Greenbolt OpenEye Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel",
@@ -2009,8 +2009,8 @@
           "subtitle": "GBLSAC",
           "description": "Greenbolt LockEye Sleeve Anchor provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Carbon Steel (High Tensile Grade)",
@@ -3182,8 +3182,8 @@
           "subtitle": "GBCSSW",
           "description": "GreenBolt CutFix Socket Concrete Screw provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Zinc-plated steel",
@@ -3276,8 +3276,8 @@
           "subtitle": "GBHESAL",
           "description": "Greenbolt HexLock Sleeve Anchor (8.8) provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Steel grade 8.8",
@@ -3336,8 +3336,8 @@
           "subtitle": "GBHESAM",
           "description": "Greenbolt HexLock Sleeve Anchor (8.8) provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Steel grade 8.8",
@@ -3370,8 +3370,8 @@
           "subtitle": "GBHESAC",
           "description": "Greenbolt HexLock Sleeve Anchor (8.8) provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Steel grade 8.8",
@@ -3443,8 +3443,8 @@
           "subtitle": "GBNESAL",
           "description": "Greenbolt FlangeNut Sleeve Anchor - 8.8 provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Steel grade 8.8",
@@ -3511,8 +3511,8 @@
           "subtitle": "GBPSSAL",
           "description": "Greenbolt Prime Sleeve Anchor - A2 provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "Galvanized Steel",
@@ -3558,8 +3558,8 @@
           "subtitle": "GBXSSAL",
           "description": "Greenbolt Apex Sleeve Anchor - A2 provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "A2 Stainless Steel",
@@ -3618,8 +3618,8 @@
           "subtitle": "GBTSSAC",
           "description": "Greenbolt Talon Sleeve Anchor - A2 provides reliable anchoring solutions for concrete and masonry applications.",
           "images": [
-            "assets/anchors/placeholder-technical.png",
-            "assets/anchors/placeholder-diagram.png"
+            "assets/img/placeholder.png",
+            "assets/img/placeholder.png"
           ],
           "specifications": {
             "material": "A2 Stainless Steel",
