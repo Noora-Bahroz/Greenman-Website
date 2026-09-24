@@ -194,7 +194,7 @@
     ],
     "website": "www.greenman-gbp.co.uk",
     "images": {
-      "image1": "assets/img/placeholder.png",
+      "image1": "assets/img/ggsh-hanger.png",
       "image2": "assets/clamp/DWG/GGSH.PNG",
       "image3": "assets/clamp/clamps 3d models/GGSH.png",
       "mainImage": "assets/CLAMPS/GGSH.png"
@@ -429,7 +429,7 @@
     ],
     "website": "www.greenman-gbp.co.uk",
     "images": {
-      "image1": "assets/img/placeholder.png",
+      "image1": "assets/img/ggsn-hanger.png",
       "image2": "assets/clamp/DWG/GGSN.PNG",
       "image3": "assets/clamp/clamps 3d models/GGSN.png",
       "mainImage": "assets/CLAMPS/Nut-Free.png"
@@ -832,9 +832,9 @@
     ],
     "website": "www.greenman-gbp.co.uk",
     "images": {
-      "image1": "assets/img/placeholder.png",
-      "image2": "assets/img/placeholder.png",
-      "image3": "assets/img/placeholder.png",
+      "image1": "assets/img/ggqc-clamp.png",
+      "image2": "assets/clamp/DWG/GGQC.PNG",
+      "image3": "assets/img/ggqc-installation.png",
       "mainImage": "assets/CLAMPS/GreenGrip Swift Clamp GGQC.png"
     },
     "loadingData": [
@@ -1235,9 +1235,9 @@
     ],
     "website": "www.greenman-gbp.co.uk",
     "images": {
-      "image1": "assets/img/placeholder.png",
-      "image2": "assets/img/placeholder.png",
-      "image3": "assets/img/placeholder.png",
+      "image1": "assets/img/ggqc-no-lining-clamp.png",
+      "image2": "assets/clamp/DWG/GGQC.PNG",
+      "image3": "assets/img/ggqc-no-lining-installation.png",
       "mainImage": "assets/CLAMPS/GreenGrip Swift Clamp - without linning GGQC.png"
     },
     "loadingData": [
@@ -1573,7 +1573,7 @@
     ],
     "website": "www.greenman-gbp.co.uk",
     "images": {
-      "image1": "assets/img/placeholder.png",
+      "image1": "assets/img/ggch-hanger.png",
       "image2": "assets/clamp/DWG/GGCH.PNG",
       "image3": "assets/clamp/clamps 3d models/GGCH.jpg",
       "mainImage": "assets/CLAMPS/GreenGrip Clevis Hanger.png"
@@ -1806,7 +1806,7 @@
     ],
     "website": "www.greenman-gbp.co.uk",
     "images": {
-      "image1": "assets/img/placeholder.png",
+      "image1": "assets/img/ggrr-clamp.png",
       "image2": "assets/clamp/DWG/GGRR.PNG",
       "image3": "assets/clamp/clamps 3d models/GGRR.png",
       "mainImage": "assets/CLAMPS/GreenGrip RiserRest Clamp GGRR.png"

@@ -12,39 +12,39 @@
   "items": [
     {
       "code": "GFCOS001",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcos001.png"
     },
     {
       "code": "GFCOS002",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcos002.png"
     },
     {
       "code": "GFCOS003",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcos003.png"
     },
     {
       "code": "GFCOS004",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcos004.png"
     },
     {
       "code": "GFCOLO03",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcolo03.png"
     },
     {
       "code": "GFCOT004",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcot004.png"
     },
     {
       "code": "GFCOD004",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcod004.png"
     },
     {
       "code": "GFCOCr05",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcocr05.png"
     },
     {
       "code": "GFCOCo04",
-      "image": "assets/img/placeholder.png"
+      "image": "assets/img/gfcoco04.png"
     }
   ],
   "table": [
